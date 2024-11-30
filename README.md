@@ -15,7 +15,7 @@ layout:
 
 # ☺️ Welcome!
 
-Welcome to the Wiki of the Hyperliquid Community
+Welcome to the Hyperliquid Community Wiki
 
 ***
 
