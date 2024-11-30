@@ -1,11 +1,6 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
 layout:
-  cover:
-    visible: true
-    size: full
   title:
     visible: true
   description:
@@ -18,12 +13,32 @@ layout:
     visible: true
 ---
 
-# Welcome
+# ☺️ Welcome!
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+Welcome to the Wiki of the Hyperliquid Community
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+***
 
-### Jump right in
+### 🚧 **This site is currently under construction!** 🚧
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+We are actively working on building the documentation to provide you with step-by-step tutorials, guides, and resources to help you make the most out of Hyperliquid.
+
+***
+
+This site is designed to facilitate knowledge sharing among builders, traders and investors using the **Hyperliquid** platform, a cutting-edge decentralized exchange (DEX).
+
+The articles are organized into categories, visible in the sidebar on the left. However, the easiest way to find answers to your questions is by using the **search tool** in the top-right corner of the page.
+
+If you can’t find what you’re looking for, feel free to connect with the **Hyperliquid Community** on forums or social media for support and discussions. For official issues or technical concerns, please reach out to **Hyperliquid’s support team** directly through their platform.
+
+***
+
+**Ecosystem overview diagram :**
+
+***
+
+{% hint style="info" %}
+If you would like to contribute to this community Wiki, just drop us a line on Telegram or go to [GitHub](https://github.com/Hyperliquid-Community/wiki-community).
+{% endhint %}
+
+_Together, we can make this a valuable resource for everyone. 🚀_
