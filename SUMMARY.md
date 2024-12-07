@@ -5,7 +5,7 @@
 ## 🧑‍🚀 Introduction
 
 * [What is Hyperliquid?](introduction/quickstart.md)
-* [Publish your docs](introduction/publish-your-docs.md)
+* [About the Team Behind Hyperliquid Labs](introduction/publish-your-docs.md)
 
 ## Basics
 
