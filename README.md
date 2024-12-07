@@ -1,5 +1,6 @@
 ---
 icon: hand-wave
+description: Welcome to the Hyperliquid Community Wiki ✨
 layout:
   title:
     visible: true
@@ -13,32 +14,48 @@ layout:
     visible: true
 ---
 
-# ☺️ Welcome!
+# ☺️ Hello!
 
-Welcome to the Hyperliquid Community Wiki
+### **Welcome to the Hyperliquid Community Wiki ✨**
 
-***
+**Disclaimer:** _This wiki is **community-driven** and **not affiliated** with Hyperliquid Labs. It is **not official documentation**. While we do our best to ensure accuracy, there may be occasional errors or outdated information. For the most reliable and current details, always refer to Hyperliquid’s **official channels**._
 
-### 🚧 **This site is currently under construction!** 🚧
+#### What’s this all about?
 
-We are actively working on building the documentation to provide you with step-by-step tutorials, guides, and resources to help you make the most out of Hyperliquid.
-
-***
-
-This site is designed to facilitate knowledge sharing among builders, traders and investors using the **Hyperliquid** platform, a cutting-edge decentralized exchange (DEX).
-
-The articles are organized into categories, visible in the sidebar on the left. However, the easiest way to find answers to your questions is by using the **search tool** in the top-right corner of the page.
-
-If you can’t find what you’re looking for, feel free to connect with the **Hyperliquid Community** on forums or social media for support and discussions. For official issues or technical concerns, please reach out to **Hyperliquid’s support team** directly through their platform.
+This site is designed to **facilitate knowledge sharing** among builders, traders, and investors who use the **Hyperliquid platform**—a cutting-edge decentralized exchange (DEX) built on its own Layer 1 chain. Our aim is to help you **navigate, understand, and leverage** the full potential of the Hyperliquid ecosystem.
 
 ***
 
-**Ecosystem overview diagram :**
+### How This Wiki is Organized 🧭
+
+* **Browse Categories:** Use the **sidebar on the left** to find articles grouped by topic.
+* **Quick Search:** If you know what you’re looking for, try the **search bar** at the top-right corner.
+* **Need More Help?** Can’t find the answer? Connect with the **Hyperliquid Community** on forums, social media, or other community channels.
+
+For **official inquiries, technical issues, or more detailed guidance**, please contact the Hyperliquid support team through their **official platform**.
 
 ***
 
-{% hint style="info" %}
-If you would like to contribute to this community Wiki, just drop us a line on Telegram or go to [GitHub](https://github.com/Hyperliquid-Community/wiki-community).
+### Official Hyperliquid Resources
+
+* **Hyper Foundation:**
+  * [Website](https://hyperfoundation.org/)
+  * [X](https://x.com/HyperFND)
+  * [Medium](https://hyperfnd.medium.com/)
+  * [Offical Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs)
+* **Hyperliquid:**
+  * [app](https://app.hyperliquid.xyz/trade)
+  * [X](https://x.com/HyperliquidX)
+  * [Discord](https://discord.com/invite/hyperliquid)
+
+***
+
+### Ecosystem Overview 🌐
+
+***
+
+{% hint style="warning" %}
+If you would like to contribute to this community Wiki, just drop us a line on [X](https://x.com/solynor_finance) or go to [GitHub](https://github.com/Hyperliquid-Community/wiki-community).
 {% endhint %}
 
 _Together, we can make this a valuable resource for everyone. 🚀_
