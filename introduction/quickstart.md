@@ -1,23 +1,24 @@
 ---
-icon: bullseye-arrow
+icon: droplet
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Quickstart
+# What is Hyperliquid?
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+**Hyperliquid** is a **specialized Layer 1 blockchain** designed to enable an **open, on-chain financial system**. At its core is the **Hyperliquid DEX**, allowing users to trade **perpetuals** and **spot assets** with **exceptional speed and efficiency**.
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+#### Key Highlights:
 
-{% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
-{% endhint %}
-
-### Import
-
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
-
-<div data-full-width="false"><figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure></div>
-
-### Sync a repository
-
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+* **Native Order Book:** Unlike most DEXs that rely solely on AMMs, Hyperliquid integrates a fully on-chain **order book** at the blockchain level.
+* **Unmatched Performance:** Hyperliquid can handle up to **200,000 TPS** with latency as low as **0.2s–0.9s**, aiming to improve these metrics over time.
+* **Vision:** Hyperliquid aims to be the “**AWS of Liquidity**,” offering a **high-performance, developer-friendly environment** for anyone to build financial tools and services. The ultimate goal: to **redefine finance** by making it fully on-chain, efficient, and accessible.

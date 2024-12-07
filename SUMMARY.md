@@ -4,7 +4,7 @@
 
 ## 🧑‍🚀 Introduction
 
-* [Quickstart](introduction/quickstart.md)
+* [What is Hyperliquid?](introduction/quickstart.md)
 * [Publish your docs](introduction/publish-your-docs.md)
 
 ## Basics
