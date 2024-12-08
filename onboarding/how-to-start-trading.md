@@ -1,4 +1,5 @@
 ---
+icon: display-chart-up
 layout:
   title:
     visible: true
@@ -14,7 +15,6 @@ layout:
 
 # How to start trading
 
-* **Intro & Requirements:**
-  * What users need: compatible wallet, internet connection, supported browser, etc.
-  * Brief mention of recommended wallets and how to connect them.
-* **Step-by-Step Onboarding:**
+🚧 _This section is currently under construction. The official documentation can be found here:_ [_Hyperliquid Official Documentation - How to Start Trading_](https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/how-to-start-trading)_._
+
+_The goal is to enhance these already comprehensive docs by incorporating detailed screenshots for a more visual and user-friendly experience._

@@ -8,7 +8,7 @@
 * [About the Team Behind Hyperliquid Labs](introduction/publish-your-docs.md)
 * [Past and Future Roadmap](introduction/past-and-future-roadmap.md)
 
-## Onboarding
+## 🛫 Onboarding
 
 * [How to start trading](onboarding/how-to-start-trading.md)
 
