@@ -1,4 +1,5 @@
 ---
+icon: handshake-simple
 layout:
   title:
     visible: true

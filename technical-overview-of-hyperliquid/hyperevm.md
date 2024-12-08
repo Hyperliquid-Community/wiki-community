@@ -1,4 +1,5 @@
 ---
+icon: puzzle-piece
 layout:
   title:
     visible: true

@@ -12,7 +12,7 @@
 
 * [How to start trading](onboarding/how-to-start-trading.md)
 
-## Technical Overview of Hyperliquid
+## ⚙️ Technical Overview of Hyperliquid
 
 * [General Introduction](technical-overview-of-hyperliquid/general-introduction.md)
 * [Consensus - HyperBFT](technical-overview-of-hyperliquid/consensus-hyperbft.md)
