@@ -14,11 +14,11 @@ layout:
 
 # Vault
 
-### Vault Overview
+### Vault Overview <a href="#vault-overview" id="vault-overview"></a>
 
-### **HLP Tokens & Insurance Fund (AF):**
+### **HLP Tokens & Insurance Fund (AF):** <a href="#hlp-tokens-and-insurance-fund-af" id="hlp-tokens-and-insurance-fund-af"></a>
 
 * Explain how fees are redistributed to token holders and the community.
 * Breakdown of fee percentages and flow.
 
-### **Visual Diagram**
+### **Visual Diagram** <a href="#visual-diagram" id="visual-diagram"></a>

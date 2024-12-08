@@ -15,18 +15,22 @@
 ## ⚙️ Technical Overview of Hyperliquid
 
 * [General Introduction](technical-overview-of-hyperliquid/general-introduction.md)
-* [Consensus - HyperBFT](technical-overview-of-hyperliquid/consensus-hyperbft.md)
+* [HyperBFT](technical-overview-of-hyperliquid/hyperbft.md)
 * [Hyperliquid L1](technical-overview-of-hyperliquid/hyperliquid-l1/README.md)
-  * [DEX](technical-overview-of-hyperliquid/hyperliquid-l1/dex.md)
-  * [HIP](technical-overview-of-hyperliquid/hyperliquid-l1/hip.md)
+  * [Dex](technical-overview-of-hyperliquid/hyperliquid-l1/dex/README.md)
+    * [Order Book](technical-overview-of-hyperliquid/hyperliquid-l1/dex/order-book.md)
+    * [Clearinghouse](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse.md)
+    * [Oracle](technical-overview-of-hyperliquid/hyperliquid-l1/dex/oracle.md)
+  * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)
   * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/vault.md)
+  * [HIP](technical-overview-of-hyperliquid/hyperliquid-l1/hip.md)
 * [HyperEVM](technical-overview-of-hyperliquid/hyperevm.md)
 
-## For Builders or Traders
+## 🏭 For Builders or Traders
 
 * [API Trader (Quant)](for-builders-or-traders/api-trader-quant.md)
 * [Builders’ Code (API)](for-builders-or-traders/builders-code-api.md)
-* [HyperEVM](for-builders-or-traders/hyperevm.md)
+* [EVM](for-builders-or-traders/evm.md)
 * [Launching Your Own Assets](for-builders-or-traders/launching-your-own-assets.md)
 
 ## Community
