@@ -1,4 +1,5 @@
 ---
+icon: map-location-dot
 layout:
   title:
     visible: true
@@ -12,8 +13,5 @@ layout:
     visible: true
 ---
 
-# Telegram Channels
+# Community Map
 
-Trading Bots & Services:
-
-General Chat & Discussion Groups:

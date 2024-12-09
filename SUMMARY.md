@@ -33,12 +33,10 @@
 * [EVM](for-builders-or-traders/evm.md)
 * [Launching Your Own Assets](for-builders-or-traders/launching-your-own-assets.md)
 
-## Community
+## 🌟 Community
 
-* [The Hyper Liquidated](community/the-hyper-liquidated/README.md)
-  * [Twitter (X) Accounts to Follow](community/the-hyper-liquidated/twitter-x-accounts-to-follow.md)
-  * [Telegram Channels](community/the-hyper-liquidated/telegram-channels.md)
-  * [Discord Servers](community/the-hyper-liquidated/discord-servers.md)
+* [The Hyper Liquidated](community/the-hyper-liquidated.md)
+* [Community Map](community/community-map.md)
 
 ## Projects
 
