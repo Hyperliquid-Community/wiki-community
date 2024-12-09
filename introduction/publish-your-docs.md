@@ -13,9 +13,9 @@ layout:
     visible: true
 ---
 
-# About the Team Behind Hyperliquid Labs
+# Hyperliquid Labs Team
 
-**Hyperliquid Labs** is the **key contributor** powering the platform’s growth. Led by **Jeff Yan** and **iliensinc** (both Harvard alumni), the team also includes talent from **Caltech** and **MIT**. They have also worked at Airtable, Citadel, Hudson River Trading and Nuro.
+**Hyperliquid Labs** is the key contributor driving the platform's growth. The team is composed of talented individuals from prestigious institutions like **Harvard**, **Caltech**, and **MIT**, with professional experience at **Airtable**, **Citadel**, **Hudson River Trading**, and **Nuro**.
 
 #### What Makes Them Different?
 
@@ -23,14 +23,18 @@ layout:
 * **Born from Crisis:** In the aftermath of FTX’s collapse, Hyperliquid was envisioned in 2022 to offer a **trustless, on-chain alternative**. They quickly realized the potential to go beyond replacing DEXs—why not transform **all of finance**?
 * **Long-Term Commitment:** The team’s goal is to **empower builders and users**, offering rewards and pushing the boundaries of on-chain finance.
 
-#### Team & Social Links:
+**Meet the Team & Connect 🌟**
 
-* [Jeffray Yan](https://x.com/chameleon_jeff)
-* [Iliensinc](https://x.com/iliensinc)
-* [Xuilan](https://x.com/KingJulianIAm)
-* ?
-* ?
+* **Jeffrey Yan**\
+  🐦 [@chameleon\_jeff](https://twitter.com/chameleon_jeff)
+* **iliensinc**\
+  🐦 [@iliensinc](https://twitter.com/iliensinc)
+* **Xulian HL**\
+  🐦 [@KingJulianIAm](https://twitter.com/KingJulianIAm)
+* **Two additional core members** bring valuable expertise to the team. Details will be updated soon.
 
 ***
 
 ### Team Structure
+
+Stay tuned—**coming soon!** 🚧✨
