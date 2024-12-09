@@ -39,18 +39,21 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 ### Official Hyperliquid Resources
 
 * **Hyper Foundation:**
-  * [Website](https://hyperfoundation.org/)
-  * [X](https://x.com/HyperFND)
-  * [Medium](https://hyperfnd.medium.com/)
-  * [Offical Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs)
+  * 🌐 Explore the [Hyper Foundation Website](https://hyperfoundation.org/) for insights into their mission and initiatives.
+  * 🐦 Follow them on [X (Twitter)](https://x.com/HyperFND) for updates and announcements.
+  * ✍️ Read their articles on [Medium](https://hyperfnd.medium.com/) to dive deeper into their vision.
+  * 📄 Access the [Official Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs) for detailed information.
 * **Hyperliquid:**
-  * [app](https://app.hyperliquid.xyz/trade)
-  * [X](https://x.com/HyperliquidX)
-  * [Discord](https://discord.com/invite/hyperliquid)
+  * 💻 Launch the [Hyperliquid App](https://app.hyperliquid.xyz/trade) to start trading and exploring.
+  * 🐦 Stay connected on [X (Twitter)](https://x.com/HyperliquidX) for news and updates.
+  * 🎮 Join the conversation on [Discord](https://discord.com/invite/hyperliquid) and engage with the community.
 
 ***
 
 ### Ecosystem Overview 🌐
+
+A visual representation of the **HyperLiquid ecosystem** is currently under construction.\
+Stay tuned — **coming soon!** 🚧✨
 
 ***
 
