@@ -38,9 +38,8 @@
 * [The Hyper Liquidated](community/the-hyper-liquidated.md)
 * [Community Map](community/community-map.md)
 
-## Projects
+## 🔎 Ecosystem Projects
 
-* [Blockchain Tools](projects/blockchain-tools.md)
-* [HyperEVM Projects](projects/hyperevm-projects.md)
-* [Builder Docs](projects/builder-docs.md)
-* [Trading Projects](projects/trading-projects.md)
+* [Blockchain Tools](ecosystem-projects/blockchain-tools.md)
+* [EVM Projects (Testnet)](ecosystem-projects/evm-projects-testnet.md)
+* [API-Powered Trading Tools](ecosystem-projects/api-powered-trading-tools.md)
