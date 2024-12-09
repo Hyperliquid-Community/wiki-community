@@ -15,10 +15,12 @@ layout:
 
 # EVM
 
-🚧 _**This section is currently under construction.**_\
-_HyperEVM allows developers to build any type of application and interact with native components of the Hyperliquid L1._\
-_The official documentation can be found here:_
+🚧 _**This section is currently under construction.**_
 
-* [_HyperEVM Documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm)
+The **HyperEVM** empowers developers to create any type of application while seamlessly interacting with the native components of the **HyperLiquid L1**.
 
-_This section will be enriched with examples, visual tutorials, and practical use cases to help developers maximize its potential._
+Comprehensive guides, **visual tutorials**, and **practical examples** will soon be available to help developers unlock its full potential.
+
+For now, you can explore the official documentation:
+
+* [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm)

@@ -15,10 +15,12 @@ layout:
 
 # Builders’ Code (API)
 
-🚧 _**This section is currently under construction.**_\
-_This page focuses on using APIs to create interfaces, where users interacting via these interfaces will incur additional fees._\
-_The official documentation can be found here:_
+🚧 _**This section is currently under construction.**_
 
-* [_Builder Codes Documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes)
+This page is dedicated to exploring how to use **APIs** to create custom interfaces, enabling users to interact with HyperLiquid while incurring **additional fees** for using these interfaces.
 
-_The objective is to detail the implementation process and fee structures, complemented by visual aids for clarity._
+The objective is to provide a clear guide on the **implementation process** and **fee structures**, enhanced with **visual examples** for better understanding.
+
+For more details, refer to the official documentation:
+
+* [Builder Codes Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes)
