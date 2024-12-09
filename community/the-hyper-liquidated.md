@@ -24,7 +24,7 @@ The **Hyper Liquidated** community is a rapidly growing ecosystem of passionate 
 
 ### Why Does the Community Love HyperLiquid?
 
-* **Product-Market Fit:** Multiple traders, including big names like **@HsakaTrades** and **@DaanCrypto**, have publicly shared their appreciation for HyperLiquid.
+* **Product-Market Fit:** Multiple traders, including big names like [**@HsakaTrades**](https://x.com/HsakaTrades) and [**@DaanCrypto**](https://x.com/DaanCrypto), have publicly shared their appreciation for HyperLiquid.
 * **User-Centric Growth:** The HyperLiquid team is committed to fostering and expanding the community. They’re constantly working to improve the product, respond to feedback, and create an environment where users can thrive.
 * **Shared Success:** It’s not just a platform; it’s a network of people helping each other navigate markets, share insights, and grow together.
 
