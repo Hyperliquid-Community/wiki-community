@@ -4,8 +4,8 @@
 
 ## 🧑‍🚀 Introduction
 
-* [What is Hyperliquid?](introduction/quickstart.md)
-* [Hyperliquid Labs Team](introduction/publish-your-docs.md)
+* [What is Hyperliquid?](introduction/what-is-hyperliquid.md)
+* [Hyperliquid Labs Team](introduction/hyperliquid-labs-team.md)
 * [Past and Future Roadmap](introduction/past-and-future-roadmap.md)
 
 ## 🛫 Onboarding
