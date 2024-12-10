@@ -32,6 +32,7 @@
 * [API Trader (Quant)](for-builders-or-traders/api-trader-quant.md)
 * [Builders’ Code (API)](for-builders-or-traders/builders-code-api.md)
 * [EVM](for-builders-or-traders/evm.md)
+* [Node Operators](for-builders-or-traders/node-operators.md)
 * [Spot deployments](for-builders-or-traders/spot-deployments.md)
 
 ## 🌟 Community
