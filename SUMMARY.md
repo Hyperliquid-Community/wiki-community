@@ -23,7 +23,8 @@
     * [Oracle](technical-overview-of-hyperliquid/hyperliquid-l1/dex/oracle.md)
   * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)
   * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/vault.md)
-  * [HIP](technical-overview-of-hyperliquid/hyperliquid-l1/hip.md)
+  * [HIPs](technical-overview-of-hyperliquid/hyperliquid-l1/hips/README.md)
+    * [Spot Deployments (HIP-1/HIP-2)](technical-overview-of-hyperliquid/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md)
 * [HyperEVM](technical-overview-of-hyperliquid/hyperevm.md)
 
 ## 🏭 For Builders or Traders

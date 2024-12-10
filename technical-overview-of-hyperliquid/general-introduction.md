@@ -48,9 +48,9 @@ _Below is a conceptual diagram sourced from the **Hyperliquid Foundation**. This
   3. **Vaults:**&#x20;
      * Includes mechanisms like the **HLP (Hyperliquid Liquidity Provider) tokens** and an **Insurance Fund (AF)** to protect against market volatility and liquidation risks.
      * Redistributes trading fees to liquidity providers as rewards, ensuring a robust incentive system.
-  4. **Dutch Auctions (HIP-1 / HIP-2):**
-     * A native auction mechanism introduced to optimize token launches and price discovery.
-     * Built directly into the protocol for seamless integration with trading and liquidity features.
+  4. **Spot Tokens (HIP-1 & HIP-2)**
+     * **Easy Token Launches (HIP-1)**: Deploy your own native spot token with a built-in on-chain order book, ensuring a transparent and secure trading environment from day one.
+     * **Integrated Liquidity (HIP-2)**: Achieve “Hyperliquidity” through a native mechanism inspired by Uniswap, but tailored for order-book trading. This creates a dynamic and ever-available liquidity pool, enabling smoother price discovery and tight spreads.
 
 #### **HyperEVM:**&#x20;
 
