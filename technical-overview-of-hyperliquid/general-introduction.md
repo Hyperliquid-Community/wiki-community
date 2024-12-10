@@ -21,7 +21,7 @@ layout:
 
 _Below is a conceptual diagram sourced from the **Hyperliquid Foundation**. This visual will help you understand how the pieces fit together:_
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Hyperliquid_Image_Foundation (2).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Core Components
 
