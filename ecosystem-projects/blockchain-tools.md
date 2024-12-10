@@ -31,37 +31,34 @@ _Keep in mind: **security is not guaranteed**, and you should exercise caution w
 
 ***
 
-## L1 Tools & Explorers
+## L1 Tools
 
-### **Official & Enhanced Explorers**
+#### **Explorers & Dashboards**
 
-* [**Official Explorer (L1)**](https://app.hyperliquid.xyz/explorer) – Basic on-chain data.
-*   [**HypurrScan**](https://hypurrscan.io/) – More comprehensive explorer for the L1, offering detailed insights into **auctions**, **spot market stats**, and more.
+* [Official Explorer (L1)](https://app.hyperliquid.xyz/explorer) – Basic on-chain data.
+*   [HypurrScan](https://hypurrscan.io/) – More comprehensive explorer for the L1, offering detailed insights into **auctions**, **spot market stats**, and more.
 
     📖 For a guide on how to use HypurrScan, check out their [guide on X](https://x.com/HypurrScan/status/1826398417641463842).
+* [HyperScan.fun](https://hyperscan.fun/) – Dashboard covering multiple ecosystems.
 
-### **Testnet Explorers**
+**Testnet:**
 
-* [**Official Testnet Explorer**](https://app.hyperliquid-testnet.xyz/explorer) – View testnet data.
-* [**HypurrScan Testnet**](https://testnet.hypurrscan.io/) – Enhanced testnet explorer with auctions, spot stats, and [**validator node info**](https://testnet.hypurrscan.io/staking).
+* [Official Testnet Explorer](https://app.hyperliquid-testnet.xyz/explorer) – View testnet data.
+* [HypurrScan Testnet](https://testnet.hypurrscan.io/) – Enhanced testnet explorer with auctions, spot stats, and [validator node info](https://testnet.hypurrscan.io/staking).
 
-### **Additional L1 Tools**
+#### **Additional L1 Tools**
 
-* [**Funding Comparison**](https://app.hyperliquid.xyz/fundingComparison) – Compare funding rates on the L1.
+* [Funding Comparison](https://app.hyperliquid.xyz/fundingComparison) – Compare funding rates on the L1.
 
-### **General Multi-Project Dashboards & Bridges**
+#### **Spot Stats**
 
-* [**HyperScan.fun**](https://hyperscan.fun/) – Another dashboard covering multiple ecosystems (including HyperLiquid).
-* [**HyBridge.xyz**](https://hybridge.xyz/) – A bridging solution connecting different ecosystems to Hyperliquid.
+* [HypeBurn](https://www.hypeburn.fun/leaderboard) – Track $HYPE token data and burns.
+* [PurrBurn](https://www.purrburn.fun/) – Track $PURR token data and burns.
+* [Hypurr.fun](https://app.hypurr.fun/) – Track auctions, newly launched tokens, and on-chain activities.
 
-### **Token Burn Leaderboards & Spot Stats**
+#### Bridges
 
-* [**HypeBurn**](https://www.hypeburn.fun/leaderboard) – Track $HYPE token data and burns.
-* [**PurrBurn**](https://www.purrburn.fun/) – Track $PURR token data and burns.
-
-### **Auctions & Launch Tracking**
-
-* [**Hypurr.fun**](https://app.hypurr.fun/) – Track auctions, newly launched tokens, and on-chain activities.
+* [HyBridge.xyz](https://hybridge.xyz/) – A bridging solution connecting different ecosystems to Hyperliquid.
 
 ***
 
@@ -69,12 +66,12 @@ _Keep in mind: **security is not guaranteed**, and you should exercise caution w
 
 The **HyperEVM** chain is currently in **testnet**, and several tools are emerging to support it:
 
-### **EVM Explorers**
+#### **EVM Explorers**
 
-* [**explorer.hyperlend.finance**](https://explorer.hyperlend.finance/) – EVM testnet explorer focused on lending/borrowing ecosystem elements.
-* [**hyperliquidscan.com**](https://www.hyperliquidscan.com/) – Another explorer for EVM testnet data.
+* [explorer.hyperlend.finance](https://explorer.hyperlend.finance/) – EVM testnet explorer focused on lending/borrowing ecosystem elements.
+* [hyperliquidscan.com](https://www.hyperliquidscan.com/) – Another explorer for EVM testnet data.
 
-### **Additional Testnet Resources**
+**Additional Resources:**
 
 * [testnet.purrsec.com/api/introduction](https://testnet.purrsec.com/api/introduction) – API documentation (under exploration).
 
@@ -82,7 +79,7 @@ The **HyperEVM** chain is currently in **testnet**, and several tools are emergi
 
 ## Statistics & Data
 
-### **Trading Stats & User Metrics**
+#### **Trading Stats & User Metrics**
 
-* [**stats.hyperliquid.xyz**](https://stats.hyperliquid.xyz/) – By Thunderhead; provides detailed user counts, volumes, Open Interest, and more.
-* [**data.asxn.xyz**](https://data.asxn.xyz/) – Offers multiple dashboards, including a HyperLiquid-specific section for in-depth metrics.
+* [stats.hyperliquid.xyz](https://stats.hyperliquid.xyz/) – By Thunderhead; provides detailed user counts, volumes, Open Interest, and more.
+* [data.asxn.xyz](https://data.asxn.xyz/) – Offers multiple dashboards, including a HyperLiquid-specific section for in-depth metrics.
