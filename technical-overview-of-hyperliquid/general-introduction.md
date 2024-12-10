@@ -25,7 +25,7 @@ _Below is a conceptual diagram sourced from the **Hyperliquid Foundation**. This
 
 ### Core Components
 
-**HyperBFT Consensus:**
+#### **HyperBFT Consensus:**
 
 * A consensus algorithm that ensures network nodes agree on the current state of the blockchain.
 * Currently, decentralization is limited, with all four known nodes operated by the Hyperliquid team. Over time, this must evolve to align better with Web3’s decentralization ethos.
@@ -33,24 +33,27 @@ _Below is a conceptual diagram sourced from the **Hyperliquid Foundation**. This
 
 #### Hyperliquid L1 - Native Component&#x73;**:**
 
-* A custom, from-scratch Layer 1 blockchain designed to power Hyperliquid’s flagship application—its decentralized exchange (DEX).
-* Aims to achieve **up to 200,000 transactions per second** and **latency under 1 second**, far surpassing traditional blockchain performance metrics.
-* **Divided into four primary “blocks”:**
-  1. **Native Order Book:**
-     * A fully on-chain order book for **spot** and **perpetual trading**.
-     * Enables **transparent execution** of trades with all orders, funding rates, and liquidations recorded on-chain.
-     * Supports **zero gas fees** on order placement and **up to 50x leverage** for perps.
-     * **Seamless User Experience:** One-click trading without constant wallet approvals, streamlining the trading process.
-  2. **Oracles:**&#x20;
-     * Integrated price feeds that provide reliable and accurate external market data.
-     * Crucial for ensuring fair pricing in perpetual contracts and spot trading.
-     * Designed for high-frequency updates to match the speed of the platform.
-  3. **Vaults:**&#x20;
-     * Includes mechanisms like the **HLP (Hyperliquid Liquidity Provider) tokens** and an **Insurance Fund (AF)** to protect against market volatility and liquidation risks.
-     * Redistributes trading fees to liquidity providers as rewards, ensuring a robust incentive system.
-  4. **Spot Tokens (HIP-1 & HIP-2)**
-     * **Easy Token Launches (HIP-1)**: Deploy your own native spot token with a built-in on-chain order book, ensuring a transparent and secure trading environment from day one.
-     * **Integrated Liquidity (HIP-2)**: Achieve “Hyperliquidity” through a native mechanism inspired by Uniswap, but tailored for order-book trading. This creates a dynamic and ever-available liquidity pool, enabling smoother price discovery and tight spreads.
+A **custom, from-scratch Layer 1 blockchain** designed to power Hyperliquid’s flagship application—its decentralized exchange (DEX). It aims to achieve **up to 200,000 TPS** and **latency under 1 second**, far surpassing traditional blockchain performance metrics.
+
+**Divided into Five Primary “Blocks”:**
+
+1. **Native Order Book:**
+   * **Fully On-Chain:** All orders, trades, funding rates, and liquidations are recorded transparently on-chain.
+   * **Gas-Free Orders & Leverage:** Place orders without gas fees and access up to **50x leverage** on perpetuals.
+   * **Seamless UX:** One-click trading without repeated wallet approvals for a streamlined experience.
+2. **Clearinghouse**
+   * **Core Exchange State Management:** The Clearinghouse manages all user states for both perpetual and spot trading.
+   * **Perpetuals:** Handles cross-margin balances and positions, with optional isolated margin support to allocate specific collateral to individual positions, reducing risk exposure.
+   * **Spot Trading:** Similarly manages token balances and holds for spot trading, ensuring accurate and efficient account states across the platform.
+3. **Oracles:**&#x20;
+   * **Accurate Market Data:** Integrated price feeds ensure reliable and fair pricing for both spot and perpetual markets.
+   * **High-Frequency Updates:** Updated rapidly to match the speed and precision of Hyperliquid’s platform.
+4. **Vaults:**&#x20;
+   * **Liquidity & Protection:** Mechanisms like HLP (Hyperliquid Liquidity Provider) tokens and an Insurance Fund safeguard against volatility and liquidation risks.
+   * **Fee Redistribution:** Trading fees are redistributed to liquidity providers, creating strong incentives for market participation.
+5. **Spot Tokens (HIP-1 & HIP-2)**
+   * **Easy Token Launches (HIP-1):** Deploy native spot tokens with a built-in on-chain order book for transparent, secure trading from day one.
+   * **Integrated Liquidity (HIP-2):** Achieve “Hyperliquidity” with a mechanism inspired by Uniswap, tailored for order-book trading, ensuring dynamic and reliable liquidity for smoother price discovery.
 
 #### **HyperEVM:**&#x20;
 
