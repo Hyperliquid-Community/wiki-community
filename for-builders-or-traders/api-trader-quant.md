@@ -24,5 +24,6 @@ A detailed guide with **step-by-step instructions**, **code samples**, and **vis
 In the meantime, you can refer to these resources:
 
 * [_API Documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api)
+* [_Testnet_](https://hyperliquid.gitbook.io/hyperliquid-docs/testnet)
 
 📹 Check out this demo video by a Circle member showcasing how to create a trading bot: [@TxnSheng on X](https://x.com/TxnSheng/status/1824349434353947007).
