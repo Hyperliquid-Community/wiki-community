@@ -1,4 +1,5 @@
 ---
+icon: warehouse-full
 layout:
   title:
     visible: true

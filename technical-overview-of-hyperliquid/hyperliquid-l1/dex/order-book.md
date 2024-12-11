@@ -1,4 +1,5 @@
 ---
+icon: arrow-up-wide-short
 layout:
   title:
     visible: true
@@ -12,6 +13,6 @@ layout:
     visible: true
 ---
 
-# DEX
+# Order Book
 
 ### Native Order Book & Trading Infrastructure

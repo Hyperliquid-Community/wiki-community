@@ -1,4 +1,5 @@
 ---
+icon: chess-rook
 layout:
   title:
     visible: true

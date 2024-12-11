@@ -25,7 +25,7 @@
       * [Fees](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/fees.md)
     * [Order Book](technical-overview-of-hyperliquid/hyperliquid-l1/dex/order-book.md)
     * [Oracle](technical-overview-of-hyperliquid/hyperliquid-l1/dex/oracle.md)
-    * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/dex/vault.md)
+  * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/vault.md)
   * [HIPs](technical-overview-of-hyperliquid/hyperliquid-l1/hip.md)
     * [Spot Deployments (HIP-1/HIP-2)](technical-overview-of-hyperliquid/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md)
   * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)

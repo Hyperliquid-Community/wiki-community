@@ -1,5 +1,5 @@
 ---
-icon: arrow-up-to-arc
+icon: arrow-progress
 layout:
   title:
     visible: true

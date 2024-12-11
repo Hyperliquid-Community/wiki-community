@@ -1,2 +1,6 @@
+---
+icon: crystal-ball
+---
+
 # Oracle
 
