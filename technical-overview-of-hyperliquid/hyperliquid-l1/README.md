@@ -15,11 +15,12 @@ layout:
 
 # Hyperliquid L1
 
-_🚧 **This section is currently under construction.**_\
-_The official documentation can be found here:_
+_**Note:** The information in this page is based on the_ [_official Hyperliquid L1 documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-l1)_. The **source code** of the L1 is **not yet publicly available**, so all details here are subject to change as the project evolves._
 
-* [_Hyperliquid L1 Documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-l1)
-* [_Hyperliquid Improvement Proposals (HIPs)_](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips)
-* [_Trading Documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/trading)
+***
 
-_The goal is to expand on these resources with enhanced visuals and detailed explanations for improved clarity and usability._
+Hyperliquid is purpose-built to meet the rigorous demands of an on-chain derivatives exchange. Its architecture enables decentralized trading with unprecedented speed and throughput, setting it apart from more generalized blockchain solutions.
+
+#### System Overview
+
+🚧 Below is a diagram illustrating the general functionality of Hyperliquid L1, showcasing its key components and how they interact to deliver high-performance, scalable trading infrastructure:

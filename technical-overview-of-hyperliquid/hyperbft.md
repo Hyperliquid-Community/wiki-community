@@ -33,3 +33,11 @@ Since we only know that HyperBFT is “heavily inspired” by Hotstuff **(no off
 **Further Reading:** For a deeper dive into the fundamentals that inspired HyperBFT, you can read about Hotstuff here: [Understanding Hotstuff & Byzantine Fault Tolerance (Medium)](https://medium.com/@Elifhilalumucu/understanding-hotstuff-and-byzantine-fault-tolerance-393ca878173f).
 
 _**Stay Tuned:** As soon as official HyperBFT documentation is released, we’ll update this section with precise details on how Hyperliquid’s custom consensus mechanism works._
+
+### Performance Metrics
+
+Understanding the performance of a blockchain’s consensus mechanism is critical for evaluating its scalability and usability.
+
+* **Latency:** Median latency is **0.2 seconds**, while 99th percentile latency is **0.9 seconds**. This ensures transactions are processed rapidly under typical and peak traffic conditions.
+* **Current Throughput:** While the L1 supports up to **200,000 orders per second**, its consensus and networking layers are designed to scale beyond **1 million orders per second** as execution logic is further optimized.
+

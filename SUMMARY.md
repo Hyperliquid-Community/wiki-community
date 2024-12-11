@@ -14,7 +14,7 @@
 
 ## ⚙️ Technical Overview of Hyperliquid
 
-* [General Introduction](technical-overview-of-hyperliquid/general-introduction.md)
+* [Overview](technical-overview-of-hyperliquid/overview.md)
 * [HyperBFT](technical-overview-of-hyperliquid/hyperbft.md)
 * [Hyperliquid L1](technical-overview-of-hyperliquid/hyperliquid-l1/README.md)
   * [Dex](technical-overview-of-hyperliquid/hyperliquid-l1/dex/README.md)
