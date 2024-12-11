@@ -46,7 +46,7 @@ F = Average Premium Index (P) + clamp(Interest Rate - Premium Index (P), -0.0005
 #### **Impact Price Calculation:**
 
 ```lua
-scssCopier le codeimpact_price = max(impact_bid_px - oracle_px, 0) - max(oracle_px - impact_ask_px, 0)
+impact_price = max(impact_bid_px - oracle_px, 0) - max(oracle_px - impact_ask_px, 0)
 ```
 
 Where:
