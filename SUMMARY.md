@@ -18,13 +18,14 @@
 * [HyperBFT](technical-overview-of-hyperliquid/hyperbft.md)
 * [Hyperliquid L1](technical-overview-of-hyperliquid/hyperliquid-l1/README.md)
   * [Dex](technical-overview-of-hyperliquid/hyperliquid-l1/dex/README.md)
+    * [Clearinghouse](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/README.md)
+      * [Margin Management](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/margin-management.md)
     * [Order Book](technical-overview-of-hyperliquid/hyperliquid-l1/dex/order-book.md)
-    * [Clearinghouse](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse.md)
     * [Oracle](technical-overview-of-hyperliquid/hyperliquid-l1/dex/oracle.md)
-  * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)
-  * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/vault.md)
+    * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/dex/vault.md)
   * [HIPs](technical-overview-of-hyperliquid/hyperliquid-l1/hip.md)
     * [Spot Deployments (HIP-1/HIP-2)](technical-overview-of-hyperliquid/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md)
+  * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)
 * [HyperEVM](technical-overview-of-hyperliquid/hyperevm.md)
 
 ## 🏭 For Builders or Traders
