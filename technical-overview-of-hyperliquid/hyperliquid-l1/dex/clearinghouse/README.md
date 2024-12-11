@@ -30,3 +30,5 @@ The **Clearinghouse** is the backbone of trading on Hyperliquid L1. It manages a
   Calculates periodic funding rates to align perpetual contract prices with the underlying asset, ensuring market fairness.
 * **📡 Oracle Integration:**\
   The Clearinghouse relies on an **oracle system** for price accuracy. The final price used is a **weighted median** of validator-submitted oracle prices, ensuring transparency and reliability. Validators' weights are based on their stakes.
+
+All this ensures that the on-chain order book exchange operates efficiently, securely, and in harmony with the broader ecosystem components—including oracles, vaults, and spot tokens.
