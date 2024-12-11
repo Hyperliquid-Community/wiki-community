@@ -20,6 +20,7 @@
   * [Dex](technical-overview-of-hyperliquid/hyperliquid-l1/dex/README.md)
     * [Clearinghouse](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/README.md)
       * [Margin Management](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/margin-management.md)
+      * [Liquidations](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/liquidations.md)
     * [Order Book](technical-overview-of-hyperliquid/hyperliquid-l1/dex/order-book.md)
     * [Oracle](technical-overview-of-hyperliquid/hyperliquid-l1/dex/oracle.md)
     * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/dex/vault.md)
