@@ -52,7 +52,7 @@ liq_price = price - side * margin_available / position_size / (1 - l * side)
 
 Where:
 
-* `price` = The **mark price**, which combines external CEX prices with Hyperliquid’s book state. This robust calculation ensures fairness, even during high volatility.
+* `price` = **mark price**, calculated **from the** **oracle**, ensures fairness by integrating external CEX prices with Hyperliquid’s book state, even during high volatility.
 * `l = 1 / MAINTENANCE_LEVERAGE`
 * `side = 1` for long positions, `-1` for short positions
 * `margin_available (cross) = account_value - maintenance_margin_required`
