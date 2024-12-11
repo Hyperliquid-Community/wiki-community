@@ -16,7 +16,7 @@ layout:
 
 ### Vault Overview <a href="#vault-overview" id="vault-overview"></a>
 
-### **HLP Tokens & Insurance Fund (AF):** <a href="#hlp-tokens-and-insurance-fund-af" id="hlp-tokens-and-insurance-fund-af"></a>
+### **HLP Tokens & Assistance Fund (AF):** <a href="#hlp-tokens-and-insurance-fund-af" id="hlp-tokens-and-insurance-fund-af"></a>
 
 * Explain how fees are redistributed to token holders and the community.
 * Breakdown of fee percentages and flow.

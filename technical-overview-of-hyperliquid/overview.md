@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# General Introduction
+# Overview
 
 **Welcome to the core of Hyperliquid’s technology stack!** Here, we’ll provide both a high-level overview and a deeper technical dive into the blockchain, its consensus mechanism, and the native components that make Hyperliquid a high-performance and innovative ecosystem.
 
@@ -49,7 +49,7 @@ A **custom, from-scratch Layer 1 blockchain** designed to power Hyperliquid’s 
    * **Accurate Market Data:** Integrated price feeds ensure reliable and fair pricing for both spot and perpetual markets.
    * **High-Frequency Updates:** Updated rapidly to match the speed and precision of Hyperliquid’s platform.
 4. **Vaults:**&#x20;
-   * **Liquidity & Protection:** Mechanisms like HLP (Hyperliquid Liquidity Provider) tokens and an Insurance Fund safeguard against volatility and liquidation risks.
+   * **Liquidity & Protection:** Mechanisms like **HLP** (Hyperliquid Liquidity Provider) tokens and an **AF** (Assistance Fund) safeguard against volatility and liquidation risks.
    * **Fee Redistribution:** Trading fees are redistributed to liquidity providers, creating strong incentives for market participation.
 5. **Spot Tokens (HIP-1 & HIP-2)**
    * **Easy Token Launches (HIP-1):** Deploy native spot tokens with a built-in on-chain order book for transparent, secure trading from day one.
