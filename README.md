@@ -18,6 +18,8 @@ layout:
 
 ### **Welcome to the Hyperliquid Community Wiki ✨**
 
+<figure><img src=".gitbook/assets/Hyperliquid-Ecosystem_v2bis2.png" alt=""><figcaption></figcaption></figure>
+
 **Disclaimer:** _This wiki is **community-driven** and **not affiliated** with Hyperliquid Labs. It is **not official documentation**. While we do our best to ensure accuracy, there may be occasional errors or outdated information. For the most reliable and current details, always refer to Hyperliquid’s **official channels**._
 
 #### What’s this all about?
@@ -46,16 +48,7 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 * **Hyperliquid:**
   * 💻 Launch the [Hyperliquid App](https://app.hyperliquid.xyz/trade) to start trading and exploring.
   * 🐦 Stay connected on [X (Twitter)](https://x.com/HyperliquidX) for news and updates.
-  * 🎮 Join the conversation on [Discord](https://discord.com/invite/hyperliquid) and engage with the community.
-
-***
-
-### Ecosystem Overview 🌐
-
-A visual representation of the **HyperLiquid ecosystem** is currently under construction.\
-Stay tuned — **coming soon!** 🚧✨
-
-***
+  * 🎮 Join the conversation on [Discord](https://discord.com/invite/hyperliquid) and engage with the community
 
 {% hint style="warning" %}
 If you would like to contribute to this community Wiki, just drop us a line on [X](https://x.com/solynor_finance) or go to [GitHub](https://github.com/Hyperliquid-Community/wiki-community).
