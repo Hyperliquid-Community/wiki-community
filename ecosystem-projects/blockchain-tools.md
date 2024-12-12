@@ -69,11 +69,14 @@ The **HyperEVM** chain is currently in **testnet**, and several tools are emergi
 #### **EVM Explorers**
 
 * [explorer.hyperlend.finance](https://explorer.hyperlend.finance/) – EVM testnet explorer focused on lending/borrowing ecosystem elements.
-* [hyperliquidscan.com](https://www.hyperliquidscan.com/) – Another explorer for EVM testnet data.
+* [evm.hyperstats.xyz](https://evm.hyperstats.xyz/)
+* [testnet.purrsec.com](https://testnet.purrsec.com/)
+* [hyperevm-explorer](https://hyperevm-explorer.vercel.app/)
+* [hyperliquidscan.com](https://www.hyperliquidscan.com/)
 
 **Additional Resources:**
 
-* [testnet.purrsec.com/api/introduction](https://testnet.purrsec.com/api/introduction) – API documentation (under exploration).
+* [testnet.purrsec.com/api/introduction](https://testnet.purrsec.com/api/introduction) – API documentation.
 
 ***
 
