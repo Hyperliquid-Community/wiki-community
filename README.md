@@ -50,6 +50,8 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
   * 🐦 Stay connected on [X (Twitter)](https://x.com/HyperliquidX) for news and updates.
   * 🎮 Join the conversation on [Discord](https://discord.com/invite/hyperliquid) and engage with the community
 
+***
+
 {% hint style="warning" %}
 If you would like to contribute to this community Wiki, just drop us a line on [X](https://x.com/solynor_finance) or go to [GitHub](https://github.com/Hyperliquid-Community/wiki-community).
 {% endhint %}
