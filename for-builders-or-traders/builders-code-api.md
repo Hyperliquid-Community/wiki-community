@@ -24,3 +24,5 @@ The objective is to provide a clear guide on the **implementation process** and 
 For more details, refer to the official documentation:
 
 * [Builder Codes Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes)
+
+⚠️ **To stay informed, please refer to the messages in the `#api-traders` Discord channel.** You’ll find the most current instructions, updates, and community-driven resources there.

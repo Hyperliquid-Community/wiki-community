@@ -17,7 +17,7 @@ layout:
 
 _**Note:** This page is under active construction, and the information here may evolve as we learn more. Please check back for updates._
 
-⚠️ To stay informed, please refer to the pinned messages in the **#node-operators** Discord channel. You’ll find the most current instructions, updates, and community-driven resources there.
+⚠️ **To stay informed, please refer to the pinned messages in the `#node-operators` Discord channel.** You’ll find the most current instructions, updates, and community-driven resources there.
 
 ***
 
