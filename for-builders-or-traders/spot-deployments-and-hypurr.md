@@ -143,6 +143,7 @@ For detailed guides on how to use the Hypurr Fun Bot and maximize its potential:
 * [Step-by-step guide by @Jimihendrixgin](https://x.com/jimihendrixgin/status/1867770279847469437)
 * [Tips and strategies from @DegennQuant](https://x.com/degennQuant/status/1865755024816852996)
 * [Official Guide](https://hypurr-fun.gitbook.io/hypurr-fun-docs/launches/buying-a-token)
+* [Strategies](https://l1ghtyear.notion.site/HL-Trenches-Ultimate-Guide-12f90df6c9b780b29adbdbd8717f86be)
 
 **Official Hypurr Fun Docs:** [hypurr-fun.gitbook.io](https://hypurr-fun.gitbook.io/hypurr-fun-docs)
 
