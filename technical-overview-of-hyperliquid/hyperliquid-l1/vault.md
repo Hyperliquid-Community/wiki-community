@@ -40,7 +40,7 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned protocol vaul
 
 #### **2. Protocol Vaults: Assistance Fund (AF)** 🛡️
 
-The **Assistance Fund (AF)** acts as a safety net for the Hyperliquid ecosystem:
+The **Assistance Fund (AF)** \[[0xfefefefefefefefefefefefefefefefefefefefe](https://hypurrscan.io/address/0xfefefefefefefefefefefefefefefefefefefefe)] acts as a safety net for the Hyperliquid ecosystem:
 
 * **Fee Allocation:**
   * A portion of trading fees flows into the Assistance Fund.
