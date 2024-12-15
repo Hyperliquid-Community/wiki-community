@@ -15,28 +15,18 @@ layout:
 
 # Community Map
 
-### Community Chats & Ecosystem Projects 🏠💬
+### Community Chats 🏠💬
 
 These groups foster collaboration, discussion, and innovation across the HyperLiquid ecosystem. Some are open to everyone, while others are invite-only.
 
-#### **Builders & Innovators**
-
+* **Official Hyperliquid Discord**: [Join here](https://discord.com/invite/hyperliquid) — Get help, chat with the community, and find everything you need.
+* **Derteil**: [Join discord here](https://discord.gg/Kh7AYY9h) — A lively hub for builders and community members.
 * **Hypurrco & Frens**: Exclusive builders’ group by [hypurr.co](https://hypurr.co/) (Invite only) — [_@hypurr\_co_](https://x.com/hypurr_co)
-* **Hyperliquid Ecosystem Projects**: For projects building on HyperLiquid — [_@HyperliquidX_](https://x.com/HyperliquidX)
-
-#### **Community Groups**
-
-* **Hypurr Fun Community Chat**: [Join here](https://t.me/+SJRiO42rufBmODBk) — A hub for spot trading, deploying tickers, and community discussions — [@Hypurr.fun](https://x.com/Hypurrfun)
-* **Hypurr Pump (Pumpfun for HL)**: [Join here](https://t.me/+GRIwAPnAUBk4ODE0) — Prelaunch markets and bonding mechanisms.
-* **Atehun Community**: [Join here](https://t.me/atehundredollars) — For Atehun token enthusiasts and discussions.
-
-#### **Discord Servers**
-
-* **Derteil**: [Join here](https://discord.gg/Kh7AYY9h) — A lively hub for builders and community members.
+* **Atehun Community**: [Join telegram here](https://t.me/atehundredollars) — For Atehun token enthusiasts and discussions.
 
 ***
 
-### Featured Ecosystem: HypurrFun 🧰
+### HypurrFun: A Key Player in the Ecosystem 🧰
 
 **HypurrFun**, started by [_@laurentzeimes_](https://x.com/laurentzeimes), is one of the most influential unofficial hubs in the ecosystem. It offers:
 
@@ -46,16 +36,9 @@ These groups foster collaboration, discussion, and innovation across the HyperLi
 * **Prelaunch Markets & Bonding Mechanism**: Experiment with token launches and Dutch auctions.
 * **Schizobot**: AI-driven agent that interacts with users, trades, and creates "hpump" tickers.
 
-#### **Explore more:**
+For a **guide** and **technical information** about HypurrFun—covering spot deployments, prelaunch mechanisms, and more—visit our detailed documentation here: [HyperLiquid Community Docs](https://community-hyperliquid.gitbook.io/community-docs/for-builders-or-traders/spot-deployments-and-hypurr).
 
-* Website: [https://hypurr.fun](https://hypurr.fun)
-* Community Chat: [Join Hypurr Fun](https://t.me/+SJRiO42rufBmODBk)
-* HPump Prelaunch: [Join Here](https://t.me/+GRIwAPnAUBk4ODE0)
-* Step-by-step guid: by [@degennQuant](https://x.com/degennQuant/status/1865755001320251694)
-
-***
-
-### Gated Whale Chats 🏰
+### HypurrFun: Gated Whale Chats 🏰
 
 Exclusive to token holders who meet specific thresholds, these **gated chats** host some of the most active and influential members of the community.
 
@@ -77,9 +60,9 @@ Exclusive to token holders who meet specific thresholds, these **gated chats** h
 
 #### **How to Join Gated Chats?**
 
-1. Go to [HypurrFunBot](https://t.me/HypurrFunBot?start=ref_a464a84c) (Read-Only Link).
+1. Go to [HypurrFunBot](https://t.me/HypurrFunBot) (Read-Only Link).
 2. Use `/wallets` to register your wallet(s). (Up to 5 wallets allowed.)
-3. Use the ‘Link (Read Only)’ method to verify holdings.
+3. Use the ‘Link ([Read Only](https://hypurr-fun.gitbook.io/hypurr-fun-docs/wallets/multi-wallets))’ method to verify holdings.
 4. Once verified, you’ll gain access to the relevant gated chat.
 
 This list was compiled by [@kirbyongeo](https://x.com/kirbyongeo/status/1864659841639436553) 🙌.
@@ -101,13 +84,12 @@ The HyperLiquid ecosystem is powered by diverse voices and talents, including:
 * [**@ericonomic**](https://x.com/ericonomic): Provides on-chain and fundamental analysis.
 * [**@hyperactive\_cap**](https://x.com/hyperactive_cap): Supports builders making the jump to HyperLiquid.
 
-…and many more, each bringing their expertise and energy to the community.
+…and many [more](https://x.com/jimihendrixgin/status/1867772702003466400), each bringing their expertise and energy to the community.
 
 ***
 
 ### Additional Resources 🗂️
 
-For a more comprehensive overview of projects and contributors in the HyperLiquid ecosystem, visit [**hypurr.co**](https://www.hypurr.co/ecosystem-projects)**.**\
-
+For a more comprehensive overview of projects and contributors in the HyperLiquid ecosystem, visit [**hypurr.co**](https://www.hypurr.co/ecosystem-projects)**.**
 
 Use the search feature to discover even more builders, analysts, influencers, and initiatives that help shape **The Hyper Liquidated** community.
