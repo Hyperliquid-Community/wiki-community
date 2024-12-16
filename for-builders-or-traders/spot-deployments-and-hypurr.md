@@ -24,6 +24,8 @@ For a detailed understanding of **HIP-1** and **HIP-2** (the foundation of Spot 
 
 ***
 
+<figure><img src="../.gitbook/assets/Hypurr_eco_v3.png" alt=""><figcaption></figcaption></figure>
+
 ### **Using the Hypurr Fun Bot**
 
 Hypurr Fun is a launch market and **social-fi bot** designed for the Hyperliquid L1. It simplifies token launches and provides a vibrant pre-market for discovering and trading new assets. Follow these steps to get started:
