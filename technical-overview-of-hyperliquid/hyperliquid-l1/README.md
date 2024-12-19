@@ -23,4 +23,6 @@ Hyperliquid is purpose-built to meet the rigorous demands of an on-chain derivat
 
 #### System Overview
 
-🚧 Below is a diagram illustrating the general functionality of Hyperliquid L1, showcasing its key components and how they interact to deliver high-performance, scalable trading infrastructure:
+Below is a diagram illustrating the general functionality of Hyperliquid L1, showcasing its key components and how they interact to deliver high-performance, scalable trading infrastructure:
+
+<figure><img src="../../.gitbook/assets/technical_stack_v3.png" alt=""><figcaption></figcaption></figure>
