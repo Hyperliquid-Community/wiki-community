@@ -2,7 +2,7 @@
 
 * [☺️ Hello!](README.md)
 
-## 🧑‍🚀 Introduction
+## 💡 Introduction
 
 * [What is Hyperliquid?](introduction/what-is-hyperliquid.md)
 * [Hyperliquid Labs Team](introduction/hyperliquid-labs-team.md)
