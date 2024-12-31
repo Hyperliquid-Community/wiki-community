@@ -53,7 +53,7 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 ***
 
 {% hint style="warning" %}
-If you would like to contribute to this community Wiki or discuss ideas, feel free to drop us a message on [Telegram](https://t.me/+X80Ypqqg3_A3NDBk)! You can also reach out on [X](https://x.com/solynor_finance) or check out our [GitHub](https://github.com/Hyperliquid-Community/wiki-community) to collaborate directly.
+If you would like to contribute to this community Wiki or discuss ideas, feel free to drop us a message on [Telegram](https://t.me/+X80Ypqqg3_A3NDBk)! You can also reach out on [X](https://x.com/0xSolynor) or check out our [GitHub](https://github.com/Hyperliquid-Community/wiki-community) to collaborate directly.
 {% endhint %}
 
 _Together, we can make this a valuable resource for everyone. 🚀_
