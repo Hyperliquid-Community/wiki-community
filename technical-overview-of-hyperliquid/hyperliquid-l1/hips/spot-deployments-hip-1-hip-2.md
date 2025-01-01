@@ -15,7 +15,7 @@ layout:
 
 # Spot Deployments (HIP-1/HIP-2)
 
-<figure><img src="../../../.gitbook/assets/Spot_deployment_v5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Spot_deployment_hypurr_v1.png" alt=""><figcaption></figcaption></figure>
 
 ## HIP-1: Native Token Standard
 
