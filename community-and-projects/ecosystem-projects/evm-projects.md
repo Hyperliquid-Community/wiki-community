@@ -13,11 +13,7 @@ layout:
     visible: true
 ---
 
-# EVM Projects (Testnet)
-
-_⚠️ Keep in mind: **security is not guaranteed**, and you should exercise caution when **connecting wallets** or **sharing sensitive information.**_
-
-***
+# EVM Projects
 
 As HyperEVM evolves, various DeFi projects have begun building on its testnet. Explore these to understand the emerging ecosystem components.
 

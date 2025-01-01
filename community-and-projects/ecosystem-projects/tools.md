@@ -13,23 +13,7 @@ layout:
     visible: true
 ---
 
-# Blockchain Tools
-
-### Overview
-
-The HyperLiquid ecosystem offers various **blockchain analysis tools**, **explorers**, and **dashboards** to help you track tokens, auctions, trades, and network performance.
-
-_(For a broader view of all ecosystem projects, visit_ [_hypurr.co/ecosystem-projects_](https://www.hypurr.co/ecosystem-projects)_.)_
-
-***
-
-### _Disclaimer ⚠️_
-
-_The projects listed in this section are **not developed or maintained by HyperLiquid Labs**, unless explicitly stated. While they provide valuable tools and resources, please **conduct your own research** before interacting with or using any protocols._
-
-_Keep in mind: **security is not guaranteed**, and you should exercise caution when **connecting wallets** or **sharing sensitive information.**_
-
-***
+# Tools
 
 ## L1 Tools
 

@@ -39,13 +39,11 @@
 * [Node Operators](for-builders-or-traders/node-operators.md)
 * [Spot Deployments & Hypurr](for-builders-or-traders/spot-deployments-and-hypurr.md)
 
-## 🌟 Community
+## 🌟  Community & Projects
 
-* [The Hyper Liquidated](community/the-hyper-liquidated.md)
-* [Community Map](community/community-map.md)
-
-## 🔎 Ecosystem Projects
-
-* [Blockchain Tools](ecosystem-projects/blockchain-tools.md)
-* [EVM Projects (Testnet)](ecosystem-projects/evm-projects-testnet.md)
-* [API-Powered Trading Tools](ecosystem-projects/api-powered-trading-tools.md)
+* [The Hyper Liquidated](community-and-projects/the-hyper-liquidated.md)
+* [Community Map](community-and-projects/community-map.md)
+* [Ecosystem Projects](community-and-projects/ecosystem-projects/README.md)
+  * [Tools](community-and-projects/ecosystem-projects/tools.md)
+  * [EVM Projects](community-and-projects/ecosystem-projects/evm-projects.md)
+  * [API Projects](community-and-projects/ecosystem-projects/api-projects.md)
