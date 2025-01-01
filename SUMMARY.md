@@ -2,36 +2,36 @@
 
 * [☺️ Hello!](README.md)
 
-## 💡 Introduction
+## Introduction
 
 * [What is Hyperliquid?](introduction/what-is-hyperliquid.md)
 * [Hyperliquid Labs Team](introduction/hyperliquid-labs-team.md)
 * [Past and Future Roadmap](introduction/past-and-future-roadmap.md)
 
-## 🛫 Onboarding
+## Onboarding
 
 * [How to start trading](onboarding/how-to-start-trading.md)
 
-## ⚙️ Technical Overview of Hyperliquid
+## Technology Breakdown
 
-* [Overview](technical-overview-of-hyperliquid/overview.md)
-* [HyperBFT](technical-overview-of-hyperliquid/hyperbft.md)
-* [Hyperliquid L1](technical-overview-of-hyperliquid/hyperliquid-l1/README.md)
-  * [Dex](technical-overview-of-hyperliquid/hyperliquid-l1/dex/README.md)
-    * [Clearinghouse](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/README.md)
-      * [Margin Management](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/margin-management.md)
-      * [Liquidations](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/liquidations.md)
-      * [Funding](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/funding.md)
-      * [Fees](technical-overview-of-hyperliquid/hyperliquid-l1/dex/clearinghouse/fees.md)
-    * [Order Book](technical-overview-of-hyperliquid/hyperliquid-l1/dex/order-book.md)
-    * [Oracle](technical-overview-of-hyperliquid/hyperliquid-l1/dex/oracle.md)
-  * [Vault](technical-overview-of-hyperliquid/hyperliquid-l1/vault.md)
-  * [HIPs](technical-overview-of-hyperliquid/hyperliquid-l1/hip.md)
-    * [Spot Deployments (HIP-1/HIP-2)](technical-overview-of-hyperliquid/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md)
-  * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)
-* [HyperEVM](technical-overview-of-hyperliquid/hyperevm.md)
+* [Overview](technology-breakdown/overview.md)
+* [HyperBFT](technology-breakdown/hyperbft.md)
+* [Hyperliquid L1](technology-breakdown/hyperliquid-l1/README.md)
+  * [Dex](technology-breakdown/hyperliquid-l1/dex/README.md)
+    * [Clearinghouse](technology-breakdown/hyperliquid-l1/dex/clearinghouse/README.md)
+      * [Margin Management](technology-breakdown/hyperliquid-l1/dex/clearinghouse/margin-management.md)
+      * [Liquidations](technology-breakdown/hyperliquid-l1/dex/clearinghouse/liquidations.md)
+      * [Funding](technology-breakdown/hyperliquid-l1/dex/clearinghouse/funding.md)
+      * [Fees](technology-breakdown/hyperliquid-l1/dex/clearinghouse/fees.md)
+    * [Order Book](technology-breakdown/hyperliquid-l1/dex/order-book.md)
+    * [Oracle](technology-breakdown/hyperliquid-l1/dex/oracle.md)
+  * [Vault](technology-breakdown/hyperliquid-l1/vault.md)
+  * [HIPs](technology-breakdown/hyperliquid-l1/hips/README.md)
+    * [Spot Deployments (HIP-1/HIP-2)](technology-breakdown/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md)
+  * [Bridge](technology-breakdown/hyperliquid-l1/bridge.md)
+* [HyperEVM](technology-breakdown/hyperevm.md)
 
-## 🏗️ Guide
+## Guide
 
 * [API](guide/api/README.md)
   * [Trading Bot](guide/api/trading-bot.md)
@@ -40,7 +40,7 @@
 * [Node Operators](guide/node-operators.md)
 * [Spot Deployments](guide/spot-deployments.md)
 
-## 🌟  Community & Projects
+## &#x20;Community & Projects
 
 * [The Hyper Liquidated](community-and-projects/the-hyper-liquidated.md)
 * [Community Map](community-and-projects/community-map.md)

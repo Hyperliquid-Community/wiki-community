@@ -29,7 +29,7 @@ _**Note:** Because the Dutch Auction happens on a fixed schedule (every 31 hours
 ### **1.** Official Deployment Interface
 
 * Access the **official deployment interface** here: [https://app.hyperliquid.xyz/deploySpot](https://app.hyperliquid.xyz/deploySpot).
-* For a more **comprehensive understanding** of the deployment process (or to launch your token), we recommend reading: [Spot Deployments (HIP-1, HIP-2)](../technical-overview-of-hyperliquid/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md).
+* For a more **comprehensive understanding** of the deployment process (or to launch your token), we recommend reading: [Spot Deployments (HIP-1, HIP-2)](../technology-breakdown/hyperliquid-l1/hips/spot-deployments-hip-1-hip-2.md).
 
 ***
 
