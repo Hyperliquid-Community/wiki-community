@@ -31,13 +31,14 @@
   * [Bridge](technical-overview-of-hyperliquid/hyperliquid-l1/bridge.md)
 * [HyperEVM](technical-overview-of-hyperliquid/hyperevm.md)
 
-## 🏭 For Builders or Traders
+## 🏗️ Guide
 
-* [API Trader (Quant)](for-builders-or-traders/api-trader-quant.md)
-* [Builders’ Code (API)](for-builders-or-traders/builders-code-api.md)
-* [EVM](for-builders-or-traders/evm.md)
-* [Node Operators](for-builders-or-traders/node-operators.md)
-* [Spot Deployments & Hypurr](for-builders-or-traders/spot-deployments-and-hypurr.md)
+* [API](guide/api/README.md)
+  * [Trading Bot](guide/api/trading-bot.md)
+  * [Builder Interface](guide/api/builder-interface.md)
+* [Dapps (EVM)](guide/dapps-evm.md)
+* [Node Operators](guide/node-operators.md)
+* [Spot Deployments](guide/spot-deployments.md)
 
 ## 🌟  Community & Projects
 
