@@ -1,6 +1,7 @@
 # Table of contents
 
 * [☺️ Hello!](README.md)
+* [Getting Started](getting-started.md)
 
 ## Introduction
 
@@ -30,7 +31,7 @@
 ## Guide
 
 * [User Guide](guide/user-guide/README.md)
-  * [HL DEX Onboarding](guide/user-guide/hl-dex-onboarding.md)
+  * [HL Onboarding](guide/user-guide/hl-onboarding.md)
   * [Spot Deployments](guide/user-guide/spot-deployments.md)
 * [Builder Guide](guide/builder-guide/README.md)
   * [API](guide/builder-guide/api/README.md)
