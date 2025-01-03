@@ -20,10 +20,6 @@ layout:
 
 <figure><img src=".gitbook/assets/Hyperliquid-Ecosystem_v2bis2.png" alt=""><figcaption></figcaption></figure>
 
-**Disclaimer:** _This wiki is **community-driven** and **not affiliated** with Hyperliquid Labs. It is **not official documentation**. While we do our best to ensure accuracy, there may be occasional errors or outdated information. For the most reliable and current details, always refer to Hyperliquid’s **official channels**._
-
-#### What’s this all about?
-
 This site is designed to **facilitate knowledge sharing** among builders, traders, and investors who use the **Hyperliquid platform**—a cutting-edge decentralized exchange (DEX) built on its own Layer 1 chain. Our aim is to help you **navigate, understand, and leverage** the full potential of the Hyperliquid ecosystem.
 
 ***
@@ -32,7 +28,7 @@ This site is designed to **facilitate knowledge sharing** among builders, trader
 
 * **Browse Categories:** Use the **sidebar on the left** to find articles grouped by topic.
 * **Quick Search:** If you know what you’re looking for, try the **search bar** at the top-right corner.
-* **Need More Help?** Can’t find the answer? Connect with the **Hyperliquid Community** on forums, social media, or other community channels.
+* **Need More Help?** Can’t find the answer? Connect with the **Community** on social media, or other community channels.
 
 For **official inquiries, technical issues, or more detailed guidance**, please contact the Hyperliquid support team through their **official platform**.
 
@@ -52,8 +48,10 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 
 ***
 
-{% hint style="warning" %}
+{% hint style="success" %}
+**Together, we can make this a valuable resource for everyone.** _🚀_
+
 If you would like to contribute to this community Wiki or discuss ideas, feel free to drop us a message on [Telegram](https://t.me/+X80Ypqqg3_A3NDBk)! You can also reach out on [X](https://x.com/0xSolynor) or check out our [GitHub](https://github.com/Hyperliquid-Community/wiki-community) to collaborate directly.
 {% endhint %}
 
-_Together, we can make this a valuable resource for everyone. 🚀_
+**Disclaimer:** _This wiki is **community-driven** and **not affiliated** with Hyperliquid Labs. It is **not official documentation**. While we do our best to ensure accuracy, there may be occasional errors or outdated information. For the most reliable and current details, always refer to Hyperliquid’s **official channels**._
