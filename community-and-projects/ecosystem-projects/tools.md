@@ -22,6 +22,7 @@ layout:
 * **Mainnet**
   * [Official Explorer](https://app.hyperliquid.xyz/explorer) – Basic on-chain data.
   * [HypurrScan](https://hypurrscan.io/) – A comprehensive explorer for L1, offering detailed insights into **auctions**, **spot market stats**, and more. 📖 [Learn how to use HypurrScan](https://x.com/HypurrScan/status/1826398417641463842).
+  * [Hyperscanner](https://www.hyperscanner.app/) - Hyperliquid Insights. [@hyper\_scanner](https://x.com/hyper_scanner)
 * **Testnet**
   * [Official Testnet Explorer](https://app.hyperliquid-testnet.xyz/explorer) – View testnet data.
   * [HypurrScan Testnet](https://testnet.hypurrscan.io/) – Enhanced testnet explorer with auctions, spot stats, and more.
