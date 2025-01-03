@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Hyperliquid Labs Team
+# Hyperliquid Labs
 
 **Hyperliquid Labs** is the key contributor driving the platform's growth. The team is composed of talented individuals from prestigious institutions like **Harvard**, **Caltech**, and **MIT**, with professional experience at **Airtable**, **Citadel**, **Hudson River Trading**, and **Nuro**.
 
@@ -31,10 +31,10 @@ layout:
   🐦 [@iliensinc](https://twitter.com/iliensinc)
 * **Xulian HL** \
   🐦 [@KingJulianIAm](https://twitter.com/KingJulianIAm)
-* **Two additional core members** bring valuable expertise to the team. Details will be updated soon.
+* **Two additional core members** bring valuable expertise to the team.
 
 ***
 
 ### Team Structure <a href="#team-structure" id="team-structure"></a>
 
-Stay tuned—**coming soon!** 🚧✨
+🚧 **Coming soon** ✨
