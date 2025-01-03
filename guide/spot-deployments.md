@@ -40,7 +40,8 @@ _**Note:** Because the Dutch Auction happens on a fixed schedule (every 31 hours
 * **Traders** can trade an **unlimited number** of tokens before they’re officially listed.
 * **Token creators** can rely on **automatic ticker purchase** once the token’s **TVL** meets the **auction price**—securing their token’s listing on Hyperliquid.
 
-To **get started**, refer to the **Hypurr Fun** documentation [**here**](https://hypurr-fun.gitbook.io/hypurr-fun-docs/getting-started).
+🚨 **Want to learn how to use Hypurr Fun and make the most of its features?**\
+Check out the official guide here: [**Hypurr Fun Docs**](https://hypurr-fun.gitbook.io/hypurr-fun-docs).
 
 ***
 
