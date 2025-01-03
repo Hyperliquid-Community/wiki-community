@@ -24,13 +24,13 @@ The **Hyper Liquidated** community is a rapidly growing ecosystem of passionate 
 
 ### Why Does the Community Love HyperLiquid?
 
-* **Product-Market Fit:** Multiple traders, including big names like [**@HsakaTrades**](https://x.com/HsakaTrades) and [**@DaanCrypto**](https://x.com/DaanCrypto), have publicly shared their appreciation for HyperLiquid.
+* **Product-Market Fit:** Multiple traders, including big names like [@HsakaTrades](https://x.com/HsakaTrades), [@DaanCrypto](https://x.com/DaanCrypto) and [@ThinkingUSD](https://x.com/ThinkingUSD) have publicly shared their appreciation for HyperLiquid.
 * **User-Centric Growth:** The HyperLiquid team is committed to fostering and expanding the community. They’re constantly working to improve the product, respond to feedback, and create an environment where users can thrive.
 * **Shared Success:** It’s not just a platform; it’s a network of people helping each other navigate markets, share insights, and grow together.
 
 ***
 
-**On the next page**, you’ll explore HyperLiquid’s diverse community groups, token-gated chats, and ecosystem projects. Whether you’re a builder, trader, analyst, influencer, or simply curious, this comprehensive overview will help you connect, contribute, and thrive within the **Hyper Liquidated** community.
+**On the following pages**, you’ll explore HyperLiquid’s diverse community groups, and ecosystem projects. Whether you’re a builder, trader, analyst, influencer, or simply curious, this comprehensive overview will help you connect, contribute, and thrive within the **Hyper Liquidated** community.
 
 _**Be part of the story.** If you’re contributing to the HyperLiquid ecosystem, let us know!_\
 _If you see someone missing from this list, reach out._

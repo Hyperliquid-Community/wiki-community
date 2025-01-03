@@ -42,8 +42,8 @@
 
 ## &#x20;Community & Projects
 
-* [The Hyper Liquidated](community-and-projects/the-hyper-liquidated.md)
-* [Community Map](community-and-projects/community-map.md)
+* [The Hyper Liquidated](community-and-projects/the-hyper-liquidated/README.md)
+  * [Community Map](community-and-projects/the-hyper-liquidated/community-map.md)
 * [Ecosystem Projects](community-and-projects/ecosystem-projects/README.md)
   * [Tools](community-and-projects/ecosystem-projects/tools.md)
   * [EVM Projects](community-and-projects/ecosystem-projects/evm-projects.md)
