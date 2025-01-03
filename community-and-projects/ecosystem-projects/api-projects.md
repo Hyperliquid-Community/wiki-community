@@ -26,12 +26,14 @@ _Projects marked with `*` are not HyperLiquid native._
 * [Katoshi](https://katoshi.ai/) – Automate your trading strategy. [@KatoshiAI](https://x.com/KatoshiAI)
 * [Tradestream](https://tradestream.xyz/sign-up) – Automated Trading Journal and Analytics. [@tradestream\_xyz](https://x.com/tradestream_xyz)
 * [D2finance](https://d2.finance/strategies)\* – Tokenized derivatives strategies. [@D2\_Finance](https://x.com/D2_Finance)
+* [Gamma](https://app.gamma.xyz/perps?utm_source=\&utm_medium=affiliate_social\&utm_campaign=perps)\* – Perpetual Trading Vaults. [@GammaStrategies](https://x.com/GammaStrategies)
 * [Okto.tech](https://www.okto.tech/wallet)\* – Mobile wallet for trading futures. [@okto\_web3](https://x.com/Okto_web3)
 * [Hypercopy](https://hypercopy.xyz/) – Copy Hyperliquid traders.  [@artiya4u](https://github.com/artiya4u/hypercopy-xyz)
 * Telegram Bots 🤖:
   * [Hypurr Fun](https://hypurr.fun/) – The fastest telegram trading bot for Hyperliquid ([Doc](https://hypurr-fun.gitbook.io/hypurr-fun-docs)). [@Hypurrfun](https://x.com/Hypurrfun)
   * [pvp.trade](https://pvp.trade/) – Long/short together in your Telegram groups. [@pvp\_dot\_trade](https://x.com/pvp_dot_trade)
   * [CopyCat\_Bot](https://t.me/CopyCat_bot_Chat) – Alerts, tracking and copy trading bot for HyperLiquid. [@CopyCat\_Bot](https://x.com/CopyCat_Bot)
+  * [AlgoTrade](https://www.algotrade.biz/)\* – Trade Smarter, Not Harder. [@AlgoTrade\_\_](https://x.com/AlgoTrade__)
 
 **Artificial Intelligence**
 

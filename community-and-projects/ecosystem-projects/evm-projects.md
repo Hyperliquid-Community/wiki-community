@@ -68,6 +68,7 @@ _Projects marked with `*` are not HyperLiquid native._
 **GambleFi**
 
 * [HyperFlip](https://testnet.hypercoinflip.com/) – First Game on Chain. [@hypercoinflip](https://x.com/hypercoinflip)
+* [Genesys.fun](https://genesy.fun/) – Play-to-Earn ecosystem on HL launches. [@GenesyHL](https://x.com/GenesyHL)
 * Duelz – PvP telegram gaming experience - coming soon. [@duelz\_hl](https://x.com/duelz_hl)
 * [spurhl](https://spurhl.com/) – Telegram PvP supergame coming to hyperEVM. [@spur\_hl](https://x.com/spur_hl)
 
