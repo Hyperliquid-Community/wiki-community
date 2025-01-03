@@ -94,7 +94,6 @@ layout:
   * [Octav ](https://app.octav.fi/)- Covers over 25 chains.
 * **Copy Trading:**
   * [Copin ](https://app.copin.io/explorer?protocol=HYPERLIQUID)- On-chain copy-trading platform.
-  * [Hypercopy](https://hypercopy.xyz/) - Simplified copy-trading on HL.
 
 
 

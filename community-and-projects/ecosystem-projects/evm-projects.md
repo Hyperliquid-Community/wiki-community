@@ -45,17 +45,11 @@ _Projects marked with `*` are not HyperLiquid native._
 * [Theo](https://theo.xyz/)\* – Stablecoin Network fueling the highest on-chain yields. [@TheoNetwork\_](https://x.com/TheoNetwork_)
 * [Resolv](https://resolv.xyz/)\* – Delta-Neutral Stablecoin. [@ResolvLabs](https://x.com/ResolvLabs)
 
-**AI agents**
-
-* [vaporware](https://alpha.vaporware.fun/) – Create, Deploy, and Monetize Autonomous AI Agents (HL API + EVM). [@vaporwarefun](https://x.com/vaporwarefun)
-* [rndm](https://www.rndm.io/)\* – Supply liquidity and be a marketmaker (Yield). [@RNDM\_IO](https://x.com/RNDM_IO)
-
 **Social**
 
-* [fan.fun](https://fan.fun/) – Fans purchase creator subscriptions to access private chats (HL API). [@fan\_dot\_fun](https://x.com/fan_dot_fun)
+* [fan.fun](https://fan.fun/) – Fans purchase creator subscriptions to access private chats. [@fan\_dot\_fun](https://x.com/fan_dot_fun)
 * [hlnames](https://hlnames.xyz/) – Hyperliquid name service. [@hlnames](https://x.com/hlnames)
 * [push](https://push.org/)\* – Web3 native communication network. [@pushprotocol](https://x.com/pushprotocol)
-* [pvp.trade](https://pvp.trade/) – Long/short together in your Telegram groups (HL API - Trading Tools). [@pvp\_dot\_trade](https://x.com/pvp_dot_trade)
 
 **NFT**
 
@@ -67,12 +61,15 @@ _Projects marked with `*` are not HyperLiquid native._
 * [Hyperswap](https://hyperswap.exchange/) – Token swaps, liquidity management, and token launches. [@HyperSwapX](https://x.com/HyperSwapX)
 * [Kittenswap](https://kittenswap.finance/) – Community-owned exchange for trading on HyperEVM. [@KittenswapHype](https://x.com/KittenswapHype)
 * [Curve](https://curve.fi/#/ethereum)\* – Leading StableDex. [@CurveFinance](https://x.com/CurveFinance)
+* [BufferFinance](https://buffer.finance/fr)\* – Options trading DEX. [@Buffer\_Finance](https://x.com/Buffer_Finance)
+* [Bubbly](https://app.bubbly.finance/swapPointsBuy)\* – The first AMM-based pre-market DEX. [@BubblyFinance](https://x.com/BubblyFinance)
 
 **GambleFi**
 
 * [HyperFlip](https://testnet.hypercoinflip.com/) – First Game on Chain. [@hypercoinflip](https://x.com/hypercoinflip)
-* [hyp.fun](https://hyp.fun/) – All-in-one GambleFi deflationary token on HL (HL API + EVM). [@HyperFunX](https://x.com/HyperFunX)
-* [vegas-hl](https://vegas-hl.com/) – GambleFi via Telegram bot (uses HL API). [@Vegas\_hl](https://x.com/Vegas_HL)
-* [guess\_hl\_bot](https://t.me/guess_hl_bot) – Prediction market via Telegram (mini app using HL API).  [@guess\_on\_hl](https://x.com/guess_on_hl)
 * Duelz – PvP telegram gaming experience - coming soon. [@duelz\_hl](https://x.com/duelz_hl)
 * [spurhl](https://spurhl.com/) – Telegram PvP supergame coming to hyperEVM. [@spur\_hl](https://x.com/spur_hl)
+
+**Artificial Intelligence**
+
+* [Kol4u](https://www.kol4u.xyz/) - Modular AI layer for creator abstraction. [@kol4u\_xyz](https://x.com/kol4u_xyz)
