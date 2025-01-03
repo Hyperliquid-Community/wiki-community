@@ -63,6 +63,7 @@ _Projects marked with `*` are not HyperLiquid native._
 * [Curve](https://curve.fi/#/ethereum)\* – Leading StableDex. [@CurveFinance](https://x.com/CurveFinance)
 * [BufferFinance](https://buffer.finance/fr)\* – Options trading DEX. [@Buffer\_Finance](https://x.com/Buffer_Finance)
 * [Bubbly](https://app.bubbly.finance/swapPointsBuy)\* – The first AMM-based pre-market DEX. [@BubblyFinance](https://x.com/BubblyFinance)
+* [Pear.garden](https://pear.garden/)\* – The home of pair trading. [@pear\_protocol](https://x.com/pear_protocol)
 
 **GambleFi**
 
