@@ -37,7 +37,8 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
     * [Whale Chats](https://x.com/kirbyongeo/status/1864659841639436553) – Exclusive chats for High-level discussions.
 
     📖 For a detailed guide on **HypurrFun,** visit the [HyperLiquid Community Docs](../../guide/spot-deployments.md).
-* [Derteil Community](https://discord.com/invite/Kh7AYY9h) – A discord hub for builders and community members.
+* [Derteil Community](https://discord.com/invite/Kh7AYY9h) – A Discord hub for builders and community members.
+* [Hypurr's Friends](https://discord.com/invite/38Hkd7QFpV) – A Discord community with whale alerts, TWAPs, price trackers, and insights.
 * [Atehun Community](https://t.me/atehundredollars) – A space for Atehun token enthusiasts and discussions.
 
 ***
