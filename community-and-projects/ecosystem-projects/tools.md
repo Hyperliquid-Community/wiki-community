@@ -41,7 +41,7 @@ layout:
 
 ***
 
-## Analytics
+## Data Analytics
 
 ### Statistics
 
