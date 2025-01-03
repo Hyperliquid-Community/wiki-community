@@ -24,7 +24,7 @@ What do you want to explore today? Choose the right path based on your interests
 If you're here to trade and explore the HyperLiquid DEX, start with the **User Guide**, which covers everything you need:
 
 * [HL Onboarding](guide/user-guide/hl-onboarding.md) – A dedicated guide to get started with the HyperLiquid DEX.
-* [Spot Deployments](https://community-hyperliquid.gitbook.io/community-docs/guide/user-guide/spot-deployments) – Dive into the trenches and trade spot tokens, for example, on **Hypurr Fun**.
+* [Spot Deployments](guide/user-guide/spot-deployments.md) – Dive into the trenches and trade spot tokens, for example, on **Hypurr Fun**.
 
 ***
 
@@ -32,8 +32,8 @@ If you're here to trade and explore the HyperLiquid DEX, start with the **User G
 
 Want to understand how HyperLiquid works? Start here:
 
-* [Introduction](https://community-hyperliquid.gitbook.io/community-docs/introduction) – Learn about the ecosystem, roadmap, and key features.
-* [Technology Breakdown](https://community-hyperliquid.gitbook.io/community-docs/technology-breakdown/) – Dive into the technical details and infrastructure of HyperLiquid.
+* [Introduction](introduction/what-is-hyperliquid.md) – Learn about the ecosystem, roadmap, and key features.
+* [Technology Breakdown](technology-breakdown/overview.md) – Dive into the technical details and infrastructure of HyperLiquid.
 
 ***
 
@@ -41,8 +41,8 @@ Want to understand how HyperLiquid works? Start here:
 
 Looking for the latest updates, community insights, and projects? Explore these:
 
-* [Community: The Hyper Liquidated](https://community-hyperliquid.gitbook.io/community-docs/community-and-projects/the-hyper-liquidated) – Discover the key community groups and contributors.
-* [Projects: Ecosystem Projects](https://community-hyperliquid.gitbook.io/community-docs/community-and-projects/ecosystem-projects) – Explore the tools, resources, and initiatives in the ecosystem.
+* [Community: The Hyper Liquidated](community-and-projects/the-hyper-liquidated/) – Discover the key community groups and contributors.
+* [Projects: Ecosystem Projects](community-and-projects/ecosystem-projects/) – Explore the tools, resources, and initiatives in the ecosystem.
 
 ***
 
@@ -50,6 +50,6 @@ Looking for the latest updates, community insights, and projects? Explore these:
 
 If you want to participate as a builder or developer, check out the **Builder Guide**:
 
-* [API](https://community-hyperliquid.gitbook.io/community-docs/guide/builder-guide/api) – Learn to develop trading bots or interfaces for the DEX.
-* [Dapps (EVM)](https://community-hyperliquid.gitbook.io/community-docs/guide/builder-guide/dapps-evm) – Build decentralized applications on HyperEVM.
-* [Node Operators](https://community-hyperliquid.gitbook.io/community-docs/guide/builder-guide/node-operators) – Set up and manage a validator node.
+* [API](guide/builder-guide/api/) – Learn to develop trading bots or interfaces for the DEX.
+* [Dapps (EVM)](guide/builder-guide/dapps-evm.md) – Build decentralized applications on HyperEVM.
+* [Node Operators](guide/builder-guide/node-operators.md) – Set up and manage a validator node.
