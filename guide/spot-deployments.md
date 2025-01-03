@@ -22,7 +22,7 @@ There is only **one official method** to deploy a new token on Hyperliquid: a **
 * **One ticker** is created at each auction interval.
 * You must pay the required **gas cost** (Auction price) to win and **receive** the right to deploy your token.
 
-_**Note:** Because the Dutch Auction happens on a fixed schedule (every 31 hours), token tickers on Hyperliquid are scarce. This ensures a controlled and fair launch environment for each new asset._
+_**Note:**_ HyperEVM enables builders to link ERC-20 tokens with spot tokens. However, without a native Hyperliquid ticker acquired via Dutch Auction, your token won’t appear on the front end or trade on the order book.
 
 ***
 
