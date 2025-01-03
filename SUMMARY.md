@@ -5,12 +5,8 @@
 ## Introduction
 
 * [What is Hyperliquid?](introduction/what-is-hyperliquid.md)
-* [Hyperliquid Labs Team](introduction/hyperliquid-labs-team.md)
-* [Past and Future Roadmap](introduction/past-and-future-roadmap.md)
-
-## Onboarding
-
-* [How to start trading](onboarding/how-to-start-trading.md)
+* [Hyperliquid Labs](introduction/hyperliquid-labs.md)
+* [Roadmap](introduction/roadmap.md)
 
 ## Technology Breakdown
 
@@ -33,12 +29,15 @@
 
 ## Guide
 
-* [API](guide/api/README.md)
-  * [Trading Bot](guide/api/trading-bot.md)
-  * [Builder Interface](guide/api/builder-interface.md)
-* [Dapps (EVM)](guide/dapps-evm.md)
-* [Node Operators](guide/node-operators.md)
-* [Spot Deployments](guide/spot-deployments.md)
+* [User Guide](guide/user-guide/README.md)
+  * [HL DEX Onboarding](guide/user-guide/hl-dex-onboarding.md)
+  * [Spot Deployments](guide/user-guide/spot-deployments.md)
+* [Builder Guide](guide/builder-guide/README.md)
+  * [API](guide/builder-guide/api/README.md)
+    * [Trading Bot](guide/builder-guide/api/trading-bot.md)
+    * [Builder Interface](guide/builder-guide/api/builder-interface.md)
+  * [Dapps (EVM)](guide/builder-guide/dapps-evm.md)
+  * [Node Operators](guide/builder-guide/node-operators.md)
 
 ## &#x20;Community & Projects
 
