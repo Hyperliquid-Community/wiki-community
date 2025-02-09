@@ -27,11 +27,14 @@ layout:
 
 * **Jeffrey Yan** \
   🐦 [@chameleon\_jeff](https://twitter.com/chameleon_jeff)
-* **iliensinc** \
+* **Iliensinc** \
   🐦 [@iliensinc](https://twitter.com/iliensinc)
-* **Xulian HL** \
+* **Xulian**\
   🐦 [@KingJulianIAm](https://twitter.com/KingJulianIAm)
-* **Two additional core members** bring valuable expertise to the team.
+* **Ben**\
+  🕹️ **ben\_hl**
+* **Adam**\
+  🕹️ **adam254689**
 
 ***
 
