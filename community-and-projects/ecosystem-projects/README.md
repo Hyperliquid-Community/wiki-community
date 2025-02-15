@@ -21,7 +21,10 @@ For an even broader overview of the ecosystem, check out these community-driven 
 
 * [**Hypurr.co Ecosystem Projects**](https://www.hypurr.co/ecosystem-projects) – A searchable database of ecosystem projects, sorted by category. If you're a creator, submit your project using their form!
 * [**HyperLiquid Dashboard by DeFi Police**](https://degen.start.me/p/gGnQQY/hyperliquid) – A comprehensive dashboard providing a visual overview of the ecosystem, created by [@defipolice\_](https://x.com/defipolice_).
-* [**HL Projects Dashboard**](https://hlprojects.xyz/) – Explore a detailed view of HyperLiquid projects, built by [@shinji2048](https://x.com/shinji2048).
+* Other dashboard:
+  * [**ASXN Data Dashboard**](https://data.asxn.xyz/dashboard/hyperliquid-ecosystem) – built by [@asxn\_r](https://x.com/asxn_r).
+  * [**HyperLiquid Wiki**](https://hyperliquid.wiki/) – built by [@hyperliquidwiki](https://x.com/hyperliquidwiki).
+  * [**HL Projects Dashboard**](https://hlprojects.xyz/) – built by [@shinji2048](https://x.com/shinji2048).
 
 ***
 

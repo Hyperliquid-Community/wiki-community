@@ -38,8 +38,8 @@ Track transactions, verify contracts, and analyze on-chain activity with the fol
 
 * **Tools Directory**: [Community & Projects Tools](https://hyperliquid-co.gitbook.io/community-docs/community-and-projects/ecosystem-projects/tools)
 * Explorers often provide convenient API endpoints for fetching network data quickly.
-  * [**Hyperlend**](https://explorer.hyperlend.finance/api-docs)&#x20;
-  * [**Purrsec**](https://testnet.purrsec.com/api/introduction)
+  * [Hyperlend](https://explorer.hyperlend.finance/api-docs)
+  * [Purrsec](https://testnet.purrsec.com/api/introduction)
 
 ***
 
