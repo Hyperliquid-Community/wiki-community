@@ -38,7 +38,8 @@
     * [Trading Bot](guide/builder-guide/api/trading-bot.md)
     * [Builder Interface](guide/builder-guide/api/builder-interface.md)
     * [Endpoints](guide/builder-guide/api/endpoints.md)
-  * [Dapps (EVM)](guide/builder-guide/dapps-evm.md)
+  * [dApps (EVM)](guide/builder-guide/dapps-evm/README.md)
+    * [EVM Basics](guide/builder-guide/dapps-evm/evm-basics.md)
   * [Node Operators](guide/builder-guide/node-operators.md)
 
 ## &#x20;Community & Projects
