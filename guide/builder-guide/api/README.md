@@ -31,5 +31,5 @@ The **Hyperliquid API** lets users and builders interact directly with the netwo
 * [Jeff’s Video on Builder Codes](https://www.youtube.com/watch?v=WeRh589I76o\&ab_channel=WhenShiftHappens): Overview of Hyperliquid’s vision and builder incentives.
 
 {% hint style="success" %}
-**Stay Updated:** Check pinned messages in the <kbd>#api-announcements</kbd> Discord channel for the latest updates. If you have questions, head over to <kbd>#api-traders</kbd>, that’s the best place to ask!
+**Stay Updated:** Check pinned messages in the <kbd>#api-announcements</kbd> Discord channel for the latest updates. If you have **questions**, head over to <kbd>#api-traders</kbd>, that’s the best place to ask!
 {% endhint %}
