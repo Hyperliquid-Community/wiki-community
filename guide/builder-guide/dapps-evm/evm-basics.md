@@ -75,5 +75,5 @@ To learn how to configure your application, integrate wallets (e.g., **Wagmi** o
 
 * **Next Steps:**
   * Set up your app (nextjs and wagmi) - [here](../api/builder-interface.md).
-  * How to deploy a contract with wagmi or hardat.
+  * How to deploy a contract with wagmi or hardat. And you need to understand the [Dual-block architecture](hyperevm-specificities.md#id-2.-dual-block-architecture).
   * How to interact with this contract on your dApp.

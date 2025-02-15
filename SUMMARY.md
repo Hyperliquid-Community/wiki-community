@@ -40,6 +40,7 @@
     * [Endpoints](guide/builder-guide/api/endpoints.md)
   * [dApps (EVM)](guide/builder-guide/dapps-evm/README.md)
     * [EVM Basics](guide/builder-guide/dapps-evm/evm-basics.md)
+    * [HyperEVM Specificities](guide/builder-guide/dapps-evm/hyperevm-specificities.md)
   * [Node Operators](guide/builder-guide/node-operators.md)
 
 ## &#x20;Community & Projects
