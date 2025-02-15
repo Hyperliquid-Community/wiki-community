@@ -15,11 +15,17 @@ layout:
 
 # API
 
-The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and “Builder Codes.”
+The **Hyperliquid API** lets users and builders interact directly with the network, enabling seamless automation, integration, and innovation. Whether you're optimizing trading strategies or creating new financial products, the API provides the flexibility to build and earn rewards through on-chain activity.
 
-These solutions allow users to automate trading, analyze positions, and even design entirely new trading platforms with custom features.
+1. **Automate and Optimize Trading**
+   * Implement **trading bots** to execute market-making, delta-neutral, or other algorithmic strategies.
+   * Manage orders programmatically with minimal latency and direct access to Hyperliquid’s liquidity.
+2. **Incorporate Builder Codes**
+   * **Builder codes** allow builders to set an additional fee, on top of Hyperliquid’s fees, of up to **0.1% for perpetuals** and **1% for spot**.
+   * The user must sign to approve these fees, and for each trade made through this interface, they will pay **Hyperliquid fees + the builder fee**.
 
-**Key Resources**
+#### Resources
 
-* [Official HyperLiquid API](https://app.hyperliquid.xyz/API) 📡: Integrate trading, market data, and more.
-* [Builder Codes](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes) 🔧: Create unique front-end interfaces that leverage HyperLiquid’s API with added customization.
+* [Hyperliquid API Docs](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api): Full API reference and integration guide.&#x20;
+* [Builder Codes Docs](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes): How to implement builder codes.
+* [Jeff’s Video on Builder Codes](https://www.youtube.com/watch?v=WeRh589I76o\&ab_channel=WhenShiftHappens): Overview of Hyperliquid’s vision and builder incentives.
