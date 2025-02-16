@@ -23,7 +23,7 @@ This guide will walk you through the process of setting up a **trading bot** on 
 
 #### Resources
 
-* 📌 [Endpoint Explanation](endpoints.md): Detailed breakdown of all API endpoints.
+* 📌 [Endpoint Explanation](endpoints/): Detailed breakdown of all API endpoints.
 * 📌 [Websocket Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/websocket): For real-time data.
 * 🚀 [HyperLiquid Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk): Python Code Samples.
 * ⚡ [HyperLiquid Rust SDK](https://github.com/hyperliquid-dex/hyperliquid-rust-sdk): Rust Code Samples.

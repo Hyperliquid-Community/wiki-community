@@ -1,0 +1,909 @@
+{
+	"info": {
+		"_postman_id": "b2a7257e-89fb-452f-80f2-5b49eda55f76",
+		"name": "HL/info",
+		"description": "# 🚀 Get started here\n\nThis template guides you through CRUD operations (GET, POST, PUT, DELETE), variables, and tests.\n\n## 🔖 **How to use this template**\n\n#### **Step 1: Send requests**\n\nRESTful APIs allow you to perform CRUD operations using the POST, GET, PUT, and DELETE HTTP methods.\n\nThis collection contains each of these [request](https://learning.postman.com/docs/sending-requests/requests/) types. Open each request and click \"Send\" to see what happens.\n\n#### **Step 2: View responses**\n\nObserve the response tab for status code (200 OK), response time, and size.\n\n#### **Step 3: Send new Body data**\n\nUpdate or add new data in \"Body\" in the POST request. Typically, Body data is also used in PUT request.\n\n```\n{\n    \"name\": \"Add your name in the body\"\n}\n\n ```\n\n#### **Step 4: Update the variable**\n\nVariables enable you to store and reuse values in Postman. We have created a [variable](https://learning.postman.com/docs/sending-requests/variables/) called `base_url` with the sample request [https://postman-api-learner.glitch.me](https://postman-api-learner.glitch.me). Replace it with your API endpoint to customize this collection.\n\n#### **Step 5: Add tests in the \"Scripts\" tab**\n\nAdding tests to your requests can help you confirm that your API is working as expected. You can write test scripts in JavaScript and view the output in the \"Test Results\" tab.\n\n<img src=\"https://content.pstmn.io/fa30ea0a-373d-4545-a668-e7b283cca343/aW1hZ2UucG5n\" alt=\"\" height=\"1530\" width=\"2162\">\n\n## 💪 Pro tips\n\n- Use folders to group related requests and organize the collection.\n    \n- Add more [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) to verify if the API works as expected and execute workflows.\n    \n\n## 💡Related templates\n\n[API testing basics](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9a37a28-055b-49cd-8c7e-97494a21eb54&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[API documentation](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=e9c28f47-1253-44af-a2f3-20dce4da1f18&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)  \n[Authorization methods](https://go.postman.co/redirect/workspace?type=personal&collectionTemplateId=31a9a6ed-4cdf-4ced-984c-d12c9aec1c27&sourceTemplateId=ddb19591-3097-41cf-82af-c84273e56719)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41555274"
+	},
+	"item": [
+		{
+			"name": "general",
+			"item": [
+				{
+					"name": "Retrieve mids for all coins",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"type\": \"allMids\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						},
+						"description": "This is a POST request, submitting data to an API via the request body. This request submits JSON data, and the data is reflected in the response.\n\nA successful POST request typically returns a `200 OK` or `201 Created` response code."
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's open orders",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"openOrders\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's open orders + frontend info",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"frontendOpenOrders\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's fills",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userFills\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n    // \"aggregateByTime\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's fills by time",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userFillsByTime\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\",\r\n    \"startTime\": 366290053242374\r\n    // \"endTime\":366290053242374,\r\n    // \"aggregateByTime\":true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query user rate limits",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userRateLimit\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query order status by oid or cloid",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"orderStatus\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\",\r\n    \"oid\": 91490942 // or coid (oid= order ID; coid= client oid)\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "L2 Book snapshot",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"l2Book\",\r\n    \"coin\": \"AAVE\" // Perp Or spot @157\r\n    // \"nSigFigs\": 5, // Aggregate levels to nSigFigs. Valid values are 2, 3, 4, 5, and null, which means full precision\r\n    // \"mantissa\": 1 // This field is only allowed if nSigFigs is 5. Accepts values of 1, 2 or 5.\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Candle snapshot",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"candleSnapshot\",\r\n    \"req\": {\r\n        \"coin\": \"AAVE\", \r\n        \"interval\": \"15m\", \r\n        \"startTime\": 1737925362748, // epoch millis\r\n        \"endTime\": \t1737925362748\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Builder Fee Approval",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"maxBuilderFee\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\",\r\n    \"builder\": \"0x7a0863206471218B578f27085245419CB905e475\"\r\n} // 1 means 0.001%\r\n// 0x4e3363839a7750056d92ADcDC15C7Eebb0fFf2A1",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's historical orders",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"historicalOrders\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's TWAP slice fills",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userTwapSliceFills\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's subaccounts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"subAccounts\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve details for a vault",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "// {\r\n//     \"type\": \"vaultDetails\",\r\n//     \"vaultAddress\": \"0xa15099a30bbf2e68942d6f4c43d70d04faeab0a0\"\r\n// } \r\n{\r\n    \"type\": \"vaultDetails\",\r\n    \"vaultAddress\": \"0xa15099a30bbf2e68942d6f4c43d70d04faeab0a0\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's vault deposits",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userVaultEquities\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n} ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query a user's role",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userRole\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}  // {\"role\":\"user\"} # \"missing\", \"user\", \"agent\", \"vault\", or \"subAccount\"",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query user staking delegations",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"delegations\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query user staking summary",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"delegatorSummary\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query user staking history",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"delegatorHistory\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query user staking rewards",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"delegatorRewards\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "perpetuals",
+			"item": [
+				{
+					"name": "Retrieve perpetuals metadata",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"meta\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve perpetuals asset contexts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"metaAndAssetCtxs\"\r\n} // includes mark price, current funding, open interest, etc",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve user's perpetuals account summary",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"clearinghouseState\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n} //See a user's open positions and margin summary for perpetuals trading",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's funding history or non-funding ledger updates",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"userFunding\", // or userNonFundingLedgerUpdates\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\",\r\n    \"startTime\": 1681222254710\r\n    // \"endTime\": 1681222254710 // defaults to current time.\r\n} // Note: Non-funding ledger updates include deposits, transfers, and withdrawals.\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve historical funding rates",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"fundingHistory\",\r\n    \"coin\": \"ETH\",\r\n    \"startTime\": 1681222254710\r\n    // \"endTime\": 1681222254710 // defaults to current time.\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve predicted funding rates for different venues",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"predictedFundings\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Query perps at open interest caps",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"perpsAtOpenInterestCap\"\r\n}\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Spot",
+			"item": [
+				{
+					"name": "Retrieve spot metadata",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"spotMeta\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve spot asset contexts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"spotMetaAndAssetCtxs\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve a user's token balances",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"spotClearinghouseState\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve info about Spot Deploy Auction",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"spotDeployState\",\r\n    \"user\": \"0xfB46417289E0439AB52aEa9F14D878Ac1A0EbaE0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Retrieve information about a Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"tokenDetails\",\r\n    \"tokenId\": \"0x7317beb7cceed72ef0b346074cc8e7ab\" // Look at Retrieve spot asset contexts // Onchain id in 34-character hexadecimal format\r\n} \r\n// Hype: 0x7317beb7cceed72ef0b346074cc8e7ab (testnet)\r\n// Hype: 0x0d01dc56dcaaca66ad901c959b4011ec (mainnet)",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_testnet}}/info",
+							"host": [
+								"{{base_url_testnet}}"
+							],
+							"path": [
+								"info"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": "1"
+		},
+		{
+			"key": "base_url_mainnet",
+			"value": "https://api.hyperliquid.xyz"
+		},
+		{
+			"key": "base_url_testnet",
+			"value": "https://api.hyperliquid-testnet.xyz",
+			"type": "string"
+		}
+	]
+}
