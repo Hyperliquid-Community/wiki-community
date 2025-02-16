@@ -190,38 +190,32 @@ Hyperliquid EVM uses a **dual-block system** for transaction processing. By defa
 
 To interact with a smart contract from your dApp’s frontend, you can use **Ethers.js**, **Viem**, or **Wagmi**. These tools allow you to read and write blockchain data, handle transactions, and manage wallet connections.
 
-📌 **Before you start**, ensure you have:
-
-* The **contract ABI** (stored in the `out` folder in Foundry).
-* The **contract address** (retrieved from the deployment step).
-
 #### **1️⃣ Setting Up the Contract ABI & Address**
 
 * **Extract the ABI from Foundry output**:\
   The ABI is located in `out/ContractName.sol/ContractName.json`.
 *   **Store the contract address** as a constant:
 
-    <pre class="language-bash"><code class="lang-bash"><strong>const CONTRACT_ADDRESS = "0xYourContractAddress";
-    </strong><strong>import contractABI, CONTRACT_ADDRESS from "@/lib/config/abi.ts";
-    </strong></code></pre>
+    ```bash
+    const CONTRACT_ADDRESS = "0xYourContractAddress";
+    const contractABI = [{}]
+    import contractABI, CONTRACT_ADDRESS from "@/lib/config/abi.ts";
+    ```
 
-📌 **You will use these constants in the next sections for both reading and writing functions.**
+***
 
 #### **2️⃣ Using Ethers.js**
 
-📌 **Installation:**
+📌 **Documentation:** [Ethers.js Docs](https://docs.ethers.org/v6/getting-started/)
 
 ```bash
-npm install ethers@6
+npm install ethers
 ```
-
-📌 **Documentation:** [Ethers.js Docs](https://docs.ethers.org/v6/getting-started/)
 
 **🔹 Read Data (Call a View Function)**
 
 ```jsx
 import { ethers } from "ethers";
-import contractABI from "./abi/ContractName.json";
 
 async function readContract() {
   const provider = new ethers.JsonRpcProvider("https://your-rpc-url.com");
@@ -246,20 +240,17 @@ async function writeContract(signer) {
 
 #### **3️⃣ Using Viem**
 
-📌 **Installation:**
+📌 **Documentation:** [Viem Docs](https://viem.sh/docs/getting-started)
 
 ```bash
 npm i viem
 ```
-
-📌 **Documentation:** [Viem Docs](https://viem.sh/docs/getting-started)
 
 **🔹 Read Data (Call a View Function)**
 
 ```jsx
 import { createPublicClient, http } from "viem";
 import { mainnet } from "viem/chains";
-import contractABI from "./abi/ContractName.json";
 
 const client = createPublicClient({
   chain: mainnet,
@@ -303,33 +294,18 @@ async function writeContract(account) {
 
 #### **4️⃣ Using Wagmi**
 
-📌 **Installation:**
+📌 **Documentation:** [Wagmi Docs](https://wagmi.sh/react/getting-started)
 
 ```bash
 npm install wagmi viem@2.x @tanstack/react-query
 ```
 
-📌 **Documentation:** [Wagmi Docs](https://wagmi.sh/react/getting-started)
-
-**🔹 Setting Up Wagmi Config**
-
-```jsx
-import { http, createConfig } from "wagmi";
-import { mainnet } from "wagmi/chains";
-
-export const config = createConfig({
-  chains: [mainnet],
-  transports: {
-    [mainnet.id]: http(),
-  },
-});
-```
+**🔹 Setting Up Wagmi Config -** [**here**](dapp-setup.md#id-1.-setting-up-your-application)
 
 **🔹 Read Data (Use Wagmi Hook)**
 
 ```jsx
 import { useReadContract } from "wagmi";
-import contractABI from "./abi/ContractName.json";
 
 const { data, isLoading } = useReadContract({
   address: CONTRACT_ADDRESS,
@@ -355,9 +331,6 @@ async function sendTx() {
 }
 ```
 
-#### **📚 Resources**
+You can use **Wagmi Core** instead of React hooks. Hooks must follow React rules (e.g., they cannot be called inside functions or conditionally).
 
-* [Ethers.js Documentation](https://docs.ethers.org/v6/getting-started/)
-* [Viem Documentation](https://viem.sh/docs/getting-started)
-* [Wagmi Documentation](https://wagmi.sh/react/getting-started)
-* [RainbowKit Setup](https://www.rainbowkit.com/fr/docs/installation)
+🔗 **Learn more:** [Wagmi Core Documentation](https://wagmi.sh/core/getting-started)
