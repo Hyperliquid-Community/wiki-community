@@ -71,9 +71,4 @@ Here are some commonly used [**Testnet** contracts](https://explorer.hyperlend.f
 
 #### 4. dApp Setup & Deployment
 
-To learn how to configure your application, integrate wallets (e.g., **Wagmi** or **WalletConnect**), and deploy contracts (using **Foundry**, **Hardhat**, or other tools), see the dedicated dApp Setup & Deployment page.
-
-* **Next Steps:**
-  * Set up your app (nextjs and wagmi) - [here](../api/builder-interface.md).
-  * How to deploy a contract with wagmi or hardat. And you need to understand the [Dual-block architecture](hyperevm-specificities.md#id-2.-dual-block-architecture).
-  * How to interact with this contract on your dApp.
+To learn how to configure your application, integrate wallets (e.g., **Wagmi** or **WalletConnect**), and deploy contracts (using **Foundry**, **Hardhat**, or other tools), see the dedicated [dApp Setup & Deployment page](dapp-setup.md).

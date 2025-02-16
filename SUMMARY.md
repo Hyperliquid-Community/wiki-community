@@ -39,7 +39,8 @@
     * [Builder Interface](guide/builder-guide/api/builder-interface.md)
     * [Endpoints](guide/builder-guide/api/endpoints.md)
   * [dApps (EVM)](guide/builder-guide/dapps-evm/README.md)
-    * [EVM Basics](guide/builder-guide/dapps-evm/evm-basics.md)
+    * [EVM Basics](guide/builder-guide/dapps-evm/evm-basics/README.md)
+      * [dApp Setup](guide/builder-guide/dapps-evm/evm-basics/dapp-setup.md)
     * [HyperEVM Specificities](guide/builder-guide/dapps-evm/hyperevm-specificities.md)
   * [Node Operators](guide/builder-guide/node-operators.md)
 
