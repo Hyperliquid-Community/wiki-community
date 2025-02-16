@@ -12,7 +12,9 @@
 ## Technology Breakdown
 
 * [Overview](technology-breakdown/overview.md)
-* [HyperBFT](technology-breakdown/hyperbft.md)
+* [HyperBFT](technology-breakdown/hyperbft/README.md)
+  * [API Servers](technology-breakdown/hyperbft/api-servers.md)
+  * [Staking](technology-breakdown/hyperbft/staking.md)
 * [Hyperliquid L1](technology-breakdown/hyperliquid-l1/README.md)
   * [Dex](technology-breakdown/hyperliquid-l1/dex/README.md)
     * [Clearinghouse](technology-breakdown/hyperliquid-l1/dex/clearinghouse/README.md)

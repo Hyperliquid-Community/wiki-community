@@ -25,7 +25,7 @@ The current flagship application on Hyperliquid is the **DEX developed by Hyper 
 
 1. **L1 Perp & L1 Spot:**
    * These are the foundational markets of Hyperliquid, accessible via **API endpoints**.
-   * Unlike conventional L1 blockchains that rely on RPC calls, Hyperliquid’s L1 interactions are performed through secure and efficient APIs provided by the network.
+   * Instead of interacting directly with the RPC, users interact with **permissionless API servers**, which relay requests to the network’s consensus RPC. This design ensures **better load balancing, DDoS protection, and a familiar experience**, similar to cex.
 2. **HyperEVM:**
    * A **standard EVM** environment with added features that grant access to **L1 primitives**.
    * Development feels familiar (e.g., using RPC calls and typical EVM tooling), but you also benefit from enhanced functionalities unique to Hyperliquid.
