@@ -41,7 +41,7 @@
       * [Info](guide/builder-guide/api/endpoints/info/README.md)
         * [Spot](guide/builder-guide/api/endpoints/info/spot.md)
         * [Perpetuals](guide/builder-guide/api/endpoints/info/perpetuals.md)
-      * [Exhange](guide/builder-guide/api/endpoints/exhange.md)
+      * [Exchange](guide/builder-guide/api/endpoints/exchange.md)
   * [dApps (EVM)](guide/builder-guide/dapps-evm/README.md)
     * [EVM Basics](guide/builder-guide/dapps-evm/evm-basics/README.md)
       * [dApp Setup](guide/builder-guide/dapps-evm/evm-basics/dapp-setup.md)
