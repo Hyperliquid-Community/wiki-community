@@ -17,7 +17,7 @@ layout:
 
 The **HyperEVM** empowers developers to create any type of decentralized application while seamlessly interacting with **Hyperliquid’s native L1 components**.
 
-This section serves as a **practical, step-by-step guide** for anyone looking to **build and deploy dApps on Hyperliquid**. From setting up an EVM environment to integrating unique L1 functionalities, you’ll find everything you need here to get started.
+This section serves as a **practical,** step-by-step guide for anyone looking to **build and deploy dApps** on **Hyperliquid**. From setting up an **EVM environment** to integrating **unique L1 functionalities**, you’ll find everything you need here to get started.
 
 1. **EVM Basics**\
    Learn how to work with the standard EVM features and tools on Hyperliquid:
@@ -35,8 +35,13 @@ This section serves as a **practical, step-by-step guide** for anyone looking to
 
 #### **Resources**
 
-* [HyperEVM Explanation](../../../technology-breakdown/hyperevm.md)
-* [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm)
+* 📖 [HyperEVM Explanation](../../../technology-breakdown/hyperevm.md) → High-level overview of HyperEVM.
+* 📚 [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm) → Official documentation.
+* 💧 **Testnet Tokens:**
+  * [Hyperlend Faucet](https://testnet.hyperlend.finance/dashboard) → Get **HYPE** & **MBTC**.
+  * [Hypurr.fi Faucet](https://app.hypurr.fi/faucet) → Get **sUSDe, USDC, SolvBTC, HYPE**.
+  * [Hyperliquid Testnet Faucet](https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/testnet-faucet) → Claim **USDC**.
+    * **Native Transfers:** Buy **HYPE** with **USDC** and send it to **`0x22...22`** → [More Info](hyperevm-specificities.md#id-1.-native-transfers).
 
 {% hint style="success" %}
 **Stay Updated:** Check pinned messages in <kbd>#builders</kbd> Discord channel. If you have **questions**, that’s the best place to ask!
