@@ -61,7 +61,7 @@ This page guides you through setting up and customizing **Builder Codes** using 
    * **Clone the boilerplate repository** or **follow the guide to rebuild it from scratch** for a deeper understanding.
    * Verify that wallet connection, basic trading, and UI components are functioning.
 2. **Replace API Calls with the Hyperliquid TypeScript SDK**
-   * Reference our [API Endpoints Page](endpoints/) to understand available methods.
+   * Reference our [API Endpoints Page](../endpoints/) to understand available methods.
    * Modify Sovrun’s structure to align with the approach used in the Typescript SDK for cleaner and more efficient API interactions.
 3. **Customize Your Application**
    * Add or modify features to align with your project’s goals—think advanced trading strategies, analytics dashboards, or additional DeFi functionalities.

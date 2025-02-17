@@ -25,7 +25,7 @@ Before deploying contracts, your dApp needs a proper setup with wallet integrati
 * **Wagmi / Viem & Ethers** – for seamless wallet connections.
 * **Hyperliquid RPC endpoints** – to interact with the blockchain.
 
-For a step-by-step guide on setting up a **Next.js application with Wagmi**, refer to the [**Builder Codes Guide**](../../api/builder-codes.md).
+For a step-by-step guide on setting up a **Next.js application with Wagmi**, refer to the [**Builder Codes Guide**](../../api/builder-codes/).
 
 ***
 
