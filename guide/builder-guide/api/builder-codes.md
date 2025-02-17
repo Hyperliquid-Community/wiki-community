@@ -1,0 +1,67 @@
+---
+icon: browsers
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Builder Codes
+
+This page guides you through setting up and customizing **Builder Codes** using a boilerplate **template** provided by [**@SovrunOfficial**](https://x.com/SovrunOfficial). We’ll walk through **recreating** the Next.js framework and **restructuring** the app’s API calls with the **TypeScript SDK** for cleaner, more maintainable code. This foundation will make it easy to add any additional features you need.
+
+### Template Features
+
+* **Secure Wallet Connection (via AppKit)**\
+  Quickly connect user wallets, enhancing both convenience and security.
+* **Spot Trading Interface**\
+  Provides straightforward buy/sell functionality for tokens on Hyperliquid L1.
+* **Builder Fee Approval System**\
+  Allows builders to include and manage custom fees on top of Hyperliquid’s fees.
+* **Agent-Based Trading System**\
+  Enhances security by delegating order placement to an “agent.” This agent can only execute trades and cannot move user funds, reducing the risk of unauthorized withdrawals.
+* **Modern UI**\
+  Built with Tailwind CSS and shadcn/ui, providing a sleek, responsive design that’s easy to customize.
+* **Real-Time Price and Balance Updates**\
+  Displays current market data and user balances.
+
+***
+
+### Tech Stack
+
+* **Framework**: **Next.js 15**\
+  A popular React-based framework that offers server-side rendering, file-based routing, and powerful optimizations.
+* **Language**: **TypeScript**\
+  Ensures type safety and better maintainability, especially helpful for Web3 and blockchain integrations.
+* **Styling**: **Tailwind CSS**\
+  Provides utility-first classes for rapid UI development and consistent design patterns.
+* **UI Components**: **shadcn/ui**\
+  Delivers a modular, customizable component library that pairs seamlessly with Tailwind.
+* **Web3 Libraries**: **Wagmi, Viem, Ethers.js**\
+  Facilitates wallet connections, contract interactions, and transaction handling on Hyperliquid L1.
+* **State Management**: **Zustand**\
+  A lightweight, intuitive library for managing global state in your application.
+* **Data Fetching**: **TanStack Query**\
+  Handles data fetching and caching, making real-time updates more efficient.
+* **Package Manager**: **pnpm** or **npm**\
+  Choose **pnpm** for faster installs and disk efficiency or stick with **npm** if it's more familiar.
+
+***
+
+### Roadmap
+
+1. **Set Up Sovrun’s Template**
+   * **Clone the boilerplate repository** or **follow the guide to rebuild it from scratch** for a deeper understanding.
+   * Verify that wallet connection, basic trading, and UI components are functioning.
+2. **Replace API Calls with the Hyperliquid TypeScript SDK**
+   * Reference our [API Endpoints Page](endpoints/) to understand available methods.
+   * Modify Sovrun’s structure to align with the approach used in the Typescript SDK for cleaner and more efficient API interactions.
+3. **Customize Your Application**
+   * Add or modify features to align with your project’s goals—think advanced trading strategies, analytics dashboards, or additional DeFi functionalities.

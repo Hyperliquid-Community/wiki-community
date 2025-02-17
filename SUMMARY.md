@@ -38,7 +38,7 @@
 * [Builder Guide](guide/builder-guide/README.md)
   * [API](guide/builder-guide/api/README.md)
     * [Trading Bot](guide/builder-guide/api/trading-bot.md)
-    * [Builder Interface](guide/builder-guide/api/builder-interface.md)
+    * [Builder Codes](guide/builder-guide/api/builder-codes.md)
     * [Endpoints](guide/builder-guide/api/endpoints/README.md)
       * [Info](guide/builder-guide/api/endpoints/info/README.md)
         * [Spot](guide/builder-guide/api/endpoints/info/spot.md)
