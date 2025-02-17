@@ -42,6 +42,9 @@ This section serves as a **practical,** step-by-step guide for anyone looking to
   * [Hypurr.fi Faucet](https://app.hypurr.fi/faucet) → Get **sUSDe, USDC, SolvBTC, HYPE**.
   * [Hyperliquid Testnet Faucet](https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/testnet-faucet) → Claim **USDC**.
     * **Native Transfers:** Buy **HYPE** with **USDC** and send it to **`0x22...22`** → [More Info](hyperevm-specificities.md#id-1.-native-transfers).
+* ⚡ **Asset Management:**
+  * [HyperEdge Dashboard (Testnet)](https://hyperedge-testnet.vercel.app) → Easily Visualize & manage assets across **EVM, Spot, and Perp**.
+  * [HyperEdge Dashboard (Mainnet)](https://app.hyperedge.finance) → Same on mainnet.
 
 {% hint style="success" %}
 **Stay Updated:** Check pinned messages in <kbd>#builders</kbd> Discord channel. If you have **questions**, that’s the best place to ask!
