@@ -21,12 +21,20 @@ This page covers the foundational EVM features you’ll need on Hyperliquid.
 
 #### 1. RPC Nodes & Endpoints
 
-Use any of the following endpoints to interact with the Hyperliquid **Testnet**:
+Use the following endpoints to interact with the **Hyperliquid network**:
+
+**Mainnet RPC**
+
+* **Hyperliquid**: [https://rpc.hyperliquid.xyz/evm](https://rpc.hyperliquid-testnet.xyz/evm)&#x20;
+  * **Chain ID:** 999
+
+**Testnet RPC**
 
 * **Hyperliquid**: [https://rpc.hyperliquid-testnet.xyz/evm](https://rpc.hyperliquid-testnet.xyz/evm) (old one: api.hyperliquid-testnet.xyz/evm)
 * **Luganodes**: [https://hyperliquid.lgns.xyz/](https://hyperliquid.lgns.xyz/)
 * **ValiDAO**: [http://hyperliquid.testnet.rpc.validao.xyz/](http://hyperliquid.testnet.rpc.validao.xyz/)
 * **Enigma**: [https://hyperliquid-rpc.enigma-validator.com/evm](https://hyperliquid-rpc.enigma-validator.com/evm)
+  * **Chain ID:** 998
 
 > **Tip:** Choose the endpoint that best fits your region or latency needs. They all serve the same network.
 

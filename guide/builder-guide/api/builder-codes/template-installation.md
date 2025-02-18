@@ -24,8 +24,6 @@ You can find the template here: [GitHub - create-builder-codes-dapp](https://git
 
 ### **Option 1: Clone and Set Up the Repository**
 
-If you prefer a **fast setup**, follow these steps:
-
 #### **1️⃣ Clone the Repository**
 
 Run the following command to clone the template:
@@ -190,7 +188,7 @@ pnpm add zustand
 1. **Define user-related state types** (`User`, `Agent`, `UserStoreState`).
 2. **Create Zustand store** for updating, resetting, and accessing user data globally.
 
-📚 **Reference**: Zustand Documentation
+📚 **Reference**: [Zustand Documentation](https://zustand.docs.pmnd.rs/getting-started/introduction)
 
 ***
 
@@ -238,14 +236,7 @@ pnpm add tailwindcss-animate class-variance-authority clsx tailwind-merge lucide
 
 *   **`approve-builder.ts`** → Handles fee approval via Wagmi.
 
-    ```sh
-    pnpm add @wagmi/core ethers
-    ```
-
-    📚 **References**:
-
-    * [Wagmi Core Docs](https://wagmi.sh/core/getting-started)
-    * [Ethers.js Docs](https://docs.ethers.org/v6/getting-started/#installing)
+    🔹 **Setup Instructions:** Refer to the documentation [Dapp Setup Guide](../../dapps-evm/evm-basics/dapp-setup.md#id-3.-dapp-less-than-greater-than-blockchain) for detailed steps on integrating your Dapp with the blockchain.
 
 **📁 `lib/services/`**
 

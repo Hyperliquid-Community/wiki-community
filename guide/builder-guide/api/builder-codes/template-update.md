@@ -199,5 +199,3 @@ const { data: spotBalanceData, isLoading: isLoadingBalances, error: balanceError
     enabled: !!address, // Only run if an address is available
 });
 ```
-
-This setup **aligns with the Hyperliquid SDK structure**, ensuring scalability while keeping your code clean. Let me know if you need any refinements! 🚀
