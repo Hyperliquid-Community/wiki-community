@@ -24,14 +24,13 @@ The **Spot** section of the `/info` endpoint provides details about **L1 Spot ma
 
 Interpreting asset identifiers across the different API responses can be confusing. The diagram above helps clarify these relationships.
 
-* The **"token"** field in `spotClearinghouseState` (e.g., `"token": 1105`) corresponds to the **index of that token ID in** **the** `"token"` **array of** `spotMeta`.
-* To find more details about a token, locate it in the **spotMeta** or **spotMetaAndAssetCtxs** objects.
-* Each asset is part of a **trading pair**, which is represented under `universe`.
+* The **"token"** field in `spotClearinghouseState` (e.g., `"token": 1105`) corresponds to the **index of that token ID in** **the** `"token"` **array of** `spotMeta`. You can find more details about the token in this **category** of data.
+* Additionally, each asset is part of a **trading pair**, which is represented under `universe`.
 
 **🔹 Key Points**
 
-* The `"name"` in `universe` is `@{index}`, but **this index differs from the token index**.
-* **All universe indices are numbers**, except **PURR/USDC**, which is an exception.
+* All **universe indexes** are **numbers**, except **PURR/USDC**, which is an exception.
+* The `"name"` field in `universe` is **@{index}**, but this index **differs from the token index** in `spotMeta`. Each trading pair has its **own unique index** within the `universe`.
 * The `"name"` field in `tokens` represents the **coin (perp name)** of the asset.
 
 **🔹 Spot Asset ID Calculation**
