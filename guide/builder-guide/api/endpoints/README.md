@@ -15,7 +15,7 @@ layout:
 
 # Endpoints
 
-Hyperliquid provides both **REST** and **WebSocket** endpoints for accessing market data and executing trades. This page outlines the base URLs and the two API endpoints: `/info` and `/exchange`.
+Hyperliquid provides both **REST** and **WebSocket** endpoints for accessing market data and executing trades.&#x20;
 
 1. **Base URLs**
    * **HTTPS (REST API)**
@@ -27,9 +27,9 @@ Hyperliquid provides both **REST** and **WebSocket** endpoints for accessing mar
 2. **API Endpoints Overview**
    * **`/info` Endpoint**\
      Provides various types of market and system information, classified into three categories:
-     * [**General**](info/): General data.
-     * [**Perpetuals**](info/perpetuals.md): Perpetual futures market data.
-     * [**Spot**](info/spot.md): Spot market data.
+     * [General](info/): General data.
+     * [Perpetuals](info/perpetuals.md): Perpetual futures market data.
+     * [Spot](info/spot.md): Spot market data.
    * **`/exchange` Endpoint**\
      Handles order execution and trading-related operations.
 

@@ -27,7 +27,6 @@ This guide will walk you through the process of setting up a **trading bot** on 
 * 📌 [Websocket Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/websocket): For real-time data.
 * 🚀 [HyperLiquid Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk): Python Code Samples.
 * ⚡ [HyperLiquid Rust SDK](https://github.com/hyperliquid-dex/hyperliquid-rust-sdk): Rust Code Samples.
-* 💧 [Testnet Faucet](https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/testnet-faucet)
 
 #### 🎥 **Demo Video**
 

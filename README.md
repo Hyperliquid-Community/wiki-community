@@ -1,5 +1,4 @@
 ---
-icon: hand-wave
 description: Welcome to the Hyperliquid Community Wiki ✨
 layout:
   title:
