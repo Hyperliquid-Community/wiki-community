@@ -45,12 +45,12 @@ The mark price is an unbiased, robust estimate of the **fair price** for perpetu
 * **Spot Oracle Price:**
   * Acts as the baseline.
   * Plus a **150-second EMA Adjustment:**
-    * An Exponential Moving Average (EMA) over 150 seconds of the difference between Hyperliquid’s mid-price and the spot oracle price.
+    * An Exponential Moving Average (EMA) over 150 seconds of the **difference** between **Hyperliquid’s mid-price** and the **spot oracle price**.
     * This EMA smooths out short-term fluctuations and ensures that any short-lived deviations between Hyperliquid’s price and the broader market are gradually integrated into the mark price.
 * **Hyperliquid Order Book Median:**
-  * The median of the **best bid**, best ask, and the last trade price on Hyperliquid.
+  * The median of the **best bid**, **best ask**, and the **last trade** price on Hyperliquid.
 * **External Perpetual Market Median:**
-  * The median of the **mid-prices** from Binance, OKX, and Bybit’s perpetual contracts.
+  * The median of the **mid-prices** from Binance, OKX, and Bybit’s **perpetual contracts**.
   * Incorporating prices from these leading exchanges adds another layer of market depth and stability to the mark price calculation.
 * **Special Case:**
   * **If only two of the three inputs exist,** a **30-second EMA** of the median of best bid, best ask, and last trade on Hyperliquid is included.
