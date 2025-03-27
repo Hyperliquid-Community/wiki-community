@@ -42,24 +42,46 @@ The mark price is an unbiased, robust estimate of the **fair price** for perpetu
 
 #### **Components:**
 
-* **Spot Oracle Price** combined with:
-  * A **150-second EMA (Exponential Moving Average)** of the difference between Hyperliquid’s mid-price and the oracle price.
-  * Median of the **best bid**, **best ask**, and **last trade** on Hyperliquid.
-  * Median of Binance, OKX, and Bybit **perp mid-prices.**
+* **Spot Oracle Price:**
+  * Acts as the baseline.
+  * Plus a **150-second EMA Adjustment:**
+    * An Exponential Moving Average (EMA) over 150 seconds of the difference between Hyperliquid’s mid-price and the spot oracle price.
+    * This EMA smooths out short-term fluctuations and ensures that any short-lived deviations between Hyperliquid’s price and the broader market are gradually integrated into the mark price.
+* **Hyperliquid Order Book Median:**
+  * The median of the **best bid**, best ask, and the last trade price on Hyperliquid.
+* **External Perpetual Market Median:**
+  * The median of the **mid-prices** from Binance, OKX, and Bybit’s perpetual contracts.
+  * Incorporating prices from these leading exchanges adds another layer of market depth and stability to the mark price calculation.
 * **Special Case:**
-  * **If only two of the three inputs exist,** a **30-second EMA** of the median of best bid, best ask, and last trade on Hyperliquid is also included.
-* **Usage:**
-  * For **liquidations**, **margin calculations**, and **TP/SL** orders.
-  * Computes **unrealized PnL** for active positions.
-* **Update Frequency:** Updated approximately every **3 seconds**, in sync with oracle updates.
+  * **If only two of the three inputs exist,** a **30-second EMA** of the median of best bid, best ask, and last trade on Hyperliquid is included.
 
-#### **Difference Between Spot Oracle Price and Mark Price** ⚖️
+**Usage:**\
+Used for liquidations, margin calculations, triggering TP/SL orders, and computing unrealized profit and loss (PnL) for active positions.
 
-| **Spot Oracle Price**                                      | **Mark Price**                                          |
-| ---------------------------------------------------------- | ------------------------------------------------------- |
-| Published by validators every 3s.                          | Updated every 3s using spot oracle price.               |
-| Weighted median of CEX spot prices and Hyperliquid prices. | Combines oracle prices and Hyperliquid order book data. |
-| Used for funding rate calculations.                        | Used for liquidations, margining, and TP/SL triggers.   |
+**Update Frequency:** Approximately every 3 seconds, in sync with oracle updates.
+
+#### Example
+
+* **Spot Oracle Price:** Calculated as **$10,000**.
+* **150-Second EMA:** Indicates Hyperliquid’s mid-price is on average **+$20** above the oracle price (i.e. **$10,020**).
+* **Hyperliquid Median (Bid/Ask/Last Trade):**
+  * Suppose the current best bid is **$10,005**, the best ask is **$10,015**, and the last trade occurred at **$10,010**.
+  * The median of these three numbers would be **$10,010**.
+* **External Perpetual Median:**&#x20;
+  * Imagine the mid-prices from these exchanges are **$9,995**, **$10,000**, and **$10,010**.
+  * The median of these values is **$10,000**.
+* The mark price is computed by combining the spot oracle price with the above inputs.\
+  In our example, the final mark price might then be in the vicinity of **$10,010 to $10,020** (the exact mathematical formula is not publicly disclosed), reflecting both the consensus market price and the slight premium observed on Hyperliquid.
+
+#### Comparison Table: Spot Oracle Price vs. Mark Price ⚖️
+
+| Feature                    | Spot Oracle Price                                | Mark Price                                                                                                           |
+| -------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| **Source of Data**         | Aggregated CEX prices and Hyperliquid price      | Combination of oracle price, Hyperliquid order book data, and external perpetual markets                             |
+| **Update Frequency**       | Every 3 seconds                                  | Every 3 seconds                                                                                                      |
+| **Calculation Method**     | Weighted median (using set weights per exchange) | Composite calculation: spot oracle price + 150-second EMA adjustment + medians from Hyperliquid and external sources |
+| **Primary Use**            | Funding rate calculations                        | Liquidations, margin calculations, TP/SL triggers, unrealized PnL computation                                        |
+| **Additional Adjustments** | N/A                                              | Special inclusion of a 30-second EMA if one main input is missing                                                    |
 
 ***
 
@@ -93,5 +115,10 @@ Some perpetual contracts on Hyperliquid use **Uniswap V2 or V3 AMM prices** as t
   * Only contracts with primary USDC liquidity (e.g., **PURR-USD** and **HYPE-USD**) have prices denominated in USDC.
 
 ***
+
+#### Resources:
+
+* [Robust price indices](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/robust-price-indices)
+* [Oracle](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-l1/oracle)
 
 This robust oracle system ensures Hyperliquid remains fair, reliable, and transparent for all traders.
