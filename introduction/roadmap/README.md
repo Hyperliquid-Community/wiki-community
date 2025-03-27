@@ -17,7 +17,7 @@ layout:
 
 ### Hyperliquid Timeline
 
-<figure><img src="../.gitbook/assets/GgYd0fKacAA3uUb-Photoroom.png" alt=""><figcaption><p><a href="https://x.com/stevenyuntcap/status/1875221019356754143">Steven</a> Timeline</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/GgYd0fKacAA3uUb-Photoroom.png" alt=""><figcaption><p><a href="https://x.com/stevenyuntcap/status/1875221019356754143">Steven</a> Timeline</p></figcaption></figure>
 
 ### Hype Token Launch
 
