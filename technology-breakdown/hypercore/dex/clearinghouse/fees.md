@@ -20,7 +20,7 @@ Hyperliquid’s fee system is designed to reward active traders, referral users,
 
 * **Volume-Based Benefits (VIP Tiers):** Traders enjoy discounts based on their rolling 14-day volume and can earn referral rewards to reduce costs.
 * **Rebates for Market Makers:** Continuous maker rebates are paid directly to trading wallets.
-* **Updated Structure (Stacking Tiers):** Effective April 30, 2025, staking tiers will be introduced and separate fee schedules will apply for perpetuals (perps) and spot markets—with spot volume counting double.
+* **Updated Structure (Staking Tiers):** Effective April 30, 2025, staking tiers will be introduced and separate fee schedules will apply for perpetuals (perps) and spot markets—with spot volume counting double.
 * **Community-First Approach:** All fees are funneled back into the community through the HLP program and the Assistance Fund.
 
 Please note:
