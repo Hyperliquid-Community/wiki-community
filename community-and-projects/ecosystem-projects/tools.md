@@ -30,7 +30,9 @@ layout:
 ### HyperEVM
 
 * **Mainnet**
-  * The HyperEVM chain is currently in **testnet** only.
+  * [Purrsec](https://purrsec.com/) - [@parsec\_finance](https://x.com/parsec_finance/status/1891938596887638177)
+  * [Blockscout](https://hyperliquid.cloud.blockscout.com/) - [@gasdotzip](https://x.com/gasdotzip/status/1891822061615480850)
+  * [Hyperevm](https://hyperevm-explorer.vercel.app/) - [@im0xPrince](https://x.com/im0xPrince/status/1891741047341908085)
 * **Testnet**
   * [Hyperlend Explorer](https://explorer.hyperlend.finance/)
   * [Hyperstats Explorer](https://evm.hyperstats.xyz/)

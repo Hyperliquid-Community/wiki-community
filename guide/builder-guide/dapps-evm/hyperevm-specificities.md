@@ -44,7 +44,7 @@ HyperEVM splits throughput into **small blocks** (fast, lower gas limit) and **l
   * High gas limit: 30M
   * Designed for complex contract deployments and bulk transactions.
 
-Switching between block types can be done via an L1 action (e.g., setting `usingBigBlocks: true`). For a deeper dive, consult the [Official Docs on Dual-Block Architecture](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm/dual-block-architecture).
+Switching between block types can be done via an L1 action (e.g., setting `usingBigBlocks: true`). For a deeper dive, consult the [Official Docs on Dual-Block Architecture](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm/dual-block-architecture). You can also use this [mainnet frontend tool](https://hyperevm-block-toggle.vercel.app/) to toggle block types directly.
 
 ***
 

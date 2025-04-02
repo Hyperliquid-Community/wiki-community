@@ -26,6 +26,7 @@ Use the following endpoints to interact with the **Hyperliquid network**:
 **Mainnet RPC**
 
 * **Hyperliquid**: [https://rpc.hyperliquid.xyz/evm](https://rpc.hyperliquid-testnet.xyz/evm)&#x20;
+* **HypurrScan:** [https://rpc.hypurrscan.io/](https://rpc.hypurrscan.io/)
   * **Chain ID:** 999
 
 **Testnet RPC**
@@ -44,7 +45,7 @@ Use the following endpoints to interact with the **Hyperliquid network**:
 
 Track transactions, verify contracts, and analyze on-chain activity with the following resources:
 
-* **Tools Directory**: [Community & Projects Tools](https://hyperliquid-co.gitbook.io/community-docs/community-and-projects/ecosystem-projects/tools)
+* **Tools Directory**: [Community & Projects Tools](../../../../community-and-projects/ecosystem-projects/tools.md)
 * Explorers often provide convenient API endpoints for fetching network data quickly.
   * [Hyperlend](https://explorer.hyperlend.finance/api-docs)
   * [Purrsec](https://testnet.purrsec.com/api/introduction)
