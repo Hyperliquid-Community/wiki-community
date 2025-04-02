@@ -19,6 +19,8 @@ layout:
 
 <figure><img src="../../.gitbook/assets/GgYd0fKacAA3uUb-Photoroom.png" alt=""><figcaption><p><a href="https://x.com/stevenyuntcap/status/1875221019356754143">Steven</a> Timeline</p></figcaption></figure>
 
+A list and history of all Announcements is now available [here](https://app.hyperliquid.xyz/announcements).
+
 ### Hype Token Launch
 
 * **Points Distribution (27 Nov 2024)**: Points awarded for activity in May, October, and early November 2024, with 57.9M points distributed after anti-Sybil checks.
