@@ -15,7 +15,7 @@ layout:
 
 # HyperEVM
 
-_**Note:** The official HyperEVM documentation is not yet released. The HyperEVM is currently operating on a **testnet** environment, and its features, interfaces, and functionalities may change over time. The information here is based on early-stage materials and proof-of-concept implementations. We encourage developers to treat this as a preliminary guide and to stay tuned for future official updates._
+_**Note:** The official HyperEVM documentation is not yet released. The information here is based on early-stage materials and proof-of-concept implementations._
 
 This documentation draws heavily on insights and research shared by **Ambit Labs** in their article:\
 [The Not-So-Definitive Guide to Hyperliquid Precompiles](https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3). For a more detailed and technical explanation, we encourage you to read their original guide.
@@ -74,3 +74,5 @@ To send **actions** (like placing or canceling orders) from an EVM contract to t
    Transferring tokens to the L1 system address (`0x222...2222`) updates L1 balances in the subsequent block. Until then, there’s a brief “pre-crediting” period where balances don’t appear on either chain’s standard queries. Protocols interacting with L1/EVM balances must account for this delay.
 4. **Message Sender vs. Origin:**\
    Actions initiated by an EVM contract appear on the L1 as if performed by the **contract itself**, not the original user. Ensure your smart contract logic provides ways to close positions or recover funds, as the L1 may attribute these actions to the contract’s address
+
+For more detailed explanations on these behaviors and how to handle them when building on HyperEVM, refer to the [HyperEVM Specificities section](../guide/builder-guide/dapps-evm/hyperevm-specificities.md).
