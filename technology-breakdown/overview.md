@@ -19,9 +19,9 @@ layout:
 
 ### High-Level Diagram
 
-_Below is a conceptual diagram sourced from the **Hyperliquid Foundation**. This visual will help you understand how the pieces fit together:_
+_Below is a conceptual diagram sourced from the_ [_**Hyperliquid Foundation**_](https://hyperfoundation.org/)_. This visual will help you understand how the pieces fit together:_
 
-<figure><img src="../.gitbook/assets/Hyperliquid_Image_Foundation (2).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://x.com/RBCHI/status/1898785020225138699">Hyperliquid</a> = HyperCore + HyperEVM</p></figcaption></figure>
 
 ### Core Components
 
@@ -31,7 +31,7 @@ _Below is a conceptual diagram sourced from the **Hyperliquid Foundation**. This
 * Currently, decentralization is limited, with all four known nodes operated by the Hyperliquid team. Over time, this must evolve to align better with Web3’s decentralization ethos.
 * The codebase for the Hyperliquid L1 has not yet been publicly released, and details may evolve as the ecosystem matures.
 
-#### Hyperliquid L1 - Native Component&#x73;**:**
+#### HyperCor&#x65;**:**
 
 A **custom, from-scratch Layer 1 blockchain** designed to power Hyperliquid’s flagship application—its decentralized exchange (DEX). It aims to achieve **up to 200,000 TPS** and **latency under 1 second**, far surpassing traditional blockchain performance metrics.
 
