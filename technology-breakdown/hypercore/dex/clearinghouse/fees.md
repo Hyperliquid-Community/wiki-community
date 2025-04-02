@@ -14,55 +14,109 @@ layout:
 
 # Fees
 
-Hyperliquid’s fee system is designed to reward active traders, referral users, and the broader community. By leveraging volume-based discounts and referral incentives, the platform ensures that participation benefits users while funding the ecosystem’s development.
+Hyperliquid’s fee system is designed to reward active traders, referral users, and the broader community. By leveraging volume-based discounts, staking and referral incentives, the platform ensures that participation benefits users while funding the ecosystem’s development.
+
+### Key Highlights
+
+* **Volume-Based Benefits (VIP Tiers):** Traders enjoy discounts based on their rolling 14-day volume and can earn referral rewards to reduce costs.
+* **Rebates for Market Makers:** Continuous maker rebates are paid directly to trading wallets.
+* **Updated Structure (Stacking Tiers):** Effective April 30, 2025, staking tiers will be introduced and separate fee schedules will apply for perpetuals (perps) and spot markets—with spot volume counting double.
+* **Community-First Approach:** All fees are funneled back into the community through the HLP program and the Assistance Fund.
+
+Please note:
+
+* **Sub-Accounts:** Volume from sub-accounts counts toward the master account’s fee tier; all sub-accounts share the same tier.
+* **Vault Volume:** Vault transactions are treated separately from the master account.
+* **Referral Discounts:** Both referral discounts and referral rewards apply only to your first $25M in volume.
+
+Maker rebates are issued continuously on each trade directly to the trading wallet, and users can claim referral rewards from the Referrals page.
 
 ***
 
-### **Fee Tiers** 📊
+### Fee Tiers 📊
 
-Hyperliquid employs a **VIP tier system** and **Market Maker tiers** to calculate taker and maker fees based on trading volume. Fees are dynamically adjusted based on the last **14 days of volume**, ensuring fairness and scalability for all traders.
+#### VIP + Staking Tiers
 
-#### VIP Tiers
+**General Fee Calculation:**\
+Fees are based on your rolling 14-day volume, combining both perps and spot volumes—with spot volume counting double. In other words:
 
-<figure><img src="../../../../.gitbook/assets/hyperliquid-fees1.png" alt="" width="563"><figcaption></figcaption></figure>
+> **14d weighted volume = (14d perps volume) + 2 × (14d spot volume)**
+
+**Perps Fee Tiers**
+
+| Tier      | 14d Weighted Volume ($) | Taker Fee | Maker Fee |
+| --------- | ----------------------- | --------- | --------- |
+| Base Rate |                         | 0.045%    | 0.015%    |
+| 1         | >5M                     | 0.040%    | 0.012%    |
+| 2         | >25M                    | 0.035%    | 0.008%    |
+| 3         | >100M                   | 0.030%    | 0.004%    |
+| 4         | >500M                   | 0.028%    | 0.000%    |
+| 5         | >2B                     | 0.026%    | 0.000%    |
+| 6         | >7B                     | 0.024%    | 0.000%    |
+
+_Additional intermediate tiers and exact fee rates are detailed in the full documentation._
+
+**Spot Fee Tiers**
+
+| Tier      | 14d Weighted Volume ($) | Taker Fee | Maker Fee |
+| --------- | ----------------------- | --------- | --------- |
+| Base Rate |                         | 0.070%    | 0.040%    |
+| 1         | >5M                     | 0.060%    | 0.030%    |
+| 2         | >25M                    | 0.050%    | 0.020%    |
+| 3         | >100M                   | 0.040%    | 0.010%    |
+| 4         | >500M                   | 0.035%    | 0.000%    |
+| 5         | >2B                     | 0.030%    | 0.000%    |
+| 6         | >7B                     | 0.025%    | 0.000%    |
+
+**Staking Tiers**
+
+| Tier     | HYPE Staked | Trading Fee Discount |
+| -------- | ----------- | -------------------- |
+| Wood     | >10         | 5%                   |
+| Bronze   | >100        | 10%                  |
+| Silver   | >1,000      | 15%                  |
+| Gold     | >10,000     | 20%                  |
+| Platinum | >100,000    | 30%                  |
+| Diamond  | >500,000    | 40%                  |
 
 #### Market Maker Tiers
 
-<figure><img src="../../../../.gitbook/assets/hyperliquid-fees2.png" alt="" width="563"><figcaption></figcaption></figure>
+Market makers benefit from lower fees through a dedicated tier system that rewards high liquidity providers—Hyperliquid offers no special programs or rebates—**anyone can participate**. Tools and support: [Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) | [#api-traders Discord](https://discord.gg/hyperliquid).
 
-Market makers benefit from lower fees through the **Market Maker tier system** (see chart above). Hyperliquid offers no special programs or rebates—**anyone can participate**. Tools and support: [Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) | [#api-traders Discord](https://discord.gg/hyperliquid).
-
-***
-
-### **Referral Program** 🎁
-
-Hyperliquid incentivizes user growth with its robust referral program, enabling traders to earn rewards by inviting others to the platform.
-
-#### **How to Refer**
-
-* Create your referral code on [Hyperliquid Referrals](https://app.hyperliquid.xyz/referrals) after completing **$10,000 in trading volume**.
-* Share your unique link: _https://app.hyperliquid.xyz/join/YOURCODE_
-
-#### **Referral Rewards**
-
-* **Referrers Earn:** 10% of referred users’ fees, adjusted for any discounts they receive.
-* **Referred Users Benefit:** Receive a **4% fee discount** on their first **$25M of volume**.
-
-**Note:** Referral discounts do not apply to vaults or sub-accounts, as these are treated independently in the clearinghouse.
+| Tier | 14d Weighted Maker Volume | Maker Fee Rebate |
+| ---- | ------------------------- | ---------------- |
+| 1    | >0.5%                     | -0.001%          |
+| 2    | >1.5%                     | -0.002%          |
+| 3    | >3.0%                     | -0.003%          |
 
 ***
 
-### **Community Fee Distribution** 🤝
+### Referral Program 🎁
 
-* **All fees benefit the community**, supporting:
-  * The **HLP (Hyperliquid Liquidity Provider)** program.
-  * The **Assistance Fund**, which protects and stabilizes the ecosystem.
-* The assistance fund is primarily held in **HYPE**, Hyperliquid’s native asset, and managed with validator oversight.
+Hyperliquid incentivizes user growth with a robust referral program, allowing traders to earn rewards by inviting others to the platform.
+
+* **How to Refer:**\
+  Once you complete $10,000 in trading volume, create your referral code on Hyperliquid Referrals and share your unique link:\
+  [https://app.hyperliquid.xyz/join/YOURCODE](https://app.hyperliquid.xyz/join/YOURCODE)
+* **Referral Rewards:**
+  * **Referrers Earn:** 10% of the fees generated by referred users (adjusted for any discounts).
+  * **Referred Users Benefit:** Receive a 4% fee discount on their first $25M in volume.\
+    &#xNAN;_&#x4E;ote:_ Referral discounts do not apply to vaults or sub-accounts, which are processed separately by the clearinghouse.
 
 ***
 
-### **Key Highlights** 🌟
+### Community Fee Distribution 🤝
 
-* Traders benefit from **volume-based discounts** and **referral rewards** to reduce costs.
-* Makers can earn rebates while takers enjoy competitive fees that scale with activity.
-* Fees directly fund the community, fostering a sustainable and user-centric ecosystem.
+All fees collected on Hyperliquid are reinvested into the community, supporting:
+
+* **The HLP (Hyperliquid Liquidity Provider) Program:** Incentivizes liquidity provision.
+* The **Assistance Fund**, which protects and stabilizes the ecosystem.
+
+Further information on the [vault page](../../vault.md).
+
+***
+
+### Resources
+
+* Refer to the[ full documentation ](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees)for more granular tier detai&#x6C;_&#x73;._
+* [Fee Calculator](https://app.hyperbeat.org/dapp/calculator): You can determine the number of fees you pay in different situations. [@0xHyperBeat](https://x.com/0xHyperBeat/status/1902396341520675060)
