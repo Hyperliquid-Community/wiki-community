@@ -15,7 +15,7 @@ layout:
 
 # HyperEVM
 
-_**Note:** The official HyperEVM documentation is not yet released. The information here is based on early-stage materials and proof-of-concept implementations._
+_**Note:** The information here is based on early-stage materials and proof-of-concept implementations._
 
 This documentation draws heavily on insights and research shared by **Ambit Labs** in their article:\
 [The Not-So-Definitive Guide to Hyperliquid Precompiles](https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3). For a more detailed and technical explanation, we encourage you to read their original guide.
