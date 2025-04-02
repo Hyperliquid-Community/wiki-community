@@ -19,12 +19,14 @@ Discover the key tools, resources and projects created by the community and beyo
 
 For an even broader overview of the ecosystem, check out these community-driven platforms:
 
-* [**Hypurr.co Ecosystem Projects**](https://www.hypurr.co/ecosystem-projects) – A searchable database of ecosystem projects, sorted by category. If you're a creator, submit your project using their form!
+* [**Hypurr.co Ecosystem Projects**](https://www.hypurr.co/ecosystem-projects) – A searchable database of ecosystem projects, sorted by category. If you're a creator, submit your project using their form! You can also explore their [interactive ecosystem map](https://www.hypurr.co/ecosystem-map).
 * [**HyperLiquid Dashboard by DeFi Police**](https://degen.start.me/p/gGnQQY/hyperliquid) – A comprehensive dashboard providing a visual overview of the ecosystem, created by [@defipolice\_](https://x.com/defipolice_).
 * Other dashboard:
   * [**ASXN Data Dashboard**](https://data.asxn.xyz/dashboard/hyperliquid-ecosystem) – built by [@asxn\_r](https://x.com/asxn_r).
   * [**HyperLiquid Wiki**](https://hyperliquid.wiki/) – built by [@hyperliquidwiki](https://x.com/hyperliquidwiki).
   * [**HL Projects Dashboard**](https://hlprojects.xyz/) – built by [@shinji2048](https://x.com/shinji2048).
+
+<figure><img src="../../.gitbook/assets/GinrGtyawAAawhn.jfif" alt=""><figcaption><p>From <a href="https://x.com/SKYGG_Official/status/1885297011324575822">Skygg</a></p></figcaption></figure>
 
 ***
 

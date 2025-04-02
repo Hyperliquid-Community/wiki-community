@@ -15,7 +15,7 @@ layout:
 
 # EVM Projects
 
-As HyperEVM evolves, various DeFi projects have begun building on its **testnet**. Explore these to understand the emerging ecosystem components.
+<figure><img src="../../.gitbook/assets/GnMB62pbAAAXfec.jfif" alt=""><figcaption><p>From <a href="https://x.com/RBCHI/status/1905997778859495557">@RBCHI</a></p></figcaption></figure>
 
 _Projects marked with `*` are not HyperLiquid native._
 
