@@ -25,6 +25,7 @@ If you're here to trade and explore the HyperLiquid DEX, start with the **User G
 
 * [HL Onboarding](guide/user-guide/hl-onboarding.md) – A dedicated guide to get started with the HyperLiquid DEX.
 * [Spot Deployments](guide/user-guide/spot-deployments.md) – Dive into the trenches and trade spot tokens, for example, on **Hypurr Fun**.
+* 🚨 [Farm on HL](guide/user-guide/airdrop.md) – Farm and earn rewards using our **Airdrop Guide** for HyperCore and HyperEVM Farming.
 
 ***
 
