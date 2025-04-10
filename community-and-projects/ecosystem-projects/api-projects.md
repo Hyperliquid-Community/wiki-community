@@ -15,7 +15,7 @@ layout:
 
 # API Projects
 
-The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and “Builder Codes”.
+The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and “[Builder Codes](https://x.com/xulian_hl/status/1910188302579458173)”.
 
 _Projects marked with `*` are not HyperLiquid native._
 
