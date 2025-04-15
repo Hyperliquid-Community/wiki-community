@@ -53,6 +53,7 @@
       * [dApp Setup](guide/builder-guide/dapps-evm/evm-basics/dapp-setup.md)
     * [HyperEVM Specificities](guide/builder-guide/dapps-evm/hyperevm-specificities.md)
   * [Node Operators](guide/builder-guide/node-operators.md)
+  * [Historical Data](guide/builder-guide/historical-data.md)
 
 ## &#x20;Community & Projects
 
