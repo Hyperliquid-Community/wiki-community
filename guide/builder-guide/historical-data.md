@@ -49,7 +49,7 @@ HyperCore data is stored in two S3 buckets: `s3://hyperliquid-archive/` and `s3:
   * Snapshot frequency: Twice per second.
 *   **Data Example (CSV format)**:
 
-    <table><thead><tr><th width="128">time</th><th width="84">ver_num</th><th>raw</th></tr></thead><tbody><tr><td>2025-03-11T09:00:03.296545473</td><td>1</td><td>{'channel': 'l2Book', 'data': {'coin': 'SOL', 'time': 1741683599768, 'levels': [[{'px': '124.04', 'sz': '341.81', 'n': 2}, ...], [{'px': '124.05', 'sz': '427.89', 'n': 5}, ...]]}}</td></tr></tbody></table>
+    <table><thead><tr><th width="134">time</th><th width="106">ver_num</th><th>raw</th></tr></thead><tbody><tr><td>2025-03-11T09:00:03.296545473</td><td>1</td><td>{'channel': 'l2Book', 'data': {'coin': 'SOL', 'time': 1741683599768, 'levels': [[{'px': '124.04', 'sz': '341.81', 'n': 2}, ...], [{'px': '124.05', 'sz': '427.89', 'n': 5}, ...]]}}</td></tr></tbody></table>
 * **Notations**:
   * `px`: Price
   * `sz`: Size
@@ -76,7 +76,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
   * Matches trade data displayed on the Hyperliquid interface.
 *   **Data Example (CSV format)**:
 
-    <table><thead><tr><th width="58">coin</th><th width="52">side</th><th width="118">time</th><th width="66">px</th><th width="65">sz</th><th width="70">hash</th><th width="72">trade_dir_override</th><th>side_info</th></tr></thead><tbody><tr><td>SOL</td><td>A</td><td>2025-04-11T02:59:59.991721263</td><td>114.31</td><td>7.82</td><td>0xf8e8...</td><td>Na</td><td>[{'user': '0xecb6...', 'start_pos': '-30955.03', 'oid': 85737377300, ...}, ...]</td></tr></tbody></table>
+    <table><thead><tr><th width="74">coin</th><th width="62">side</th><th width="117">time</th><th width="66">px</th><th width="65">sz</th><th width="70">hash</th><th width="86">trade_dir_override</th><th>side_info</th></tr></thead><tbody><tr><td>SOL</td><td>A</td><td>2025-04-11T02:59:59.991721263</td><td>114.31</td><td>7.82</td><td>0xf8e8...</td><td>Na</td><td>[{'user': '0xecb6...', 'start_pos': '-30955.03', 'oid': 85737377300, ...}, ...]</td></tr></tbody></table>
 * **Notations**:
   * `side`: B (Buy/Bid), A (Sell/Ask); indicates the aggressing side.
   * `oid`: Order ID
