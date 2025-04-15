@@ -183,7 +183,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
 
 ***
 
-### Additional Information
+## Additional Information
 
 #### **Asset Information**:
 
