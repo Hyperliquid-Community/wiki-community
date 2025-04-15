@@ -15,7 +15,7 @@ layout:
 
 # Historical Data
 
-This page provides access to Hyperliquid's historical data, available via S3 buckets (requires downloading) and specific API endpoints (direct access). It covers market, node, and HyperEVM data.
+This page provides access to Hyperliquid's historical data, available via S3 buckets and specific API endpoints. It covers market, node, and HyperEVM data.
 
 **Downloading via S3**:
 
@@ -32,7 +32,7 @@ This page provides access to Hyperliquid's historical data, available via S3 buc
 
 HyperCore data is stored in two S3 buckets: `s3://hyperliquid-archive/` and `s3://hl-mainnet-node-data/`. Below is a detailed overview of the available data types, their structure, and key information.
 
-### **L2Book Data (OrderBook Snapshots)**
+### **L2Book Data**
 
 * **Description**:\
   Contains **OrderBook snapshots** (Level2 Book data) for each asset, updated twice per second.
@@ -42,7 +42,7 @@ HyperCore data is stored in two S3 buckets: `s3://hyperliquid-archive/` and `s3:
   * Example: `s3://hyperliquid-archive/market_data/20250311/9/l2Book/SOL.lz4`
   * Note: Each asset has its own file.
 * **Data Availability**:
-  * From 2023 (first day) to March 11, 2025 (as of April 11, 2025).
+  * From 2023 (first day) to April 13, 2025 (as of April 15, 2025).
   * Updated monthly by the Hyperliquid team.
 * **Data Format**:
   * Compressed in LZ4; decompressed to JSON.
@@ -88,7 +88,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
 #### **explorer\_blocks**
 
 * **Description**:\
-  Contains **transaction data**, it is potentially possible to obtain the **FOB (Full Order Book)**.
+  Contains **transaction data**, it is possible to obtain the **FOB (Full Order Book)**.
 * **Folder Structure**:
   * `explorer_blocks/<general_block>/<second_level_block>/<third_level_block>.rmp.lz4`
   * Example: `s3://hl-mainnet-node-data/explorer_blocks/500000000/559100000/559148100.rmp.lz4`
@@ -106,9 +106,16 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
   * `p`: Price (string)
   * `s`: Size (string)
   * `r`: Reduce Only (boolean)
-  * `t`: Type (e.g., limit with TIF: Alo, Ioc, Gtc)
+  * `t`: Type
+    * “limitˮ:{ "      tif": "Alo" | "Ioc" | "Gtc"}
+      * TIF (time-in-force) sets the behavior of the order upon first hitting the book.
+      * ALO (add liquidity only, i.e. "post only") will be canceled instead of immediately matching.
+      * IOC (immediate or cancel) will have the unfilled part canceled instead of resting.
+      * GTC (good til canceled) orders have no special behavior.
+    * Or "trigger": {"      isMarket": Boolean, "triggerPx": String, "tpsl": "tp" | "slˮ}
   * `c`: Client Order ID (cloid)
-  * `grouping`: Grouping type (e.g., "na", "normalTpsl")
+  * `grouping`: Grouping type ("na", "normalTpsl", "positionTpsl")
+  * `builder`: Builder Codes fees (Optional). `b` specifies the address that should receive the additional fee, and `f` indicates the fee amount. (e.g. if `f` is 10, 1bp of the order notional will be charged to the user    &#x20;and sent to the builder).
 * **Example File**:&#x20;
 
 {% file src="../../.gitbook/assets/559148100.zip" %}
@@ -144,10 +151,10 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
     }
     ```
 * **Notations:**
-  * `a` : Actif
+  * `a` : Asset
   * `o` : Order ID (oid)
 * **Comment:**
-  * Data very voluminous
+  * Data very voluminous.
 
 ### API
 
@@ -195,7 +202,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
   * Token ID (=token\_index): Unique ID per token (e.g., HYPE = 150).
   * Spot ID (=universe\_index): Unique ID per spot pair (e.g., HYPE/USDC = 107).
     * Names: Spot = `@<Spot ID>` (e.g., `@107`), Perp = direct name (e.g., `HYPE`).
-    * Check this [diagram](api/endpoints/info/spot.md) (tesnet) to understand.
+    * Check this [diagram](api/endpoints/info/spot.md) (Tesnet) to understand.
 * **Mapping**:
   * **Spot**: Via [Spot API](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/spot#retrieve-spot-metadata):
     1. Get `token_index` from "token".
