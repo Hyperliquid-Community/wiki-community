@@ -30,11 +30,8 @@
     * [Spot Deployments (HIP-1/HIP-2)](technology-breakdown/hypercore/hips/spot-deployments-hip-1-hip-2.md)
   * [Bridge](technology-breakdown/hypercore/bridge.md)
 * [HyperEVM](technology-breakdown/hyperevm.md)
-
-***
-
-* [Hyperliquid.](hyperliquid./README.md)
-  * [HyperUnit](hyperliquid./hyperunit.md)
+* [Hyperliquid.](technology-breakdown/hyperliquid./README.md)
+  * [HyperUnit](technology-breakdown/hyperliquid./hyperunit.md)
 
 ## Guide
 
