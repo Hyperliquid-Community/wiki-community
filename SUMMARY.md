@@ -31,6 +31,11 @@
   * [Bridge](technology-breakdown/hypercore/bridge.md)
 * [HyperEVM](technology-breakdown/hyperevm.md)
 
+***
+
+* [Hyperliquid.](hyperliquid./README.md)
+  * [HyperUnit](hyperliquid./hyperunit.md)
+
 ## Guide
 
 * [User Guide](guide/user-guide/README.md)
