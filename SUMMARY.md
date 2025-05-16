@@ -36,7 +36,7 @@
 ## Guide
 
 * [User Guide](guide/user-guide/README.md)
-  * [HL Onboarding](guide/user-guide/hl-onboarding.md)
+  * [Onboarding](guide/user-guide/onboarding.md)
   * [Spot Deployments](guide/user-guide/spot-deployments.md)
   * [Airdrop](guide/user-guide/airdrop.md)
 * [Builder Guide](guide/builder-guide/README.md)
