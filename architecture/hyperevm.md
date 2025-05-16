@@ -17,8 +17,6 @@ layout:
 
 HyperEVM transforms Hyperliquid into a **fully programmable financial system** by integrating smart contract capabilities directly with Hyperliquid's high-performance order books. This represents a paradigm shift for DeFi by combining the efficiency of centralized exchange order books with the programmability of smart contracts. For the first time, developers can build applications that directly tap into deep, high-performance liquidity without sacrificing decentralization or requiring complex bridging solutions.
 
-This innovation eliminates the traditional DeFi trade-offs between liquidity depth, execution speed, and programmability. Rather than relying on AMMs or fragmented liquidity pools, HyperEVM applications can leverage HyperCore's mature order book—bringing **CEX-like performance** to the world of decentralized finance.
-
 ### How It Works
 
 HyperEVM is not a separate chain but an extension of Hyperliquid, where:

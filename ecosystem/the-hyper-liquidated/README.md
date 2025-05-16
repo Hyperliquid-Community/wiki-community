@@ -31,6 +31,3 @@ The **Hyper Liquidated** community is a rapidly growing ecosystem of passionate 
 ***
 
 **On the following pages**, you’ll explore HyperLiquid’s diverse community groups, and ecosystem projects. Whether you’re a builder, trader, analyst, influencer, or simply curious, this comprehensive overview will help you connect, contribute, and thrive within the **Hyper Liquidated** community.
-
-_**Be part of the story.** If you’re contributing to the HyperLiquid ecosystem, let us know!_\
-_If you see someone missing from this list, reach out._

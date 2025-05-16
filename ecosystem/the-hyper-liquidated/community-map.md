@@ -71,9 +71,7 @@ The HyperLiquid ecosystem is powered by diverse voices and talents, including:
 
 ### **Memecoins 🎉**
 
-Dive into the fun side of the HyperLiquid ecosystem with memecoins and tokens that drive community engagement.
-
-* [All you need to know about HyperLiquid tokens](https://0xpasteke.notion.site/68a1348a53c14e6fbd405036128037f5?v=26e777a949c34b6090b888ed20627295) – A comprehensive guide to HyperLiquid tokens.
+Dive into the trenches of the [HyperLiquid ecosystem](../projects/memecoin.md) with memecoins and tokens that drive community engagement.
 
 ***
 
