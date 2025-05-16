@@ -33,7 +33,7 @@ Unit operates through a decentralized **Guardian network** that bridges Hyperliq
 * Guardians control wallets on both Hyperliquid and connected blockchains (like [Bitcoin](https://docs.hyperunit.xyz/developers/key-addresses/mainnet/bitcoin))
 * **Important**: At least 2 out of 3 Guardians must agree before any funds move between chains
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://docs.hyperunit.xyz/architecture/quickstart">Architecture Overview</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://docs.hyperunit.xyz/architecture/quickstart">Architecture Overview</a></p></figcaption></figure>
 
 Currently, three Guardians support the network: Unit, Hyperliquid, and Infinite Field. The off-chain nature of Guardians presents some centralization risks, but the system includes robust security measures:
 

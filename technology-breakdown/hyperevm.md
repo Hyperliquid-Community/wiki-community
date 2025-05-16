@@ -15,64 +15,100 @@ layout:
 
 # HyperEVM
 
-_**Note:** The information here is based on early-stage materials and proof-of-concept implementations._
+HyperEVM transforms Hyperliquid into a **fully programmable financial system** by integrating smart contract capabilities directly with Hyperliquid's high-performance order books. This represents a paradigm shift for DeFi by combining the efficiency of centralized exchange order books with the programmability of smart contracts. For the first time, developers can build applications that directly tap into deep, high-performance liquidity without sacrificing decentralization or requiring complex bridging solutions.
 
-This documentation draws heavily on insights and research shared by **Ambit Labs** in their article:\
-[The Not-So-Definitive Guide to Hyperliquid Precompiles](https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3). For a more detailed and technical explanation, we encourage you to read their original guide.
+This innovation eliminates the traditional DeFi trade-offs between liquidity depth, execution speed, and programmability. Rather than relying on AMMs or fragmented liquidity pools, HyperEVM applications can leverage HyperCore's mature order book—bringing **CEX-like performance** to the world of decentralized finance.
 
-***
+### How It Works
 
-### Overview
+HyperEVM is not a separate chain but an extension of Hyperliquid, where:
 
-**HyperEVM** is part of the Hyperliquid L1 blockchain, integrated directly into the same consensus layer (HyperBFT) that secures the L1. Unlike most EVM implementations that sit on separate networks, the HyperEVM is built _within_ the Hyperliquid ecosystem. This design enables seamless interactions between smart contracts and Hyperliquid’s core features—most notably the on-chain **spot and perp order books**.
+1. **HyperCore**: Handles all trading activities, staking, native multisigs, and core exchange functionality
+2. **HyperEVM**: Provides the smart contract environment where developers can build custom applications
 
-**Key innovation:** On HyperEVM, a smart contract can interact with the L1 order book just as it would with any native asset or function. This bridges the gap between traditional decentralized exchanges and on-chain programmability, offering a new paradigm for DeFi development. Imagine being able to directly integrate order book liquidity and execution into your EVM contracts without relying on external bridges or off-chain solutions.
+These components share the same consensus mechanism and operate sequentially, allowing:
 
-#### **What does this mean for you as a developer?**
+* Smart contracts to **read** HyperCore state (balances, positions, prices) from the previous block
+* Contracts to **write** actions to be executed in the following HyperCore block
 
-* Access deep liquidity on-chain without intermediaries.
-* Deploy EVM contracts that can read **and** influence real-time trading conditions.
-* Build new types of DeFi primitives that combine the flexibility of smart contracts with robust, natively integrated order book markets.
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>We encourage you to <a href="https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3">read</a> the insights and research shared by <strong>Ambit Labs</strong></p></figcaption></figure>
 
-***
+#### Dual-Block Architecture
 
-### Hyperliquid Stack: L1 + EVM
+HyperEVM uses an innovative dual-block system to handle different transaction needs:
 
-* **Hyperliquid L1:** A high-performance, permissioned chain that runs native spot and perp order books. It achieves faster block times tailored for order execution and liquidity maintenance.
-* **HyperEVM:** A general-purpose, **EVM-compatible** environment running under the same consensus. It’s permissionless—anyone can deploy smart contracts here. These contracts can read data and send actions to the L1.
+* **Small Blocks**: Process every \~2 seconds with a 2M gas limit, perfect for quick transactions
+* **Large Blocks**: Process approximately every minute with a 30M gas limit, ideal for complex operations
 
-**Execution model:** The L1 and the EVM run sequentially. The EVM can read the L1’s state from the previous block and submit actions to be included in the subsequent L1 block. This ordering provides a predictable cycle of read-then-write across the two environments.
+Most blockchain systems force a compromise between speed and capacity, either fast blocks with limited space or larger blocks that take longer to process. HyperEVM solves this by maintaining two separate transaction queues that feed into different block types.
 
-***
+This design allows users to choose what matters most: traders can use small blocks for near-instant order confirmations, while developers can deploy complex contracts through large blocks without congesting the network.
 
-### Interacting with the L1 from the HyperEVM
+#### Asset Movement Between HyperCore and HyperEVM
 
-#### Reading L1 State with Precompiles
+Assets can move freely between environments without traditional bridging risks:
 
-**Precompiles** are special addresses that provide read-access to L1 data directly from within the EVM. From a developer’s perspective, they function like contracts at known addresses, but internally, they give you direct hooks into L1 state.
+* Each spot asset on HyperCore can be linked to an ERC20 token on HyperEVM
+* HYPE (the native token) serves as gas on HyperEVM and can be transferred between environments
+* There are no wrapped tokens or IOUs, it's the same asset in both places
 
-**Example Use Case:** Retrieve a user’s perp position or spot balance from the L1 order books during the EVM execution. Precompiles ensure that your contract’s logic can be informed by live market data—no extra oracle or off-chain computation needed.
+Traditional cross-chain solutions require wrapped tokens, trusted validators, or lengthy verification periods. HyperEVM eliminates these complexities since both environments share the same underlying consensus. This creates a seamless experience where assets maintain their identity and properties regardless of which environment they're used in.
 
-#### Writing to the L1 with Events
+The system uses special addresses (starting with 0x200...) to handle these transfers, maintaining a unified asset layer across the platform.
 
-To send **actions** (like placing or canceling orders) from an EVM contract to the L1, you emit **events** from a special system contract address (`0x333...3333`). These events are transformed into actual L1 transactions in the next L1 block.
+#### Accessing HyperCore from Smart Contracts
 
-**Key Points:**
+The real power of HyperEVM comes from two key mechanisms that enable smart contracts to interact with HyperCore's exchange features:
 
-* Actions are not executed atomically with your EVM transaction. They occur subsequently, meaning you can’t get immediate confirmation or updated state within the same EVM block.
-* If an action (like placing an order) fails on the L1, your EVM transaction still remains executed as is. This partial atomicity should be carefully considered when designing protocols.
+**Read Precompiles**
 
-***
+Special contracts at addresses starting with 0x000...0800 let smart contracts query HyperCore data:
 
-### Important Considerations
+* User positions, balances, and vault information
+* Mark prices and oracle data
+* Staking information and delegations
 
-1. **Partial Atomicity:**\
-   While the EVM transaction and event emission are atomic (if the EVM transaction reverts, no event is emitted), the **execution of L1 actions triggered by those events occurs later** and may fail independently.
-2. **Account Initialization:**\
-   Before a contract can interact effectively with the L1, it must have an L1 account. This is done by depositing a “dust” amount of a native or linked asset into the smart contract’s address on the L1, ensuring the account is recognized on-chain.
-3. **Balance Tracking:**\
-   Transferring tokens to the L1 system address (`0x222...2222`) updates L1 balances in the subsequent block. Until then, there’s a brief “pre-crediting” period where balances don’t appear on either chain’s standard queries. Protocols interacting with L1/EVM balances must account for this delay.
-4. **Message Sender vs. Origin:**\
-   Actions initiated by an EVM contract appear on the L1 as if performed by the **contract itself**, not the original user. Ensure your smart contract logic provides ways to close positions or recover funds, as the L1 may attribute these actions to the contract’s address
+Think of these as direct data pipelines into the exchange, giving your contracts real-time market information without relying on external oracles or APIs.
 
-For more detailed explanations on these behaviors and how to handle them when building on HyperEVM, refer to the [HyperEVM Specificities section](../guide/builder-guide/dapps-evm/hyperevm-specificities.md).
+**Write System Contract**
+
+A system contract at address 0x333...3333 allows smart contracts to initiate actions on HyperCore:
+
+* Place immediate-or-cancel (IOC) orders
+* Manage vaults and staking
+* Transfer assets between different parts of the system
+
+This capability transforms passive smart contracts into active market participants. For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates; all without requiring user intervention or trusted third parties.
+
+Unlike arbitrary execution, these are structured actions that follow HyperCore's security model, ensuring that the core exchange functionality remains secure and predictable.
+
+### What Can You Build?
+
+With these tools, developers can create applications that were previously difficult or impossible:
+
+* **Lending protocols** that liquidate directly into the spot order book
+* **Self-hedging loans** that automatically manage risk through perps trading
+* **Options protocols** with automatic delta hedging
+* **Yield strategies** that respond to market conditions in real-time
+* **Tokenized trading vaults** managing complex strategies
+* **Liquid staking solutions** with programmable rewards distribution
+
+### Current Status
+
+HyperEVM is currently in [**alpha stage**](../introduction/roadmap/). While core functionality is available, some features are still being rolled out gradually to ensure system stability.
+
+For developers looking to start building, see our [Builder Guide](../guide/builder-guide/dapps-evm/) with detailed technical documentation and code examples.
+
+### Resources
+
+* [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm)
+* Precompiles Guide:
+  * [The Not-So-Definitive Guide to Hyperliquid Precompiles](https://ambit.finance/research/hyperliquid-precompiles) - First article explaining HyperEVM by Ambit Labs
+  * [Xulian's Precompile Explanation](https://x.com/xulian_hl/status/1919617689124794692)
+  * [A Breakdown for Dummies](https://x.com/emaverick90/status/1919727174426284488) by Eduardo (Felix Protocol)
+* [Precompile HyperCore → HyperEVM Direction](https://x.com/xulian_hl/status/1916711761769804169) - Note that smart contracts perform actions on HyperCore initiated from HyperEVM, not the reverse, as HyperCore has no general purpose smart contracts
+
+
+
+
+
