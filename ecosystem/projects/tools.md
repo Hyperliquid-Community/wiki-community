@@ -15,38 +15,18 @@ layout:
 
 # Tools
 
-## Explorers
+### Blockchain Explorers
 
-### Hyperliquid L1
+| Hyperliquid   | Mainnet                                                   | Testnet                                                                   |
+| ------------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **HyperCore** | [Official Explorer](https://app.hyperliquid.xyz/explorer) | [Official Testnet Explorer](https://app.hyperliquid-testnet.xyz/explorer) |
+|               | [HypurrScan](https://hypurrscan.io/)                      | [HypurrScan Testnet](https://testnet.hypurrscan.io/)                      |
+| **HyperEVM**  | [Pursecc](https://purrsec.com/)                           | [Pursecc](https://testnet.purrsec.com/)                                   |
+|               | [Blockscout](https://www.hyperscan.com/)                  |                                                                           |
 
-* **Mainnet**
-  * [Official Explorer](https://app.hyperliquid.xyz/explorer) – Basic on-chain data.
-  * [HypurrScan](https://hypurrscan.io/) – A comprehensive explorer for L1, offering detailed insights into **auctions**, **spot market stats**, and more. 📖 [Learn how to use HypurrScan](https://x.com/HypurrScan/status/1826398417641463842).
-  * [Hyperscanner](https://www.hyperscanner.app/) - Hyperliquid Insights. [@hyper\_scanner](https://x.com/hyper_scanner)
-* **Testnet**
-  * [Official Testnet Explorer](https://app.hyperliquid-testnet.xyz/explorer) – View testnet data.
-  * [HypurrScan Testnet](https://testnet.hypurrscan.io/) – Enhanced testnet explorer with auctions, spot stats, and more.
+### Data Analytics
 
-### HyperEVM
-
-* **Mainnet**
-  * [Purrsec](https://purrsec.com/) - [@parsec\_finance](https://x.com/parsec_finance/status/1891938596887638177)
-  * [Blockscout](https://hyperliquid.cloud.blockscout.com/) - [@gasdotzip](https://x.com/gasdotzip/status/1891822061615480850)
-  * [Hyperevm](https://hyperevm-explorer.vercel.app/) - [@im0xPrince](https://x.com/im0xPrince/status/1891741047341908085)
-* **Testnet**
-  * [Hyperlend Explorer](https://explorer.hyperlend.finance/)
-  * [Hyperstats Explorer](https://evm.hyperstats.xyz/)
-    * [EVM $HYPE Whales](https://hyperstats.xyz/evm/hype)
-    * [EVM $USDC Whales](https://hyperstats.xyz/evm/usdc)
-  * [Purrsec Explorer](https://evm.hyperstats.xyz/)
-  * [Hyperevm Explorer](https://hyperevm-explorer.vercel.app/)
-  * [Hyperliquidscan](https://www.hyperliquidscan.com/)
-
-***
-
-## Data Analytics
-
-### Statistics
+#### Statistics
 
 * **General Stats**
   * [Hyperliquid Stats](https://stats.hyperliquid.xyz/) – By Thunderhead; detailed user counts, volumes, Open Interest, and more.
@@ -55,7 +35,7 @@ layout:
   * [Chains Comparison](https://defillama.com/chains) – Compare TVL, spot volume, and more.
   * [Parsec](https://parsec.fi/layout/kez/PssG-HFO) – Hyperliquid flows.
   * [Hypurr\_Graphana](https://grafana.hypurr.fun/public-dashboards/2feb20d46df444aeb9019caee60d97ad?orgId=1\&refresh=5s\&from=now-30d\&to=now\&timezone=browser) – Hypurr General statistics.
-* **L1-Specific Stats**
+* **HyperCore Specific Stats**
   * [HypeBurn](https://www.hypeburn.fun/leaderboard) or [ASXN ](https://data.asxn.xyz/dashboard/hype-burn)– Track $HYPE token data and burns.
   * [PurrBurn](https://www.purrburn.fun/) – Track $PURR token data and burns.
   * [ASXN TWAP](https://data.asxn.xyz/dashboard/hype) – Hype Tokenomics + Active TWAPs.
@@ -71,7 +51,7 @@ layout:
     * [Hyper Validators ](https://hyper-validators.bharvest.io/)– Validator information.
     * [ASXN Validators](https://hyperliquid.asxn.xyz/staking) – Validator information.
 
-### Market Analysis
+#### Market Analysis
 
 * **Monitoring Tools**
   * [HyperScan.fun](https://hyperscan.fun/) – Tracks auctions, token launches, and on-chain activities.
@@ -80,26 +60,23 @@ layout:
   * [Dexscreener](https://dexscreener.com/hyperliquid) – Charts.
   * [ASXN spot](https://data.asxn.xyz/dashboard/spot-holder-trend) – Spot trend analysis.
   * [ASXN Dashboard](https://hyperliquid.asxn.xyz/all_metrics) – General metrics dashboard.
-* **Screeners**
-  * [ASXN screener](https://hyperliquid.asxn.xyz/all_metrics) – Filter and analyze market trends.
-* **Funding Tools**
-  * [Funding Comparison](https://app.hyperliquid.xyz/fundingComparison) – Compare funding rates (HL vs Binance/Bybit).
-  * [Funding Rates](https://www.r72.fi/derivative/hyperliquid) – Current funding rates on HL.
-* **Tracking Tools**
-  * [Chrisling](https://hyperliquid.chrisling.dev) – Insights from top traders.
-  * [Hyperstats](https://hyperstats.xyz/?search=) – Perpetual position tracker.
-  * [HyperScanner](https://www.hyperscanner.app/) – Detailed info for every active address, user and token on L1.
-  * **Telegram Bot:**
-    * _‍_[hyperliquidpricebot](https://t.me/hyperliquidpricebot) – Built by [@0xikalgo](https://x.com/0xikalgo).
-    * [Whalecatalerst](https://t.me/whalecatalerts) – Built by [@sendcapital](https://x.com/sendcapital).
-    * [Hyperliquid Perps Alerts](https://t.me/hyperliquid_tracker) – Built by [@NMTD8](https://x.com/NMTD8) (top 10 points holder).
-* **Portfolio Tracker:**
-  * [HyperTerminal](https://hyperterminal.xyz/) – Aggregate all your HL addresses.
-  * [Octav ](https://app.octav.fi/)– Covers over 25 chains.
-* **Copy Trading:**
-  * [Copin ](https://app.copin.io/explorer?protocol=HYPERLIQUID)– On-chain copy-trading platform.
-* **Tax:**
-  * [Hyperliquid.tax](https://hyperliquid.tax/) – Crypto tax software for DeFi, NFTs, memes, & more. [@AwakenTax](https://x.com/AwakenTax)
+* **Specialized Tools:**
+
+| Category               | Tool                                                                                                   |
+| ---------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Screeners**          | [ASXN Screener](https://hyperscreener.asxn.xyz/all_metrics)                                            |
+| **Funding Analysis**   | [Funding Comparison](https://app.hyperliquid.xyz/fundingComparison)                                    |
+|                        | [Funding Rates](https://www.r72.fi/derivative/hyperliquid)                                             |
+|                        | [Spot Premium](https://hyperdash.info/spot-premium)                                                    |
+| **Position Tracking**  | [Chrisling](https://hyperliquid.chrisling.dev/)                                                        |
+|                        | [Hyperstats](https://hyperstats.xyz/)                                                                  |
+| **Telegram Bots**      | [hyperliquidpricebot](https://t.me/hyperliquidpricebot) – Built by [@0xikalgo](https://x.com/0xikalgo) |
+|                        | [Whalecatalerst](https://t.me/hyperliquidwhales) – Built by [@sendcapital](https://x.com/sendcapital). |
+|                        | [Perps Alerts](https://t.me/HyperliquidPerpsAlerts) –  Built by [@NMTD8](https://x.com/NMTD8)          |
+| **Portfolio Trackers** | [HyperTerminal](https://hyperterminal.xyz/)                                                            |
+|                        | [Octav](https://octav.fi/)                                                                             |
+| **Copy Trading**       | [Copin](https://app.copin.io/explorer?protocol=HYPERLIQUID)                                            |
+| **Tax Tools**          | [Hyperliquid.tax](https://hyperliquid.tax/) – Built by [@AwakenTax](https://x.com/AwakenTax)           |
 
 
 
