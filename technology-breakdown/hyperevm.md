@@ -31,7 +31,7 @@ These components share the same consensus mechanism and operate sequentially, al
 * Smart contracts to **read** HyperCore state (balances, positions, prices) from the previous block
 * Contracts to **write** actions to be executed in the following HyperCore block
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>We encourage you to <a href="https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3">read</a> the insights and research shared by <strong>Ambit Labs</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>We encourage you to <a href="https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3">read</a> the insights and research shared by <strong>Ambit Labs</strong></p></figcaption></figure>
 
 #### Dual-Block Architecture
 
