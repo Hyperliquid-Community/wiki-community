@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# dApps (EVM)
+# HyperEVM
 
 The **HyperEVM** empowers developers to create any type of decentralized application while seamlessly interacting with **Hyperliquid’s native L1 components**.
 
@@ -40,7 +40,7 @@ This section serves as a **practical,** step-by-step guide for anyone looking to
   * [Hyperlend Faucet](https://testnet.hyperlend.finance/dashboard) → Get **HYPE** & **MBTC**.
   * [Hypurr.fi Faucet](https://app.hypurr.fi/faucet) → Get **sUSDe, USDC, SolvBTC, HYPE**.
   * [Hyperliquid Testnet Faucet](https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/testnet-faucet) → Claim **USDC**.
-    * **Native Transfers:** Buy **HYPE** with **USDC** and send it to **`0x22...22`** → [More Info](hyperevm-specificities.md#id-1.-native-transfers).
+    * **Native Transfers:** Buy **HYPE** with **USDC** and send it to **`0x22...22`** → [More Info](specificities.md#id-1.-native-transfers).
 * ⚡ **Asset Management:**
   * [HyperEdge Dashboard (Testnet)](https://hyperedge-testnet.vercel.app) → Easily Visualize & manage assets across **EVM, Spot, and Perp**.
   * [HyperEdge Dashboard (Mainnet)](https://app.hyperedge.finance) → Same on mainnet.

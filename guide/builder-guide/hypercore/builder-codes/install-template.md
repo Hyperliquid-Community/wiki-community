@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Template Installation
+# Install Template
 
 To get started, you can either **clone the boilerplate repository** for a quick setup or **recreate it from scratch** to better understand its structure.
 
@@ -236,7 +236,7 @@ pnpm add tailwindcss-animate class-variance-authority clsx tailwind-merge lucide
 
 *   **`approve-builder.ts`** → Handles fee approval via Wagmi.
 
-    🔹 **Setup Instructions:** Refer to the documentation [Dapp Setup Guide](../../dapps-evm/evm-basics/dapp-setup.md#id-3.-dapp-less-than-greater-than-blockchain) for detailed steps on integrating your Dapp with the blockchain.
+    🔹 **Setup Instructions:** Refer to the documentation [Dapp Setup Guide](../../hyperevm/evm-basics/dapp-setup.md#id-3.-dapp-less-than-greater-than-blockchain) for detailed steps on integrating your Dapp with the blockchain.
 
 **📁 `lib/services/`**
 

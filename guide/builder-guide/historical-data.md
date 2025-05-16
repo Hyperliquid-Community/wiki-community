@@ -158,7 +158,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
 
 ### API
 
-* [**Perp**](api/endpoints/info/perpetuals.md):
+* [**Perp**](hypercore/endpoints/info/perpetuals.md):
   * `userFunding`: Funding history for a user.
   * `userNonFundingLedgerUpdates`: Deposits, withdrawals, transfers.
     * **vaultDeposit**; **vaultWithdraw**
@@ -168,7 +168,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
     * **spotGenesis** (genesis airdrop)
     * **spotTransfer** (transfer on spot market, to HyperEVM if destination is 0x22)
   * `fundingHistory`: Funding rates and premium history per coin.
-* [**General**](api/endpoints/info/):
+* [**General**](hypercore/endpoints/info/):
   * `historicalOrders`: User’s historical orders (max 2000).
   * `portfolio`: Account value and PnL history.
   * `delegatorHistory`: User staking history.
@@ -202,7 +202,7 @@ Node data is stored in `s3://hl-mainnet-node-data/` and split into three types: 
   * Token ID (=token\_index): Unique ID per token (e.g., HYPE = 150).
   * Spot ID (=universe\_index): Unique ID per spot pair (e.g., HYPE/USDC = 107).
     * Names: Spot = `@<Spot ID>` (e.g., `@107`), Perp = direct name (e.g., `HYPE`).
-    * Check this [diagram](api/endpoints/info/spot.md) (Tesnet) to understand.
+    * Check this [diagram](hypercore/endpoints/info/spot.md) (Tesnet) to understand.
 * **Mapping**:
   * **Spot**: Via [Spot API](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/spot#retrieve-spot-metadata):
     1. Get `token_index` from "token".

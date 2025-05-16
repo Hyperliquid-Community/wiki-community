@@ -13,9 +13,20 @@ layout:
     visible: true
 ---
 
-# HyperEVM Specificities
+# Specificities
 
-Below is an **overview** of Hyperliquid’s unique EVM capabilities. **This section is still a work in progress**— for now, I’m redirecting to the official documentation, but a **more detailed guide** will be available soon.
+_**This section is still a work in progress**— for now, I’m redirecting to the official documentation._
+
+This guide covers the essential technical components and considerations for developers building on HyperEVM. For conceptual understanding, see our [HyperEVM Overview](../../../technology-breakdown/hyperevm.md).&#x20;
+
+#### Important Technical Considerations
+
+Before diving into specific features, developers should understand these critical aspects of HyperEVM:
+
+* **Partial Atomicity**: Actions from HyperEVM to HyperCore occur in subsequent blocks, your EVM transaction succeeds immediately, but the HyperCore actions it triggers might fail independently.
+* **Account Initialization**: Smart contracts cannot interact with HyperCore until they have a corresponding HyperCore account. Initialize by sending a small ("dust") amount of any asset to the contract address on HyperCore.
+* **Balance Tracking**: When transferring assets between environments, a brief "pre-crediting" period exists where balances may not appear in standard queries until the next block.
+* **Message Origin**: HyperCore sees actions from smart contracts as originating from the contract itself, not the end user. Design your contracts with recovery mechanisms to handle this.
 
 ***
 

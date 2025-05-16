@@ -25,7 +25,7 @@ Before deploying contracts, your dApp needs a proper setup with wallet integrati
 * **Wagmi / Viem & Ethers** – for seamless wallet connections.
 * **Hyperliquid RPC endpoints** – to interact with the blockchain.
 
-For a step-by-step guide on setting up a **Next.js application with Wagmi**, refer to the [**Builder Codes Guide**](../../api/builder-codes/template-installation.md#id-3.-install-and-configure-wagmi-wallet-connection).
+For a step-by-step guide on setting up a **Next.js application with Wagmi**, refer to the [**Builder Codes Guide**](../../hypercore/builder-codes/install-template.md#id-3.-install-and-configure-wagmi-wallet-connection).
 
 ***
 
@@ -182,7 +182,7 @@ You can use **Cast** for direct terminal interaction or leverage **Etherscan’s
 
 Hyperliquid EVM uses a **dual-block system** for transaction processing. By default, transactions go to **small blocks**, but deploying contracts efficiently may require **big blocks**. To enable this, submit an **L1 action**.
 
-💡 **For a deep dive into Dual-Block transactions**, visit **this** [**guide**](../hyperevm-specificities.md#id-2.-dual-block-architecture).
+💡 **For a deep dive into Dual-Block transactions**, visit **this** [**guide**](../specificities.md#id-2.-dual-block-architecture).
 
 ***
 

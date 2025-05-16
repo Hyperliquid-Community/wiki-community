@@ -31,7 +31,7 @@ These components share the same consensus mechanism and operate sequentially, al
 * Smart contracts to **read** HyperCore state (balances, positions, prices) from the previous block
 * Contracts to **write** actions to be executed in the following HyperCore block
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>We encourage you to <a href="https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3">read</a> the insights and research shared by <strong>Ambit Labs</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>We encourage you to <a href="https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3">read</a> the insights and research shared by <strong>Ambit Labs</strong></p></figcaption></figure>
 
 #### Dual-Block Architecture
 
@@ -97,18 +97,13 @@ With these tools, developers can create applications that were previously diffic
 
 HyperEVM is currently in [**alpha stage**](../introduction/roadmap/). While core functionality is available, some features are still being rolled out gradually to ensure system stability.
 
-For developers looking to start building, see our [Builder Guide](../guide/builder-guide/dapps-evm/) with detailed technical documentation and code examples.
+For developers looking to start building, see our [Builder Guide](../guide/builder-guide/hyperevm/) with detailed technical documentation and code examples.
 
 ### Resources
 
 * [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm)
 * Precompiles Guide:
-  * [The Not-So-Definitive Guide to Hyperliquid Precompiles](https://ambit.finance/research/hyperliquid-precompiles) - First article explaining HyperEVM by Ambit Labs
+  * [The Not-So-Definitive Guide to Hyperliquid Precompiles](https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3) - First article explaining HyperEVM by Ambit Labs
   * [Xulian's Precompile Explanation](https://x.com/xulian_hl/status/1919617689124794692)
   * [A Breakdown for Dummies](https://x.com/emaverick90/status/1919727174426284488) by Eduardo (Felix Protocol)
 * [Precompile HyperCore → HyperEVM Direction](https://x.com/xulian_hl/status/1916711761769804169) - Note that smart contracts perform actions on HyperCore initiated from HyperEVM, not the reverse, as HyperCore has no general purpose smart contracts
-
-
-
-
-

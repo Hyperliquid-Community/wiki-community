@@ -51,6 +51,6 @@ Looking for the latest updates, community insights, and projects? Explore these:
 
 If you want to participate as a builder or developer, check out the **Builder Guide**:
 
-* [API](guide/builder-guide/api/) – Learn to develop trading bots or interfaces for the DEX.
-* [Dapps (EVM)](guide/builder-guide/dapps-evm/) – Build decentralized applications on HyperEVM.
+* [API](guide/builder-guide/hypercore/) – Learn to develop trading bots or interfaces for the DEX.
+* [Dapps (EVM)](guide/builder-guide/hyperevm/) – Build decentralized applications on HyperEVM.
 * [Node Operators](guide/builder-guide/node-operators.md) – Set up and manage a validator node.
