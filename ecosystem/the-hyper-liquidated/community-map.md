@@ -75,11 +75,3 @@ The [HyperLiquid ecosystem](https://x.com/Hyperliquid_Hub/status/192250467502437
 ### **Memecoins 🎉**
 
 Dive into the trenches of the [HyperLiquid ecosystem](../projects/memecoin.md) with memecoins and tokens that drive community engagement.
-
-***
-
-### Community Funding Support **💰**
-
-Explore key contributors providing funding and support to builders and projects within the HyperLiquid ecosystem:
-
-* [@hyperactive\_cap](https://x.com/hyperactive_cap): Investing in the best builders making the jump to Hyperliquid. Led by [@laurentzeimes](https://x.com/laurentzeimes) and [@fiege\_max](https://x.com/fiege_max).
