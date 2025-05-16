@@ -24,6 +24,9 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
   * [Ecosystem Projects](https://www.hypurr.co/ecosystem-projects) – Explore the latest tools and initiatives.
   * [Blog](https://www.hypurr.co/blog) – Deep dives into HyperLiquid developments.
   * [Weekly Updates](https://t.me/hypurrco) – Recaps of ecosystem events on Telegram.
+  * [YouTube](https://youtube.com/@HypurrCollective?sub_confirmation=1) – Video content for the community.
+  * [Reddit](https://reddit.com/r/hyperliquid1/) – Community forum for discussions and updates
+  * [Local Communities](https://x.com/hypurr_co/status/1921785184871178658) – Regional groups across different countries and languages
 
 ### **Community Chats** 💬
 
@@ -45,7 +48,7 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
 
 ### Notable Community Contributors 📣🛠️💹
 
-The HyperLiquid ecosystem is powered by diverse voices and talents, including:
+The [HyperLiquid ecosystem](https://x.com/Hyperliquid_Hub/status/1922504675024371744) is powered by diverse voices and talents, including:
 
 * [@laurentzeimes](https://x.com/laurentzeimes): Core builder behind HypurrFun and ecosystem contributor.
 * [@GuthixHL](https://x.com/guthixhl?s=21\&t=fyJoiPJn7gE_VIRS05WBaQ): Active community leader.
