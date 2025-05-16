@@ -26,12 +26,16 @@ HyperEVM is not a separate chain but an extension of Hyperliquid, where:
 1. **HyperCore**: Handles all trading activities, staking, native multisigs, and core exchange functionality
 2. **HyperEVM**: Provides the smart contract environment where developers can build custom applications
 
+HyperEVM is based on the **Cancun EVM specification** (without blob transactions), ensuring compatibility with existing Ethereum tools and development practices while adding Hyperliquid-specific enhancements.
+
 These components share the same consensus mechanism and operate sequentially, allowing:
 
 * Smart contracts to **read** HyperCore state (balances, positions, prices) from the previous block
 * Contracts to **write** actions to be executed in the following HyperCore block
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>We encourage you to <a href="https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3">read</a> the insights and research shared by <strong>Ambit Labs</strong></p></figcaption></figure>
+
+The following are HyperEVM's key differentiators:
 
 #### Dual-Block Architecture
 
