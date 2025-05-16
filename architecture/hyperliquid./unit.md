@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# HyperUnit
+# Unit
 
 Unit is an asset tokenization protocol seamlessly integrated with Hyperliquid. It creates bridges between major blockchains and Hyperliquid, enabling users to deposit and withdraw assets like **BTC, ETH, and SOL** directly to their Hyperliquid spot balance. Built exclusively for the Hyperliquid ecosystem by a team of experts from HRT, Jump, Fortress, and IDF cyber units, Unit enhances Hyperliquid's capabilities through:
 
@@ -60,7 +60,7 @@ Unit charges fees on deposits and withdrawals to cover network costs and operati
 
 ### Incidents
 
-* [**April 15, 2025**](https://x.com/hyperunit/status/1912093926065856562): A Guardian went offline, causing latency in deposits and withdrawals.
+* [April 15, 2025](https://x.com/hyperunit/status/1912093926065856562): A Guardian went offline, causing latency in deposits and withdrawals.
 
 ### Resources
 

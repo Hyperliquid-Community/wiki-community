@@ -31,7 +31,7 @@
   * [Bridge](architecture/hypercore/bridge.md)
 * [HyperEVM](architecture/hyperevm.md)
 * [Hyperliquid.](architecture/hyperliquid./README.md)
-  * [HyperUnit](architecture/hyperliquid./hyperunit.md)
+  * [Unit](architecture/hyperliquid./unit.md)
 
 ## Guide
 
@@ -63,6 +63,7 @@
   * [Community Map](ecosystem/the-hyper-liquidated/community-map.md)
 * [Projects](ecosystem/projects/README.md)
   * [Tools](ecosystem/projects/tools.md)
-  * [HyperEVM](ecosystem/projects/hyperevm.md)
+  * [HyperEVM](ecosystem/projects/hyperevm/README.md)
+    * [Felix](ecosystem/projects/hyperevm/felix.md)
   * [HyperCore](ecosystem/projects/hypercore.md)
   * [MemeCoin](ecosystem/projects/memecoin.md)
