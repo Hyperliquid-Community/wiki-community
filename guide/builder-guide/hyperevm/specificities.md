@@ -17,7 +17,7 @@ layout:
 
 _**This section is still a work in progress**— for now, I’m redirecting to the official documentation._
 
-This guide covers the essential technical components and considerations for developers building on HyperEVM. For conceptual understanding, see our [HyperEVM Overview](../../../technology-breakdown/hyperevm.md).&#x20;
+This guide covers the essential technical components and considerations for developers building on HyperEVM. For conceptual understanding, see our [HyperEVM Overview](../../../architecture/hyperevm.md).&#x20;
 
 #### Important Technical Considerations
 

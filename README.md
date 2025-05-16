@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# ☺️ Hello!
+# 🏠 Home
 
 ### **Welcome to the Hyperliquid Community Wiki ✨**
 

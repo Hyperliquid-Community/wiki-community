@@ -34,7 +34,7 @@ If you're here to trade and explore the HyperLiquid DEX, start with the **User G
 Want to understand how HyperLiquid works? Start here:
 
 * [Introduction](introduction/what-is-hyperliquid.md) – Learn about the ecosystem, roadmap, and key features.
-* [Technology Breakdown](technology-breakdown/overview.md) – Dive into the technical details and infrastructure of HyperLiquid.
+* [Technology Breakdown](architecture/overview.md) – Dive into the technical details and infrastructure of HyperLiquid.
 
 ***
 
@@ -42,8 +42,8 @@ Want to understand how HyperLiquid works? Start here:
 
 Looking for the latest updates, community insights, and projects? Explore these:
 
-* [Community: The Hyper Liquidated](community-and-projects/the-hyper-liquidated/) – Discover the key community groups and contributors.
-* [Projects: Ecosystem Projects](community-and-projects/ecosystem-projects/) – Explore the tools, resources, and initiatives in the ecosystem.
+* [Community: The Hyper Liquidated](ecosystem/the-hyper-liquidated/) – Discover the key community groups and contributors.
+* [Projects: Ecosystem Projects](ecosystem/projects/) – Explore the tools, resources, and initiatives in the ecosystem.
 
 ***
 

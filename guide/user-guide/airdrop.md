@@ -28,7 +28,7 @@ layout:
   * **Remaining for Future Emissions & Community Rewards:** 45.2% (approximately 452M tokens)
   * **Market Potential:** At a $10 token price, the remaining tokens represent roughly **$4.52 billion** in potential value.
 * **Staking Advantage:**
-  * The introduction of staking is a major progression—by staking HYPE, you reduce trading fees while earning additional rewards. See the [Fees page](../../technology-breakdown/hypercore/dex/clearinghouse/fees.md) for more details.
+  * The introduction of staking is a major progression—by staking HYPE, you reduce trading fees while earning additional rewards. See the [Fees page](../../architecture/hypercore/dex/clearinghouse/fees.md) for more details.
 * **Multiple Revenue Streams:**
   * Farming HL not only earns you direct rewards but also opens up opportunities across various protocols within the Hyperliquid ecosystem.
 

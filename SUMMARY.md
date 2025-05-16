@@ -1,6 +1,6 @@
 # Table of contents
 
-* [☺️ Hello!](README.md)
+* [🏠 Home](README.md)
 * [Getting Started](getting-started.md)
 
 ## Introduction
@@ -10,28 +10,28 @@
 * [Roadmap](introduction/roadmap/README.md)
   * [2025-26-03\_Incident](introduction/roadmap/2025-26-03_incident.md)
 
-## Technology Breakdown
+## Architecture
 
-* [Overview](technology-breakdown/overview.md)
-* [HyperBFT](technology-breakdown/hyperbft/README.md)
-  * [API Servers](technology-breakdown/hyperbft/api-servers.md)
-  * [Staking](technology-breakdown/hyperbft/staking.md)
-* [HyperCore](technology-breakdown/hypercore/README.md)
-  * [Dex](technology-breakdown/hypercore/dex/README.md)
-    * [Clearinghouse](technology-breakdown/hypercore/dex/clearinghouse/README.md)
-      * [Margin Management](technology-breakdown/hypercore/dex/clearinghouse/margin-management.md)
-      * [Liquidations](technology-breakdown/hypercore/dex/clearinghouse/liquidations.md)
-      * [Funding](technology-breakdown/hypercore/dex/clearinghouse/funding.md)
-      * [Fees](technology-breakdown/hypercore/dex/clearinghouse/fees.md)
-    * [Order Book](technology-breakdown/hypercore/dex/order-book.md)
-    * [Oracle](technology-breakdown/hypercore/dex/oracle.md)
-  * [Vault](technology-breakdown/hypercore/vault.md)
-  * [HIPs](technology-breakdown/hypercore/hips/README.md)
-    * [Spot Deployments (HIP-1/HIP-2)](technology-breakdown/hypercore/hips/spot-deployments-hip-1-hip-2.md)
-  * [Bridge](technology-breakdown/hypercore/bridge.md)
-* [HyperEVM](technology-breakdown/hyperevm.md)
-* [Hyperliquid.](technology-breakdown/hyperliquid./README.md)
-  * [HyperUnit](technology-breakdown/hyperliquid./hyperunit.md)
+* [Overview](architecture/overview.md)
+* [HyperBFT](architecture/hyperbft/README.md)
+  * [API Servers](architecture/hyperbft/api-servers.md)
+  * [Staking](architecture/hyperbft/staking.md)
+* [HyperCore](architecture/hypercore/README.md)
+  * [Dex](architecture/hypercore/dex/README.md)
+    * [Clearinghouse](architecture/hypercore/dex/clearinghouse/README.md)
+      * [Margin Management](architecture/hypercore/dex/clearinghouse/margin-management.md)
+      * [Liquidations](architecture/hypercore/dex/clearinghouse/liquidations.md)
+      * [Funding](architecture/hypercore/dex/clearinghouse/funding.md)
+      * [Fees](architecture/hypercore/dex/clearinghouse/fees.md)
+    * [Order Book](architecture/hypercore/dex/order-book.md)
+    * [Oracle](architecture/hypercore/dex/oracle.md)
+  * [Vault](architecture/hypercore/vault.md)
+  * [HIPs](architecture/hypercore/hips/README.md)
+    * [Spot Deployments (HIP-1/HIP-2)](architecture/hypercore/hips/spot-deployments-hip-1-hip-2.md)
+  * [Bridge](architecture/hypercore/bridge.md)
+* [HyperEVM](architecture/hyperevm.md)
+* [Hyperliquid.](architecture/hyperliquid./README.md)
+  * [HyperUnit](architecture/hyperliquid./hyperunit.md)
 
 ## Guide
 
@@ -57,11 +57,11 @@
   * [Node Operators](guide/builder-guide/node-operators.md)
   * [Historical Data](guide/builder-guide/historical-data.md)
 
-## &#x20;Community & Projects
+## Ecosystem
 
-* [The Hyper Liquidated](community-and-projects/the-hyper-liquidated/README.md)
-  * [Community Map](community-and-projects/the-hyper-liquidated/community-map.md)
-* [Ecosystem Projects](community-and-projects/ecosystem-projects/README.md)
-  * [Tools](community-and-projects/ecosystem-projects/tools.md)
-  * [EVM Projects](community-and-projects/ecosystem-projects/evm-projects.md)
-  * [API Projects](community-and-projects/ecosystem-projects/api-projects.md)
+* [The Hyper Liquidated](ecosystem/the-hyper-liquidated/README.md)
+  * [Community Map](ecosystem/the-hyper-liquidated/community-map.md)
+* [Projects](ecosystem/projects/README.md)
+  * [Tools](ecosystem/projects/tools.md)
+  * [HyperCore](ecosystem/projects/hypercore.md)
+  * [HyperEVM](ecosystem/projects/hyperevm.md)

@@ -35,7 +35,7 @@ This section serves as a **practical,** step-by-step guide for anyone looking to
 
 #### **Resources**
 
-* 📖 [HyperEVM Explanation](../../../technology-breakdown/hyperevm.md) → High-level overview of HyperEVM and access to the [official documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm).
+* 📖 [HyperEVM Explanation](../../../architecture/hyperevm.md) → High-level overview of HyperEVM and access to the [official documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm).
 * 💧 **Testnet Tokens:**
   * [Hyperlend Faucet](https://testnet.hyperlend.finance/dashboard) → Get **HYPE** & **MBTC**.
   * [Hypurr.fi Faucet](https://app.hypurr.fi/faucet) → Get **sUSDe, USDC, SolvBTC, HYPE**.
