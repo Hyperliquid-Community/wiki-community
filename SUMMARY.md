@@ -63,5 +63,6 @@
   * [Community Map](ecosystem/the-hyper-liquidated/community-map.md)
 * [Projects](ecosystem/projects/README.md)
   * [Tools](ecosystem/projects/tools.md)
-  * [HyperCore](ecosystem/projects/hypercore.md)
   * [HyperEVM](ecosystem/projects/hyperevm.md)
+  * [HyperCore](ecosystem/projects/hypercore.md)
+  * [MemeCoin](ecosystem/projects/memecoin.md)

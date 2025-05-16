@@ -54,9 +54,9 @@ layout:
 #### Market Analysis
 
 * **Monitoring Tools**
-  * [HyperScan.fun](https://hyperscan.fun/) – Tracks auctions, token launches, and on-chain activities.
+  * [HyperDash](https://hyperdash.info/) – Trader Insight, stats, analytics ([Ticker ](https://hyperdash.info/analytics)& [Liquidation map](https://hyperdash.info/liqmap))
   * [Hypervisor.gg](https://hypervisor.gg/dashboard) – Market analysis tool with advanced features like the **Bubbles** tab ([View Bubbles](https://hypervisor.gg/bubbles)).
-  * [HyperDash](https://hyperdash.info/) – Real-time analytics and insights.
+  * [HyperScan.fun](https://hyperscan.fun/) – Tracks auctions, token launches, and on-chain activities.
   * [Dexscreener](https://dexscreener.com/hyperliquid) – Charts.
   * [ASXN spot](https://data.asxn.xyz/dashboard/spot-holder-trend) – Spot trend analysis.
   * [ASXN Dashboard](https://hyperliquid.asxn.xyz/all_metrics) – General metrics dashboard.
@@ -76,6 +76,7 @@ layout:
 | **Portfolio Trackers** | [HyperTerminal](https://hyperterminal.xyz/)                                                            |
 |                        | [Octav](https://octav.fi/)                                                                             |
 | **Copy Trading**       | [Copin](https://app.copin.io/explorer?protocol=HYPERLIQUID)                                            |
+|                        | [HyperDash](https://hyperdash.info/copytrading)                                                        |
 | **Tax Tools**          | [Hyperliquid.tax](https://hyperliquid.tax/) – Built by [@AwakenTax](https://x.com/AwakenTax)           |
 
 

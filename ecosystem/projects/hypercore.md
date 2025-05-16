@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# API Projects
+# HyperCore
 
 The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and “[Builder Codes](https://x.com/xulian_hl/status/1910188302579458173)”.
 
@@ -23,6 +23,7 @@ _Projects marked with `*` are not HyperLiquid native._
 
 * [InsilicoTerminal](https://insilicoterminal.com/#/)\* – Position and execution management system. [@InsilicoTrading](https://x.com/InsilicoTrading)
 * [Rage.trade](https://www.rage.trade/)\* – Perp Aggregator. [@rage\_trade](https://x.com/rage_trade)
+* [Perpflow](https://perpflow.xyz/) – Automate delta-neutral yield strategies. [@perpflow](https://x.com/perpflow)
 * [Katoshi](https://katoshi.ai/) – Automate your trading strategy. [@KatoshiAI](https://x.com/KatoshiAI)
 * [Tradestream](https://tradestream.xyz/sign-up) – Automated Trading Journal and Analytics. [@tradestream\_xyz](https://x.com/tradestream_xyz)
 * [D2finance](https://d2.finance/strategies)\* – Tokenized derivatives strategies. [@D2\_Finance](https://x.com/D2_Finance)
@@ -51,3 +52,5 @@ _Projects marked with `*` are not HyperLiquid native._
 * [hyp.fun](https://hyp.fun/) – All-in-one GambleFi deflationary token on HL. [@HyperFunX](https://x.com/HyperFunX)
 * [vegas-hl](https://vegas-hl.com/) – GambleFi via Telegram bot. [@Vegas\_hl](https://x.com/Vegas_HL)
 * [guess\_hl\_bot](https://t.me/guess_hl_bot) – Prediction market via Telegram mini app.  [@guess\_on\_hl](https://x.com/guess_on_hl)
+
+[Top 30](https://x.com/janklimo/status/1912725424796541236) Hyperliquid Builder Codes by Fees - April 17 2025.
