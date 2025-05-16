@@ -49,7 +49,7 @@ The security and decentralization model will continue to improve as more Guardia
 
 #### Fee Structure
 
-Unit charges fees on deposits and withdrawals to cover network costs and operational expenses. Trading fees remain the same as Hyperliquid's standard fee structure. [Notably](https://x.com/cainosullivan/status/1891360551424721171), 100% of the seller fees assets (like BTC) are directed to the deployer address, providing a sustainable funding model for Unit's ongoing development and operation.
+Unit charges fees on deposits and withdrawals to cover network costs and operational expenses. [Trading fees](https://x.com/hyperunit/status/1910728034656596205) remain the same as Hyperliquid's standard [fee](../hypercore/dex/clearinghouse/fees.md) structure. [Notably](https://x.com/cainosullivan/status/1891360551424721171), 100% of the seller fees assets (like BTC) are directed to the deployer address, providing a sustainable funding model for Unit's ongoing development and operation.
 
 ### Roadmap
 
