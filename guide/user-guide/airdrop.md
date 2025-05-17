@@ -60,37 +60,37 @@ Our guide is built thanks to X posts, and in particular this one: [HyperEVM Aird
 * **Ongoing Point Programs List:**
   * **Kittenswap:**\
     Earn points by swapping, providing liquidity, and holding multiplier NFTs.\
-    [Kittenswap HL Points](https://app.kittenswap.finance/points?referrer=0xB5617bFC48ed7c00D7F8F0220443794813996Ef4)
+    [Kittenswap HL Points](https://app.kittenswap.finance/)
   * **HyperSwap:**\
     Earn points by signing up, swapping, adding liquidity, and staking.\
-    [HyperSwap HL](https://app.hyperswap.exchange/#/swap?referral=gojo)
+    [HyperSwap HL](https://app.hyperswap.exchange/)
   * **HyperLend:**\
     Earn points by supplying, borrowing, referring, and holding Hypios.\
-    [HyperLend](https://app.hyperlend.finance/?ref=ELLIE)
+    [HyperLend](https://app.hyperlend.finance/)
   * **Harmonix:**\
     Earn points by depositing into vaults, staking $HYPE, and participating in campaigns.\
-    [Harmonix Vaults](https://app.harmonix.fi/?ref=lUMRvnle)
+    [Harmonix Vaults](https://app.harmonix.fi/)
   * **Okto:**\
     Earn points by trading perps and spot, and referring friends.\
-    [Okto Trading App](https://okto.go.link/defi_home?referral_code=dwZXe1\&adj_t=13c5o7y4)
+    Okto Trading App
   * **HypurrFi:**\
     Earn points by lending STHYPE/HYPE or engaging with liquidity pools.\
     [HypurrFi Points](https://app.hypurr.fi/points)
   * **Keiko Finance:**\
     Earn points through lending, borrowing, and liquidity provision (use referral alias “ellie”).\
-    [Keiko Finance](https://app.keikofinance.com)
+    [Keiko Finance](https://app.keikofinance.com/)
   * **Looped HYPE:**\
     Earn points by leveraging looped $HYPE with daily rebasing.\
-    [Looped HYPE Dashboard](https://stakingrewards.com/terminal/dashboard)
+    Looped HYPE Dashboard
   * **Nest Wallet:**\
     Earn points by creating a wallet, minting a free soul-bound NFT, and trading.\
-    [Nest Wallet](https://nestwallet.xyz/link?referral=GSNNT2)
+    [Nest Wallet](https://nestwallet.xyz/)
   * **HyBridge:**\
     Earn points by swapping tokens across networks—with bonus points for swapping into HL tokens and holding a minimum balance of $FUN.\
-    [HyBridge](https://v3.hybridge.xyz)
+    [HyBridge](https://v3.hybridge.xyz/)
   * **HyperBeat:**\
     Earn Hearts (points) by engaging with HyperBeat products (fraudulent activity is penalized).\
-    [HyperBeat Staking](https://app.hyperbeat.org/staking/sthype)
+    [HyperBeat Staking](https://app.hyperbeat.org/staking)
   * **Mizulabs:**\
     Earn points by depositing into the HyperEVM Vault and receiving partner rewards.\
     [Mizulabs Vault](http://mizulabs.xyz/dapp/vault)
@@ -105,12 +105,12 @@ Our guide is built thanks to X posts, and in particular this one: [HyperEVM Aird
     A blue chip NFT marketplace with potential airdrops and whitelist spots.
   * **PVP Trade:**\
     Earn rewards by joining a trading bot clan.\
-    [PVP Trade](https://pvp.trade/join/ellie)
+    [PVP Trade](https://t.me/pvptrade_bot)
   * **Felix Protocol:**\
     Engage in lending/borrowing and earn yield on stablecoins.
   * **HyperUnit:**\
     Earn points by trading spot BTC.\
-    [HyperUnit](https://app.hyperunit.xyz/deposit?asset=eth)
+    [HyperUnit](https://app.hyperunit.xyz/)
   * **Kinetiq:**\
     Participate in liquid staking to benefit from fee-tier rewards (note: LSTs currently do not count).
   * **Other Protocols:**\
@@ -121,10 +121,10 @@ Our guide is built thanks to X posts, and in particular this one: [HyperEVM Aird
     [HL Staking](https://app.hyperliquid.xyz/staking)\
     Top validators include @nansen\_ai x @hypurr\_co, Alphaticks, Validao, Hypio x HyperBeat, and ASXN.
   * **Memecoins Trading:**
-    * **Hypurrfun:** [HypurrFun Bot](https://t.me/HypurrFunBot?start=ref_bae075c1)
-    * **LiquidLaunch:** [LiquidLaunch](https://liquidlaunch.app)
-    * **HyperRich:** [HyperRich](https://hyperrich.fun/elliesol)\
-      Trade popular memecoins to capture bonus rewards within the ecosystem.
+    * **Hypurrfun:** [HypurrFun Bot](https://t.me/HypurrFunBot)
+    * **LiquidLaunch:** LiquidLaunch
+    * **HyperRich:** [HyperRich\
+      ](https://hyperrich.fun/)Trade popular memecoins to capture bonus rewards within the ecosystem.
 
 #### Other Resources & Guides
 
