@@ -17,7 +17,7 @@ layout:
 
 Felix Protocol is the **second largest protocol** on Hyperliquid with over $150M TVL (as of May 21, 2025), trailing only behind Hyperlend. The [protocol's approach](https://x.com/emaverick90/status/1915013107753144542) aligns with Hyperliquid's philosophy, focusing on ecosystem growth and improvement while prioritizing **security, economic stability, and transparency**.
 
-Led by founders [**@0xBroze**](https://x.com/0xBroze) and [**@emaverick90**](https://x.com/emaverick90), Felix maintains an educational approach through detailed articles and transparent communications about their development process.
+Led by founders [@0xBroze](https://x.com/0xBroze) and [@emaverick90](https://x.com/emaverick90), Felix maintains an educational approach through detailed articles and transparent communications about their development process.
 
 ### What is Felix Protocol?
 
@@ -106,7 +106,6 @@ HUSD created as a **public good initiative** by HyperActive and Felix in collabo
 * **Educational Content**
   * [Understanding Felix Stability Pools](https://x.com/0xBroze/status/1911762191897739707) - Explains yield mechanics, risk dynamics, and market impact
   * [Understanding Redemptions and Liquidations](https://x.com/0xBroze/status/1907395802449780931) - Guide to optimizing capital efficiency
-  * [Vanilla Markets Launch Announcement](https://x.com/felixprotocol/status/1923017204045406416) - Details on USDT0 and USDe support
   * [What does it mean to be a Hyperliquid-aligned fiat stable?](https://x.com/husd_fiat/status/1923017204045406416) - Explains HUSD's role in the ecosystem
   * [The Role of HUSD in the Felix Ecosystem](https://x.com/0xBroze/status/1917551086979932574) - How HUSD and feUSD work together
 * **Official Documentation**
