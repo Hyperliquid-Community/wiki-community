@@ -72,6 +72,7 @@ Below is an overview of farming strategies split into two main areas: HyperCore 
 
     * [HyperEVM Airdrop Playbook 102](https://x.com/ellie_nfts/status/1907048635990421540)
     * [A More Detailed Strategy](https://x.com/0xPicasso/status/1923824726163718377)
+    * [Four Smart Strategies](https://x.com/chip1cr/status/1923386689436737752)
 
 ***
 
