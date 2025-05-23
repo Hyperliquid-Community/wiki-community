@@ -53,4 +53,4 @@ _Projects marked with `*` are not HyperLiquid native._
 * [vegas-hl](https://vegas-hl.com/) – GambleFi via Telegram bot. [@Vegas\_hl](https://x.com/Vegas_HL)
 * [guess\_hl\_bot](https://t.me/guess_hl_bot) – Prediction market via Telegram mini app.  [@guess\_on\_hl](https://x.com/guess_on_hl)
 
-[Top 30](https://x.com/janklimo/status/1912725424796541236) Hyperliquid Builder Codes by Fees - April 17 2025.
+Hyperliquid [Builder Codes](https://hypebuilders.xyz/) dashboard by [@bisasolo](https://x.com/bisasolo/status/1921907211921658153)
