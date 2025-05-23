@@ -15,8 +15,6 @@ layout:
 
 # Node Operators
 
-_**Note:** This page is under construction. Please check back for updates._
-
 #### Validators
 
 Validators play a **crucial role** in the Hyperliquid network by:
