@@ -14,8 +14,9 @@
 
 * [Overview](architecture/overview.md)
 * [HyperBFT](architecture/hyperbft/README.md)
-  * [API Servers](architecture/hyperbft/api-servers.md)
   * [Staking](architecture/hyperbft/staking.md)
+  * [Validator](architecture/hyperbft/validator.md)
+  * [API Servers](architecture/hyperbft/api-servers.md)
 * [HyperCore](architecture/hypercore/README.md)
   * [Dex](architecture/hypercore/dex/README.md)
     * [Clearinghouse](architecture/hypercore/dex/clearinghouse/README.md)

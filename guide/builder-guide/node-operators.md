@@ -15,15 +15,37 @@ layout:
 
 # Node Operators
 
-_**Note:** This page is under active construction, and the information here may evolve as we learn more. Please check back for updates._
+_**Note:** This page is under construction. Please check back for updates._
 
-**Validators** play a crucial role in the Hyperliquid network by validating transactions, producing blocks, and securing the blockchain. Their performance can vary based on factors like **uptime**, the **quality and frequency of block proposals**, and adherence to network rules (i.e., avoiding **slashing events**). As the network matures, validators and node operators will have more tools, metrics, and best practices at their disposal.
+#### Validators
 
-**Non-Validating Nodes** help by providing additional services such as accessing data, supporting EVM functionality, or contributing to the network’s overall resilience without participating directly in block production.
+Validators play a **crucial role** in the Hyperliquid network by:
+
+* Validating transactions
+* Producing blocks
+* Securing the blockchain
+
+Validator performance can vary based on factors like:
+
+* **Uptime** and reliability
+* Quality and frequency of **block proposals**
+* Adherence to network rules (avoiding slashing events)
+
+As the network matures, validators and node operators will have more tools, metrics, and best practices at their disposal.
+
+#### Non-Validating Nodes
+
+Non-validating nodes help the network by providing additional services:
+
+* Accessing and serving data
+* Supporting **EVM functionality**
+* Contributing to network resilience without participating in block production
 
 #### Resources
 
-* [Github Node Repository](https://github.com/hyperliquid-dex/node) – Find instructions and resources for setting up and managing your node.
+* **HyperBFT** – To understand more about staking, validators, and consensus mechanism, see the [HyperBFT](../../architecture/hyperbft/) page
+* **Github Node Repository** – You can run a node by following the non-validator and validator setup steps in the [repository](https://github.com/hyperliquid-dex/node).
+* **Official Documentation**: – For detailed technical specifications, visit the [Node Setup section](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/nodes).
 
 {% hint style="success" %}
 **Stay Updated:** Check pinned messages in the <kbd>#node-operators</kbd> Discord channel for the latest instructions and updates. If you have **questions**, that’s the best place to ask!
