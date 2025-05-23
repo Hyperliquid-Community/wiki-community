@@ -15,11 +15,9 @@ layout:
 
 # Vault
 
-Vaults on **Hyperliquid L1** are powerful tools enabling both individual traders and the community to participate in advanced trading strategies. They **democratize access** to market-making profits and liquidation mechanisms, previously reserved for privileged parties on traditional exchanges.
+Vaults on **HyperCore** are powerful tools enabling both individual traders and the community to participate in advanced trading strategies. They **democratize access** to market-making profits and liquidation mechanisms, previously reserved for privileged parties on traditional exchanges.
 
 ***
-
-## **Types of Vaults**
 
 ### **1. Protocol Vaults: Hyperliquidity Provider (HLP)** 🌐
 
@@ -31,8 +29,7 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol va
 
 * Engages in **multiple market-making strategies**
 * Performs **liquidations** (via a dedicated liquidation strategy).
-* Receives **a portion** of the **platform fees**.
-* **Currently**, the HLP vault also receives **auction fees.**
+* Receives approximately **7%** of platform fees (current estimate, see [HyperDash](https://hyperdash.info/statistics) and [Fees page](dex/clearinghouse/fees.md#fee-distribution-and-sources) for details)
 
 #### **3-Core Strategies Used by HLP:**
 
@@ -43,7 +40,7 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol va
 #### **Community Participation**
 
 * **Anyone can deposit liquidity** into the HLP vault to share in its profits.
-* **No profit share fees** for vault owners—benefits are fully distributed to depositors.
+* **No profit share fees** for vault owners; benefits are fully distributed to depositors.
 
 #### **Lock-Up Period**
 
@@ -54,28 +51,24 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol va
 
 ### **2. Protocol Vaults: Assistance Fund (AF)** 🛡️
 
-The **Assistance Fund (AF)** address ([0xfefefefefefefefefefefefefefefefefefefefe](https://hypurrscan.io/address/0xfefefefefefefefefefefefefefefefefefefefe)) is safeguarded by a **validator quorum**, ensuring that its usage is subject to strict conditions.
+The **Assistance Fund (AF)** acts as a **safety net** for the Hyperliquid ecosystem, providing stability and covering potential losses during emergencies or platform errors. Examples include reimbursements for incorrect mark price calculations (see [Incident page](../../introduction/roadmap/incident.md) for historical cases).
 
-#### **Fee Allocation and Flow**
+**Technical Details**
 
-* Initially, it is **assumed** that trading fees from the Hyperliquid DEX were routed to the [0x36715f6408819492c27C1a1538156af9a2BFe963](https://hypurrscan.io/address/0x36715f6408819492c27C1a1538156af9a2BFe963) address, controlled exclusively by the Hyperliquid team, which then funded **0xfe**.
-* However, there may have been **other addresses** involved in this process that are not publicly known.
-* Currently, trading fees are sent **directly to 0xfe**, streamlining the process.
+* **Address**: [0xfefefefefefefefefefefefefefefefefefefefe](https://hypurrscan.io/address/0xfefefefefefefefefefefefefefefefefefefefe)
+* Safeguarded by a **validator quorum**, ensuring strict conditions for usage
+* Currently receives approximately **93%** of platform fees
+* **Constantly purchases HYPE tokens** using a TWAP (Time-Weighted Average Price) strategy, as it's the most liquid asset
+* Plans to diversify into other assets in the future
+* Sets limit orders near market price when balance > $10k USDC
+* **Real-time tracking**: [AF Dashboard](https://data.asxn.xyz/dashboard/hl-buybacks) - Current balance and HYPE buyback activity
 
-**On-Chain Visibility:**
+#### Historical Context
 
-* At present, **fees are not directly visible** on explorers, making it difficult to track fee flows or analyze their exact allocation.
-*   _🚧 I will conduct a study to **estimate the fees generated** by the platform based on its trading volume._
-
-    _Additionally, I will **review the Assistance Fund’s expenditures** to gain deeper insights into its activity._
-
-**Automated Fund Activity:**
-
-* Today, the Assistance Fund **constantly purchases HYPE tokens** using a **TWAP (Time-Weighted Average Price)** strategy. This ensures a steady and systematic buyback of HYPE using the trading fees it receives.
-
-**Purpose**
-
-* The Assistance Fund acts as a **safety net** during emergencies or special situations, providing stability and covering potential losses.
+* Before the AF, there was an insurance fund that served similar purposes
+* An identified **insurance fund** address initially funded the AF when it was created: [0x36715f6408819492c27C1a1538156af9a2BFe963](https://hypurrscan.io/address/0x36715f6408819492c27C1a1538156af9a2BFe963) (controlled by Hyperliquid team)
+* This address can be confirmed as it was used to reimburse users during the [ZRO incident](../../introduction/roadmap/incident.md)
+* Trading fees now flow directly to 0xfe (AF address)
 
 ***
 
@@ -100,6 +93,7 @@ User-created vaults allow individuals to run personalized trading strategies and
 * **Lock-Up Period:** Deposits are locked for **1 day** before withdrawal is allowed.
 * **Performance Tracking:**
   * View vault statistics, including APY, total deposits (TVL), and historical performance, on the vault’s page.
+  * Track all vaults in real-time: [Vaults Analyser](https://www.vaults-analyser.com/leaderboard)
 * **Withdrawals:**
   * If margin requirements are met, withdrawals do not affect open positions.
   * Otherwise, a proportional amount of positions is closed to maintain stability.
@@ -115,11 +109,6 @@ User-created vaults allow individuals to run personalized trading strategies and
 
 ### Resources 📚
 
-For further reading and detailed insights on HLP, Assistance Fund, and Vaults, you can explore the following official resources:
-
+* **Analysis:** [Vault Performance Breakdown](https://medium.com/@growi.fi/breaking-down-the-financial-performance-of-hyperliquid-vaults-6c9b86ac466f) | [HLP Analysis](https://x.com/RyskyGeronimo/status/1893347632958832728)
 * **HLP:** [Medium: HLP Overview](https://medium.com/@hyperliquid/hyperliquidity-provider-hlp-democratizing-market-making-bb114b1dff0f) | [Medium: 3-Month Update](https://medium.com/@hyperliquid/hlp-update-3-months-in-42327abe3e57)
-* **AF:** [Docs: Trading Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees)
 * **Vaults:** [Docs: Vaults Overview](https://hyperliquid.gitbook.io/hyperliquid-docs/vaults) | [Vault Page](https://app.hyperliquid.xyz/vaults)
-* **HL Revenue Analysis:** [Twitter Post](https://x.com/stevenyuntcap/status/1866326285703856272)
-
-Vaults on Hyperliquid enable anyone—from DAOs to individual traders—to engage with sophisticated trading strategies, share in the ecosystem’s growth, and democratize access to advanced DeFi tools.

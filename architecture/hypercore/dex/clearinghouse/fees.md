@@ -29,7 +29,7 @@ Hyperliquid's fee system is designed to reward active users, builders, and the b
 |                        | Builder Codes                                                                 | 100% custom fee + 40% to 100%  | Builder fee + staking referral rewards if staking HYPE                                  |
 |                        | Maker Rebates                                                                 | Up to -0.003% rebate           | Continuous rebates for market makers                                                    |
 | **Community Benefits** | [HLP Vault](../../vault.md#id-1.-protocol-vaults-hyperliquidity-provider-hlp) | Liquidity incentives           | Fees fund liquidity provision rewards                                                   |
-|                        | Assurance Fund                                                                | 97% of fees reinvested         | Ecosystem protection and HYPE buybacks                                                  |
+|                        | Assurance Fund                                                                | fees reinvested                | Ecosystem protection and HYPE buybacks                                                  |
 
 **Please note:**
 
@@ -42,6 +42,32 @@ Hyperliquid's fee system is designed to reward active users, builders, and the b
   * Discounts don't apply to vaults or sub-accounts
 * **Builder Codes:** Staking referral program also applies to builder codes (more info on this [page](../../../../guide/builder-guide/hypercore/)). Builders receive builder fee + up to 40% of HL fees and can share up to 50% of these fees with users
 * **Fee Assessment:** Calculated at end of each day in UTC
+
+***
+
+### **Fee Distribution & Sources**
+
+On Hyperliquid, **fees are entirely directed to the community** through HLP, the Assistance Fund, and spot deployers rather than being extracted by the protocol team.
+
+**Current Fee Allocation:**
+
+* **7% of fees** → HLP vault
+* **93% of fees** → Assistance Fund
+* **Fee Tracking:** Direct fee visibility is limited - estimates based on trading volume. Analytics: [HyperDash](https://hyperdash.info/statistics) | [HypurrScan](https://hypurrscan.io/dashboard)
+
+**Fee Sources:**
+
+* **Perpetual trading:** All perp trading fees
+* **Spot trading:**
+  * **USDC side (bid):** Fees go to protocol
+  * **Token side (ask):** Deployer controls what percentage of fees they collect (0-100%)
+    * If 100% → All fees go to deployer's address
+    * If 0% → All fees are burned
+    * Deployers can only decrease their share permanently
+    * Tokens deployed before January 2025 have all fees burned (including [HYPE](https://data.asxn.xyz/dashboard/hype-burn))
+    * To check a token's fee share: Call API `spotMetaAndAssetCtxs` → `deployerTradingFeeShare`
+* **Spot deployment:** [Auction fees](../../hips/spot-deployments-hip-1-hip-2.md#what-is-hip-1) paid by deployers to purchase tickers
+* **Future:** HyperEVM fees may be distributed to HYPE stakers
 
 ***
 

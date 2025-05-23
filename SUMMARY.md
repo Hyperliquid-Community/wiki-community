@@ -8,6 +8,7 @@
 * [What is Hyperliquid?](introduction/what-is-hyperliquid.md)
 * [Hyperliquid Labs](introduction/hyperliquid-labs.md)
 * [Roadmap](introduction/roadmap/README.md)
+  * [Incident](introduction/roadmap/incident.md)
   * [2025-26-03\_Incident](introduction/roadmap/2025-26-03_incident.md)
 
 ## Architecture

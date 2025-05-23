@@ -21,6 +21,7 @@ There is only **one official method** to deploy a new token on Hyperliquid: a **
 
 * **One ticker** is created at each auction interval.
 * You must pay the required **gas cost** (Auction price) to win and **receive** the right to deploy your token.
+* **Auction tracking:** [ASXN Auction Dashboard](https://data.asxn.xyz/dashboard/hl-auctions) - View all past and current auctions
 
 _**Note:**_ HyperEVM enables builders to link ERC-20 tokens with spot tokens. However, without a native Hyperliquid ticker acquired via Dutch Auction, your token won’t appear on the front end or be traded on the order book.
 

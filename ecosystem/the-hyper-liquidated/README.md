@@ -16,7 +16,7 @@ layout:
 # The Hyper Liquidated
 
 _"I will introduce you to the newest emerging cult on CT, or who I will be referring to as..._\
-&#xNAN;_**'The Hyper Liquidated'**"_ – _@crypto\_adair_
+&#xNAN;_**'The Hyper Liquidated'**"_ – [_@crypto\_adair_](https://x.com/crypto_adair/status/1806748433593577833)
 
 The **Hyper Liquidated** community is a rapidly growing ecosystem of passionate traders, builders, and crypto enthusiasts who rally around the capabilities and innovation of the **HyperLiquid** platform. From experienced market-makers to new entrants exploring the world of perps, and beyond, everyone is coming together to celebrate a platform that truly resonates with their needs and ambitions.
 

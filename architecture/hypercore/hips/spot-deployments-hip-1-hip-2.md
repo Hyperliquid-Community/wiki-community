@@ -21,7 +21,9 @@ layout:
 
 ### **What is HIP-1?**
 
-**HIP-1** defines a capped-supply, fungible token standard native to the **Hyperliquid L1**. When you deploy a HIP-1 token, you automatically get a built-in on-chain spot order book paired with **Spot USDC**. This enables immediate, permissionless trading without needing extra infrastructure. Think of it as launching a token and its native trading venue at the same time! 🚀
+**HIP-1** defines a capped-supply, fungible token standard native to **HyperCore**. When you deploy a HIP-1 token, you automatically get a built-in on-chain spot order book paired with **Spot USDC**. This enables immediate, permissionless trading without needing extra infrastructure. Think of it as launching a token and its native trading venue at the same time! 🚀
+
+**Token Deployment:** See our [Spot Deployment Guide](../../../guide/user-guide/spot-deployments.md) for complete instructions on deploying HIP-1 tokens via Dutch auction.
 
 ***
 
@@ -50,7 +52,7 @@ You can also **allocate initial balances** to holders of **another HIP-1 token**
 ### Gas & Deployment Costs
 
 **Deployment via a 31-Hour Dutch Auction**\
-HIP-1 token deployment isn’t just a standard transaction—it’s gated by a 31-hour **Dutch auction** mechanism that determines the “gas cost” in USDC. A Dutch auction starts at a high price and decreases linearly over time until a buyer steps in.
+HIP-1 token deployment isn’t just a standard transaction; it’s gated by a 31-hour **Dutch auction** mechanism that determines the “gas cost” in USDC. A Dutch auction starts at a high price and decreases linearly over time until a buyer steps in.
 
 **How It Works:**
 
@@ -76,9 +78,9 @@ HIP-1 token deployment isn’t just a standard transaction—it’s gated by a 3
 
 ***
 
-### Future EVM Compatibility
+### EVM Compatibility
 
-Once **HyperEVM** is live, any deployed HIP-1 token can be linked to a corresponding ERC-20 contract on the EVM side, enhancing interoperability and expanding the token’s utility beyond the native environment.
+Any deployed HIP-1 token can be linked to a corresponding ERC-20 contract on the EVM side, enhancing interoperability and expanding the token’s utility beyond the native environment.
 
 ***
 
@@ -86,8 +88,8 @@ Once **HyperEVM** is live, any deployed HIP-1 token can be linked to a correspon
 
 **Trading & Fees:**
 
-* Trading follows Hyperliquid’s standard fee schedule.
-* Non-USDC trading fees currently result in token burns, though future upgrades may redirect these fees to liquidity providers or token stakers.
+* Trading follows Hyperliquid’s standard [fee schedule](../dex/clearinghouse/fees.md).
+* Non-USDC trading fees are currently burned or redirected to the deployer's address.
 
 **Dusting Mechanism:**\
 Over time, negligible token balances (“dust”) accumulate. These tiny amounts are periodically aggregated and either sold on the open market or burned if they’re too small. This keeps user accounts tidy and the ecosystem cleaner.
@@ -98,7 +100,7 @@ Over time, negligible token balances (“dust”) accumulate. These tiny amounts
 
 ### **What is HIP-2?**
 
-HIP-2 introduces **Hyperliquidity**, a revolutionary liquidity solution built directly into the **Hyperliquid L1** blockchain. Unlike traditional liquidity pools (e.g., Uniswap-style AMMs), Hyperliquidity uses the **on-chain order book** to provide automated two-sided liquidity for spot tokens.
+HIP-2 introduces **Hyperliquidity**, a revolutionary liquidity solution built directly into the **HyperCore**. Unlike traditional liquidity pools (e.g., Uniswap-style AMMs), Hyperliquidity uses the **on-chain order book** to provide automated two-sided liquidity for spot tokens.
 
 ***
 
