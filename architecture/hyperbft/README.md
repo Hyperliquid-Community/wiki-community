@@ -17,7 +17,7 @@ layout:
 
 ### What is Consensus in a Blockchain?
 
-In a blockchain, the **consensus mechanism** ensures that all network participants agree on the state of the ledger—even if some actors are faulty or acting maliciously. It’s what maintains the trust and integrity of the system, enabling everyone to share a common view of which transactions are valid and included in the chain.
+In a blockchain, the **consensus mechanism** ensures that all network participants agree on the state of the ledger; even if some actors are faulty or acting maliciously. It’s what maintains the trust and integrity of the system, enabling everyone to share a common view of which transactions are valid and included in the chain.
 
 ### About HyperBFT
 
@@ -36,6 +36,6 @@ Since we only know that HyperBFT is “heavily inspired” by Hotstuff **(no off
 
 Understanding the performance of a blockchain’s consensus mechanism is critical for evaluating its scalability and usability.
 
-* **Latency:** Median latency is **0.2 seconds**, while 99th percentile latency is **0.9 seconds**. This ensures transactions are processed rapidly under typical and peak traffic conditions.
+* **Latency:** Median latency is **0.1 seconds**, while 99th percentile latency is **0.5 seconds**. This ensures transactions are processed rapidly under typical and peak traffic conditions.
 * **Current Throughput:** While HyperCore supports up to **200,000 orders per second**, its consensus and networking layers are designed to scale beyond **1 million orders per second** as execution logic is further optimized.
 
