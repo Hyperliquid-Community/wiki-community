@@ -60,12 +60,14 @@ Unlike centralized exchanges where only the team can list new markets, HIP-3 tra
 * **Specialized interfaces**: frontends dedicated to builder-deployed perps
 * **HYPE pooling**: collaboration between projects to reach minimum stake
 
-- **Market display**
+#### Important considerations
+
+* **Market display**
   * [app.hyperliquid.xyz](https://app.hyperliquid.xyz/trade) will not initially display these perps
   * **No deployment UI** on official frontend
   * **Alternative interfaces** developed by the community (compatible with **builder codes** for additional fee monetization)
   * Encourages specialization and interface decentralization
-- **Expected use cases**
+* **Expected use cases**
   * **Legally sensitive assets** that the team cannot list directly
   * **Niche markets** with specific demand
   * **Financial innovation**: new types of perpetual contracts
