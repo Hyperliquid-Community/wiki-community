@@ -47,7 +47,7 @@ Hyperliquid's fee system is designed to reward active users, builders, and the b
 
 ### **Fee Distribution & Sources**
 
-On Hyperliquid, **fees are entirely directed to the community** through HLP, the Assistance Fund, and spot deployers rather than being extracted by the protocol team.
+On Hyperliquid, **fees are entirely directed to the community** through HLP, the Assistance Fund, and spot/perp deployers rather than being extracted by the protocol team.
 
 **Current Fee Allocation:**
 
@@ -57,7 +57,9 @@ On Hyperliquid, **fees are entirely directed to the community** through HLP, the
 
 **Fee Sources:**
 
-* **Perpetual trading:** All perp trading fees
+* **Perpetual trading:**
+  * **Hyperliquid Labs perps:** All fees go to protocol
+  * **HIP-3 perps:** Up to 50% of fees go to deployer, remainder to protocol
 * **Spot trading:**
   * **USDC side (bid):** Fees go to protocol
   * **Token side (ask):** Deployer controls what percentage of fees they collect (0-100%)
