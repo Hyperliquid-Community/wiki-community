@@ -20,7 +20,7 @@ layout:
 * **Proven Track Record:**
   * Two previous point seasons delivered the largest airdrops in DeFi history, proving that active participation generates substantial rewards
 * **Continuous Buying Pressure:**
-  * The [Assurance Fund](../../architecture/hypercore/vault.md#id-2.-protocol-vaults-assistance-fund-af) automatically reinvests **97% of platform fees** to purchase HYPE tokens, creating consistent demand and price support.
+  * The [Assurance Fund](../../architecture/hypercore/vault.md#id-2.-protocol-vaults-assistance-fund-af) automatically reinvests **93% of platform fees** to purchase HYPE tokens, creating consistent demand and price support.
 * **Strategic** [**Tokenomics**](https://www.hypeburn.fun/)**:**
   * **Total Supply:** 1,000,000,000 HYPE tokens
   * **Current Circulating Supply:** \~333M HYPE
