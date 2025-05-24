@@ -26,6 +26,7 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
   * [Weekly Updates](https://t.me/hypurrco) – Recaps of ecosystem events on Telegram.
   * [YouTube](https://youtube.com/@HypurrCollective?sub_confirmation=1) – Video content for the community.
   * [Reddit](https://reddit.com/r/hyperliquid1/) – Community forum for discussions and updates
+  * [LinkedIn](https://www.linkedin.com/company/hypurrcollective/) – Professional insights and Hyperliquid updates
   * [Local Communities](https://x.com/hypurr_co/status/1921785184871178658) – Regional groups across different countries and languages
 * [HL Fund ](https://hl.fund/)– An educational tweet aggregator that lets you access the best information on Hyperliquid in seconds.
 

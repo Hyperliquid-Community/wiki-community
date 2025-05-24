@@ -69,7 +69,7 @@ HIP-1 token deployment isn’t just a standard transaction; it’s gated by a 31
 3. **Single Buyer per Auction Window:**\
    Only one buyer can purchase the deployment “slot” within a given 31-hour period. Once bought, the auction ends, and you’ve reserved your right to deploy your token at any future time—you’re not forced to deploy immediately. You’ve essentially secured the ticker and the ability to create that token market.
 4. **Payment in USDC, Transition to HYPE:**\
-   Initially, the gas cost is payable in **USDC**, but eventually, it will be paid in the native Hyperliquid token (**HYPE**).
+   Initially, spot deployment auctions were payable in **USDC**. Since [May 22, 2025](https://discord.com/channels/1029781241702129716/1030197017655394447/1375074372741758997), payments are made in the native Hyperliquid token (**HYPE**).
 
 **Where to Deploy and Test:**
 

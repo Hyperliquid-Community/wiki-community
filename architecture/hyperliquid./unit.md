@@ -35,7 +35,7 @@ Unit operates through a decentralized **Guardian network** that bridges Hyperliq
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://docs.hyperunit.xyz/architecture/quickstart">Architecture Overview</a></p></figcaption></figure>
 
-Currently, three Guardians support the network: Unit, Hyperliquid, and Infinite Field. The off-chain nature of Guardians presents some centralization risks, but the system includes robust security measures:
+Currently, three Guardians support the network: Unit, Hyperliquid, and [Infinite Field](https://x.com/infinitefieldx/status/1890437991224520799). The off-chain nature of Guardians presents some centralization risks, but the system includes robust security measures:
 
 * Multi-signature requirements protect against single points of failure
 * Transactions are transparently recorded on both source and destination blockchains, making inconsistencies easily detectable
