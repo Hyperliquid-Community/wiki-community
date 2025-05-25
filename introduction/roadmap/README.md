@@ -19,7 +19,7 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
 
 <figure><img src="../../.gitbook/assets/GgYd0fKacAA3uUb-Photoroom.png" alt=""><figcaption><p><a href="https://x.com/stevenyuntcap/status/1875221019356754143">Steven Timeline</a></p></figcaption></figure>
 
-**HyperBFT**
+### **HyperBFT**
 
 * TGE & Token
   * **Closed Alpha End** - Points distributed to 11.5k users for activity before ✅ [Oct 31, 2023](https://x.com/HyperliquidX/status/1779683269543666042)
@@ -49,7 +49,7 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
 * API
   * **Permissionless API servers** - Anyone will be able to run an API server pointing at any node
 
-**HyperCore**
+### **HyperCore**
 
 * DEX
   * Technical Infrastructure
@@ -78,7 +78,7 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
   * **HIP-3 Testnet** - Permissionless perps orderbook deployment ✅ [May 1, 2025](https://x.com/stevenyuntcap/status/1917918390699938254)
   * **HIP-3 Mainnet** - Complete decentralization of perp listing
 
-**HyperEVM**
+### **HyperEVM**
 
 * **Testnet Announcement** - Native EVM with atomic composability announced ✅ [May 20, 2024](https://x.com/HyperliquidX/status/1792393508101439800)
 * **Dual-Block architecture** - Small blocks and large blocks ✅ [Jan 30, 2025](https://discord.com/channels/1029781241702129716/1208476333089497189/1334521323082223678)
@@ -87,7 +87,7 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
 * **Read Precompiles** - Builders can read HyperCore state atomically from smart contracts ✅ [Apr 28, 2025](https://x.com/HyperliquidX/status/1916779597531693355)
 * **Write Precompiles** - Enabling new forms of DeFi
 
-**Ecosystem**
+### **Ecosystem**
 
 * Milestones
   * **60+ perps to trade** - ✅ [Oct 18, 2023](https://x.com/HyperliquidX/status/1714347413085778114)
