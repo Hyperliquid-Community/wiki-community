@@ -49,7 +49,7 @@ layout:
 * **Philosophy**: "By the end, I was almost sick of physics, but I wanted to do as well as I can" - the same relentless drive now powers Hyperliquid
 * **Journey**: From competing on the world stage in physics to building one of the most innovative perp DEXs in crypto
 
-**iliensinc** - Co-Founder
+**Iliensinc** - Co-Founder
 
 * **Harvard Connection**: Jeff's classmate and co-founder, driving Hyperliquid's technical innovation alongside Jeff
 
