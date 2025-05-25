@@ -34,7 +34,7 @@ While Hyperliquid carries [inherent risks](https://hyperliquid.gitbook.io/hyperl
 [March 12, 2025](https://x.com/threesigmaxyz/status/1899798137000145067)
 
 * **Description:** Trader opened $271M ETH long position with 50x leverage using $6M collateral, then strategically withdrew funds to force liquidation while hedging short on external exchange, exploiting liquidation mechanics rather than technical vulnerabilities
-* **Response:** Max leverage reduced to 40x (BTC) and 25x (ETH), though this constant leverage approach was [criticized as insufficient](https://x.com/armaniferrante/status/1899846340437545032). Additional 20% margin ratio requirement [implemented](https://x.com/HyperliquidX/status/1900199063880171578) on margin transfers to directly address the withdrawal-based liquidation strategy
+* **Response:** Max leverage reduced to 40x (BTC) and 25x (ETH). Additional 20% margin ratio requirement [implemented](https://x.com/HyperliquidX/status/1900199063880171578) on margin transfers to directly address the withdrawal-based liquidation strategy
 * **Outcome:** $4M HLP loss (approximately one month's profit), no Assurance Fund compensation as system operated as designed - mechanism exploit rather than platform malfunction
 
 [June 21, 2024](https://discord.com/channels/1029781241702129716/1030197017655394447/1253396026753028138)
