@@ -51,7 +51,7 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol va
 
 ### **2. Protocol Vaults: Assistance Fund (AF)** 🛡️
 
-The **Assistance Fund (AF)** acts as a **safety net** for the Hyperliquid ecosystem, providing stability and covering potential losses during emergencies or platform errors. Examples include reimbursements for incorrect mark price calculations (see [Incident page](../../introduction/roadmap/incident.md) for historical cases).
+The **Assistance Fund (AF)** acts as a **safety net** for the Hyperliquid ecosystem, providing stability and covering potential losses during emergencies or platform errors. Examples include reimbursements for incorrect mark price calculations (see [Incident page](../../introduction/roadmap/incident/) for historical cases).
 
 **Technical Details**
 
@@ -67,7 +67,7 @@ The **Assistance Fund (AF)** acts as a **safety net** for the Hyperliquid ecosys
 
 * Before the AF, there was an insurance fund that served similar purposes
 * An identified **insurance fund** address initially funded the AF when it was created: [0x36715f6408819492c27C1a1538156af9a2BFe963](https://hypurrscan.io/address/0x36715f6408819492c27C1a1538156af9a2BFe963) (controlled by Hyperliquid team)
-* This address can be confirmed as it was used to reimburse users during the [ZRO incident](../../introduction/roadmap/incident.md)
+* This address can be confirmed as it was used to reimburse users during the [ZRO incident](../../introduction/roadmap/incident/)
 * Trading fees now flow directly to 0xfe (AF address)
 
 ***
