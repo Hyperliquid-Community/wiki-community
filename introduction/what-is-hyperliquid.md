@@ -66,7 +66,7 @@ For current statistics and live data, explore these resources:
 * **Fee metrics**: [Artemis Analytics](https://app.artemis.xyz/project/hyperliquid?from=projects)
 * **Blockchain comparisons**: [DeFiLlama Chains](https://defillama.com/chains)
 * **TVL breakdown**: [DeFiLlama Hyperliquid](https://defillama.com/chain/hyperliquid-l1)
-* **HyperCore statistics**: [Dune Analytics](https://dune.com/uwusanauwu/perps) - Market shares, revenue, and more
+* **HyperCore statistics**: [Dune Analytics](https://dune.com/uwusanauwu/perps)
 * **Revenue & buybacks**: [HypeBurn](https://hypeburn.fun/)
 * **In-Depth Research:**
   * [Arise Hyperliquid: This Cycle's DeFi Kingpin](https://www.mirana.xyz/research/arise-hyperliquid) - Mirana Research
