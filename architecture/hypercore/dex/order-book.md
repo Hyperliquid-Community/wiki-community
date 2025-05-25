@@ -82,13 +82,13 @@ Hyperliquid offers a wide range of order types, catering to diverse trading stra
 
 Hyperliquid’s perpetual contracts are designed for simplicity and efficiency, catering to both institutional and retail traders.
 
-#### **Key Features**:
+* **Linear Perpetuals:** Collateralized with **USDC**, but prices are denominated in **USDT** for liquidity and accessibility (technically quanto contracts)
+* **No Expiration:** Funding payments align perpetual prices with spot prices over time
+* **Maximum market order values:** **$10M** (leverage ≥25), **$1M** (leverage 20-25), **$500K** (leverage 10-20), **$250K** (lower leverage)
+* **Maximum limit order values:** **10x** the corresponding market order limit
+* **Margin options:** Cross or isolated margin per wallet
 
-* **Linear Perpetuals:** Collateralized with **USDC**, but prices are denominated in **USDT** for liquidity and accessibility.
-* **No Expiration:** Funding payments align perpetual prices with spot prices over time.
-* **Position Limits:**
-  * Maximum **market order values** range from **$250,000 to $4,000,000**, depending on leverage.
-  * Maximum **limit order values** are **10x** the corresponding market order limit.
+_Note: PURR-USD and HYPE-USD are denominated in USDC due to their primary liquidity source being Hyperliquid spot._
 
 [Read more about Contract Specifications](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/contract-specifications)
 
@@ -98,8 +98,9 @@ Hyperliquid’s perpetual contracts are designed for simplicity and efficiency, 
 
 In addition to spot-based perpetuals, Hyperliquid offers **index perpetual contracts**, which track formulas instead of spot prices.
 
-* **Mechanism:** Validators periodically report the index formula’s value, which is used instead of a spot oracle price for funding calculations.
-* **Example Applications:** Indices tracking market sentiment, weighted averages of token prices, etc.
+* **Mechanism:** Validators periodically report the index formula's value, which is used instead of a spot oracle price for funding calculations
+* **Current indices:** **NFTI-USD** (blue-chip NFT collections) and **FRIEND-USD** (friend.tech subjects)
+* **Function:** Work exactly like normal perpetual contracts but track custom formulas rather than asset prices
 
 [Learn more about Index Perpetuals](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/index-perpetual-contracts)
 
@@ -107,11 +108,13 @@ In addition to spot-based perpetuals, Hyperliquid offers **index perpetual contr
 
 ### **Hyperps (Hyperliquid-Only Perps)** 🚀
 
-A unique offering by Hyperliquid, **Hyperps** are perpetual contracts that don’t require an external spot or index oracle price.
+A unique offering by Hyperliquid, **Hyperps** are perpetual contracts that don't require an external spot or index oracle price.
 
-* **Funding Rates:** Determined relative to an **8-hour exponential moving average** of the mark price, reducing susceptibility to manipulation.
-* **Conversion to Vanilla Perps:** Once the underlying asset becomes widely traded on major platforms (e.g., Binance, Bybit), Hyperps transition to standard perpetual contracts.
-* **Open Interest Caps:** Initially limited to **$1,000,000** for early market stability.
+* **Funding Rates:** Determined relative to an **8-hour exponential moving average** of the mark price, reducing susceptibility to manipulation
+* **Conversion to Vanilla Perps:** Once the underlying asset becomes widely traded on major platforms (**Binance, OKX, Bybit**), Hyperps transition to standard perpetual contracts
+* **Trading Restrictions:** **Low leverage** and **isolated margin only** - higher risk due to low liquidity, high volatility, and potentially extreme funding rates
+
+⚠️ **Important:** Heavy price momentum creates strong funding incentives for opposite positions over the next 8 hours. Only trade contracts you fully understand.
 
 [Explore more about Hyperps](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/hyperps)
 
@@ -119,7 +122,7 @@ A unique offering by Hyperliquid, **Hyperps** are perpetual contracts that don�
 
 ### **Perpetual Assets** 🌍
 
-Hyperliquid supports trading for **100+ assets**, with new listings influenced by community input. Future plans include transitioning to a **decentralized and permissionless listing process**, ensuring broad accessibility.
+Hyperliquid supports trading for **100+ assets**, with new listings influenced by community input. The protocol is transitioning to a **permissionless listing process** through [HIP-3](../hips/perp-deployments-hip-3.md) **(Builder-Deployed Perpetuals)**.
 
 ***
 

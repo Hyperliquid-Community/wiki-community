@@ -20,12 +20,9 @@ Funding rates are a critical mechanism in crypto perpetual contracts, ensuring t
 
 ### **Overview of Funding** 📈
 
-* **Peer-to-Peer Payments:**\
-  Funding involves direct payments between traders—**longs pay shorts** or vice versa. The platform does not collect any fees from these payments.
-* **Hourly Settlements:**\
-  Funding is accrued and paid **every hour**, providing consistent adjustments to the market.
-* **Base Interest Rate + Premium:**\
-  The funding rate is computed as the sum of:
+* **Peer-to-Peer Payments:** Funding involves direct payments between traders; **longs pay shorts** or vice versa. The platform does not collect any fees from these payments.
+* **Hourly Settlements:** Funding is accrued and paid **every hour**, providing consistent adjustments to the market.
+* **Base Interest Rate + Premium:** The funding rate is computed as the sum of:
   1. A **fixed interest** **rate** of **0.01% every 8 hours** applies, representing the cost difference between borrowing USD or cryptocurrencies. This corresponds to approximately **0.00125% per hour** and an **APR (Annual Percentage Rate) of \~11.6%**.
   2. A **premium/discount component**, which reflects the difference between the perpetual contract price and the **oracle-derived spot price** of the asset.
 
@@ -33,7 +30,7 @@ Funding rates are a critical mechanism in crypto perpetual contracts, ensuring t
 
 ### **Funding Rate Calculation** 🧮
 
-The funding rate formula is:
+The funding rate formula is:&#x20;
 
 ```lua
 F = Average Premium Index (P) + clamp(Interest Rate - Premium Index (P), -0.0005, 0.0005)
@@ -118,6 +115,22 @@ Where:
 
 ***
 
-### **Why Funding Matters** 🔗
+### **Market Dynamics & Trading Insights** 🔗
 
-Funding incentivizes traders to take positions that align the perpetual price with the spot price. This **price convergence mechanism** maintains a stable and fair trading environment for all participants. Hyperliquid's funding model closely mirrors centralized exchanges but adds decentralization and transparency, making it uniquely robust.
+**Open Interest** - Total number of contracts held by all market participants; indicates market sentiment and trading activity intensity. There's always a long for every short.
+
+**Premiums & Discounts:**
+
+* **Premium** (perp > spot): Perpetual trading above spot price - longs pay shorts
+* **Discount** (perp < spot): Perpetual trading below spot price - shorts pay longs
+* The **funding rate** translates these premium/discount observations into actual payment amounts
+* Creates **arbitrage opportunities** for yield-seeking traders (cash and carry strategies)
+
+**Advanced Interpretation:**
+
+* **Positive funding** ≠ always bullish sentiment - could indicate spot selling faster than perps
+* **Negative funding** ≠ always bearish sentiment - could indicate spot buying leading perps
+* **Funding dislocations** between funding rates and price action often signal significant moves
+* **OI flushes** tend to happen when OI rises while prices grind down - shows leveraged buying over spot
+
+Funding incentivizes traders to take positions that align the perpetual price with the spot price, maintaining a **stable and fair trading environment** through economic incentives rather than forced settlement.

@@ -15,50 +15,34 @@ layout:
 
 # Oracle
 
-The **Hyperliquid Oracle System** plays a critical role in maintaining the accuracy and robustness of trading operations. It provides reliable price data for **funding rate calculations**, **margining**, **liquidations**, and the triggering of **Take Profit (TP)** and **Stop Loss (SL)** orders.
+The Hyperliquid Oracle System provides reliable price data for funding rates, margining, liquidations, and triggering Take Profit/Stop Loss orders through robust, manipulation-resistant mechanisms.
 
 ***
 
 ### **Spot Oracle Price** 📈
 
-#### Definition:
+* **Validator-computed:** Published by validators **every 3 seconds** for high-frequency market updates
+* **Weighted median** of major CEX prices: **Binance (3), OKX (2), Bybit (2), Kraken (1), Kucoin (1), Gate IO (1), MEXC (1), Hyperliquid (1)**
+* **Final clearinghouse price:** Weighted median of validator-submitted prices (validators weighted by stake)
+* **Usage:** Primary input for funding rate calculations and mark price component
 
-The **spot oracle price** is computed by validators and serves as a critical input to both **funding rates** and the **mark price**.
+**Special cases:**
 
-#### Key Features:
-
-* **Published by Validators Every 3 Seconds:** Ensures high-frequency updates for dynamic markets.
-* **Weighted Median of CEX Prices:**
-  * Prices are aggregated from major centralized exchanges (CEXs), including Binance, OKX, Bybit, Kraken, Kucoin, Gate IO, MEXC, and Hyperliquid itself.
-  * **Weights:** Binance (3), OKX (2), Bybit (2), Kraken (1), Kucoin (1), Gate IO (1), MEXC (1), Hyperliquid (1).
-  * **Final Price for Clearinghouse:**\
-    The clearinghouse uses the **weighted median of validator-submitted prices**, with validators weighted by their **stake**.
+* **Hyperliquid-native assets** (e.g., HYPE): External sources excluded until sufficient external liquidity
+* **External primary liquidity** (e.g., BTC): Hyperliquid spot prices excluded from oracle
 
 ### **Mark Price** 📊
 
-**Definition:**
+**Unbiased, robust estimate** of fair perpetual contract price using median of three components:
 
-The mark price is an unbiased, robust estimate of the **fair price** for perpetual contracts.
+1. **Oracle price + 150-second EMA adjustment** • EMA of difference between Hyperliquid mid-price and oracle price • Smooths short-term fluctuations and integrates market deviations
+2. **Hyperliquid order book median** • Median of best bid, best ask, and last trade price
+3. **External perpetual median** • Median of mid-prices from **Binance (3), OKX (2), Bybit (2), Gate IO (1), MEXC (1)**
 
-#### **Components:**
+**Special handling:** If only 2 of 3 components exist, a **30-second EMA** of Hyperliquid bid/ask/last trade is added
 
-* **Spot Oracle Price:**
-  * Acts as the baseline.
-  * Plus a **150-second EMA Adjustment:**
-    * An Exponential Moving Average (EMA) over 150 seconds of the **difference** between **Hyperliquid’s mid-price** and the **spot oracle price**.
-    * This EMA smooths out short-term fluctuations and ensures that any short-lived deviations between Hyperliquid’s price and the broader market are gradually integrated into the mark price.
-* **Hyperliquid Order Book Median:**
-  * The median of the **best bid**, **best ask**, and the **last trade** price on Hyperliquid.
-* **External Perpetual Market Median:**
-  * The median of the **mid-prices** from Binance, OKX, and Bybit’s **perpetual contracts**.
-  * Incorporating prices from these leading exchanges adds another layer of market depth and stability to the mark price calculation.
-* **Special Case:**
-  * **If only two of the three inputs exist,** a **30-second EMA** of the median of best bid, best ask, and last trade on Hyperliquid is included.
-
-**Usage:**\
-Used for liquidations, margin calculations, triggering TP/SL orders, and computing unrealized profit and loss (PnL) for active positions.
-
-**Update Frequency:** Approximately every 3 seconds, in sync with oracle updates.
+**Update frequency:** \~3 seconds (synced with oracle updates)\
+**Usage:** Liquidations, margin calculations, TP/SL triggers, unrealized PnL
 
 #### Example
 
@@ -85,40 +69,37 @@ Used for liquidations, margin calculations, triggering TP/SL orders, and computi
 
 ***
 
-### **Uniswap Perpetuals** 🦄
+### **Margining & Contract Types** 💵
 
-Some perpetual contracts on Hyperliquid use **Uniswap V2 or V3 AMM prices** as their underlying spot asset.
+**Standard contracts:**
 
-* **Isolated-Only:**
-  * These contracts do not allow cross margining or manual margin removal.
-  * To adjust margin, positions must be partially or fully closed.
-* **Conversion to USDT:**
-  * Uniswap pool prices are converted to USDT using robust CEX oracle prices.
+* **USDC collateral, USDT-denominated prices** - maximizes liquidity and accessibility
+* **Quanto structure:** No USDC/USDT conversion applied (USDT P\&L directly in USDC)
 
-[Contract Addresses for Uniswap Pools](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/uniswap-perpetuals)
+**USDC-denominated contracts:**
 
-***
+* **PURR-USD, HYPE-USD** - use USDC pricing due to primary Hyperliquid spot liquidity
 
-### **Margining and Oracle Usage** 💵
+**Uniswap Perpetuals:**
 
-#### **USDC Margining with USDT Prices**
-
-* **Primary Style:**
-  * Oracle prices are denominated in **USDT**, while collateral is held in **USDC**.
-  * This combination maximizes **liquidity** and **accessibility**.
-* **Quanto Contracts:**
-  * No conversion between USDC/USDT exchange rates occurs, meaning USDT P\&L is denominated directly in USDC.
-
-#### **USDC-Denominated Contracts:**
-
-* **Specific Assets:**
-  * Only contracts with primary USDC liquidity (e.g., **PURR-USD** and **HYPE-USD**) have prices denominated in USDC.
+* **Isolated margin only** - no cross margining or manual margin removal
+* **Uniswap V2/V3 AMM prices** converted to USDT using robust CEX oracle prices
+* **Margin adjustment:** Only through position closure (partial/full)
 
 ***
 
-#### Resources:
+### **Anti-Manipulation Features** 🛡️
+
+* **Oracle independence:** Spot oracle completely separate from Hyperliquid market data
+* **Weighted medians:** Resistant to single-source manipulation
+* **Multi-component mark price:** Combines internal and external data sources
+* **EMA smoothing:** Prevents short-term price manipulation from affecting critical calculations
+* **Validator stake-weighting:** Ensures oracle integrity through economic incentives
+
+This robust oracle architecture ensures fair, transparent, and manipulation-resistant price discovery for all Hyperliquid trading operations.
+
+### Resources
 
 * [Robust price indices](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/robust-price-indices)
 * [Oracle](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-l1/oracle)
-
-This robust oracle system ensures Hyperliquid remains fair, reliable, and transparent for all traders.
+* [Contract Addresses for Uniswap Pools](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/uniswap-perpetuals)
