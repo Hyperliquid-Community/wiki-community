@@ -10,6 +10,7 @@
 * [Roadmap](introduction/roadmap/README.md)
   * [Incident](introduction/roadmap/incident/README.md)
     * [2025-26-03](introduction/roadmap/incident/2025-26-03.md)
+  * [On-Chain Activity](introduction/roadmap/on-chain-activity.md)
 
 ## Architecture
 
