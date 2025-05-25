@@ -25,7 +25,7 @@ While Hyperliquid carries [inherent risks](https://hyperliquid.gitbook.io/hyperl
 
 ### Incident History
 
-[March 28, 2025](https://x.com/HyperliquidX/status/1905319339991204263)
+[March 26, 2025](https://x.com/HyperliquidX/status/1905319339991204263)
 
 * **Description:** Attack on JELLY perps involving self-trading 4M USDC position at low price, then pumping spot price 400%+ to force HLP backstop liquidation of toxic short position, with potential coordination from major CEXs
 * **Response:** JELLY long traders refunded by Foundation at advantageous settlement price (0.037555). HLP Liquidator vault capped to small percentage of total balance, refined OI caps based on market cap, onchain validator voting for delistings implemented
