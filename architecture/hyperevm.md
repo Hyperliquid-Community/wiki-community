@@ -97,7 +97,7 @@ With these tools, developers can create applications that were previously diffic
 
 ### Current Status
 
-HyperEVM is currently in [alpha stage](../introduction/roadmap/). While core functionality is available, some features are still being rolled out gradually to ensure system stability.
+HyperEVM is currently in [alpha stage](../introduction/roadmap/#hyperevm). While core functionality is available, some features are still being rolled out gradually to ensure system stability.
 
 For developers looking to start building, see our [Builder Guide](../guide/builder-guide/hyperevm/) with detailed technical documentation and code examples.
 

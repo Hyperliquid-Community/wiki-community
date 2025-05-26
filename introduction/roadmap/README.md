@@ -34,8 +34,8 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
   * **Incentives** - 42.81% of total incentives reserved for future distribution
 * Staking
   * **Staking Launch** - Mainnet staking with 400M+ $HYPE staked ✅ [Dec 30, 2024](https://x.com/HyperFND/status/1873664112036901320)
-  * **Staking Tiers** - Trading fee discounts based on $HYPE staked amount ✅ [Mar 19, 2025](https://x.com/HyperliquidX/status/1902304642392072660)
   * **Delegation Program** - Program to enhance network security and decentralization ✅ [Mar 4, 2025](https://x.com/HyperFND/status/1896843804734599244)
+  * **Staking Tiers** - Trading fee discounts based on $HYPE staked amount ✅ [Mar 19, 2025](https://x.com/HyperliquidX/status/1902304642392072660)
   * **Team Stake Redistribution** - 47M HYPE redistributed across 11 validators for decentralization ✅ [May 6, 2025](https://x.com/JarryLim0110/status/1919772166666781034)
 * Validators
   * **HyperBFT Consensus** - Custom consensus algorithm for massive TPS improvements ✅ [May 5, 2024](https://x.com/chameleon_jeff/status/1787140092735185365)
@@ -54,11 +54,11 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
 * DEX
   * Technical Infrastructure
     * **Hyperliquid Q3 22 to Q2 23 Update** - ✅ [Jul 6, 2023](https://hyperliquid.medium.com/hyperliquid-q2-update-7c39c726c45b)
-    * **Hyperliquid Q3 Update** - ✅ [Oct 5, 2023](https://hyperliquid.medium.com/hyperliquid-q3-update-1fd4702975a9)
+    * **Hyperliquid Q3 23 Update** - ✅ [Oct 5, 2023](https://hyperliquid.medium.com/hyperliquid-q3-update-1fd4702975a9)
     * **Sub-accounts** - ✅ [Jan 23, 2024](https://x.com/HyperliquidX/status/1749590989251989912) / **TWAP orders** - ✅ [Feb 21, 2024](https://x.com/HyperliquidX/status/1760325603402654192)
     * **Fee Tiers** - Reward high volume users while keeping fees low for everyone ✅ [Mar 10, 2024](https://x.com/HyperliquidX/status/1758695511991718358)
     * **Account Abstraction -** Trade with just an email and on mobile ✅ [Jun 25, 2024](https://x.com/HyperliquidX/status/1805546795097112877)
-    * **Builder Code Launch** - Native L1 primitive for app monetization ✅ [Oct 1, 2024](https://x.com/chameleon_jeff/status/1841392573199585291)
+    * **Builder Codes Launch** - Native L1 primitive for app monetization ✅ [Oct 1, 2024](https://x.com/chameleon_jeff/status/1841392573199585291)
     * **Optional Hyperliquidity** - Spot assets can deploy with empty orderbooks / **Spot Token Fee Options** - Deployers can choose to receive trading fees instead of burning ✅ [Jan 27, 2025](https://x.com/stevenyuntcap/status/1883546284000469382)
     * **Multi-Sig Security** - Native multi-sig launched for enhanced security ✅ [Feb 12, 2025](https://x.com/HyperliquidX/status/1889704752419848240)
     * **Margin update** - Require 20% ratio on margin transfers ✅ [Mar 13, 2025](https://x.com/HyperliquidX/status/1900199063880171578)
