@@ -15,7 +15,7 @@ layout:
 
 # Builder Codes
 
-This page guides you through setting up and customizing **Builder Codes** using a boilerplate **template** provided by [**@SovrunOfficial**](https://x.com/SovrunOfficial). We’ll walk through **recreating** the Next.js framework and **restructuring** the app’s API calls with the **TypeScript SDK** for cleaner, more maintainable code. This foundation will make it easy to add any additional features you need.
+This page guides you through setting up and customizing **Builder Codes** using a boilerplate **template** provided by [@SovrunOfficial](https://x.com/SovrunOfficial). We’ll walk through **recreating** the Next.js framework and **restructuring** the app’s API calls with the [Unofficial TypeScript SDK](https://github.com/nomeida/hyperliquid/tree/main) for cleaner, more maintainable code. This foundation will make it easy to add any additional features you need.
 
 ### Template Features
 
