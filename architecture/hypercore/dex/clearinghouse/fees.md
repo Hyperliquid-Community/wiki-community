@@ -16,7 +16,7 @@ layout:
 
 Hyperliquid's fee system is designed to reward active users, builders, and the broader community. By leveraging volume-based discounts, staking incentives, and referral programs, the platform ensures that participation benefits users while funding the ecosystem's development.
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Standard Referral Program</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/fees_v2-part1.PNG" alt=""><figcaption><p>Standard Referral Program</p></figcaption></figure>
 
 ### Fee Structure Overview
 
@@ -167,7 +167,7 @@ _Coming soon_ - The staking referral program allows builders and referrers who s
 * **Alice can share back:** Up to 50% of her 18% = 9% discount for Bob
 * **Result:** Bob gets up to 9% additional discount using Alice's referral code
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Staking Referral Program</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/fees_v2-part2.PNG" alt=""><figcaption><p>Staking Referral Program</p></figcaption></figure>
 
 ***
 
