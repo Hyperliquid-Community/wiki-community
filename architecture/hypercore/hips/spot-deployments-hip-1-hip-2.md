@@ -52,7 +52,7 @@ You can also **allocate initial balances** to holders of **another HIP-1 token**
 ### Gas & Deployment Costs
 
 **Deployment via a 31-Hour Dutch Auction**\
-HIP-1 token deployment isn’t just a standard transaction; it’s gated by a 31-hour **Dutch auction** mechanism that determines the “gas cost” in USDC. A Dutch auction starts at a high price and decreases linearly over time until a buyer steps in.
+HIP-1 token deployment isn’t just a standard transaction—it’s gated by a 31-hour **Dutch auction** mechanism that determines the “gas cost” in USDC. A Dutch auction starts at a high price and decreases linearly over time until a buyer steps in.
 
 **How It Works:**
 

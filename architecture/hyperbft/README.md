@@ -17,7 +17,7 @@ layout:
 
 ### What is Consensus in a Blockchain?
 
-In a blockchain, the **consensus mechanism** ensures that all network participants agree on the state of the ledger; even if some actors are faulty or acting maliciously. It’s what maintains the trust and integrity of the system, enabling everyone to share a common view of which transactions are valid and included in the chain.
+In a blockchain, the **consensus mechanism** ensures that all network participants agree on the state of the ledger—even if some actors are faulty or acting maliciously. It’s what maintains the trust and integrity of the system, enabling everyone to share a common view of which transactions are valid and included in the chain.
 
 ### About HyperBFT
 

@@ -37,7 +37,7 @@ Hyperliquid's fee system is designed to reward active users, builders, and the b
 
 * **Volume Calculation:** Fees based on rolling 14-day weighted volume: `(14d perps volume) + 2 × (14d spot volume)`
   * **Spot volume counts double** toward fee tier calculation
-* **Sub-Accounts:** Volume from sub-accounts counts toward master account's fee tier; all sub-accounts share the same tier
+* **Sub-Accounts:** Volume from sub-accounts counts toward master account's fee tier—all sub-accounts share the same tier
 * **Vault Volume:** Vault transactions treated separately from master account
 * **Referral Limits:**
   * Referral discounts apply for first $25M in volume

@@ -29,7 +29,7 @@ layout:
 #### Statistics
 
 * **General Stats**
-  * [Hyperliquid Stats](https://stats.hyperliquid.xyz/) – By Thunderhead; detailed user counts, volumes, Open Interest, and more.
+  * [Hyperliquid Stats](https://stats.hyperliquid.xyz/) – By Thunderhead—detailed user counts, volumes, Open Interest, and more.
   * [Dune1](https://dune.com/uwusanauwu/perps) & [Dune2](https://dune.com/x3research/hyperliquid) – Two dashboard data.
   * [data.asxn.xyz](https://data.asxn.xyz/)  – Multiple dashboards.
   * [Chains Comparison](https://defillama.com/chains) – Compare TVL, spot volume, and more.

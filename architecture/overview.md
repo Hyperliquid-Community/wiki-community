@@ -31,7 +31,7 @@ layout:
 
 #### HyperCor&#x65;**:**
 
-A **custom, from-scratch Layer 1 blockchain** designed to power Hyperliquid’s flagship application; its decentralized exchange (DEX). It aims to achieve **up to 200,000 TPS** and **latency under 0,1 second**, far surpassing traditional blockchain performance metrics.
+A **custom, from-scratch Layer 1 blockchain** designed to power Hyperliquid’s flagship application—its decentralized exchange (DEX). It aims to achieve **up to 200,000 TPS** and **latency under 0,1 second**, far surpassing traditional blockchain performance metrics.
 
 **Divided into Six Primary “Blocks”:**
 

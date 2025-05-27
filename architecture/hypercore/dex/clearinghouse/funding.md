@@ -20,7 +20,7 @@ Funding rates are a critical mechanism in crypto perpetual contracts, ensuring t
 
 ### **Overview of Funding** 📈
 
-* **Peer-to-Peer Payments:** Funding involves direct payments between traders; **longs pay shorts** or vice versa. The platform does not collect any fees from these payments.
+* **Peer-to-Peer Payments:** Funding involves direct payments between traders—**longs pay shorts** or vice versa. The platform does not collect any fees from these payments.
 * **Hourly Settlements:** Funding is accrued and paid **every hour**, providing consistent adjustments to the market.
 * **Base Interest Rate + Premium:** The funding rate is computed as the sum of:
   1. A **fixed interest** **rate** of **0.01% every 8 hours** applies, representing the cost difference between borrowing USD or cryptocurrencies. This corresponds to approximately **0.00125% per hour** and an **APR (Annual Percentage Rate) of \~11.6%**.
@@ -117,7 +117,7 @@ Where:
 
 ### **Market Dynamics & Trading Insights** 🔗
 
-**Open Interest** - Total number of contracts held by all market participants; indicates market sentiment and trading activity intensity. There's always a long for every short.
+**Open Interest** - Total number of contracts held by all market participants—indicates market sentiment and trading activity intensity. There's always a long for every short.
 
 **Premiums & Discounts:**
 

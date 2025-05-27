@@ -55,7 +55,7 @@ Hyperliquid's token scene has evolved into two distinct but connected spheres:
     * Remarkable community resilience despite 73% supply airdropped
     * Continues to maintain strong holder support
   * **$RUB** - Breaking traditional memecoin narratives:
-    * **Unique positioning** - No dogs, cats, or frogs; fresh narrative approach
+    * **Unique positioning** - No dogs, cats, or frogs—fresh narrative approach
     * **Reverse unit bias** - Displays as high dollar amounts with unusual pricing
     * Primarily distributed to active Hyperliquid users
     * Attracting traders seeking alternatives to traditional animal memes

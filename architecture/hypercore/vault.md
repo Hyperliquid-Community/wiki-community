@@ -40,7 +40,7 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol va
 #### **Community Participation**
 
 * **Anyone can deposit liquidity** into the HLP vault to share in its profits.
-* **No profit share fees** for vault owners; benefits are fully distributed to depositors.
+* **No profit share fees** for vault owners—benefits are fully distributed to depositors.
 
 #### **Lock-Up Period**
 

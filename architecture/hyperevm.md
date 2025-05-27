@@ -80,7 +80,7 @@ A system contract at address 0x333...3333 allows smart contracts to initiate act
 * Manage vaults and staking
 * Transfer assets between different parts of the system
 
-This capability transforms passive smart contracts into active market participants. For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates; all without requiring user intervention or trusted third parties.
+This capability transforms passive smart contracts into active market participants. For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates—all without requiring user intervention or trusted third parties.
 
 Unlike arbitrary execution, these are structured actions that follow HyperCore's security model, ensuring that the core exchange functionality remains secure and predictable.
 
