@@ -21,113 +21,58 @@ A complete list of [announcements is available here](https://app.hyperliquid.xyz
 
 ### **HyperBFT**
 
-* TGE & Token
-  * **Closed Alpha End** - Points distributed to 11.5k users for activity before ✅ [Oct 31, 2023](https://x.com/HyperliquidX/status/1779683269543666042)
-  * **Season 1** - Hyperliquid's points program ✅ [Nov 1, 2023](https://x.com/HyperliquidX/status/1719149038858317863)
-  * **Season 1 End** ✅ [May 1, 2024](https://x.com/HyperliquidX/status/1785452418173706721)
-  * **Season 2 (L1 Points)** - Expanded to an entire financial ecosystem ✅ [May 29, 2024](https://x.com/HyperliquidX/status/1795683649960206488)
-  * **Hyper Foundation** - Creation and announcement of the TGE ✅ [Oct 14, 2024](https://x.com/HyperFND/status/1845851735363027270)
-  * **Points Distribution** - Season 2 ended. Activity rewards for May, October, and early November 2024 with anti-Sybil checks ✅ [Nov 27, 2024](https://x.com/HyperliquidX/status/1861663872274571595)
-  * **Genesis Launch** - $HYPE token launched at $3, marking ecosystem milestone ✅ [Nov 29, 2024](https://x.com/HyperFND/status/1862007773191708760)
-  * **Expand Token Utility** - Grow $HYPE's role in governance, staking perks, and ecosystem rewards
-  * **Drive Adoption** - Leverage price action and meme momentum for organic marketing
-  * **Incentives** - 42.81% of total incentives reserved for future distribution
-* Staking
-  * **Staking Launch** - Mainnet staking with 400M+ $HYPE staked ✅ [Dec 30, 2024](https://x.com/HyperFND/status/1873664112036901320)
-  * **Delegation Program** - Program to enhance network security and decentralization ✅ [Mar 4, 2025](https://x.com/HyperFND/status/1896843804734599244)
-  * **Staking Tiers** - Trading fee discounts based on $HYPE staked amount ✅ [Mar 19, 2025](https://x.com/HyperliquidX/status/1902304642392072660)
-  * **Team Stake Redistribution** - 47M HYPE redistributed across 11 validators for decentralization ✅ [May 6, 2025](https://x.com/JarryLim0110/status/1919772166666781034)
-* Validators
-  * **HyperBFT Consensus** - Custom consensus algorithm for massive TPS improvements ✅ [May 5, 2024](https://x.com/chameleon_jeff/status/1787140092735185365)
-  * **Initial Validator Set** - Validators expanded from 4 to 16 nodes ✅ [Dec 30, 2024](https://x.com/Hyperliquid_Hub/status/1873670272852869592)
-  * **Permissionless Validators** - Top 20 stakers form active validator set ✅ [Mar 4, 2025](https://x.com/HyperFND/status/1896843804734599244)
-  * **Onchain delisting voting** - Permissionless stake-based vote weighting primitive ✅ [Mar 29, 2025](https://x.com/HyperliquidX/status/1905665684790784006)
-  * **21 Validators Active** - Reached 21 active validators ✅ [Apr 22, 2025](https://x.com/HyperFND/status/1914520069897670826)
-  * **Full Decentralization** - Multi-phase process to completely decentralize the network (priority for next 6-12 months)
-  * **Open Sourcing Node Code** - Code will be open source when it’s secure to do so
-  * **Multiple Binaries** - Even very mature networks like Solana have the vast majority of validators running a single client
-* API
-  * **Permissionless API servers** - Anyone will be able to run an API server pointing at any node
+*   TGE & Token
+
+    <table><thead><tr><th width="204.66668701171875">Name</th><th width="358.3333740234375">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Closed Alpha End</strong></td><td>Points distributed to 11.5k users for activity before</td><td>✅ <a href="https://x.com/HyperliquidX/status/1779683269543666042">Oct 31, 2023</a></td></tr><tr><td><strong>Season 1</strong></td><td>Hyperliquid's points program</td><td>✅ <a href="https://x.com/HyperliquidX/status/1719149038858317863">Nov 1, 2023</a></td></tr><tr><td><strong>Season 1 End</strong></td><td>Season 1 completion</td><td>✅ <a href="https://x.com/HyperliquidX/status/1785452418173706721">May 1, 2024</a></td></tr><tr><td><strong>Season 2 (L1 Points)</strong></td><td>Expanded to an entire financial ecosystem</td><td>✅ <a href="https://x.com/HyperliquidX/status/1795683649960206488">May 29, 2024</a></td></tr><tr><td><strong>Hyper Foundation</strong></td><td>Creation and announcement of the TGE</td><td>✅ <a href="https://x.com/HyperFND/status/1845851735363027270">Oct 14, 2024</a></td></tr><tr><td><strong>Points Distribution</strong></td><td>Season 2 ended. Activity rewards for May, October, and early November 2024 with anti-Sybil checks</td><td>✅ <a href="https://x.com/HyperliquidX/status/1861663872274571595">Nov 27, 2024</a></td></tr><tr><td><strong>Genesis Launch</strong></td><td>$HYPE token launched at $3, marking ecosystem milestone</td><td>✅ <a href="https://x.com/HyperFND/status/1862007773191708760">Nov 29, 2024</a></td></tr><tr><td><strong>Expand Token Utility</strong></td><td>Grow $HYPE's role in governance, staking perks, and ecosystem rewards</td><td>🔄 Planned</td></tr><tr><td><strong>Drive Adoption</strong></td><td>Leverage price action and meme momentum for organic marketing</td><td>🔄 Planned</td></tr><tr><td><strong>Incentives</strong></td><td>42.81% of total incentives reserved for future distribution</td><td>🔄 Planned</td></tr></tbody></table>
+*   Staking
+
+    <table><thead><tr><th width="204.66668701171875">Name</th><th width="358.33331298828125">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Staking Launch</strong></td><td>Mainnet staking with 400M+ $HYPE staked</td><td>✅ <a href="https://x.com/HyperFND/status/1873664112036901320">Dec 30, 2024</a></td></tr><tr><td><strong>Delegation Program</strong></td><td>Program to enhance network security and decentralization</td><td>✅ <a href="https://x.com/HyperFND/status/1896843804734599244">Mar 4, 2025</a></td></tr><tr><td><strong>Staking Tiers</strong></td><td>Trading fee discounts based on $HYPE staked amount</td><td>✅ <a href="https://x.com/HyperliquidX/status/1902304642392072660">Mar 19, 2025</a></td></tr><tr><td><strong>Team Stake Redistribution</strong></td><td>47M HYPE redistributed across 11 validators for decentralization</td><td>✅ <a href="https://x.com/JarryLim0110/status/1919772166666781034">May 6, 2025</a></td></tr></tbody></table>
+*   Validators
+
+    <table><thead><tr><th width="205.33331298828125">Name</th><th width="358.33331298828125">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>HyperBFT Consensus</strong></td><td>Custom consensus algorithm for massive TPS improvements</td><td>✅ <a href="https://x.com/chameleon_jeff/status/1787140092735185365">May 5, 2024</a></td></tr><tr><td><strong>Initial Validator Set</strong></td><td>Validators expanded from 4 to 16 nodes</td><td>✅ <a href="https://x.com/Hyperliquid_Hub/status/1873670272852869592">Dec 30, 2024</a></td></tr><tr><td><strong>Permissionless Validators</strong></td><td>Top 20 stakers form active validator set</td><td>✅ <a href="https://x.com/HyperFND/status/1896843804734599244">Mar 4, 2025</a></td></tr><tr><td><strong>Onchain delisting voting</strong></td><td>Permissionless stake-based vote weighting primitive</td><td>✅ <a href="https://x.com/HyperliquidX/status/1905665684790784006">Mar 29, 2025</a></td></tr><tr><td><strong>21 Validators Active</strong></td><td>Reached 21 active validators</td><td>✅ <a href="https://x.com/HyperFND/status/1914520069897670826">Apr 22, 2025</a></td></tr><tr><td><strong>Full Decentralization</strong></td><td>Multi-phase process to completely decentralize the network (priority for next 6-12 months)</td><td>🔄 Planned</td></tr><tr><td><strong>Open Sourcing Node Code</strong></td><td>Code will be open source when it's secure to do so</td><td>🔄 Planned</td></tr><tr><td><strong>Multiple Binaries</strong></td><td>Even very mature networks like Solana have the vast majority of validators running a single client</td><td>🔄 Planned</td></tr></tbody></table>
+*   API
+
+    <table><thead><tr><th width="205.33331298828125">Name</th><th width="357.6666259765625">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Permissionless API servers</strong></td><td>Anyone will be able to run an API server pointing at any node</td><td>🔄 Planned</td></tr></tbody></table>
 
 ### **HyperCore**
 
 * DEX
-  * Technical Infrastructure
-    * **Hyperliquid Q3 22 to Q2 23 Update** - ✅ [Jul 6, 2023](https://hyperliquid.medium.com/hyperliquid-q2-update-7c39c726c45b)
-    * **Hyperliquid Q3 23 Update** - ✅ [Oct 5, 2023](https://hyperliquid.medium.com/hyperliquid-q3-update-1fd4702975a9)
-    * **Sub-accounts** - ✅ [Jan 23, 2024](https://x.com/HyperliquidX/status/1749590989251989912) / **TWAP orders** - ✅ [Feb 21, 2024](https://x.com/HyperliquidX/status/1760325603402654192)
-    * **Fee Tiers** - Reward high volume users while keeping fees low for everyone ✅ [Mar 10, 2024](https://x.com/HyperliquidX/status/1758695511991718358)
-    * **Account Abstraction -** Trade with just an email and on mobile ✅ [Jun 25, 2024](https://x.com/HyperliquidX/status/1805546795097112877)
-    * **Builder Codes Launch** - Native L1 primitive for app monetization ✅ [Oct 1, 2024](https://x.com/chameleon_jeff/status/1841392573199585291)
-    * **Optional Hyperliquidity** - Spot assets can deploy with empty orderbooks / **Spot Token Fee Options** - Deployers can choose to receive trading fees instead of burning ✅ [Jan 27, 2025](https://x.com/stevenyuntcap/status/1883546284000469382)
-    * **Multi-Sig Security** - Native multi-sig launched for enhanced security ✅ [Feb 12, 2025](https://x.com/HyperliquidX/status/1889704752419848240)
-    * **Margin update** - Require 20% ratio on margin transfers ✅ [Mar 13, 2025](https://x.com/HyperliquidX/status/1900199063880171578)
-    * **Staking Tiers** - New Fee System with trading fee discounts goes live ✅ [May 5, 2025](https://x.com/HyperliquidX/status/1917107760694759920)
-    * **Margin Tiers** - Define the max leverage allowed as a function of notional position ✅ [May 22, 2025](https://discord.com/channels/1029781241702129716/1030197017655394447/1374630391532486798)
-  * Integrations
-    * **BTC Integration** - BTC spot trading, deposits, and withdrawals via Unit ✅ [Feb 15, 2025](https://x.com/hyperunit/status/1890437173738107107)
-    * **USDe Integration** - USDe spot trading and HyperEVM support ✅ [May 5, 2025](https://x.com/ethena_labs/status/1919373849097109991)
-    * **USDT Integration** - USDT spot trading and HyperEVM support ✅ [May 9, 2025](https://x.com/USDT0_to/status/1920841189000884565)
-    * **Major Crypto Integration** - BTC, ETH & SOL ✅ [May 15, 2025](https://x.com/hyperunit/status/1922801777407295658)
-* Vault
-  * **HLP Launch** - Hyperliquidity Provider democratizing market making ✅ [May 17, 2023](https://hyperliquid.medium.com/hyperliquidity-provider-hlp-democratizing-market-making-bb114b1dff0f)
-  * **Vault Deployment Fee** - User vaults now cost 100 USDC ✅ [Jan 27, 2025](https://x.com/stevenyuntcap/status/1883546284000469382)
-* HIPs
-  * **HIP-1 & HIP-2 Testnet** - Native spot trading ✅ [Mar 29, 2024](https://x.com/HyperliquidX/status/1773531180815507473)
-  * **HIP-1 & HIP-2 Mainnet** - Permissionless spot deploys live on mainnet ✅ [May 24, 2024](https://x.com/HyperliquidX/status/1793967681986806153)
-  * **HIP-3 Testnet** - Permissionless perps orderbook deployment ✅ [May 1, 2025](https://x.com/stevenyuntcap/status/1917918390699938254)
-  * **HIP-3 Mainnet** - Complete decentralization of perp listing
+  *   Technical Infrastructure
+
+      <table><thead><tr><th width="205.3333740234375">Name</th><th width="327">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Hyperliquid Q3 22 to Q2 23 Update</strong></td><td>Quarterly platform updates</td><td>✅ <a href="https://hyperliquid.medium.com/hyperliquid-q2-update-7c39c726c45b">Jul 6, 2023</a></td></tr><tr><td><strong>Hyperliquid Q3 23 Update</strong></td><td>Quarterly platform updates</td><td>✅ <a href="https://hyperliquid.medium.com/hyperliquid-q3-update-1fd4702975a9">Oct 5, 2023</a></td></tr><tr><td><strong>Sub-accounts</strong></td><td>Secondary account management</td><td>✅ <a href="https://x.com/HyperliquidX/status/1749590989251989912">Jan 23, 2024</a></td></tr><tr><td><strong>TWAP orders</strong></td><td>Time-weighted average price orders</td><td>✅ <a href="https://x.com/HyperliquidX/status/1760325603402654192">Feb 21, 2024</a></td></tr><tr><td><strong>Fee Tiers</strong></td><td>Reward high volume users while keeping fees low for everyone</td><td>✅ <a href="https://x.com/HyperliquidX/status/1758695511991718358">Mar 10, 2024</a></td></tr><tr><td><strong>Account Abstraction</strong></td><td>Trade with just an email and on mobile</td><td>✅ <a href="https://x.com/HyperliquidX/status/1805546795097112877">Jun 25, 2024</a></td></tr><tr><td><strong>Builder Codes Launch</strong></td><td>Native L1 primitive for app monetization</td><td>✅ <a href="https://x.com/chameleon_jeff/status/1841392573199585291">Oct 1, 2024</a></td></tr><tr><td><strong>Optional Hyperliquidity</strong></td><td>Spot assets can deploy with empty orderbooks</td><td>✅ <a href="https://x.com/stevenyuntcap/status/1883546284000469382">Jan 27, 2025</a></td></tr><tr><td><strong>Spot Token Fee Options</strong></td><td>Deployers can choose to receive trading fees instead of burning</td><td>✅ <a href="https://x.com/stevenyuntcap/status/1883546284000469382">Jan 27, 2025</a></td></tr><tr><td><strong>Multi-Sig Security</strong></td><td>Native multi-sig launched for enhanced security</td><td>✅ <a href="https://x.com/HyperliquidX/status/1889704752419848240">Feb 12, 2025</a></td></tr><tr><td><strong>Margin update</strong></td><td>Require 20% ratio on margin transfers</td><td>✅ <a href="https://x.com/HyperliquidX/status/1900199063880171578">Mar 13, 2025</a></td></tr><tr><td><strong>Staking Tiers</strong></td><td>New Fee System with trading fee discounts goes live</td><td>✅ <a href="https://x.com/HyperliquidX/status/1917107760694759920">May 5, 2025</a></td></tr><tr><td><strong>Margin Tiers</strong></td><td>Define the max leverage allowed as a function of notional position</td><td>✅ <a href="https://discord.com/channels/1029781241702129716/1030197017655394447/1374630391532486798">May 22, 2025</a></td></tr></tbody></table>
+  *   Integrations
+
+      <table><thead><tr><th width="204.6666259765625">Name</th><th width="326.33331298828125">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>BTC Integration</strong></td><td>BTC spot trading, deposits, and withdrawals via Unit</td><td>✅ <a href="https://x.com/hyperunit/status/1890437173738107107">Feb 15, 2025</a></td></tr><tr><td><strong>USDe Integration</strong></td><td>USDe spot trading and HyperEVM support</td><td>✅ <a href="https://x.com/ethena_labs/status/1919373849097109991">May 5, 2025</a></td></tr><tr><td><strong>USDT Integration</strong></td><td>USDT spot trading and HyperEVM support</td><td>✅ <a href="https://x.com/USDT0_to/status/1920841189000884565">May 9, 2025</a></td></tr><tr><td><strong>Major Crypto Integration</strong></td><td>BTC, ETH &#x26; SOL</td><td>✅ <a href="https://x.com/hyperunit/status/1922801777407295658">May 15, 2025</a></td></tr></tbody></table>
+*   Vault
+
+    <table><thead><tr><th width="205.33331298828125">Name</th><th width="358.33331298828125">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>HLP Launch</strong></td><td>Hyperliquidity Provider democratizing market making</td><td>✅ <a href="https://hyperliquid.medium.com/hyperliquidity-provider-hlp-democratizing-market-making-bb114b1dff0f">May 17, 2023</a></td></tr><tr><td><strong>Vault Deployment Fee</strong></td><td>User vaults now cost 100 USDC</td><td>✅ <a href="https://x.com/stevenyuntcap/status/1883546284000469382">Jan 27, 2025</a></td></tr></tbody></table>
+*   HIPs
+
+    <table><thead><tr><th width="205.33331298828125">Name</th><th width="357.66668701171875">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>HIP-1 &#x26; HIP-2 Testnet</strong></td><td>Native spot trading</td><td>✅ <a href="https://x.com/HyperliquidX/status/1773531180815507473">Mar 29, 2024</a></td></tr><tr><td><strong>HIP-1 &#x26; HIP-2 Mainnet</strong></td><td>Permissionless spot deploys live on mainnet</td><td>✅ <a href="https://x.com/HyperliquidX/status/1793967681986806153">May 24, 2024</a></td></tr><tr><td><strong>HIP-3 Testnet</strong></td><td>Permissionless perps orderbook deployment</td><td>✅ <a href="https://x.com/stevenyuntcap/status/1917918390699938254">May 1, 2025</a></td></tr><tr><td><strong>HIP-3 Mainnet</strong></td><td>Complete decentralization of perp listing</td><td>🔄 Planned</td></tr></tbody></table>
 
 ### **HyperEVM**
 
-* **Testnet Announcement** - Native EVM with atomic composability announced ✅ [May 20, 2024](https://x.com/HyperliquidX/status/1792393508101439800)
-* **Dual-Block architecture** - Small blocks and large blocks ✅ [Jan 30, 2025](https://discord.com/channels/1029781241702129716/1208476333089497189/1334521323082223678)
-* **Mainnet Launch** - General-purpose programmability enabled ✅ [Feb 18, 2025](https://x.com/HyperFND/status/1891730068151599464)
-* **HyperCore <-> HyperEVM** - HIP-1 assets feature atomic transfer with ERC-20 contracts ✅ [Mar 25, 2025](https://x.com/HyperliquidX/status/1904441605005979876)
-* **Read Precompiles** - Builders can read HyperCore state atomically from smart contracts ✅ [Apr 28, 2025](https://x.com/HyperliquidX/status/1916779597531693355)
-* **Write Precompiles** - Enabling new forms of DeFi
+<table><thead><tr><th width="219.66668701171875">Name</th><th width="370">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Testnet Announcement</strong></td><td>Native EVM with atomic composability announced</td><td>✅ <a href="https://x.com/HyperliquidX/status/1792393508101439800">May 20, 2024</a></td></tr><tr><td><strong>Dual-Block architecture</strong></td><td>Small blocks and large blocks</td><td>✅ <a href="https://discord.com/channels/1029781241702129716/1208476333089497189/1334521323082223678">Jan 30, 2025</a></td></tr><tr><td><strong>Mainnet Launch</strong></td><td>General-purpose programmability enabled</td><td>✅ <a href="https://x.com/HyperFND/status/1891730068151599464">Feb 18, 2025</a></td></tr><tr><td><strong>HyperCore &#x3C;-> HyperEVM</strong></td><td>HIP-1 assets feature atomic transfer with ERC-20 contracts</td><td>✅ <a href="https://x.com/HyperliquidX/status/1904441605005979876">Mar 25, 2025</a></td></tr><tr><td><strong>Read Precompiles</strong></td><td>Builders can read HyperCore state atomically from smart contracts</td><td>✅ <a href="https://x.com/HyperliquidX/status/1916779597531693355">Apr 28, 2025</a></td></tr><tr><td><strong>Write Precompiles</strong></td><td>Enabling new forms of DeFi</td><td>🔄 Planned</td></tr></tbody></table>
 
 ### **Ecosystem**
 
-* Milestones
-  * **60+ perps to trade** - ✅ [Oct 18, 2023](https://x.com/HyperliquidX/status/1714347413085778114)
-  * **Volume Milestone**
-    * $1B in 24-hour-trading volume achieved ✅ [Dec 12, 2023](https://x.com/HyperliquidX/status/1734596197766095215)
-    * $100M USDC TVL ✅ [Jan 19, 2024](https://x.com/HyperliquidX/status/1748129960185966951)
-    * $3B in 24-hour-trading volume achieved ✅ [Mar 19, 2024](https://x.com/HyperliquidX/status/1764492137037746245)
-    * $4.3B in 24-hour-trading volume achieved ✅ [Aug 6, 2024](https://x.com/HyperliquidX/status/1820744452677455971)
-    * $15B in 24-hour trading volume achieved ✅ [Dec 21, 2024](https://x.com/HyperliquidX/status/1870413637392941131)
-  * **Market Share** - Reached 20% of Bybit futures and 8% of Binance futures volume ✅ [Jan 1, 2025](https://x.com/chameleon_jeff/status/1879086717900386782)
-  * **TradFi Recognition** - Bloomberg Surveillance Podcast coverage ✅ [May 15, 2025](https://x.com/HyperliquidX/status/1922910069869408264)
-  * **Multiple All-Time Highs** - $8.9B OI, $5.4M 24h fees, $3.2B USDC TVL ✅ [May 22,2025](https://x.com/HyperliquidX/status/1925417760710152675)
-  * **Tier 1 CEX Listings** - Major exchange listings for broader accessibility
-  * **Institutional Custody** - Qualified custodians integration (Coinbase Custody, Anchorage, BitGo, Fireblocks)
-* For Hyperliquid
-  * **Unit Integration** - Brings spot tokens from other chains to Hyperliquid ✅ [Feb 15, 2025](https://x.com/hyperunit/status/1890437173738107107)
-  * **TradFi Integration** - Traditional finance integration initiatives
+*   Milestones
+
+    <table><thead><tr><th width="204.66668701171875">Name</th><th width="358.33331298828125">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Volume milestone</strong></td><td>60+ perps to trade</td><td>✅ <a href="https://x.com/HyperliquidX/status/1714347413085778114">Oct 18, 2023</a></td></tr><tr><td></td><td>$1B in 24-hour-trading volume achieved</td><td>✅ <a href="https://x.com/HyperliquidX/status/1734596197766095215">Dec 12, 2023</a></td></tr><tr><td></td><td>$100M USDC TVL</td><td>✅ <a href="https://x.com/HyperliquidX/status/1748129960185966951">Jan 19, 2024</a></td></tr><tr><td></td><td>$3B in 24-hour-trading volume achieved</td><td>✅ <a href="https://x.com/HyperliquidX/status/1764492137037746245">Mar 4, 2024</a></td></tr><tr><td></td><td>$4.3B in 24-hour-trading volume achieved</td><td>✅ <a href="https://x.com/HyperliquidX/status/1820744452677455971">Aug 6, 2024</a></td></tr><tr><td></td><td>$15B in 24-hour trading volume achieved</td><td>✅ <a href="https://x.com/HyperliquidX/status/1870413637392941131">Dec 21, 2024</a></td></tr><tr><td><strong>Market Share</strong></td><td>Reached 20% of Bybit futures and 8% of Binance futures volume</td><td>✅ <a href="https://x.com/chameleon_jeff/status/1879086717900386782">Jan 1, 2025</a></td></tr><tr><td><strong>TradFi Recognition</strong></td><td>Bloomberg Surveillance Podcast coverage</td><td>✅ <a href="https://x.com/HyperliquidX/status/1922910069869408264">May 15, 2025</a></td></tr><tr><td><strong>Multiple All-Time Highs</strong></td><td>$8.9B OI, $5.4M 24h fees, $3.2B USDC TVL</td><td>✅ <a href="https://x.com/HyperliquidX/status/1925417760710152675">May 22, 2025</a></td></tr><tr><td><strong>Tier 1 CEX Listings</strong></td><td>Major exchange listings for broader accessibility</td><td>🔄 Planned</td></tr><tr><td><strong>Institutional Custody</strong></td><td>Qualified custodians integration (Coinbase Custody, Anchorage, BitGo, Fireblocks)</td><td>🔄 Planned</td></tr></tbody></table>
+*   For Hyperliquid
+
+    <table><thead><tr><th width="205.3333740234375">Name</th><th width="358.3333740234375">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Unit Integration</strong></td><td>Brings spot tokens from other chains to Hyperliquid</td><td>✅ <a href="https://x.com/hyperunit/status/1890437173738107107">Feb 15, 2025</a></td></tr><tr><td><strong>TradFi Integration</strong></td><td>Traditional finance integration initiatives</td><td>🔄 Planned</td></tr></tbody></table>
 * On Hyperliquid
-  * HyperCore
-    * **$PURR spot trading** - First native spot trading ✅ [Apr 16, 2024](https://x.com/HyperliquidX/status/1780079468918587507)
-    * **DEX Screener Integration** - ✅ [May 9, 2024](https://x.com/HyperliquidX/status/1788410203433508951)
-    * **Insilico Terminal Integration** - Trade on Hyperliquid using Insilico ✅ [Aug 8, 2024](https://x.com/HyperliquidX/status/1821558804552818721)
-    * **Frontend Decentralization** - Expand builder codes to incentivize tools like @pvp\_dot\_trade
-    * **CEX Integration** - Builder codes integrated on CEXes and wallets/apps
-    * **Billion-Dollar Apps** - Support multiple billion-dollar protocols by 2025
-    * **DeFi Dominance** - Capture >50% of new DeFi project volume natively
-  * HyperEVM
-    * **Infrastructure Vision** - Position as "AWS of crypto" for scalable liquidity infrastructure ✅ Ongoing
-    * **Rabby Wallet** - Integrate HyperEVM ✅ [May 20, 2025](https://x.com/Rabby_io/status/1924815018803028093)
-    * **DeBank** - Integrate HyperEVM ✅ [May 20, 2025](https://x.com/DeBankDeFi/status/1924796663409082717)
-    * **100+ Projects** - Expected project launches on HyperEVM
-    * **Mass Adoption** - Support millions of users engaging with Hyperliquid-powered products
-* Community
-  * **Community Growth** - Passionate, user-owned community with no private investors ✅ Ongoing
-  * **Zero Private Investors** - Entirely self-funded development with community-first approach ✅ Ongoing
-  * **Community Revenue** - Millions in revenue redistributed to community through HLP and AF ✅ ongoing
-  * **Token 2049 event** - Meet the Core Contributor ✅ [Aug 24, 2023](https://x.com/HyperliquidX/status/1694504427103670615)
-  * **Hyperliquid event** - Community event in Singapore ✅ [Sep 17, 2024](https://x.com/HyperliquidX/status/1836351486051356689)
-  * **HypurrCo Singapore** - turnout of over 100+ people and 15 projects ✅ [Feb 12, 2025](https://x.com/hypurr_co/status/1889689557752504635)
-  * **HypurrCo Hong Kong** - turnout of over 100+ people ✅ [Feb 21, 2025](https://x.com/hypurr_co/status/1892896924770193431)
+  *   HyperCore
+
+      <table><thead><tr><th width="204.66668701171875">Name</th><th width="327">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>$PURR spot trading</strong></td><td>First native spot trading</td><td>✅ <a href="https://x.com/HyperliquidX/status/1780079468918587507">Apr 16, 2024</a></td></tr><tr><td><strong>DEX Screener Integration</strong></td><td>Trading interface integration</td><td>✅ <a href="https://x.com/HyperliquidX/status/1788410203433508951">May 9, 2024</a></td></tr><tr><td><strong>Insilico Terminal Integration</strong></td><td>Trade on Hyperliquid using Insilico</td><td>✅ <a href="https://x.com/HyperliquidX/status/1821558804552818721">Aug 8, 2024</a></td></tr><tr><td><strong>Frontend Decentralization</strong></td><td>Expand builder codes to incentivize tools like @pvp_dot_trade</td><td>🔄 Planned</td></tr><tr><td><strong>CEX Integration</strong></td><td>Builder codes integrated on CEXes and wallets/apps</td><td>🔄 Planned</td></tr><tr><td><strong>Billion-Dollar Apps</strong></td><td>Support multiple billion-dollar protocols by 2025</td><td>🔄 Planned</td></tr><tr><td><strong>DeFi Dominance</strong></td><td>Capture >50% of new DeFi project volume natively</td><td>🔄 Planned</td></tr></tbody></table>
+  *   HyperEVM
+
+      <table><thead><tr><th width="204.66668701171875">Name</th><th width="327">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Infrastructure Vision</strong></td><td>Position as "AWS of crypto" for scalable liquidity infrastructure</td><td>✅ Ongoing</td></tr><tr><td><strong>Rabby Wallet</strong></td><td>Integrate HyperEVM</td><td>✅ <a href="https://x.com/Rabby_io/status/1924815018803028093">May 20, 2025</a></td></tr><tr><td><strong>DeBank</strong></td><td>Integrate HyperEVM</td><td>✅ <a href="https://x.com/DeBankDeFi/status/1924796663409082717">May 20, 2025</a></td></tr><tr><td><strong>100+ Projects</strong></td><td>Expected project launches on HyperEVM</td><td>🔄 Planned</td></tr><tr><td><strong>Mass Adoption</strong></td><td>Support millions of users engaging with Hyperliquid-powered products</td><td>🔄 Planned</td></tr></tbody></table>
+*   Community\
+
+
+    <table><thead><tr><th width="205.33331298828125">Name</th><th width="357.6666259765625">Description</th><th>Status</th></tr></thead><tbody><tr><td><strong>Community Growth</strong></td><td>Passionate, user-owned community with no private investors</td><td>✅ Ongoing</td></tr><tr><td><strong>Zero Private Investors</strong></td><td>Entirely self-funded development with community-first approach</td><td>✅ Ongoing</td></tr><tr><td><strong>Community Revenue</strong></td><td>Millions in revenue redistributed to community through HLP and AF</td><td>✅ Ongoing</td></tr><tr><td><strong>Token 2049 event</strong></td><td>Meet the Core Contributor</td><td>✅ <a href="https://x.com/HyperliquidX/status/1694504427103670615">Aug 24, 2023</a></td></tr><tr><td><strong>Hyperliquid event</strong></td><td>Community event in Singapore</td><td>✅ <a href="https://x.com/HyperliquidX/status/1836351486051356689">Sep 17, 2024</a></td></tr><tr><td><strong>HypurrCo Singapore</strong></td><td>turnout of over 100+ people and 15 projects</td><td>✅ <a href="https://x.com/hypurr_co/status/1889689557752504635">Feb 12, 2025</a></td></tr><tr><td><strong>HypurrCo Hong Kong</strong></td><td>turnout of over 100+ people</td><td>✅ <a href="https://x.com/hypurr_co/status/1892896924770193431">Feb 21, 2025</a></td></tr></tbody></table>
 
 ### **Why This Matters**
 
