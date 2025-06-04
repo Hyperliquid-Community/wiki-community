@@ -50,7 +50,7 @@ Check out the official guide here: [**Hypurr Fun Docs**](https://hypurr-fun.gitb
 
 Below is a **detailed diagram** summarizing all the key information. Feel free to **print** it or keep it **handy** while trading on **Hypurr Fun**.
 
-<figure><img src="../../.gitbook/assets/Hypurr_eco_v4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Hypurr_eco_new_v1.PNG" alt=""><figcaption></figcaption></figure>
 
 For **more guides** on how to use the Hypurr Fun Bot and maximize its potential:
 
