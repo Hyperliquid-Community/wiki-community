@@ -31,7 +31,7 @@ Unlike centralized exchanges where only the team can list new markets, HIP-3 tra
 * **Market deployment**
   * **Performant orderbooks** allocated directly on HyperCore
   * **Dutch auction** every 31 hours to pay deployment gas
-  * **HYPE** used as gas token (difference from [spot deployments](spot-deployments-hip-1-hip-2.md#gas-and-deployment-costs))
+  * **HYPE** used as gas token
   * **Fully permissionless** process
 * **Deployer responsibilities**
   * **Market definition**: oracle definition and contract specifications

@@ -17,7 +17,7 @@ layout:
 
 ### **Welcome to the Hyperliquid Community Wiki ✨**
 
-<figure><img src=".gitbook/assets/Hyperliquid-Ecosystem_v2bis2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Hyperliquid-Ecosystem_v3 (2).png" alt=""><figcaption></figcaption></figure>
 
 This site is designed to **facilitate knowledge sharing** among builders, traders, and investors who use the **Hyperliquid platform**—a cutting-edge decentralized exchange (DEX) built on its own Layer 1 chain. Our aim is to help you **navigate, understand, and leverage** the full potential of the Hyperliquid ecosystem.
 
