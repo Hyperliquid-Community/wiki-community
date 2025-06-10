@@ -48,8 +48,16 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 ***
 
 {% hint style="success" %}
-**Together, we can make this a valuable resource for everyone.** _🚀_
+## Support This Wiki
 
+**Start Trading on Hyperliquid**\
+Ready to join Hyperliquid? [Use referral code HLWIKI](https://app.hyperliquid.xyz/join/HLWIKI) to get started!
+
+**Support Our Work**\
+If this wiki has been helpful, consider making a donation:\
+`0xa46a4b72F8e64044f5E56aC1Ca453203Da299f46`
+
+**Together, we can make this a valuable resource for everyone.** _🚀_\
 If you would like to contribute to this community Wiki or discuss ideas, feel free to drop us a message on [Telegram](https://t.me/+X80Ypqqg3_A3NDBk)! You can also reach out on [X](https://x.com/0xSolynor) or check out our [GitHub](https://github.com/Hyperliquid-Community/wiki-community) to collaborate directly.
 {% endhint %}
 
