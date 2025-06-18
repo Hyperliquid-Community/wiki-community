@@ -80,3 +80,9 @@ HYPE staking on Hyperliquid happens within HyperCore. Users can stake their HYPE
   * Platform fees
   * CEX weights for price oracle
   * Other protocol parameters
+
+***
+
+### Resources <a href="#resources" id="resources"></a>
+
+* [HYPE Genesis medium](https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f)
