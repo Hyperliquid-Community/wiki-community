@@ -69,7 +69,7 @@ A premium NFT collection distributed to Hyperliquid's most dedicated early suppo
 
 **Exclusivity & Scarcity**
 
-* Only **\~5,500 NFTs** will ever exist, awarded to top 5,000 points holders during TGE
+* Only **5,000 NFTs** will ever exist, awarded to top 5,000 points holders during TGE
 * Each piece is uniquely individual - not just another profile picture, but a personalized representation of early ecosystem participation
 
 **Market Dynamics**

@@ -39,7 +39,7 @@ The following are HyperEVM's key differentiators:
 
 HyperEVM uses an innovative dual-block system to handle different transaction needs:
 
-* **Small Blocks**: Process every \~2 seconds with a 2M gas limit, perfect for quick transactions
+* **Small Blocks**: Process every 1 seconds with a 2M gas limit, perfect for quick transactions
 * **Large Blocks**: Process approximately every minute with a 30M gas limit, ideal for complex operations
 
 Most blockchain systems force a compromise between speed and capacity, either fast blocks with limited space or larger blocks that take longer to process. HyperEVM solves this by maintaining two separate transaction queues that feed into different block types.
@@ -64,25 +64,28 @@ The real power of HyperEVM comes from two key mechanisms that enable smart contr
 
 **Read Precompiles**
 
-Special contracts at addresses starting with 0x000...0800 let smart contracts query HyperCore data:
+Special contracts at addresses starting with `0x000...0800` allow smart contracts to query HyperCore data directly:
 
-* User positions, balances, and vault information
-* Mark prices and oracle data
-* Staking information and delegations
+* **User data** - Positions, balances, and vault information
+* **Market data** - Mark prices and oracle prices
+* **Staking data** - Delegations and validator information
+* **System data** - L1 block number and other core metrics
 
 Think of these as direct data pipelines into the exchange, giving your contracts real-time market information without relying on external oracles or APIs.
 
-**Write System Contract**
+**CoreWriter contract**
 
-A system contract at address 0x333...3333 allows smart contracts to initiate actions on HyperCore:
+A system contract at address `0x333...3333` allows smart contracts to initiate actions on HyperCore:
 
-* Place immediate-or-cancel (IOC) orders
-* Manage vaults and staking
-* Transfer assets between different parts of the system
+* **Trading** - Place limit orders with various time-in-force options (ALO, GTC, IOC)
+* **Vault management** - Programmatic deposits and withdrawals
+* **Staking operations** - Delegate/undelegate tokens, deposit/withdraw stakes
+* **Asset transfers** - Move spot tokens and USD between accounts/markets
 
-This capability transforms passive smart contracts into active market participants. For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates—all without requiring user intervention or trusted third parties.
+This architecture transforms passive smart contracts into active market participants while maintaining HyperCore's security model through structured, predictable actions. \
+For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates—all without requiring user intervention or trusted third parties.
 
-Unlike arbitrary execution, these are structured actions that follow HyperCore's security model, ensuring that the core exchange functionality remains secure and predictable.
+_For implementation details and code examples, see the_ [_developer documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/interacting-with-hypercore)_._
 
 ### What Can You Build?
 
