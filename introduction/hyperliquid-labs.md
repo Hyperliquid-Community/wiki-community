@@ -38,7 +38,7 @@ layout:
 * **Kangaroo**\
   🕹️ **kangaroo2245**
 
-The team also includes 4 additional members. The [10-person](https://www.youtube.com/watch?v=xHGKv0Cx7ao\&t=2475s\&ab_channel=BellCurve) team is mostly tech-focused and primarily based in Singapore.
+The team also includes 5 additional members. The [11-person](https://www.youtube.com/watch?v=xQK9TFbGyN0\&t=117s) team is mostly tech-focused and primarily based in Singapore.
 
 #### Team Spotlight
 
