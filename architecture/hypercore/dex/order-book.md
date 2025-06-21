@@ -84,7 +84,7 @@ Hyperliquid’s perpetual contracts are designed for simplicity and efficiency, 
 
 * **Linear Perpetuals:** Collateralized with **USDC**, but prices are denominated in **USDT** for liquidity and accessibility (technically quanto contracts)
 * **No Expiration:** Funding payments align perpetual prices with spot prices over time
-* **Maximum market order values:** **$10M** (leverage ≥25), **$1M** (leverage 20-25), **$500K** (leverage 10-20), **$250K** (lower leverage)
+* **Maximum market order values:** **$15M** (leverage ≥25), **$5M** (leverage 20-25), **$2M** (leverage 10-20), **$500K** (lower leverage)
 * **Maximum limit order values:** **10x** the corresponding market order limit
 * **Margin options:** Cross or isolated margin per wallet
 
