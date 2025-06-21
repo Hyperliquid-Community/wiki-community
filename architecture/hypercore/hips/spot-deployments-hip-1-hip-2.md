@@ -57,13 +57,13 @@ HIP-1 token deployment isn’t just a standard transaction—it’s gated by a 3
 **How It Works:**
 
 1. **Initial Price:**
-   * If no one bought in the previous auction, the initial price is set to **10,000 USDC**.
+   * If no one bought in the previous auction, the initial price is set to **500 HYPE**.
    * If the previous auction did complete, the new auction’s initial price will be **2x the last winning price**.
 2.  **Price Decrease over 31 Hours:**\
-    The price drops linearly from its initial value down to 10,000 USDC over 31 hours.
+    The price drops linearly from its initial value down to 500 HYPE over 31 hours.
 
     **Price Formula (example):**\
-    &#xNAN;_&#x70;rice(t) = initial\_price - ((initial\_price - 10,000) \* (t / 31h))_
+    &#xNAN;_&#x70;rice(t) = initial\_price - ((initial\_price - 500) \* (t / 31h))_
 
     Where _t_ is the time elapsed in hours.
 3. **Single Buyer per Auction Window:**\
