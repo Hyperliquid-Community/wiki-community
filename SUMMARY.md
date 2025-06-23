@@ -10,7 +10,7 @@
 * [Roadmap](introduction/roadmap/README.md)
   * [Incident](introduction/roadmap/incident/README.md)
     * [2025-26-03](introduction/roadmap/incident/2025-26-03.md)
-  * [On-Chain Activity](introduction/roadmap/on-chain-activity.md)
+  * [On-Chain](introduction/roadmap/on-chain.md)
 
 ## Architecture
 
@@ -63,8 +63,8 @@
 
 ## Ecosystem
 
-* [The Hyper Liquidated](ecosystem/the-hyper-liquidated/README.md)
-  * [Community Map](ecosystem/the-hyper-liquidated/community-map.md)
+* [Hyperliquidated](ecosystem/hyperliquidated/README.md)
+  * [Map](ecosystem/hyperliquidated/map.md)
 * [Projects](ecosystem/projects/README.md)
   * [Tools](ecosystem/projects/tools.md)
   * [HyperEVM](ecosystem/projects/hyperevm/README.md)

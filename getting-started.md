@@ -26,7 +26,7 @@ If you're here to trade and explore the HyperLiquid DEX, start with the **User G
 * [HL Onboarding](guide/user-guide/onboarding.md) – A dedicated guide to get started with the HyperLiquid DEX.
 * [Spot Deployments](guide/user-guide/spot-deployments.md) – Dive into the trenches and trade spot tokens, for example, on **Hypurr Fun**.
 * 🚨 [Farm on HL](guide/user-guide/airdrop.md) – Farm and earn rewards using our **Airdrop Guide** for HyperCore and HyperEVM Farming.
-* [On-Chain Activity](introduction/roadmap/on-chain-activity.md) – Track major wallet movements, large positions, and market-moving activities to stay informed.
+* [On-Chain Activity](introduction/roadmap/on-chain.md) – Track major wallet movements, large positions, and market-moving activities to stay informed.
 
 ***
 
@@ -43,7 +43,7 @@ Want to understand how HyperLiquid works? Start here:
 
 Looking for the latest updates, community insights, and projects? Explore these:
 
-* [Community: The Hyper Liquidated](ecosystem/the-hyper-liquidated/) – Discover the key community groups and contributors.
+* [Community: The Hyper Liquidated](ecosystem/hyperliquidated/) – Discover the key community groups and contributors.
 * [Projects: Ecosystem Projects](ecosystem/projects/) – Explore the tools, resources, and initiatives in the ecosystem.
 
 ***

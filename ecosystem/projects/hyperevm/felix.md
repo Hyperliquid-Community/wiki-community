@@ -59,42 +59,42 @@ The CDP Market enables users to **deposit collateral** (like HYPE or UBTC) and *
 
 Felix's Vanilla Markets operate on Morpho's lending stack, providing a **traditional lending model** similar to Hyperlend:
 
-* **Deposit collateral** (HYPE, UBTC, ETH) to borrow assets like HUSD or USDC
+* **Deposit collateral** (HYPE, UBTC, ETH) to borrow assets like USDhl or USDC
 * **Supply idle assets** to earn yield through a floating APY determined by utilization
 * **No redemption mechanics** - positions are immune to feUSD peg fluctuations
 
 The primary risk is **liquidation** when a position's health factor falls below 1.0.
 
-### HUSD: Recycling Value Back to Hyperliquid
+### USDhl: Recycling Value Back to Hyperliquid
 
-HUSD is a **fiat-backed stablecoin** native to Hyperliquid, designed specifically to benefit the Hyperliquid ecosystem.
+USDhl is a **fiat-backed stablecoin** native to Hyperliquid, designed specifically to benefit the Hyperliquid ecosystem.
 
-**Why HUSD matters:**
+**Why USDhl matters:**
 
 * Currently, $2.5B of bridged USDC on HyperCore generates \~$107.5M in annual interest revenue flowing to Circle
 * As Hyperliquid grows 10x, 100x, or 1000x, this opportunity cost only increases
 
-**How HUSD works:**
+**How USDhl works:**
 
 * A significant portion of interest revenue is used to **purchase HYPE** in the open market
 * Similar to the Assistance Fund's automated HYPE buy-backs, but at the stablecoin layer
 * Purchased HYPE is strategically redeployed to fuel ecosystem growth
 
-**HUSD's impact on Builder Codes:**
+**USDhl's impact on Builder Codes:**
 
 * Helps bootstrap "Hyperliquid hybrids" by subsidizing builder code fees
 * Allows interfaces to charge higher rates at no cost to users
-* Example: If Interface XYZ receives 100 HUSD in rebate budget, it could process $100,000 worth of futures volume before users bear any cost
+* Example: If Interface XYZ receives 100 USDhl in rebate budget, it could process $100,000 worth of futures volume before users bear any cost
 * Interface operators can reinvest builder code revenues into user acquisition and retention
 
-**HUSD and feUSD synergy:**
+**USDhl and feUSD synergy:**
 
-* HUSD provides deep liquidity for feUSD pairs on Curve StableSwap, improving peg stability
+* USDhl provides deep liquidity for feUSD pairs on Curve StableSwap, improving peg stability
 * Serves as a lending asset on Felix's Vanilla Markets
 * Potential future integration as collateral for minting feUSD (similar to USDC's role in DAI's PSM)
 * Together, they form a complementary stablecoin pair rather than competing alternatives
 
-HUSD created as a **public good initiative** by HyperActive and Felix in collaboration with the [@m0foundation](https://x.com/m0foundation).
+USDhl created as a **public good initiative** by HyperActive and Felix in collaboration with the [@m0foundation](https://x.com/m0foundation).
 
 ### Resources
 
@@ -106,7 +106,7 @@ HUSD created as a **public good initiative** by HyperActive and Felix in collabo
 * **Educational Content**
   * [Understanding Felix Stability Pools](https://x.com/0xBroze/status/1911762191897739707) - Explains yield mechanics, risk dynamics, and market impact
   * [Understanding Redemptions and Liquidations](https://x.com/0xBroze/status/1907395802449780931) - Guide to optimizing capital efficiency
-  * [What does it mean to be a Hyperliquid-aligned fiat stable?](https://x.com/husd_fiat/status/1923017204045406416) - Explains HUSD's role in the ecosystem
-  * [The Role of HUSD in the Felix Ecosystem](https://x.com/0xBroze/status/1917551086979932574) - How HUSD and feUSD work together
+  * [What does it mean to be a Hyperliquid-aligned fiat stable?](https://x.com/husd_fiat/status/1923017204045406416) - Explains USDhl's role in the ecosystem
+  * [The Role of USDhl in the Felix Ecosystem](https://x.com/0xBroze/status/1917551086979932574) - How USDhl and feUSD work together
 * **Official Documentation**
   * [Felix Protocol Documentation](https://usefelix.gitbook.io/felix-docs/)

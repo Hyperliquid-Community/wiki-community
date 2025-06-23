@@ -21,7 +21,7 @@ layout:
   * Two previous point seasons delivered the largest airdrops in DeFi history, proving that active participation generates substantial rewards
 * **Continuous Buying Pressure:**
   * The [Assurance Fund](../../architecture/hypercore/vault.md#id-2.-protocol-vaults-assistance-fund-af) automatically reinvests **93% of platform fees** to purchase HYPE tokens, creating consistent demand and price support.
-* **Strategic** [**Tokenomics**](https://www.hypeburn.fun/)**:**
+* [Strategic](https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f) [Tokenomics](https://www.hypeburn.fun/):
   * **Total Supply:** 1,000,000,000 HYPE tokens
   * **Current Circulating Supply:** \~333M HYPE
     * 310M: genesis distribution (only \~270m claimed)
