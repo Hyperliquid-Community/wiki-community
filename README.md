@@ -47,6 +47,10 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 
 ***
 
+**Test Your Knowledge 🎯** Ready to put your learning into practice? Take the HyperScore quiz to see where you stand! → [hlquiz.xyz](https://hlquiz.xyz) - Compete, learn, and earn your place on the leaderboard _(code:Hyperliquid, Weekly1)_
+
+***
+
 {% hint style="success" %}
 ## Support This Wiki
 
