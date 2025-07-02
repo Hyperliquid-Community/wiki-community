@@ -81,6 +81,7 @@ A system contract at address `0x333...3333` allows smart contracts to initiate a
 * **Vault management** - Programmatic deposits and withdrawals
 * **Staking operations** - Delegate/undelegate tokens, deposit/withdraw stakes
 * **Asset transfers** - Move spot tokens and USD between accounts/markets
+* **Contract finalization** - Deploy and initialize EVM contracts with custom storage slots
 
 This architecture transforms passive smart contracts into active market participants while maintaining HyperCore's security model through structured, predictable actions. \
 For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates—all without requiring user intervention or trusted third parties.
