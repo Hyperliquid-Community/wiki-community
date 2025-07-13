@@ -37,7 +37,7 @@ Founded by **Frank Dang** (6 years investment banking, built $50M TVL aggregator
 The flagship vault delivering **8-15% APY** on stablecoins - one of the highest sustainable yields in DeFi.
 
 * **What is Delta-Neutral?** A strategy that earns yield without betting on price direction. You're **market neutral** - making money whether prices go up or down through funding rate capture.
-* **How your money works:** • Deposit USDC → Strategy buys spot HYPE + opens equal short position • Earn from positive funding rates (shorts pay longs on Hyperliquid) • Withdraw anytime with your principal + accumulated yield
+* **How your money works:** • Deposit USDC → Strategy buys spot HYPE + opens equal short position • Earn from positive funding rates (longs pay shorts) • Withdraw anytime with your principal + accumulated yield
 * **Real costs to consider:** • Entry: \~0.08% (trading fees + slippage) • Performance fee: 10% on profits only • **Key insight**: Stay deposited at least 2 weeks to offset entry costs
 
 **Track performance**: [Live Dashboard](https://app.harmonix.fi/dashboards/ba33d0f9-aa1f-4b59-af87-d0751ccb4dd3) | [Source: Strategy Details](https://harmonix-finance.gitbook.io/harmonix-docs/product-harmonix-finance/overview-strategies/hyperliquid-usdc-hype-delta-neutral-vault)
@@ -75,14 +75,12 @@ When you deposit into the HYPE vault, you receive haHYPE - think of it as a **re
 
 **Key benefits for users:**
 
-* **Auto-compounding**: No need to claim or restake - value increases automatically&#x20;
+* **Auto-compounding**: No need to claim or restake - value increases automatically (your haHYPE balance stays the same)
 * **Transferable**: Send to friends, trade on DEXs, or use in other protocols&#x20;
 * **Collateral potential**: Soon usable for borrowing across HyperEVM
 * **Flexible withdrawals**: Request anytime (processing time 1-3 days)
 
 **Planned integrations:** • Liquidity pools on Hyperswap (haHYPE/HYPE pairs) • Borrowing markets on Timeswap and Hyperlend • Yield tokenization on Napier Finance
-
-**Important**: Your haHYPE balance stays the same, but each token becomes worth more HYPE over time as the vault generates yield.
 
 **Track haHYPE**: [YBT Properties](https://harmonix-finance.gitbook.io/harmonix-docs/product-harmonix-finance/yield-bearing-token)
 
@@ -94,7 +92,7 @@ Harmonix curates the best validators for HYPE staking with enhanced rewards:
 
 **Selected Validators & Rewards:** • **Alphaticks** - 0% commission + 3× Harmonix Points (best for maximum yield) • **ValiDAO** - Standard APY + 2× Harmonix Points + exclusive ValiDAO Points • **HypurrCollective x Nansen** - Community validator + Nansen analytics rewards • **ASXN** - Algorithm-focused validator with research benefits
 
-**Current staking APY**: 2.17-2.18% base + additional point multipliers
+**Current staking APY**: \~2.2% base + additional point multipliers
 
 #### HyperEVM: Liquid Staking & DeFi
 
