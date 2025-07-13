@@ -1,21 +1,10 @@
 ---
 icon: satellite
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # HyperEVM
 
-This page provides an overview of projects building on the HyperEVM. In our sub-pages, we offer detailed analysis of the major protocols in the ecosystem, including [Felix Protocol](felix.md), HyperBeat, Hyperlend, and Laminar.
+This page provides an overview of projects building on the HyperEVM. In our sub-pages, we offer detailed analysis of the major protocols in the ecosystem, including [Felix Protocol](felix.md), [Harmonix](harmonix.md), HyperBeat, Hyperlend, and Laminar.
 
 <figure><img src="../../../.gitbook/assets/GqqZT99WUAAKzrg.jfif" alt=""><figcaption><p>By <a href="https://x.com/RBCHI/status/1921839233263862270">@RBCHI</a></p></figcaption></figure>
 

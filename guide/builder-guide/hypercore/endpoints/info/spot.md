@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Spot
 
 The **Spot** section of the `/info` endpoint provides details about **L1 Spot markets** on Hyperliquid. To make sense of the data structure, I have created the diagram below to visually represent the relationships between key objects.

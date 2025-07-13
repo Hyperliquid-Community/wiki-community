@@ -1,16 +1,5 @@
 ---
 icon: bridge-circle-check
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Bridge

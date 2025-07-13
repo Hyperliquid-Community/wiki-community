@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Margin Management
 
 Margin management in HyperCore ensures traders can efficiently use their capital while maintaining robust risk controls. The system balances capital efficiency with decentralized safety mechanisms, offering familiar margin modes while pioneering new approaches to protect against manipulation.

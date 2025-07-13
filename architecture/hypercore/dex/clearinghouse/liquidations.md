@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Liquidations
 
 Liquidation is a critical process on HyperCore to ensure traders maintain sufficient collateral and the platform remains solvent. It occurs when a trader's account equity falls below the **maintenance margin** required for their positions.

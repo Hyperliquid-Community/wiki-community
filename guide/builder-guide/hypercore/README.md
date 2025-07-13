@@ -1,19 +1,8 @@
 ---
 icon: arrows-to-circle
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
-# API
+# HyperCore
 
 The **Hyperliquid API** lets users and builders interact directly with the network, enabling seamless automation, integration, and innovation. Whether you're optimizing trading strategies or creating new financial products, the API provides the flexibility to build and earn rewards through on-chain activity.
 

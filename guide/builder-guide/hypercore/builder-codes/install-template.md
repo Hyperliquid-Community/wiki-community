@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Install Template
 
 To get started, you can either **clone the boilerplate repository** for a quick setup or **recreate it from scratch** to better understand its structure.

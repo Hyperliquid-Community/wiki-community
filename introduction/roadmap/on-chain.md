@@ -1,19 +1,8 @@
 ---
 icon: link-horizontal
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
-# On-Chain Activity
+# On-Chain
 
 Understanding on-chain movements provides valuable insights into Hyperliquid's ecosystem dynamics. **Monitoring large-scale transactions, major unstakes, significant buys and sells, and key player movements helps users understand market trends, potential price impacts, and shifts in institutional positioning.**
 

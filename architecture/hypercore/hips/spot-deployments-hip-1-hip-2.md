@@ -1,16 +1,5 @@
 ---
 icon: person-walking-luggage
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Spot Deployments (HIP-1/HIP-2)

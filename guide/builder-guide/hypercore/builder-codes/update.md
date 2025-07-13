@@ -1,18 +1,4 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
-# Template Update
+# Update
 
 Now that you have the **Builder Codes Dapp** set up, this guide will walk you through modifying and expanding its functionality.&#x20;
 

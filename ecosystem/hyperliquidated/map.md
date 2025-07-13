@@ -1,19 +1,8 @@
 ---
 icon: map-location-dot
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
-# Community Map
+# Map
 
 Stay connected and collaborate with the HyperLiquid ecosystem through these key accounts and community groups.
 

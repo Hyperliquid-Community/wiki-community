@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Fees
 
 Hyperliquid's fee system is designed to reward active users, builders, and the broader community. By leveraging volume-based discounts, staking incentives, and referral programs, the platform ensures that participation benefits users while funding the ecosystem's development.

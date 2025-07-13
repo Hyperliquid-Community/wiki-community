@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Funding
 
 Funding rates are a critical mechanism in crypto perpetual contracts, ensuring that the perpetual contract price remains closely aligned with the underlying asset's spot price. On Hyperliquid, funding is designed to be **peer-to-peer**, transparent, and reflective of real market conditions.

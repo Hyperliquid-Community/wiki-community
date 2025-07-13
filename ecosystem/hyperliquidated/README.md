@@ -1,19 +1,8 @@
 ---
 icon: wave
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
-# The Hyper Liquidated
+# Hyperliquidated
 
 _"I will introduce you to the newest emerging cult on CT, or who I will be referring to as..._\
 &#xNAN;_**'The Hyper Liquidated'**"_ – [_@crypto\_adair_](https://x.com/crypto_adair/status/1806748433593577833)

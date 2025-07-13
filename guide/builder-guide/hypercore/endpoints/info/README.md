@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Info
 
 The **General** section of the `/info` endpoint provides essential system-wide data that is not specific to Spot or Perpetuals. This includes market-wide metrics, exchange status, and user-related details.

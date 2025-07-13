@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Perpetuals
 
 The **Perpetuals** section of the `/info` endpoint provides key data related to **perpetual futures** trading on Hyperliquid. The diagram below visually represents the structure of the API response for easier understanding.
