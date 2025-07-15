@@ -70,5 +70,6 @@
   * [HyperEVM](ecosystem/projects/hyperevm/README.md)
     * [Felix](ecosystem/projects/hyperevm/felix.md)
     * [Harmonix](ecosystem/projects/hyperevm/harmonix.md)
+    * [Kinetiq](ecosystem/projects/hyperevm/kinetiq.md)
   * [HyperCore](ecosystem/projects/hypercore.md)
   * [MemeCoin](ecosystem/projects/memecoin.md)
