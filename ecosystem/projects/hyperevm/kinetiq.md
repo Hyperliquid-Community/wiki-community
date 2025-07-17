@@ -42,14 +42,14 @@ Kinetiq transforms locked HYPE into liquid, yield-bearing kHYPE tokens while mai
 
 | Tier Level | HYPE Staked | Value ($)  | Break-even APR 5k$/month | Break-even APR 20k$/month | Break-even APR 100k$/month |
 | ---------- | ----------- | ---------- | ------------------------ | ------------------------- | -------------------------- |
-| Wood       | 10          | 500        | 1.80%                    | 7.20%                     | 36.00%                     |
-| Bronze     | 100         | 5,000      | 0.36%                    | 1.44%                     | 7.20%                      |
-| Silver     | 1,000       | 50,000     | 0.05%                    | 0.22%                     | 1.08%                      |
-| Gold       | 10,000      | 500,000    | 0.01%                    | 0.03%                     | 0.14%                      |
-| Platinum   | 100,000     | 5,000,000  | 0.001%                   | 0.004%                    | 0.022%                     |
-| Diamond    | 500,000     | 25,000,000 | 0.0003%                  | 0.001%                    | 0.006%                     |
+| Wood       | 10          | 500        | 0.18%                    | 0.72%                     | 3.60%                      |
+| Bronze     | 100         | 5,000      | 0.036%                   | 0.144%                    | 0.72%                      |
+| Silver     | 1,000       | 50,000     | 0.0054%                  | 0.022%                    | 0.108%                     |
+| Gold       | 10,000      | 500,000    | 0.0007%                  | 0.003%                    | 0.014%                     |
+| Platinum   | 100,000     | 5,000,000  | 0.0001%                  | 0.0004%                   | 0.002%                     |
+| Diamond    | 500,000     | 25,000,000 | 0.00003%                 | 0.0001%                   | 0.0006%                    |
 
-**Formula**: Break-even APR = (Monthly\_volume × 0.003 × Tier\_discount × 12) / Staked\_value × 100
+**Formula**: Break-even APR = (Monthly\_volume × 0.0003 × Tier\_discount × 12) / Staked\_value × 100
 
 **Bottom line**: For small accounts with moderate trading activity, liquid staking isn't necessarily optimal from a pure APY perspective.
 
