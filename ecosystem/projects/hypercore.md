@@ -6,40 +6,11 @@ icon: robot
 
 The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and “[Builder Codes](https://x.com/xulian_hl/status/1910188302579458173)”.
 
+**Monitoring dashboard:**
+
+* [Hypeburn](https://www.hypeburn.fun/builders) by [@janklimo](https://x.com/janklimo/status/1946491864766615794)
+* [Hypebuilder](https://hypebuilders.xyz/) by [@bisasolo](https://x.com/bisasolo/status/1921907211921658153)
+
+<table><thead><tr><th width="172.6666259765625">Category</th><th width="144.33331298828125">Project </th><th width="233.3333740234375">Description</th><th width="90.3333740234375" align="center">Points</th></tr></thead><tbody><tr><td><strong>Social Trading</strong></td><td><a href="https://x.com/pvp_dot_trade">PvP.trade</a></td><td>Social Trading Bot.</td><td align="center">✅</td></tr><tr><td></td><td><a href="https://x.com/topdog_perp">TopDog</a></td><td>Trading Battle Arena.</td><td align="center"></td></tr><tr><td><strong>Wallets</strong></td><td><a href="https://x.com/phantom">Phantom</a></td><td>The crypto app for everyone.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/Okto_wallet">Okto</a>*</td><td>Perps - Spot - HyperEVM - Trade - Bridge - Chain Abstracted Experience.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/nestwalletxyz">Nest Wallet</a></td><td>Solana, EVM, TON.</td><td align="center"></td></tr><tr><td><strong>"Robinhood" for Crypto</strong></td><td><a href="https://x.com/basedappHQ">BasedApp</a></td><td>Buy, Sell and Spend Crypto.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/massdotmoney">Mass</a>*</td><td>Mobile. Spot. Perps. Stocks. DeFi.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/DexariDotCom">Dexari</a></td><td>Trade perps &#x26; spot with CEX-like UX, advanced charts, and full self-custody.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/LootbaseX">Lootbase</a></td><td>Trade perps with up to 40x leverage on your phone.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/BullpenFi">Bullpen</a>*</td><td>Trade on Hyperliquid &#x26; Solana.</td><td align="center">✓</td></tr><tr><td><strong>Exchange</strong></td><td><a href="https://x.com/AxiomExchange">Axiom</a>*</td><td>The ONLY Trading Platform You'll Ever Need. Memes, Perps, Yield, All-In-One.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/chrisling_dev/status/1944448193443348838">Supercexy</a></td><td>Ggasless, mobile-first frontend - A real on-chain CEX.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/KintoXYZ">Kintohl</a>*</td><td>The Modular Exchange.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/defidotapp">DefiApp</a></td><td>Combining the magic of CeFi/DeFi in the worlds first "Everything App".</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/pear_protocol">Pear</a></td><td>The home of pair trading.</td><td align="center"></td></tr><tr><td><strong>Trading tool</strong></td><td><a href="https://x.com/InsilicoTrading">Insilico</a>*</td><td>Position and execution management system.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/dextrabot">dextrabot</a></td><td>Hyperliquid Copy Trading &#x26; Wallet Analysis.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/hypurrdash">HyperDash</a></td><td>Trader explorer. Making onchain data actionable.</td><td align="center"></td></tr><tr><td></td><td><a href="https://x.com/trysuper_">SuperX</a></td><td>Real-time screener.</td><td align="center"></td></tr></tbody></table>
+
 _Projects marked with `*` are not HyperLiquid native._
-
-**Trading Tools**
-
-* [InsilicoTerminal](https://insilicoterminal.com/#/)\* – Position and execution management system. [@InsilicoTrading](https://x.com/InsilicoTrading)
-* [Rage.trade](https://www.rage.trade/)\* – Perp Aggregator. [@rage\_trade](https://x.com/rage_trade)
-* [Perpflow](https://perpflow.xyz/) – Automate delta-neutral yield strategies. [@perpflow](https://x.com/perpflow)
-* [Katoshi](https://katoshi.ai/) – Automate your trading strategy. [@KatoshiAI](https://x.com/KatoshiAI)
-* [Tradestream](https://tradestream.xyz/sign-up) – Automated Trading Journal and Analytics. [@tradestream\_xyz](https://x.com/tradestream_xyz)
-* [D2finance](https://d2.finance/strategies)\* – Tokenized derivatives strategies. [@D2\_Finance](https://x.com/D2_Finance)
-* [Gamma](https://app.gamma.xyz/perps?utm_source=\&utm_medium=affiliate_social\&utm_campaign=perps)\* – Perpetual Trading Vaults. [@GammaStrategies](https://x.com/GammaStrategies)
-* [Okto.tech](https://www.okto.tech/wallet)\* – Mobile wallet for trading futures. [@okto\_web3](https://x.com/Okto_web3)
-* [Hypercopy](https://hypercopy.xyz/) – Copy Hyperliquid traders.  [@artiya4u](https://github.com/artiya4u/hypercopy-xyz)
-* Telegram Bots 🤖:
-  * [Hypurr Fun](https://hypurr.fun/) – The fastest telegram trading bot for Hyperliquid ([Doc](https://hypurr-fun.gitbook.io/hypurr-fun-docs)). [@Hypurrfun](https://x.com/Hypurrfun)
-  * [pvp.trade](https://pvp.trade/) – Long/short together in your Telegram groups. [@pvp\_dot\_trade](https://x.com/pvp_dot_trade)
-  * [CopyCat\_Bot](https://t.me/CopyCat_bot_Chat) – Alerts, tracking and copy trading bot for HyperLiquid. [@CopyCat\_Bot](https://x.com/CopyCat_Bot)
-  * [AlgoTrade](https://www.algotrade.biz/)\* – Trade Smarter, Not Harder. [@AlgoTrade\_\_](https://x.com/AlgoTrade__)
-
-**Artificial Intelligence**
-
-* [wagmi.fun](https://wa.gmi.fun/) – Interactive livestream AI for HL. [@wagmi\_hl](https://x.com/wagmi_hl)
-* AI agents:
-  * [vaporware](https://alpha.vaporware.fun/) – Create, Deploy, and Monetize Autonomous AI Agents. [@vaporwarefun](https://x.com/vaporwarefun)
-  * [rndm](https://www.rndm.io/)\* – Supply liquidity and be a marketmaker (Yield-focused). [@RNDM\_IO](https://x.com/RNDM_IO)
-
-**Bridge**
-
-* [HyBridge](https://hybridge.xyz/) – Fast, Seamless, and Ready to Connect Across EVM & SOL Chains. [@HyBridgeHL](https://x.com/HyBridgeHL)
-
-**GambleFi**
-
-* [hyp.fun](https://hyp.fun/) – All-in-one GambleFi deflationary token on HL. [@HyperFunX](https://x.com/HyperFunX)
-* [vegas-hl](https://vegas-hl.com/) – GambleFi via Telegram bot. [@Vegas\_hl](https://x.com/Vegas_HL)
-* [guess\_hl\_bot](https://t.me/guess_hl_bot) – Prediction market via Telegram mini app.  [@guess\_on\_hl](https://x.com/guess_on_hl)
-
-Hyperliquid [Builder Codes](https://hypebuilders.xyz/) dashboard by [@bisasolo](https://x.com/bisasolo/status/1921907211921658153)
