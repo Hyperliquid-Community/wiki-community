@@ -13,7 +13,6 @@ For an even broader overview of the ecosystem, check out these community-driven 
 * Other dashboard:
   * [HyperLiquid Dashboard](https://degen.start.me/p/gGnQQY/hyperliquid) – built [@defipolice\_](https://x.com/defipolice_).
   * [ASXN Data Dashboard](https://data.asxn.xyz/dashboard/hyperliquid-ecosystem) – built by [@asxn\_r](https://x.com/asxn_r).
-  * [HyperLiquid Wiki](https://hyperliquid.wiki/) – built by @hyperliquidwiki.
   * [HL Projects Dashboard](https://hlprojects.xyz/) – built by [@shinji2048](https://x.com/shinji2048).
 
 <figure><img src="../../.gitbook/assets/GinrGtyawAAawhn.jfif" alt=""><figcaption><p>From <a href="https://x.com/SKYGG_Official/status/1885297011324575822">Skygg</a></p></figcaption></figure>
