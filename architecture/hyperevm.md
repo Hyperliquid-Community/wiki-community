@@ -35,17 +35,27 @@ Most blockchain systems force a compromise between speed and capacity, either fa
 
 This design allows users to choose what matters most: traders can use small blocks for near-instant order confirmations, while developers can deploy complex contracts through large blocks without congesting the network.
 
+_For implementation details and code examples, see the_ [_dual-block architecture documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/dual-block-architecture)_._
+
 #### Asset Movement Between HyperCore and HyperEVM
 
 Assets can move freely between environments without traditional bridging risks:
 
 * Each spot asset on HyperCore can be linked to an ERC20 token on HyperEVM
-* HYPE (the native token) serves as gas on HyperEVM and can be transferred between environments
+* **HYPE** (the native token) serves as gas on HyperEVM and can be transferred between environments
 * There are no wrapped tokens or IOUs, it's the same asset in both places
 
 Traditional cross-chain solutions require wrapped tokens, trusted validators, or lengthy verification periods. HyperEVM eliminates these complexities since both environments share the same underlying consensus. This creates a seamless experience where assets maintain their identity and properties regardless of which environment they're used in.
 
-The system uses special addresses (starting with 0x200...) to handle these transfers, maintaining a unified asset layer across the platform.
+The system uses special addresses (starting with `0x200`...) to handle these transfers, maintaining a unified asset layer across the platform.
+
+**Transfer Timing:**
+
+* **HyperCore to HyperEVM:** Transfers are queued until the next HyperEVM block
+* **HyperEVM to HyperCore:** Transfers happen in the same L1 block, immediately after the HyperEVM block is built
+* **Block Processing Order:** L1 block → EVM block → EVM=>Core transfers processed → CoreWriter actions processed
+
+_For implementation details and code examples, see the_ [_documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/hypercore-less-than-greater-than-hyperevm-transfers)_._
 
 #### Accessing HyperCore from Smart Contracts
 
@@ -67,38 +77,66 @@ Think of these as direct data pipelines into the exchange, giving your contracts
 A system contract at address `0x333...3333` allows smart contracts to initiate actions on HyperCore:
 
 * **Trading** - Place limit orders with various time-in-force options (ALO, GTC, IOC)
-* **Vault management** - Programmatic deposits and withdrawals
+* **Order Management** - Cancel orders by order ID (oid) or client order ID (cloid)
+* **Vault Management** - Programmatic deposits and withdrawals
+* **API Wallet Management** - Add API wallets with custom names
 * **Staking operations** - Delegate/undelegate tokens, deposit/withdraw stakes
 * **Asset transfers** - Move spot tokens and USD between accounts/markets
 * **Contract finalization** - Deploy and initialize EVM contracts with custom storage slots
 
-This architecture transforms passive smart contracts into active market participants while maintaining HyperCore's security model through structured, predictable actions. \
-For example, an options protocol could automatically hedge delta exposure by trading in the perpetuals market, or a yield strategy could dynamically adjust positions based on funding rates—all without requiring user intervention or trusted third parties.
+This architecture transforms passive smart contracts into active market participants while maintaining HyperCore's security model through structured, predictable actions.&#x20;
 
 _For implementation details and code examples, see the_ [_developer documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/interacting-with-hypercore)_._
 
-### What Can You Build?
+### Advantages - What Can You Build?
+
+**Real-Time System Awareness**
+
+Precompiles enable **near-real-time awareness** inside Hyperliquid, eliminating traditional DeFi latency:
+
+* **Instant collateral checks** - No oracle delays for margin calculations
+* **Synchronized liquidations** - Real-time position monitoring and execution
+* **Dynamic rebalancing** - Immediate response to market conditions
+* **Trustless automation** - No external keepers or relayers required
+
+**Applications Now Possible**
 
 With these tools, developers can create applications that were previously difficult or impossible:
 
-* **Lending protocols** that liquidate directly into the spot order book
-* **Self-hedging loans** that automatically manage risk through perps trading
-* **Options protocols** with automatic delta hedging
-* **Yield strategies** that respond to market conditions in real-time
-* **Tokenized trading vaults** managing complex strategies
-* **Liquid staking solutions** with programmable rewards distribution
+* **Lending Protocols** - Incorporate orderbook prices, trustless liquidations on HyperCore order books
+* **Liquid Staking Tokens** - Entirely onchain with governance through HIP-3 assets, no multisig control
+* **Tokenized Trading Vaults** - Real-time equity tracking and programmatic management (e.g., tokenized HLP)
+* **Self-hedging Loans** - Automatically manage risk through perps trading
+* **Options Protocols** - Automatic delta hedging with instant position adjustments
+* **DEX Aggregators** - Instant route optimization through HyperCore liquidity
+* **Yield Strategies** - Respond to funding rates and market conditions in real-time
 
 ### Current Status
 
 HyperEVM is currently in [alpha stage](../introduction/roadmap/#hyperevm). While core functionality is available, some features are still being rolled out gradually to ensure system stability.
 
+**Current Development Focus:**
+
+* **Throughput improvements** - Increasing transaction processing capacity
+* **Gas limit optimization** - Improving small block gas limits for better everyday user experience
+* **Block switching UX** - Making transitions between small and big blocks more seamless
+* **Infrastructure stability** - Addressing RPC reliability and node performance
+* **Developer tooling** - Enhanced debugging and monitoring capabilities
+
+**Key Considerations:**
+
+* **Big blocks** are primarily designed for builders deploying contracts rather than everyday user transactions
+* The architecture prioritizes **HyperCore stability** - ensuring trading performance remains unaffected - [Source](https://x.com/xulian_hl/status/1938276997739995543)
+
 For developers looking to start building, see our [Builder Guide](../guide/builder-guide/hyperevm/) with detailed technical documentation and code examples.
+
+[View current HyperEVM projects →](../ecosystem/projects/hypercore.md)
 
 ### Resources
 
 * [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm)
 * Precompiles Guide:
-  * [The Not-So-Definitive Guide to Hyperliquid Precompiles](https://medium.com/@ambitlabs/the-not-so-definitive-guide-to-hyperliquid-precompiles-f0b6025bb4a3) - First article explaining HyperEVM by Ambit Labs
-  * [Xulian's Precompile Explanation](https://x.com/xulian_hl/status/1919617689124794692)
-  * [A Breakdown for Dummies](https://x.com/emaverick90/status/1919727174426284488) by Eduardo (Felix Protocol)
+  * [Xulian's Precompile Explanation](https://x.com/xulian_hl/status/1919617689124794692) | [Hyperliquid examples](https://x.com/HyperliquidX/status/1947178777244803543)
+  * [A Breakdown for Dummies](https://x.com/emaverick90/status/1919727174426284488) | [Enables Real Time Awareness](https://x.com/emaverick90/status/1924805040121815399) by Eduardo (Felix Protocol)
+  * Explanatory videos by [Hyperdrive](https://x.com/hyperdrivedefi/status/1926820809659515225) and by [Harmonix](https://x.com/harmonixintern/status/1941425571088781752).
 * [Precompile HyperCore → HyperEVM Direction](https://x.com/xulian_hl/status/1916711761769804169) - Note that smart contracts perform actions on HyperCore initiated from HyperEVM, not the reverse, as HyperCore has no general purpose smart contracts

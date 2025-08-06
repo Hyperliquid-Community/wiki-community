@@ -4,7 +4,7 @@ icon: satellite
 
 # HyperEVM
 
-This page provides an overview of projects building on the HyperEVM. In our sub-pages, we offer detailed analysis of the major protocols in the ecosystem, including [Felix](felix.md), [Harmonix](harmonix.md), [Kinetiq](kinetiq.md), HyperBeat, Hyperlend, and Laminar.
+This page provides an overview of projects building on [HyperEVM](../../../architecture/hyperevm.md). In our sub-pages, we offer detailed analysis of the major protocols in the ecosystem, including [Felix](felix.md), [Harmonix](harmonix.md), [Kinetiq](kinetiq.md), HyperBeat, Hyperlend, and Laminar.
 
 <figure><img src="../../../.gitbook/assets/HyperEVM MAP (5).png" alt=""><figcaption></figcaption></figure>
 

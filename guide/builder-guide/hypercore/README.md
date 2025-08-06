@@ -9,7 +9,7 @@ The **Hyperliquid API** lets users and builders interact directly with the netwo
 1. **Automate and Optimize Trading**
    * Implement **trading bots** to execute market-making, delta-neutral, or other algorithmic strategies.
    * Manage orders programmatically with minimal latency and direct access to Hyperliquid’s liquidity.
-2. **Incorporate Builder Codes -** [**Learn More**](../../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-codes)
+2. **Incorporate Builder Codes** - [Learn More](../../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-codes)
    * **Builder codes** allow builders to set an additional fee, on top of Hyperliquid’s fees, of up to **0.1% for perpetuals** and **1% for spot**.
    * The user must sign to approve these fees, and for each trade made through this interface, they will pay **Hyperliquid fees + the builder fee**.
 

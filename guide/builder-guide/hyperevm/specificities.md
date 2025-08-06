@@ -4,11 +4,9 @@ icon: sparkles
 
 # Specificities
 
-_**This section is still a work in progress**— for now, I’m redirecting to the official documentation._
-
 This guide covers the essential technical components and considerations for developers building on HyperEVM. For conceptual understanding, see our [HyperEVM Overview](../../../architecture/hyperevm.md).&#x20;
 
-#### Important Technical Considerations
+### Important Technical Considerations
 
 Before diving into specific features, developers should understand these critical aspects of HyperEVM:
 
@@ -77,3 +75,33 @@ For more information, visit the [Indexing Guide](https://hyperliquid.gitbook.io/
 A canonical **Wrapped HYPE (WHYPE)** contract is deployed at `0x555...5`. It mirrors the standard wrapped-ETH design—immutable and lightweight—allowing HYPE to function as an **ERC-20** asset within the EVM.
 
 Learn more in the [Wrapped HYPE Docs](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/evm/wrapped-hype).
+
+***
+
+### Security Patterns - Trust Domain Matching
+
+Understanding when to use precompiles versus external oracles is critical for building secure applications on HyperEVM:
+
+#### Use Precompiles When:
+
+* **Interacting with HyperCore only** - Trading, vault management, staking operations
+* **Reading HyperCore state** - Positions, balances, internal prices, delegations
+* **Submitting orders through CoreWriter** - Ensures state consistency with execution engine
+
+#### Use External Oracles When:
+
+* **External system integration** - Cross-chain bridges, external settlements
+* **Real-world asset exposure** - BTC/USD prices for stablecoins, cross-exchange arbitrage
+* **Non-Hyperliquid obligations** - External collateral, multi-chain protocols
+
+#### Security Rule
+
+If your contract uses **write precompiles** (CoreWriter) to interact with HyperCore, it should trust **read precompiles** for all related price and balance references to avoid state mismatches.
+
+#### Key Principles
+
+* **Precompiles anchor contracts inside Hyperliquid** - Use for internal system operations
+* **Oracles anchor contracts to external economic reality** - Use for cross-chain or external obligations
+* **Trust domain matching** - Ensure every part of your capital flow references the right source of truth
+
+_For more details, read_ [_Building Safely on Hyperliquid_](https://x.com/emaverick90/status/1926966482765812056)_._

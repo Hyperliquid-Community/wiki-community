@@ -6,6 +6,8 @@ icon: browsers
 
 This page guides you through setting up and customizing **Builder Codes** using a boilerplate **template** provided by [@SovrunOfficial](https://x.com/SovrunOfficial). We’ll walk through **recreating** the Next.js framework and **restructuring** the app’s API calls with the [Unofficial TypeScript SDK](https://github.com/nomeida/hyperliquid/tree/main) for cleaner, more maintainable code. This foundation will make it easy to add any additional features you need.
 
+> **Alternative:** If you prefer Rust, there's also **Ferrofluid** - a high-performance Rust SDK for Hyperliquid available. Check it out [here](https://x.com/controlcthenv/status/1937253831416635483).
+
 ### Template Features
 
 * **Secure Wallet Connection (via AppKit)**\
