@@ -39,7 +39,7 @@ HYPE staking on Hyperliquid happens within HyperCore. Users can stake their HYPE
 * **Additional Benefits**
   * **Reduced trading fees** - staking HYPE reduces your trading fees
   * **Referral staking program** - earn from referrals
-  * For more details on fee structure, see [Fees](../hypercore/dex/clearinghouse/fees.md) page
+  * For more details on fee structure, see [Fees](../hypercore/dex/clearinghouse/fees-builder-codes.md) page
 
 ***
 

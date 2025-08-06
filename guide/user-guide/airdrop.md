@@ -21,7 +21,7 @@ icon: parachute-box
   * **Future Community Rewards:** \~430M tokens reserved for ongoing distributions and ecosystem growth
     * Distribution methods beyond the 2.2% staking rewards remain unannounced
 * **Staking Advantage:**
-  * Staking HYPE reduces your trading fees while earning 2.2% annual rewards, a dual benefit that compounds your returns. See the [Fees page](../../architecture/hypercore/dex/clearinghouse/fees.md) for more details.
+  * Staking HYPE reduces your trading fees while earning 2.2% annual rewards, a dual benefit that compounds your returns. See the [Fees page](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md) for more details.
 * **Multiple Revenue Streams:**
   * HL farming provides direct rewards and unlocks opportunities across the entire Hyperliquid ecosystem, multiplying your earning potential.
 

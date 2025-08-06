@@ -31,7 +31,7 @@ Projects listed here are **community-driven** and **not maintained** by HyperLiq
 2. **HyperEVM**
    * Explore projects built on **HyperEVM**, an EVM-compatible blockchain with access to **native HyperLiquid components** (e.g., order book). 👉 [Learn more about HyperEVM](../../architecture/hyperevm.md)
 3. **HyperCore**
-   * Dive into a collection of projects leveraging **HyperLiquid APIs** to build trading tools, integrations, and more.
+   * Dive into a collection of projects leveraging **HyperLiquid APIs** and [Builder Codes](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-codes) to build trading tools, apps, and more.
    * Ideal for those looking to understand how to build similar tools or integrate with the ecosystem.
 
 ***
@@ -51,5 +51,6 @@ HyperLiquid’s community and ecosystem create specific advantages for various D
 * **Perps Traders and Market Makers** – Leverage HyperLiquid’s liquidity for options AMMs, prediction markets, and cross-collateral margin solutions.
 * **HLP Holders** – The TVL in HLP vaults offers opportunities for tokenization, secondary liquidity, and yield trading. Build leverage vaults or complex DeFi strategies tailored to HLP users.
 * **Spot Traders** – With the spot ecosystem growing, new tools such as spot leverage and governance/vesting solutions will enhance user experience and market efficiency.
+* [Explore Builder Codes opportunities →](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-opportunities)
 
 For a detailed breakdown of opportunities and ecosystem insights, check out the [original thread by @0xKrishb](https://x.com/0xkrishb/status/1839441024919417077).

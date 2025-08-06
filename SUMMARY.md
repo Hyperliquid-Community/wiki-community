@@ -25,7 +25,7 @@
       * [Margin Management](architecture/hypercore/dex/clearinghouse/margin-management.md)
       * [Liquidations](architecture/hypercore/dex/clearinghouse/liquidations.md)
       * [Funding](architecture/hypercore/dex/clearinghouse/funding.md)
-      * [Fees](architecture/hypercore/dex/clearinghouse/fees.md)
+      * [Fees - Builder Codes](architecture/hypercore/dex/clearinghouse/fees-builder-codes.md)
     * [Order Book](architecture/hypercore/dex/order-book.md)
     * [Oracle](architecture/hypercore/dex/oracle.md)
   * [Vault](architecture/hypercore/vault.md)

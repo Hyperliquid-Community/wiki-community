@@ -77,7 +77,7 @@ Any deployed HIP-1 token can be linked to a corresponding ERC-20 contract on the
 
 **Trading & Fees:**
 
-* Trading follows Hyperliquid’s standard [fee schedule](../dex/clearinghouse/fees.md).
+* Trading follows Hyperliquid’s standard [fee schedule](../dex/clearinghouse/fees-builder-codes.md).
 * Non-USDC trading fees are currently burned or redirected to the deployer's address.
 
 **Dusting Mechanism:**\

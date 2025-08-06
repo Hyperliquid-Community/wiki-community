@@ -12,7 +12,7 @@ The current flagship application on Hyperliquid is the **DEX developed by Hyper 
 
 #### Three Core Components of Hyperliquid
 
-1. **L1 Perp & L1 Spot:**
+1. **HyperCore Perp & Spot:**
    * These are the foundational markets of Hyperliquid, accessible via **API endpoints**.
    * Instead of interacting directly with the RPC, users interact with **permissionless API servers**, which relay requests to the network’s consensus RPC. This design ensures **better load balancing, DDoS protection, and a familiar experience**, similar to cex.
 2. **HyperEVM:**

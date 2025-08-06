@@ -4,7 +4,7 @@ icon: robot
 
 # HyperCore
 
-The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and “[Builder Codes](https://x.com/xulian_hl/status/1910188302579458173)”.
+The **HyperLiquid ecosystem** encourages **building custom tools**, **interfaces**, and **bots** using official APIs and [Builder Codes](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-codes).
 
 <figure><img src="../../.gitbook/assets/HyperCore MAP (2) (1).png" alt=""><figcaption></figcaption></figure>
 

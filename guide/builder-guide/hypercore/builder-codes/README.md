@@ -54,3 +54,24 @@ This page guides you through setting up and customizing **Builder Codes** using 
    * Modify Sovrun’s structure to align with the approach used in the Typescript SDK for cleaner and more efficient API interactions.
 3. **Customize Your Application**
    * Add or modify features to align with your project’s goals—think advanced trading strategies, analytics dashboards, or additional DeFi functionalities.
+
+***
+
+### Technical Explanation for Builders
+
+**API Integration:**
+
+* Query approved fees: `{"type": "maxBuilderFee", "user": "0x...", "builder": "0x..."}`
+* Check earnings: `{"type": "referral", "user": "0x..."}`
+* Access trade data: `https://stats-data.hyperliquid.xyz/Mainnet/builder_fills/{builder_address}/{YYYYMMDD}.csv.lz4`
+
+**Key Implementation Notes:**
+
+* URLs are **case-sensitive** with lowercase addresses required
+* Example code in [Python SDK](https://github.com/hyperliquid-dex/hyperliquid-python-sdk/blob/master/examples/basic_builder_fee.py)
+* Builder parameter: `f` value in **tenths of basis points** (10 = 1 basis point)
+
+**Getting Started:**
+
+* Review [API documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes)
+* Test integration with small fees first

@@ -18,7 +18,7 @@ The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol va
 
 * Engages in **multiple market-making strategies**
 * Performs **liquidations** (via a dedicated liquidation strategy).
-* Receives approximately **7%** of platform fees (current estimate, see [HyperDash](https://hyperdash.info/statistics) and [Fees page](dex/clearinghouse/fees.md#fee-distribution-and-sources) for details)
+* Receives approximately **7%** of platform fees (current estimate, see [HyperDash](https://hyperdash.info/statistics) and [Fees page](dex/clearinghouse/fees-builder-codes.md#fee-distribution-and-sources) for details)
 
 #### **3-Core Strategies Used by HLP:**
 

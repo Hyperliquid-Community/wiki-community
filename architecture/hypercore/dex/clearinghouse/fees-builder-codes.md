@@ -1,4 +1,4 @@
-# Fees
+# Fees - Builder Codes
 
 Hyperliquid's fee system is designed to reward active users, builders, and the broader community. By leveraging volume-based discounts, staking incentives, and referral programs, the platform ensures that participation benefits users while funding the ecosystem's development.
 
@@ -6,18 +6,18 @@ Hyperliquid's fee system is designed to reward active users, builders, and the b
 
 ### Fee Structure Overview
 
-| Category               | Method                                                                        | Benefit                        | Details                                                                                 |
-| ---------------------- | ----------------------------------------------------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------- |
-| **User Fee Reduction** | [VIP Tiers](fees.md#fee-schedule-vip--staking-tiers) (Volume-Based)           | Up to 47% discount             | Based on rolling 14-day weighted volume                                                 |
-|                        | Staking Tiers                                                                 | Up to 40% discount             | Based on HYPE tokens staked                                                             |
-|                        | Referral Discount                                                             | 4% discount                    | For first $25M volume when using referral code                                          |
-| **User Fee Rewards**   | Referral Rewards                                                              | 10% of referred users' fees    | For first $1B volume of referred users                                                  |
-|                        | [Staking Referral Program](fees.md#staking-referral-program)                  | 40% to 100% of fees difference | _Coming soon_ - Enhanced rewards for staking referrers (depends on referred user's VIP) |
-|                        | Staking Referral Sharing                                                      | Up to 50% revenue sharing      | _Coming soon_ - Can share staking referral revenue with referred users                  |
-|                        | Builder Codes                                                                 | 100% custom fee + 40% to 100%  | Builder fee + staking referral rewards if staking HYPE                                  |
-|                        | Maker Rebates                                                                 | Up to -0.003% rebate           | Continuous rebates for market makers                                                    |
-| **Community Benefits** | [HLP Vault](../../vault.md#id-1.-protocol-vaults-hyperliquidity-provider-hlp) | Liquidity incentives           | Fees fund liquidity provision rewards                                                   |
-|                        | Assurance Fund                                                                | fees reinvested                | Ecosystem protection and HYPE buybacks                                                  |
+| Category               | Method                                                                            | Benefit                        | Details                                                                                 |
+| ---------------------- | --------------------------------------------------------------------------------- | ------------------------------ | --------------------------------------------------------------------------------------- |
+| **User Fee Reduction** | [VIP Tiers](fees-builder-codes.md#fee-schedule-vip--staking-tiers) (Volume-Based) | Up to 47% discount             | Based on rolling 14-day weighted volume                                                 |
+|                        | Staking Tiers                                                                     | Up to 40% discount             | Based on HYPE tokens staked                                                             |
+|                        | Referral Discount                                                                 | 4% discount                    | For first $25M volume when using referral code                                          |
+| **User Fee Rewards**   | Referral Rewards                                                                  | 10% of referred users' fees    | For first $1B volume of referred users                                                  |
+|                        | [Staking Referral Program](fees-builder-codes.md#staking-referral-program)        | 40% to 100% of fees difference | _Coming soon_ - Enhanced rewards for staking referrers (depends on referred user's VIP) |
+|                        | Staking Referral Sharing                                                          | Up to 50% revenue sharing      | _Coming soon_ - Can share staking referral revenue with referred users                  |
+|                        | Builder Codes                                                                     | 100% custom fee + 40% to 100%  | Builder fee + staking referral rewards if staking HYPE                                  |
+|                        | Maker Rebates                                                                     | Up to -0.003% rebate           | Continuous rebates for market makers                                                    |
+| **Community Benefits** | [HLP Vault](../../vault.md#id-1.-protocol-vaults-hyperliquidity-provider-hlp)     | Liquidity incentives           | Fees fund liquidity provision rewards                                                   |
+|                        | Assurance Fund                                                                    | fees reinvested                | Ecosystem protection and HYPE buybacks                                                  |
 
 **Please note:**
 
@@ -157,7 +157,69 @@ _Coming soon_ - The staking referral program allows builders and referrers who s
 
 ***
 
+## Builder Codes
+
+**Builder codes** enable developers to earn **custom fees** from trades executed through their applications. This **permissionless monetization system** allows builders to focus on user experience while generating sustainable revenue.
+
+<figure><img src="../../../../.gitbook/assets/BuilderCodes_v1.png" alt=""><figcaption></figcaption></figure>
+
+#### **What Are Builder Codes**
+
+* **No liquidity bootstrapping** - instant access to deep orderbooks
+* **User-controlled permissions** - traders approve maximum fees and can revoke anytime
+* **Fully onchain processing** - integrated into Hyperliquid's native fee logic
+* **No technical complexity** - focus on UX, not blockchain infrastructure
+* **Sustainable revenue model** - earn proportional to value provided
+
+**Fee Limits:**
+
+* **Perpetuals:** Up to **0.1%** additional fee
+* **Spot Trading:** Up to **1%** additional fee
+* Only applies to **USDC-collected fees**
+
+#### **How It Works**
+
+**Builder Setup:**
+
+* Maintain **minimum 100 USDC** in perps account value
+* Implement builder fee parameter in order logic: `{"b": address, "f": number}`
+
+**User Experience:**
+
+* User approves **maximum builder fee** via signed transaction (main wallet required)
+* Future trades through builder app automatically include approved fee
+* **Full transparency** - all fees visible onchain
+
+**Revenue Collection:**
+
+* Builder fees collected automatically with each trade
+* Claim fees through standard **referral reward system**
+* Real-time tracking via API queries
+
+#### **Success Examples**
+
+Early builders are already generating significant revenue from builder codes. **Top performers** have earned millions in fees by providing value-added trading experiences.
+
+[View current HyperCore projects and earnings →](../../../../ecosystem/projects/hypercore.md)
+
+#### **Builder Opportunities**
+
+The builder codes ecosystem creates opportunities across multiple categories:
+
+* **Social Trading Platforms** - copy-trading and community-driven strategies
+* **Mobile-First Applications** - streamlined interfaces for new users
+* **AI-Powered Trading Tools** - intelligent automation and strategy execution
+* **Regional Solutions** - localized access and language support
+
+[Explore more builder opportunities →](../../../../ecosystem/projects/#why-build-on-hyperliquid) and [Explore the technical Implementation guide →](../../../../guide/builder-guide/hypercore/builder-codes/)
+
+***
+
 ### Resources
 
-* Official documentation on [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees) and [Referrals](https://hyperliquid.gitbook.io/hyperliquid-docs/referrals).
+* Official documentation on [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees), [Referrals](https://hyperliquid.gitbook.io/hyperliquid-docs/referrals) and [Builder Codes](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes).
 * [Fee Calculator](https://app.hyperbeat.org/dapp/calculator): You can determine the number of fees you pay in different situations. [@0xHyperBeat](https://x.com/0xHyperBeat/status/1902396341520675060)
+* [Fee Comparison Sheet](https://x.com/smartestmoney_/status/1890981680724525464) - Hyperliquid vs major exchanges (Bybit, Binance, OKX, Coinbase) showing 10x-25x savings
+* [Understanding HyperCore and Builder Codes](https://x.com/xulian_hl/status/1910188302579458173) by Xulian
+* [Jeff's Vision for Builder Codes](https://x.com/stevenyuntcap/status/1942969648527667325) - how builder codes will onboard the next wave of users to crypto
+* "Builders are incentivized to stake 500k HYPE so that they charge their users the lowest fees possible" - [steven.hl](https://x.com/stevenyuntcap/status/1922258987967512732)
