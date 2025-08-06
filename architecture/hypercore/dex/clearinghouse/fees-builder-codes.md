@@ -215,7 +215,7 @@ The builder codes ecosystem creates opportunities across multiple categories:
 
 ***
 
-### Resources
+## Resources
 
 * Official documentation on [Fees](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees), [Referrals](https://hyperliquid.gitbook.io/hyperliquid-docs/referrals) and [Builder Codes](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/builder-codes).
 * [Fee Calculator](https://app.hyperbeat.org/dapp/calculator): You can determine the number of fees you pay in different situations. [@0xHyperBeat](https://x.com/0xHyperBeat/status/1902396341520675060)

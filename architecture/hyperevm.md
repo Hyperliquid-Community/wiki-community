@@ -6,7 +6,7 @@ icon: puzzle-piece
 
 HyperEVM transforms Hyperliquid into a **fully programmable financial system** by integrating smart contract capabilities directly with Hyperliquid's high-performance order books. This represents a paradigm shift for DeFi by combining the efficiency of centralized exchange order books with the programmability of smart contracts. For the first time, developers can build applications that directly tap into deep, high-performance liquidity without sacrificing decentralization or requiring complex bridging solutions.
 
-### How It Works
+## How It Works
 
 HyperEVM is not a separate chain but an extension of Hyperliquid, where:
 
@@ -24,7 +24,7 @@ These components share the same consensus mechanism and operate sequentially, al
 
 The following are HyperEVM's key differentiators:
 
-#### Dual-Block Architecture
+### Dual-Block Architecture
 
 HyperEVM uses an innovative dual-block system to handle different transaction needs:
 
@@ -37,7 +37,7 @@ This design allows users to choose what matters most: traders can use small bloc
 
 _For implementation details and code examples, see the_ [_dual-block architecture documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/dual-block-architecture)_._
 
-#### Asset Movement Between HyperCore and HyperEVM
+### HyperCore <> HyperEVM transfers
 
 Assets can move freely between environments without traditional bridging risks:
 
@@ -57,7 +57,7 @@ The system uses special addresses (starting with `0x200`...) to handle these tra
 
 _For implementation details and code examples, see the_ [_documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/hypercore-less-than-greater-than-hyperevm-transfers)_._
 
-#### Accessing HyperCore from Smart Contracts
+### Interacting with HyperCore
 
 The real power of HyperEVM comes from two key mechanisms that enable smart contracts to interact with HyperCore's exchange features:
 
@@ -85,6 +85,8 @@ A system contract at address `0x333...3333` allows smart contracts to initiate a
 * **Contract finalization** - Deploy and initialize EVM contracts with custom storage slots
 
 This architecture transforms passive smart contracts into active market participants while maintaining HyperCore's security model through structured, predictable actions.&#x20;
+
+<figure><img src="../.gitbook/assets/Precompile_v1 (2).png" alt=""><figcaption><p>Real-Time HyperCore Collateral Liquidation</p></figcaption></figure>
 
 _For implementation details and code examples, see the_ [_developer documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/interacting-with-hypercore)_._
 
