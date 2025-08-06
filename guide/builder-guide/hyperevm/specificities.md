@@ -19,7 +19,7 @@ Before diving into specific features, developers should understand these critica
 
 #### 1. Native Transfers
 
-Move spot assets between Hyperliquid’s L1 (“native spot”) and the EVM (“EVM spot”). After **linking** an ERC20 contract to a native asset, you can **deposit** and **withdraw** simply by transferring tokens to the system address (`0x2222222222222222222222222222222222222222`).
+Move spot assets between Hyperliquid’s L1 (“native spot”) and the EVM (“EVM spot”). After **linking** an ERC20 contract to a native asset, you can **deposit** and **withdraw** simply by transferring tokens to the system address (`0x20...`).
 
 * **Setup**: Use a `setEvmContract` action to bind the native spot asset with its EVM counterpart.
 * **Supply**: Ensure the system address holds the full amount of the asset on the “other side.”

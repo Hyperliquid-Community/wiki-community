@@ -35,6 +35,8 @@ Most blockchain systems force a compromise between speed and capacity, either fa
 
 This design allows users to choose what matters most: traders can use small blocks for near-instant order confirmations, while developers can deploy complex contracts through large blocks without congesting the network.
 
+<figure><img src="../.gitbook/assets/Interaction_v1 (1).png" alt=""><figcaption></figcaption></figure>
+
 _For implementation details and code examples, see the_ [_dual-block architecture documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/dual-block-architecture)_._
 
 ### HyperCore <> HyperEVM transfers
@@ -55,7 +57,9 @@ The system uses special addresses (starting with `0x200`...) to handle these tra
 * **HyperEVM to HyperCore:** Transfers happen in the same L1 block, immediately after the HyperEVM block is built
 * **Block Processing Order:** L1 block → EVM block → EVM=>Core transfers processed → CoreWriter actions processed
 
-_For implementation details and code examples, see the_ [_documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/hypercore-less-than-greater-than-hyperevm-transfers)_._
+<figure><img src="../.gitbook/assets/Transfer_v1.png" alt=""><figcaption></figcaption></figure>
+
+_For implementation details and code examples, see the_ [_transfer documentation_](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/hypercore-less-than-greater-than-hyperevm-transfers)_._
 
 ### Interacting with HyperCore
 
@@ -132,7 +136,7 @@ HyperEVM is currently in [alpha stage](../introduction/roadmap/#hyperevm). While
 
 For developers looking to start building, see our [Builder Guide](../guide/builder-guide/hyperevm/) with detailed technical documentation and code examples.
 
-[View current HyperEVM projects →](../ecosystem/projects/hypercore.md)
+[View current HyperEVM projects →](../ecosystem/projects/hyperevm/)
 
 ### Resources
 
