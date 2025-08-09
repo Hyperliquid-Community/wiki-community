@@ -4,71 +4,12 @@ icon: flashlight
 
 # Tools
 
-### Blockchain Explorers
+### Blockchain Infrastructure Tools
 
-| Hyperliquid   | Mainnet                                                   | Testnet                                                                   |
-| ------------- | --------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **HyperCore** | [Official Explorer](https://app.hyperliquid.xyz/explorer) | [Official Testnet Explorer](https://app.hyperliquid-testnet.xyz/explorer) |
-|               | [HypurrScan](https://hypurrscan.io/)                      | [HypurrScan Testnet](https://testnet.hypurrscan.io/)                      |
-| **HyperEVM**  | [Pursecc](https://purrsec.com/)                           | [Pursecc](https://testnet.purrsec.com/)                                   |
-|               | [Blockscout](https://www.hyperscan.com/)                  |                                                                           |
+<table><thead><tr><th>Category</th><th width="219.6666259765625">Tool</th><th>Description</th></tr></thead><tbody><tr><td><strong>Explorers</strong></td><td>Official <a href="https://app.hyperliquid.xyz/explorer">Mainnet</a> | <a href="https://app.hyperliquid-testnet.xyz/explorer">Testnet</a></td><td><strong>HyperCore</strong> Explorers</td></tr><tr><td></td><td><a href="https://hypurrscan.io/">HypurrScan</a> | <a href="https://testnet.hypurrscan.io/">Testnet</a></td><td></td></tr><tr><td></td><td><a href="https://hyperevmscan.io/">HyperEvmScan</a></td><td><strong>HyperEVM</strong> Explorers</td></tr><tr><td></td><td><a href="https://www.hyperscan.com/">Hyperscan</a></td><td></td></tr><tr><td></td><td><a href="https://purrsec.com/">Pursecc</a> | <a href="https://testnet.purrsec.com/">Testnet</a></td><td></td></tr><tr><td><strong>Portfolio Management</strong></td><td><a href="https://app.hyperbeat.org/hyperfolio">Hyperfolio</a></td><td>Multi-address portfolio aggregator - Hyperliquid</td></tr><tr><td></td><td><a href="https://debank.com/">DeBank</a></td><td></td></tr><tr><td></td><td><a href="https://hl.eco/">hl.eco</a> portfolio</td><td></td></tr><tr><td></td><td><a href="https://purrfolio.com/">Purrfolio</a></td><td></td></tr><tr><td></td><td><a href="https://octav.fi/">Octav</a></td><td>Advanced portfolio analytics - Cross Chain</td></tr><tr><td><strong>Gas &#x26; Utilities</strong></td><td><a href="https://hypergas.io/">HyperGas</a> </td><td>Real-time gas prices</td></tr><tr><td></td><td><a href="https://hyperevm.top/">HyperEVM.top</a></td><td>Points checker and dApp stats</td></tr><tr><td></td><td><a href="https://hyperevm.farm/">Hyperevm.farm</a> <a href="https://hyperevm.tech/">Hyperevm.tech</a></td><td>AI builds your strategy for you based on your size</td></tr><tr><td></td><td><a href="https://x.com/palmera_dao/status/1940748108586987601">Multisig</a></td><td>HyperEVM Multisig</td></tr><tr><td><strong>Staking &#x26; Validators</strong></td><td>Official <a href="https://app.hyperliquid.xyz/staking">Mainnet</a> | <a href="https://app.hyperliquid-testnet.xyz/staking">Testnet</a></td><td>Native staking interface</td></tr><tr><td></td><td><a href="https://data.asxn.xyz/dashboard/hype-staking">ASXN Staking</a></td><td>$HYPE staking data and validator metrics</td></tr><tr><td></td><td><a href="https://hyper-validators.bharvest.io/">Hyper Validators</a> Testnet</td><td>Validator performance</td></tr><tr><td><strong>Development Tools</strong></td><td><a href="https://x.com/hydromancerxyz">Hydromancer API</a></td><td>Non-rate-limited Hyperliquid APIs</td></tr><tr><td></td><td><a href="https://hyperpc.app/">HypeRPC</a></td><td>Setting up your RPC endpoint</td></tr><tr><td></td><td><a href="https://hyperevm-block-toggle.vercel.app/">Dual Block Toggle</a></td><td>Toggle HyperEVM block types</td></tr><tr><td></td><td><a href="https://hyperliquid.gitbook.io/hyperliquid-docs/onboarding/testnet-faucet">Faucet</a></td><td>Official</td></tr><tr><td><strong>Onboarding &#x26; Bridges</strong></td><td><a href="https://x.com/zkp2p">zkp2p</a></td><td>P2P onramp solution</td></tr><tr><td></td><td><a href="https://x.com/OverdraftDeFi">Overdraft</a></td><td></td></tr><tr><td></td><td><a href="https://x.com/hyperunit">HyperUnit</a></td><td>Native Bridge (USDC-Arbitrum, BTC-Bitcoin, ETH-Ethereum, or SOL/BONK/FARTCOIN/PUMP/SPX-Solana)</td></tr><tr><td></td><td><a href="https://x.com/HyBridgeHL">HyBridge</a></td><td>Connect Across EVM &#x26; SOL Chains</td></tr></tbody></table>
 
-### Data Analytics
+### Core Analytics & Trading Tools
 
-#### Statistics
+<table><thead><tr><th>Category</th><th width="134">Tool</th><th width="254.333251953125">Description</th><th>Specialty</th></tr></thead><tbody><tr><td><strong>Market Analytics</strong></td><td><a href="https://hyperdash.info/">HyperDash</a></td><td>Comprehensive trader insights with liquidation maps, position tracking, and copy trading features</td><td>Trading Analysis</td></tr><tr><td></td><td><a href="https://hypervisor.gg">Hypervisor.gg</a></td><td>Advanced market analysis with unique bubble visualization</td><td>Market Visualization</td></tr><tr><td></td><td><a href="https://app.coinmarketman.com/hypertracker">HyperTracker</a></td><td>Displaying every single wallet and open perp position - Cohorts segmented</td><td>Market Sentiment</td></tr><tr><td></td><td><a href="https://x.com/HyperSignals_ai">HyperSignals</a></td><td>Trading signals and strategy alerts</td><td>Multiple</td></tr><tr><td><strong>Data Dashboards</strong></td><td><a href="https://stats.hyperliquid.xyz">Hyperliquid Stats</a></td><td>Detailed user counts, volumes, open interest metrics</td><td>Core Statistics</td></tr><tr><td></td><td><a href="https://data.asxn.xyz">ASXN Dashboard</a></td><td>Multiple dashboards including risk metrics for vaults</td><td>Risk Analytics</td></tr><tr><td></td><td><a href="https://hyperliquid.allium.so/">Allium</a></td><td>Hyperliquid trading volumes, builder and referral metrics, profit &#x26; loss, and more.</td><td>Data Aggregation</td></tr><tr><td></td><td><a href="https://dune.com/uwusanauwu/perps">Dune</a> <a href="https://dune.com/x3research/hyperliquid">Analytics</a></td><td>Community-created dashboards with on-chain data</td><td>Chain Analytics</td></tr><tr><td><strong>Token Analytics</strong></td><td><a href="https://www.hypeburn.fun/">HypeBurn</a> / <a href="https://data.asxn.xyz/dashboard/hype-burn">ASXN</a></td><td>Track $HYPE token data, burns, and tokenomics</td><td>HYPE Metrics</td></tr><tr><td></td><td><a href="https://www.skewga.com/hyperliquid">Skewga</a></td><td>Revenue forecasting and trading analytics for HYPE</td><td>Revenue Analysis</td></tr><tr><td></td><td><a href="https://www.purrburn.fun/">PurrBurn</a></td><td>Track $PURR token data and burn mechanisms</td><td>PURR Metrics</td></tr><tr><td></td><td><a href="https://data.asxn.xyz/dashboard/hype">ASXN TWAP</a></td><td>Active $HYPE TWAPs and tokenomics data</td><td>TWAP Tracking</td></tr><tr><td></td><td><a href="https://data.asxn.xyz/dashboard/spot-holder-trend">ASXN Spot</a></td><td>Spot market trend analysis</td><td>Spot Analysis</td></tr><tr><td></td><td><a href="https://hyperstats.xyz/">Hyperstats</a></td><td>HyperEVM stats</td><td></td></tr><tr><td></td><td><a href="https://grafana.hypurr.fun/public-dashboards/2feb20d46df444aeb9019caee60d97ad?orgId=1&#x26;refresh=5s&#x26;from=now-30d&#x26;to=now&#x26;timezone=browser">Hypurr Graphana</a></td><td>$HFUN General statistics</td><td></td></tr><tr><td><strong>Bridge Analytics</strong></td><td><a href="https://flipsidecrypto.xyz/pine/hyperliquid-bridge-metrics-lxNyGO">Flipside</a> | <a href="https://parsec.fi/layout/kez/PssG-HFO">Parsec</a></td><td>Bridge metrics and cross-chain flows</td><td>Bridge Data</td></tr><tr><td></td><td><a href="https://app.artemisanalytics.com/sectors">Artemis</a> | <a href="https://defillama.com/perps">DefiLlama</a> </td><td>Trading volume comparisons</td><td>Volume Analysis</td></tr><tr><td></td><td><a href="https://defillama.com/compare-chains?chains=Hyperliquid+L1">DefiLlama</a></td><td>TVL and protocol metrics</td><td>TVL Tracking</td></tr><tr><td><strong>Screening Tools</strong></td><td><a href="https://dexscreener.com/hyperliquid">Dexscreener</a></td><td>Price charts and token discovery</td><td>Price Discovery</td></tr><tr><td><strong>Funding Analysis</strong></td><td><a href="https://app.hyperliquid.xyz/fundingComparison">Funding Comparison</a></td><td>Compare funding rates across exchanges</td><td>Funding Comparison</td></tr><tr><td></td><td><a href="https://loris.tools">Loris Tools</a></td><td>Funding Rate / Open Interest information</td><td></td></tr><tr><td></td><td><a href="https://hyperdash.info/spot-premium">Spot Premium</a></td><td>Spot vs perps premium analysis</td><td>Premium Analysis</td></tr><tr><td><strong>Copy Trading</strong></td><td><a href="https://copin.io">Copin</a></td><td>Copy trading platform with performance analytics</td><td>Copy Trading</td></tr><tr><td></td><td><a href="https://hyperdash.info/copytrading">HyperDash</a></td><td>Includes copy trading features</td><td>Multi-feature</td></tr><tr><td><strong>Tax Tools</strong></td><td><a href="https://hyperliquid.tax">Hyperliquid.tax</a></td><td>Tax calculation and reporting for HL trades</td><td>Tax Reporting</td></tr></tbody></table>
 
-* **General Stats**
-  * [Hyperliquid Stats](https://stats.hyperliquid.xyz/) – By Thunderhead—detailed user counts, volumes, Open Interest, and more.
-  * [Dune1](https://dune.com/uwusanauwu/perps) & [Dune2](https://dune.com/x3research/hyperliquid) – Two dashboard data.
-  * [data.asxn.xyz](https://data.asxn.xyz/)  – Multiple dashboards.
-  * [Chains Comparison](https://defillama.com/chains) – Compare TVL, spot volume, and more.
-  * [Parsec](https://parsec.fi/layout/kez/PssG-HFO) – Hyperliquid flows.
-  * [Hypurr\_Graphana](https://grafana.hypurr.fun/public-dashboards/2feb20d46df444aeb9019caee60d97ad?orgId=1\&refresh=5s\&from=now-30d\&to=now\&timezone=browser) – Hypurr General statistics.
-* **HyperCore Specific Stats**
-  * [HypeBurn](https://www.hypeburn.fun/leaderboard) or [ASXN ](https://data.asxn.xyz/dashboard/hype-burn)– Track $HYPE token data and burns.
-  * [PurrBurn](https://www.purrburn.fun/) – Track $PURR token data and burns.
-  * [ASXN TWAP](https://data.asxn.xyz/dashboard/hype) – Hype Tokenomics + Active TWAPs.
-  * [Flipsidecrypto](https://flipsidecrypto.xyz/pine/hyperliquid-bridge-metrics-lxNyGO) – Bridge metrics.
-  * [Artemis](https://app.artemis.xyz/sectors) and [Defiliama](https://defillama.com/perps) – Trading volume comparisons.
-* **Nodes**
-  * **Mainnet**
-    * [Official HL stacking](https://app.hyperliquid.xyz/staking) – Stacking interface.
-    * [ASXN Stacking ](https://data.asxn.xyz/dashboard/hype-staking)–  Data on $HYPE staked and validator metrics.
-  * **Testnet**
-    * [Official HL stacking](https://app.hyperliquid-testnet.xyz/staking) – Stacking interface.
-    * [Hypurrscan](https://testnet.hypurrscan.io/staking) –  Validator information.
-    * [Hyper Validators ](https://hyper-validators.bharvest.io/)– Validator information.
-    * [ASXN Validators](https://hyperliquid.asxn.xyz/staking) – Validator information.
-
-#### Market Analysis
-
-* **Monitoring Tools**
-  * [HyperDash](https://hyperdash.info/) – Trader Insight, stats, analytics ([Ticker ](https://hyperdash.info/analytics)& [Liquidation map](https://hyperdash.info/liqmap))
-  * [Hypervisor.gg](https://hypervisor.gg/dashboard) – Market analysis tool with advanced features like the **Bubbles** tab ([View Bubbles](https://hypervisor.gg/bubbles)).
-  * [HyperScan.fun](https://hyperscan.fun/) – Tracks auctions, token launches, and on-chain activities.
-  * [Dexscreener](https://dexscreener.com/hyperliquid) – Charts.
-  * [ASXN spot](https://data.asxn.xyz/dashboard/spot-holder-trend) – Spot trend analysis.
-  * [ASXN Dashboard](https://hyperliquid.asxn.xyz/all_metrics) – General metrics dashboard.
-* **Specialized Tools:**
-
-| Category               | Tool                                                                                                   |
-| ---------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Screeners**          | [ASXN Screener](https://hyperscreener.asxn.xyz/all_metrics)                                            |
-| **Funding Analysis**   | [Funding Comparison](https://app.hyperliquid.xyz/fundingComparison)                                    |
-|                        | [Funding Rates](https://www.r72.fi/derivative/hyperliquid)                                             |
-|                        | [Spot Premium](https://hyperdash.info/spot-premium)                                                    |
-| **Position Tracking**  | [Chrisling](https://hyperliquid.chrisling.dev/)                                                        |
-|                        | [Hyperstats](https://hyperstats.xyz/)                                                                  |
-| **Telegram Bots**      | [hyperliquidpricebot](https://t.me/hyperliquidpricebot) – Built by [@0xikalgo](https://x.com/0xikalgo) |
-|                        | [Whalecatalerst](https://t.me/hyperliquidwhales) – Built by [@sendcapital](https://x.com/sendcapital). |
-|                        | [Perps Alerts](https://t.me/HyperliquidPerpsAlerts) –  Built by [@NMTD8](https://x.com/NMTD8)          |
-| **Portfolio Trackers** | [HyperTerminal](https://hyperterminal.xyz/)                                                            |
-|                        | [Octav](https://octav.fi/)                                                                             |
-| **Copy Trading**       | [Copin](https://app.copin.io/explorer?protocol=HYPERLIQUID)                                            |
-|                        | [HyperDash](https://hyperdash.info/copytrading)                                                        |
-| **Tax Tools**          | [Hyperliquid.tax](https://hyperliquid.tax/) – Built by [@AwakenTax](https://x.com/AwakenTax)           |
-
-
-
-
-
+Stay informed on the latest **on-chain** updates by following **MLM** on [Telegram](https://t.me/mlmonchain) and [Twitter](https://x.com/mlmabc). Additional details are available [here](../../introduction/roadmap/on-chain.md).
