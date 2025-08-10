@@ -14,6 +14,12 @@ While Hyperliquid carries [inherent risks](https://hyperliquid.gitbook.io/hyperl
 
 ### Incident History
 
+[July 29, 2025](https://x.com/Sakrexer/status/1950552205305815398)
+
+* **Description:** API servers experienced significant traffic spike causing order delays from 14:10-14:47 UTC during record-breaking trading activity. API returned error responses despite transactions being sent to mempool and included in blocks, confusing users who didn't realize their orders were executed
+* **Response:** [Automated refund](https://x.com/pana067/status/1952295385713541318) methodology implemented for affected users: (1) Users with <$10k PnL during incident period received favorable mark price calculations from 30-minute window afterward, (2) Funding rate compensation for assets with >40x larger rates (kBONK, CFX, MKR, MOODENG, NXPC, RESOLV, VINE), (3) KYB/KYC process for users receiving ≥$10k refunds
+* **Outcome:** No blockchain compromise - consensus and HyperEVM unaffected, blocks produced normally. API infrastructure improvements in development.
+
 [March 26, 2025](https://x.com/HyperliquidX/status/1905319339991204263)
 
 * **Description:** Attack on JELLY perps involving self-trading 4M USDC position at low price, then pumping spot price 400%+ to force HLP backstop liquidation of toxic short position, with potential coordination from major CEXs
