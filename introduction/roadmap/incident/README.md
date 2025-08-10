@@ -6,7 +6,7 @@ icon: brake-warning
 
 Hyperliquid maintains transparency about platform incidents and their resolution. When technical issues or system irregularities occur that impact users, the platform has established protocols to address affected parties fairly.
 
-The **Assurance Fund** (previously called Insurance Fund) serves as Hyperliquid's primary mechanism for compensating users affected by platform-related incidents. This governance-controlled fund reimburses users when issues stem from technical problems, system congestion, or other platform-specific challenges rather than normal market conditions.
+The **Assurance Fund** and **Insurance Fund** serves as Hyperliquid's primary mechanism for compensating users affected by platform-related incidents. This governance-controlled fund reimburses users when issues stem from technical problems, system congestion, or other platform-specific challenges rather than normal market conditions.
 
 While Hyperliquid carries [inherent risks](https://hyperliquid.gitbook.io/hyperliquid-docs/risks), the fund operates on the principle that users should not bear losses caused by platform malfunctions or design limitations during the protocol's development phase. For detailed information about how the fund operates, see the [Vault](../../../architecture/hypercore/vault.md#id-2.-protocol-vaults-assistance-fund-af) page and the [Risk Dashboard](https://data.asxn.xyz/dashboard/hl-risk-metrics) for real-time risk metrics.
 
