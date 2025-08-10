@@ -50,16 +50,11 @@ This creates a virtuous cycle: real users generate real revenue, which creates b
 For current statistics and live data, explore these resources:
 
 * **Trading metrics**: [Hyperliquid Stats](https://stats.hyperliquid.xyz/)
-* **HL stats vs CEX**: [HyperFlows](https://hypeflows.com/)
-* **Market share tracking**: [HyperDash](https://hyperdash.info/marketshare)
-* **Fee metrics**: [Artemis Analytics](https://app.artemis.xyz/project/hyperliquid?from=projects)
-* **Blockchain comparisons**: [DeFiLlama Chains](https://defillama.com/chains)
-* **TVL breakdown**: [DeFiLlama Hyperliquid](https://defillama.com/chain/hyperliquid-l1)
-* **HyperCore statistics**: [Dune Analytics](https://dune.com/uwusanauwu/perps)
-* **Revenue & buybacks**: [HypeBurn](https://hypeburn.fun/)
-* **In-Depth Research:**
-  * [Arise Hyperliquid: This Cycle's DeFi Kingpin](https://www.mirana.xyz/research/arise-hyperliquid) - Mirana Research
-  * [Hyperliquid Thesis: Building a Financial Aggregator](https://www.syncracy.io/writing/hyperliquid-thesis) - Syncracy Capital
+* **HL vs CEX**: [HyperFlows](https://hypeflows.com/) | [HyperDash](https://hyperdash.info/marketshare) | [DeFiLlama Chains](https://defillama.com/chains)
+* **TVL breakdown**: [DeFiLlama Hyperliquid](https://defillama.com/chain/hyperliquid-l1) | Unit TVL: [DefiLlama](https://defillama.com/protocol/unit)
+* **Revenue & buybacks**: [Fees](https://hyperdash.info/statistics) | [HypeBurn](https://hypeburn.fun/)
+
+Additional analytics available on the [Tools page](../ecosystem/projects/tools.md#core-analytics-and-trading-tools).
 
 ### **Why Hyperliquid Matters**
 
@@ -71,5 +66,7 @@ Hyperliquid represents a fundamental shift in how financial infrastructure is bu
 * **Composable innovation** - Enabling entirely new financial primitives impossible in traditional systems
 
 The combination of proven product-market fit, sustainable revenue generation, technical excellence, and unwavering commitment to community ownership positions Hyperliquid to become the foundation for the next generation of global finance - one that's transparent, accessible, and owned by its users.
+
+> **Dive Deeper:** Explore our [Essential Resources](../guide/user-guide/essential-resources.md) collection featuring Jeff Yan's philosophical insights, research reports and key developments shaping the Hyperliquid ecosystem.
 
 _"In 2025, I expect the technology of Hyperliquid to close much of the gap towards housing all of finance... Millions of users will use Hyperliquid without knowing about the blockchain at all."_ - [Jeff Yan](https://x.com/chameleon_jeff/status/1879086717900386782)
