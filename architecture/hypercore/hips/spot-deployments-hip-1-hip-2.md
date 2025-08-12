@@ -64,6 +64,7 @@ HIP-1 token deployment isn’t just a standard transaction—it’s gated by a 3
 
 * **Mainnet:** [https://app.hyperliquid.xyz/deploySpot](https://app.hyperliquid.xyz/deploySpot)
 * **Testnet (Recommended for Practice):** [https://app.hyperliquid-testnet.xyz/deploySpot](https://app.hyperliquid-testnet.xyz/deploySpot)
+* **Auction history:** [ASXN Dashboard](https://data.asxn.xyz/dashboard/hl-auctions)
 
 ***
 
@@ -78,7 +79,7 @@ Any deployed HIP-1 token can be linked to a corresponding ERC-20 contract on the
 **Trading & Fees:**
 
 * Trading follows Hyperliquid’s standard [fee schedule](../dex/clearinghouse/fees-builder-codes.md).
-* Non-USDC trading fees are currently burned or redirected to the deployer's address.
+* Non-USDC trading fees are burned for tokens before [January 27, 2025](https://x.com/stevenyuntcap/status/1883546284000469382). Now the deployer can choose to redirect to the deployer's address.
 
 **Dusting Mechanism:**\
 Over time, negligible token balances (“dust”) accumulate. These tiny amounts are periodically aggregated and either sold on the open market or burned if they’re too small. This keeps user accounts tidy and the ecosystem cleaner.
