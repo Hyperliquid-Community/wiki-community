@@ -8,8 +8,7 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
 
 ### **Essential Accounts** 🏠
 
-* [HypurrCollective](https://www.hypurr.co/) – The go-to resource for staying updated on the HyperLiquid ecosystem.\
-  Join them on [Twitter](https://x.com/hypurr_co) and [Telegram](https://t.me/+kQPx4WNpHEk4MmRl).
+* [HypurrCollective](https://www.hypurr.co/) – The go-to resource for staying updated on the HyperLiquid ecosystem. [1-year strong](https://x.com/hypurr_co/status/1942620840287404177) with 4.7k+ TG community and 28K+ social reach.Join them on [Twitter](https://x.com/hypurr_co) and [Telegram](https://t.me/+kQPx4WNpHEk4MmRl).
   * [Ecosystem Projects](https://www.hypurr.co/ecosystem-projects) – Explore the latest tools and initiatives.
   * [Blog](https://www.hypurr.co/blog) – Deep dives into HyperLiquid developments.
   * [Weekly Updates](https://t.me/hypurrco) – Recaps of ecosystem events on Telegram.
@@ -17,6 +16,8 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
   * [Reddit](https://reddit.com/r/hyperliquid1/) – Community forum for discussions and updates
   * [LinkedIn](https://www.linkedin.com/company/hypurrcollective/) – Professional insights and Hyperliquid updates
   * [Local Communities](https://x.com/hypurr_co/status/1921785184871178658) – Regional groups across different countries and languages
+  * Validator – Runs the largest mainnet validator outside foundation nodes with secured airdrops for stakers
+* [The Chain Podcast](https://x.com/TheHyperPodcast) – Dedicated Hyperliquid ecosystem podcast for in-depth discussions and insights
 * [HL Fund ](https://hl.fund/)– An educational tweet aggregator that lets you access the best information on Hyperliquid in seconds.
 
 ### **Community Chats** 💬
@@ -41,13 +42,14 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
 
 The [HyperLiquid ecosystem](https://x.com/Hyperliquid_Hub/status/1922504675024371744) is powered by diverse voices and talents, including:
 
-* [@laurentzeimes](https://x.com/laurentzeimes): Core builder behind HypurrFun and ecosystem contributor.
+* [@kirbyongeo](https://x.com/kirbyongeo): HypurrCo co-founder and ecosystem pioneer - [Full Hyperliquid journey](https://x.com/kirbyongeo/status/1867958297577549846)
+* [@laurentzeimes](https://x.com/laurentzeimes): Core builder behind HypurrFun and ecosystem contributor. Second-largest individual HYPE holder.
+* [@fiege\_max](https://x.com/fiege_max): Active [community leader](https://x.com/laurentzeimes/status/1935394492850520300).
+* [@stevenyuntcap](https://x.com/stevenyuntcap): Known for insightful analysis and contributions.
+* [@sershokunin](https://x.com/sershokunin): Builder actively working on HL (HyperUnit) with [extensive background](https://x.com/sershokunin/status/1926954714748342663) in macro trading and investing.
 * [@GuthixHL](https://x.com/guthixhl?s=21\&t=fyJoiPJn7gE_VIRS05WBaQ): Active community leader.
 * [@crypto\_adair](https://x.com/crypto_adair): Active community leader.
 * [@derteil00](https://x.com/derteil00): Organizer of the Panda Land community and active community leader.
-* [@stevenyuntcap](https://x.com/stevenyuntcap): Known for insightful analysis and contributions.
-* [@fiege\_max](https://x.com/fiege_max): Active community leader.
-* [@sershokunin](https://x.com/sershokunin): Builder actively working on HL.
 * [@Shuri2060](https://x.com/Shuri2060): Creator of Wash Sniper and deployer of multiple HL tokens.
 * [@ericonomic](https://x.com/ericonomic): Provides on-chain and fundamental analysis.
 * [@HyperliquidNews](https://x.com/HyperliquidNews) – Breaking news and updates.
@@ -59,7 +61,7 @@ The [HyperLiquid ecosystem](https://x.com/Hyperliquid_Hub/status/192250467502437
   * [ThinkingUSD](https://x.com/ThinkingUSD)
   * [PapiPNL](https://x.com/papipnl)
 
-…and many [more](https://x.com/jimihendrixgin/status/1867772702003466400), each bringing their expertise and energy to the community.
+…and [many](https://x.com/wtfmeez/status/1951590996136910858) [more](https://x.com/jimihendrixgin/status/1867772702003466400), each bringing their expertise and energy to the community.
 
 ***
 
