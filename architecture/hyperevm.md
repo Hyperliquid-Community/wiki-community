@@ -13,7 +13,7 @@ HyperEVM is not a separate chain but an extension of Hyperliquid, where:
 1. **HyperCore**: Handles all trading activities, staking, native multisigs, and core exchange functionality
 2. **HyperEVM**: Provides the smart contract environment where developers can build custom applications
 
-HyperEVM is based on the **Cancun EVM specification** (without blob transactions), ensuring compatibility with existing Ethereum tools and development practices while adding Hyperliquid-specific enhancements.
+HyperEVM is based on the **Cancun EVM specification** (without blob), ensuring compatibility with existing Ethereum tools and development practices while adding Hyperliquid-specific enhancements. **EIP-1559 is enabled** with both base fees and priority fees burned due to **HyperBFT consensus**.
 
 These components share the same consensus mechanism and operate sequentially, allowing:
 
@@ -140,7 +140,7 @@ For developers looking to start building, see our [Builder Guide](../guide/build
 
 ### Resources
 
-* [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm)
+* [HyperEVM Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm) | [For Developers](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm)
 * Precompiles Guide:
   * [Xulian's Precompile Explanation](https://x.com/xulian_hl/status/1919617689124794692) | [Hyperliquid examples](https://x.com/HyperliquidX/status/1947178777244803543)
   * [A Breakdown for Dummies](https://x.com/emaverick90/status/1919727174426284488) | [Enables Real Time Awareness](https://x.com/emaverick90/status/1924805040121815399) by Eduardo (Felix Protocol)
