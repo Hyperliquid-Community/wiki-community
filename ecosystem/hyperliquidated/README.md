@@ -13,10 +13,8 @@ The **Hyper Liquidated** community is a rapidly growing ecosystem of passionate 
 
 ### Why Does the Community Love HyperLiquid?
 
+<figure><img src="../../.gitbook/assets/HL_ETHOS_v1.png" alt=""><figcaption><p>Hyperliquid Ethos in Action: How <a href="../../architecture/hypercore/vault.md">HLP</a>, <a href="../../architecture/hypercore/hips/spot-deployments-hip-1-hip-2.md#gas-and-deployment-costs">HIP1</a>, <a href="../../architecture/hypercore/hips/perp-deployments-hip-3.md">HIP3</a>, and <a href="../../architecture/hyperevm.md#how-it-works">HyperEVM</a> Align with a Community-First Vision</p></figcaption></figure>
+
 * **Product-Market Fit:** Multiple traders, including big names like [@HsakaTrades](https://x.com/HsakaTrades), [@DaanCrypto](https://x.com/DaanCrypto) and [@ThinkingUSD](https://x.com/ThinkingUSD) have publicly shared their appreciation for HyperLiquid.
 * **User-Centric Growth:** The HyperLiquid team is committed to fostering and expanding the community. They’re constantly working to improve the product, respond to feedback, and create an environment where users can thrive.
 * **Shared Success:** It’s not just a platform—it’s a network of people helping each other navigate markets, share insights, and grow together.
-
-***
-
-**On the following pages**, you’ll explore HyperLiquid’s diverse community groups, and ecosystem projects. Whether you’re a builder, trader, analyst, influencer, or simply curious, this comprehensive overview will help you connect, contribute, and thrive within the **Hyper Liquidated** community.
