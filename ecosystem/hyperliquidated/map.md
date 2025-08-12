@@ -8,7 +8,7 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
 
 ### **Essential Accounts** 🏠
 
-* [HypurrCollective](https://www.hypurr.co/) – The go-to resource for staying updated on the HyperLiquid ecosystem. [1-year strong](https://x.com/hypurr_co/status/1942620840287404177) with 4.7k+ TG community and 28K+ social reach.Join them on [Twitter](https://x.com/hypurr_co) and [Telegram](https://t.me/+kQPx4WNpHEk4MmRl).
+* [HypurrCollective](https://www.hypurr.co/) – The go-to resource for staying updated on the HyperLiquid ecosystem. [1-year strong](https://x.com/hypurr_co/status/1942620840287404177) with 4.7k+ TG community and 28K+ social reach. Join them on [Twitter](https://x.com/hypurr_co) and [Telegram](https://t.me/+kQPx4WNpHEk4MmRl).
   * [Ecosystem Projects](https://www.hypurr.co/ecosystem-projects) – Explore the latest tools and initiatives.
   * [Blog](https://www.hypurr.co/blog) – Deep dives into HyperLiquid developments.
   * [Weekly Updates](https://t.me/hypurrco) – Recaps of ecosystem events on Telegram.
