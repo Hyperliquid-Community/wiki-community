@@ -40,9 +40,10 @@
 ## Guide
 
 * [User Guide](guide/user-guide/README.md)
-  * [Onboarding](guide/user-guide/onboarding.md)
+  * [Onboarding](guide/user-guide/onboarding/README.md)
+    * [Security Guide](guide/user-guide/onboarding/security-guide.md)
+    * [Spot Deployments](guide/user-guide/onboarding/spot-deployments.md)
   * [Essential Resources](guide/user-guide/essential-resources.md)
-  * [Spot Deployments](guide/user-guide/spot-deployments.md)
   * [Airdrop](guide/user-guide/airdrop.md)
 * [Builder Guide](guide/builder-guide/README.md)
   * [HyperCore](guide/builder-guide/hypercore/README.md)

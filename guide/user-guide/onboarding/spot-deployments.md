@@ -19,7 +19,7 @@ _**Note:**_ HyperEVM enables builders to link ERC-20 tokens with spot tokens. Ho
 ### **1.** Official Deployment Interface
 
 * Access the **official deployment interface** here: [https://app.hyperliquid.xyz/deploySpot](https://app.hyperliquid.xyz/deploySpot).
-* For a more **comprehensive understanding** of the deployment process (or to launch your token), we recommend reading: [Spot Deployments (HIP-1, HIP-2)](../../architecture/hypercore/hips/spot-deployments-hip-1-hip-2.md).
+* For a more **comprehensive understanding** of the deployment process (or to launch your token), we recommend reading: [Spot Deployments (HIP-1, HIP-2)](../../../architecture/hypercore/hips/spot-deployments-hip-1-hip-2.md).
 
 ***
 
@@ -39,7 +39,7 @@ Check out the official guide here: [**Hypurr Fun Docs**](https://hypurr-fun.gitb
 
 Below is a **detailed diagram** summarizing all the key information. Feel free to **print** it or keep it **handy** while trading on **Hypurr Fun**.
 
-<figure><img src="../../.gitbook/assets/Hypurr_eco_new_v1.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Hypurr_eco_new_v1.PNG" alt=""><figcaption></figcaption></figure>
 
 For **more guides** on how to use the Hypurr Fun Bot and maximize its potential:
 

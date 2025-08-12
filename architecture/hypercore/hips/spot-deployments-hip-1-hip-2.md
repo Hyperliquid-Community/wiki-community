@@ -12,7 +12,7 @@ icon: person-walking-luggage
 
 **HIP-1** defines a capped-supply, fungible token standard native to **HyperCore**. When you deploy a HIP-1 token, you automatically get a built-in on-chain spot order book paired with **Spot USDC**. This enables immediate, permissionless trading without needing extra infrastructure. Think of it as launching a token and its native trading venue at the same time! 🚀
 
-**Token Deployment:** See our [Spot Deployment Guide](../../../guide/user-guide/spot-deployments.md) for complete instructions on deploying HIP-1 tokens via Dutch auction.
+**Token Deployment:** See our [Spot Deployment Guide](../../../guide/user-guide/onboarding/spot-deployments.md) for complete instructions on deploying HIP-1 tokens via Dutch auction.
 
 ***
 

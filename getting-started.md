@@ -12,8 +12,8 @@ What do you want to explore today? Choose the right path based on your interests
 
 If you're here to trade and explore the HyperLiquid DEX, start with the **User Guide**, which covers everything you need:
 
-* [HL Onboarding](guide/user-guide/onboarding.md) – A dedicated guide to get started with the HyperLiquid DEX.
-* [Spot Deployments](guide/user-guide/spot-deployments.md) – Dive into the trenches and trade spot tokens, for example, on **Hypurr Fun**.
+* [HL Onboarding](guide/user-guide/onboarding/) – A dedicated guide to get started with the HyperLiquid DEX.
+* [Spot Deployments](guide/user-guide/onboarding/spot-deployments.md) – Dive into the trenches and trade spot tokens, for example, on **Hypurr Fun**.
 * 🚨 [Farm on HL](guide/user-guide/airdrop.md) – Farm and earn rewards using our **Airdrop Guide** for HyperCore and HyperEVM Farming.
 * [On-Chain Activity](introduction/roadmap/on-chain.md) – Track major wallet movements, large positions, and market-moving activities to stay informed.
 
