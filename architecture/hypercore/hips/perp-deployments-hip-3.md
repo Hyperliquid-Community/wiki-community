@@ -15,6 +15,8 @@ icon: chart-candlestick
 
 Unlike centralized exchanges where only the team can list new markets, HIP-3 transforms any qualified user into a **"banker" of Hyperliquid**, capable of creating and managing their own perpetual markets.
 
+<figure><img src="../../../.gitbook/assets/HIP3.png" alt=""><figcaption><p>Key Mechanics - <a href="https://x.com/a1research__/status/1940145209515680114">A1 Research</a></p></figcaption></figure>
+
 #### How it works
 
 * **Market deployment**
