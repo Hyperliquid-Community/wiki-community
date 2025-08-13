@@ -50,10 +50,17 @@ Below is an overview of farming strategies split into two main areas: HyperCore 
 
     **For More Information:** Check out these community tutorials for detailed strategies:
 
+    * [HyperUnit Farming Guide](https://x.com/jifan_hl/status/1923779700532576725)
     * [Hyperliquid & HyperEVM Token Watchlist](https://x.com/ellie_nfts/status/1926901070233485397)
     * [HyperEVM Airdrop Playbook 102](https://x.com/ellie_nfts/status/1907048635990421540)
     * [A More Detailed Strategy](https://x.com/0xPicasso/status/1923824726163718377)
     * [Four Smart Strategies](https://x.com/chip1cr/status/1923386689436737752)
+
+    **Strategy Calculators**
+
+    * [HyperEVM Farm](http://hyperevm.farm) - AI-powered strategy recommendations based on your capital
+    * [HyperEVM Top](https://hyperevm.top/) - Points tracking and analytics
+    * [HyperBeat Hyperfolio](https://app.hyperbeat.org/hyperfolio) - Portfolio and points monitoring
 
 ***
 
