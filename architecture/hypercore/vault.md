@@ -12,13 +12,14 @@ Vaults on **HyperCore** are powerful tools enabling both individual traders and 
 
 #### **Overview**
 
-The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol vault that plays a vital role in the ecosystem:
+The **Hyperliquidity Provider (HLP)** vault is a **community-owned** protocol vault that provides access to strategies previously reserved for privileged operators.
 
 #### **Key Roles**
 
-* Engages in **multiple market-making strategies**
+* Engages in **multiple market-making strategies** (market making | funding)
 * Performs **liquidations** (via a dedicated liquidation strategy).
 * Receives approximately **7%** of platform fees (current estimate, see [HyperDash](https://hyperdash.info/statistics) and [Fees page](dex/clearinghouse/fees-builder-codes.md#fee-distribution-and-sources) for details)
+* Contributes to liquidity but represents [<2% of total daily volume](https://x.com/ThinkingUSD/status/1931081781022720108)
 
 #### **3-Core Strategies Used by HLP:**
 
@@ -45,19 +46,22 @@ The **Assistance Fund (AF)** acts as a **safety net** for the Hyperliquid ecosys
 **Technical Details**
 
 * **Address**: [0xfefefefefefefefefefefefefefefefefefefefe](https://hypurrscan.io/address/0xfefefefefefefefefefefefefefefefefefefefe)
-* Safeguarded by a **validator quorum**, ensuring strict conditions for usage
-* Currently receives approximately **93%** of platform fees
-* **Constantly purchases HYPE tokens** using a TWAP (Time-Weighted Average Price) strategy, as it's the most liquid asset
-* Plans to diversify into other assets in the future
-* Sets limit orders near market price when balance > $10k USDC
-* **Real-time tracking**: [AF Dashboard](https://data.asxn.xyz/dashboard/hl-buybacks) - Current balance and HYPE buyback activity
+* **Fee allocation:** Receives approximately **93%** of platform fees
+* **Validator protection:** Safeguarded by validator quorum with strict usage conditions
+* **Asset strategy:** Constantly purchases HYPE tokens as the most liquid asset, plans to diversify later
+  * **Trigger threshold:** Starts placing limit buy orders when USDC balance hits **$10k**
+  * **Order size:** Places **$10k** limit buy orders near market price
+  * **Volatility adjustment:** During price surges, places orders further from mark price to accumulate USDC
+  * **Price discovery:** Incrementally moves order price up by **1 pip** until filled
+  * **Strategy:** Uses TWAP (Time-Weighted Average Price) for optimal execution
+* **Real-time tracking**: [AF Dashboard](https://data.asxn.xyz/dashboard/hl-buybacks) | [HypeBurn](https://www.hypeburn.fun/)- Current balance and HYPE buyback activity
 
 #### Historical Context
 
-* Before the AF, there was an insurance fund that served similar purposes
-* An identified **insurance fund** address initially funded the AF when it was created: [0x36715f6408819492c27C1a1538156af9a2BFe963](https://hypurrscan.io/address/0x36715f6408819492c27C1a1538156af9a2BFe963) (controlled by Hyperliquid team)
-* This address can be confirmed as it was used to reimburse users during the [ZRO incident](../../introduction/roadmap/incident/)
-* Trading fees now flow directly to 0xfe (AF address)
+* **Legacy system:** Replaced previous insurance fund with similar purposes
+* **Initial funding:** Seeded by insurance fund address [0x36715f6408819492c27C1a1538156af9a2BFe963](https://hypurrscan.io/address/0x36715f6408819492c27C1a1538156af9a2BFe963) (controlled by Hyperliquid team).\
+  This address can be confirmed as it was used to reimburse users during the [ZRO incident](../../introduction/roadmap/incident/)
+* **Current flow:** Trading fees now route directly to AF address
 
 ***
 
@@ -101,3 +105,4 @@ User-created vaults allow individuals to run personalized trading strategies and
 * **Analysis:** [Vault Performance Breakdown](https://medium.com/@growi.fi/breaking-down-the-financial-performance-of-hyperliquid-vaults-6c9b86ac466f) | [HLP Analysis](https://x.com/RyskyGeronimo/status/1893347632958832728)
 * **HLP:** [Medium: HLP Overview](https://medium.com/@hyperliquid/hyperliquidity-provider-hlp-democratizing-market-making-bb114b1dff0f) | [Medium: 3-Month Update](https://medium.com/@hyperliquid/hlp-update-3-months-in-42327abe3e57)
 * **Vaults:** [Docs: Vaults Overview](https://hyperliquid.gitbook.io/hyperliquid-docs/vaults) | [Vault Page](https://app.hyperliquid.xyz/vaults)
+* **Diagram:** [Community-First Vision](../../ecosystem/hyperliquidated/)
