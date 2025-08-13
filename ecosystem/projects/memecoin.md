@@ -36,19 +36,18 @@ Hyperliquid's token scene has evolved into two distinct but connected spheres:
   * **$PURR** - One of the first native memecoins
   * **$PIP** - Considered a blue chip memecoin by orderbook traders
   * **$HFUN** - Early memecoin on HyperCore
-  * For a comprehensive overview of all HyperCore tokens, see this [notion](https://0xpasteke.notion.site/68a1348a53c14e6fbd405036128037f5?v=26e777a949c34b6090b888ed20627295) by @0xPasteke
+  * For a comprehensive overview of all HyperCore tokens, see this [notion](https://0xpasteke.notion.site/68a1348a53c14e6fbd405036128037f5?v=26e777a949c34b6090b888ed20627295) by @0xPasteke or this [watchlist](https://x.com/ellie_nfts/status/1926901070233485397).
 * **HyperEVM (Smart Contract)**
   * **$BUDDY** - The pioneer that sparked the HyperEVM memecoin movement:
     * First major memecoin on HyperEVM with strong cultural impact
     * **"Alright buddy"** catchphrase became ecosystem staple
     * Remarkable community resilience despite 73% supply airdropped
     * Continues to maintain strong holder support
-  * **$RUB** - Breaking traditional memecoin narratives:
+  * **$RUB** - Breaking traditional memecoin narratives, now [transitioning](https://x.com/slinjzs_hl/status/1945453850951090603) to a product ([RubiFi](https://x.com/RubiFi_HL)):
     * **Unique positioning** - No dogs, cats, or frogs—fresh narrative approach
     * **Reverse unit bias** - Displays as high dollar amounts with unusual pricing
     * Primarily distributed to active Hyperliquid users
     * Attracting traders seeking alternatives to traditional animal memes
-  * **Additional Tokens** - **$EVM** and **$LUBE** - Growing presence in the ecosystem
 
 ***
 
@@ -58,21 +57,22 @@ A premium NFT collection distributed to Hyperliquid's most dedicated early suppo
 
 **Exclusivity & Scarcity**
 
-* Only **5,000 NFTs** will ever exist, awarded to top 5,000 points holders during TGE
-* Each piece is uniquely individual - not just another profile picture, but a personalized representation of early ecosystem participation
+* During $HYPE Genesis claim, eligible traders received an **opt-in choice:** claim $HYPE only or $HYPE + 1 Hypurr NFT
+* **Estimated eligibility:** Top \~6,500 wallets with approximately **1,000+ points** during Season 1
 
 **Market Dynamics**
 
-* Historical sales include multiple **$30,000+ transactions** on secondary market.
+* **$1M+ in total OTC volume** managed by HypurrCo community
 * Collection market cap of [$166.5M](https://x.com/Keisan_Crypto/status/1921583264034099381) positions it near tier-1 collections like BAYC and Pudgy Penguins
-* Secondary market managed by [Kirby](https://x.com/kirbyongeo) in the [HypurrCO & Frens](https://t.me/+kQPx4WNpHEk4MmRl) OTC channel
+* [HypurrOTC](https://hypurr.drip.trade/) - On-chain escrow system for trustless trades. [Previously](https://x.com/drip__trade/status/1941137769528463597) managed by [Kirby](https://x.com/kirbyongeo) in the [HypurrCO & Frens](https://t.me/+kQPx4WNpHEk4MmRl) OTC channel
 
 **Strategic Value**
 
-* **Airdrop magnet** - Prime target for ecosystem protocol airdrops as new projects TGE throughout the year
-* **Anti-VC symbol** - Represents rebellion against traditional venture capital dominance in crypto
-* **Wealth retention** - Top holders already enriched by $HYPE don't need liquidity, creating supply scarcity
-* **Future utility** - Potential for embedded value additions by Hyperliquid team (speculative)
+* **Airdrop magnet** - Prime target for new HyperEVM protocol distributions
+* **OG status verification** - On-chain proof of early Hyperliquid participation
+* **Supply scarcity** - Most holders already wealthy from $HYPE, creating natural hodling behavior
+* **Cultural significance** - Represents the "anti-VC" ethos and organic community growth
+* **Utility features** - Potential future integrations by Hyperliquid team
 
 ***
 
@@ -85,3 +85,5 @@ A premium NFT collection distributed to Hyperliquid's most dedicated early suppo
 * [Community Dynamics Perspective](https://x.com/Ramen_HL/status/1919093857112994111) by @Ramen\_HL
 * [Analysis of Memecoin Patterns](https://x.com/Henrik_on_HL/status/1921524591136059831) by @Henrik\_on\_HL
 * [RUB's Unique Position in the Ecosystem](https://x.com/Henrik_on_HL/status/1919069044927267164) by @Henrik\_on\_HL
+* [Jeff ticker Lore](https://x.com/kirbyongeo/status/1869571781671231940) by @kirbyongeo
+* [Who tf is Hypurr?](https://x.com/drip__trade/status/1938516205460955563)
