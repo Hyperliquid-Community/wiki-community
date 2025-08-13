@@ -10,16 +10,7 @@ icon: parachute-box
   * Two previous point seasons delivered the largest airdrops in DeFi history, proving that active participation generates substantial rewards
 * **Continuous Buying Pressure:**
   * The [Assurance Fund](../../architecture/hypercore/vault.md#id-2.-protocol-vaults-assistance-fund-af) automatically reinvests **93% of platform fees** to purchase HYPE tokens, creating consistent demand and price support.
-* [Strategic](https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f) [Tokenomics](https://www.hypeburn.fun/):
-  * **Total Supply:** 1,000,000,000 HYPE tokens
-  * **Current Circulating Supply:** \~333M HYPE
-    * 310M: genesis distribution (only \~270m claimed)
-    * 60M: Hyper Foundation budget
-    * 3M: community grants
-    * 120K: HIP-2
-  * **Team Allocation (Core Contributors):** 238M tokens with cliff ending November 28, 2025, followed by 2-4 year vesting
-  * **Future Community Rewards:** \~430M tokens reserved for ongoing distributions and ecosystem growth
-    * Distribution methods beyond the 2.2% staking rewards remain unannounced
+* [Strategic Tokenomics](../../architecture/hyperbft/staking.md#tokenomics)
 * **Staking Advantage:**
   * Staking HYPE reduces your trading fees while earning 2.2% annual rewards, a dual benefit that compounds your returns. See the [Fees page](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md) for more details.
 * **Multiple Revenue Streams:**
