@@ -20,16 +20,16 @@ icon: users-gear
   🐦 [@iliensinc](https://twitter.com/iliensinc)
 * **Xulian**\
   🐦 [@xulian\_hl](https://x.com/xulian_hl)
-* **Val**\
+* **Valinorae**\
   🐦 [@Valinorae](https://x.com/Hyperintern/status/1943603827749343475)
+* **Jay Gee**\
+  🐦 [@jaygee\_hl](https://x.com/jaygee_hl) | 🕹️ **\_jay.gee**
 * **Ben**\
   🕹️ **ben\_hl**
 * **Adam**\
   🕹️ **adam254689**
 * **Kangaroo**\
   🕹️ **kangaroo2245**
-* **Jay**\
-  🕹️ **\_jay.gee**
 
 The team also includes 3 additional members. The [11-person](https://www.youtube.com/watch?v=xQK9TFbGyN0\&t=117s) team is mostly tech-focused and primarily based in Singapore.
 
