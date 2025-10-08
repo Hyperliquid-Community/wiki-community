@@ -4,73 +4,66 @@ icon: chart-candlestick
 
 # Perp Deployments (HIP-3)
 
-## HIP-3: Builder-Deployed Perpetuals
+### What is HIP-3 (Builder-Deployed Perpetuals)?
 
-**Status:** Testnet only (MVP available)\
-**Phase:** Testing and feedback collection - Specifications not finalized
+HIP-3 enables **permissionless deployment** of perpetual contract markets on Hyperliquid, marking a major step toward fully decentralizing the perp listing process. Any qualified user can manage their own perpetual DEX.
 
-### What is HIP-3?
-
-**HIP-3** enables users to **permissionlessly deploy** their own perpetual contract markets on Hyperliquid. This feature represents a major milestone toward **fully decentralizing** the perp listing process.
-
-Unlike centralized exchanges where only the team can list new markets, HIP-3 transforms any qualified user into a **"banker" of Hyperliquid**, capable of creating and managing their own perpetual markets.
-
-<figure><img src="../../../.gitbook/assets/HIP3.png" alt=""><figcaption><p>Key Mechanics - <a href="https://x.com/a1research__/status/1940145209515680114">A1 Research</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/HIP3_v2 (2).png" alt=""><figcaption></figcaption></figure>
 
 #### How it works
 
 * **Market deployment**
   * **Performant orderbooks** allocated directly on HyperCore
-  * **Dutch auction** every 31 hours to pay deployment gas
-  * **HYPE** used as gas token
+  * **Dutch auction** every 31 hours for deployment gas (paid in HYPE) - The first 3 assets per DEX are free
   * **Fully permissionless** process
 * **Deployer responsibilities**
   * **Market definition**: oracle definition and contract specifications
-  * **Market operation**: setting oracle prices, leverage limits, settling if needed
-  * **Fee sharing**: deployer receives up to 50% of Hyperliquid's base trading fees
-  * **Fee configuration**: ability to add additional fees on top of base rate
+  * **Market operation**: setting oracle prices, leverage limits and managing liquidity
+  * Requires **third-party frontends** - not available on app.hyperliquid.xyz
+* **Trading Experience**
+  * **Fee:**
+    * **2x usual base rate** (0.09%/0.03%) - **50% share** with the deployer
+    * [User rebates](../dex/clearinghouse/fees-builder-codes.md) only affect the 50% of Hyperliquid fees
+    * The net effect is that the protocol collects the same fee regardless of whether the trade is on an HIP-3 or a validator-operated perp
+  * **Isolated margin only** initially (cross margin coming later)
+  * **Quote Assets & Collateral**
+    * Any [permissionless quote asset](https://hyperliquid.gitbook.io/hyperliquid-docs/hypercore/permissionless-spot-quote-assets) can be used as collateral
+    * USDC/USDT eligible by default
+    * Other stablecoins require **200k HYPE staked for 3 years**
+    * **Aligned stablecoins** (additional requirements) offer fee reductions for traders
 
 #### Requirements and security
 
 * **Mandatory stake**
-  * **1M HYPE minimum** in permanent stake (can be pooled via multisig for collaborative deployment and operation)
-  * Ensures market quality and protects users
-  * Creates strong economic barrier against malicious actors
-* **Slashing mechanism**
-  * **Stake-weighted vote** by validators in case of malicious operation
+  * **500k HYPE minimum** stake required. Will decrease over time as the infrastructure matures
+  * Stake locked for 30 days after all **perps halted**
   * **7-day unstaking queue** during which slashing can occur
-  * Robust protection against harmful behavior
+* **Slashing mechanism**
+  * **Purpose**: Prevent behavior jeopardizing protocol correctness, uptime, or performance
+  * **Stake-weighted vote** by validators in case of malicious operation
+    * **Invalid state transitions** or prolonged downtime: up to 100%
+    * **Brief network issues**: up to 50%
+    * **Performance degradation**: up to 20%
+  * **Important Notes:** Slashed stake is **burned**, not redistributed
 
 ***
 
 ### Ecosystem impact
 
-#### **New opportunities**
+**New Markets**
 
-* **Non-crypto perps**: opening toward traditional assets
-* **Specialized interfaces**: frontends dedicated to builder-deployed perps
-* **HYPE pooling**: collaboration between projects to reach minimum stake
+* **Non-crypto perps**: traditional assets, commodities, indices
+* **Niche markets**: specialized demand products
+* **Financial innovation**: novel perpetual contract types
 
-#### Important considerations
+**Development Opportunities**
 
-* **Market display**
-  * [app.hyperliquid.xyz](https://app.hyperliquid.xyz/trade) will not initially display these perps
-  * **No deployment UI** on official frontend
-  * **Alternative interfaces** developed by the community (compatible with **builder codes** for additional fee monetization)
-  * Encourages specialization and interface decentralization
-* **Expected use cases**
-  * **Legally sensitive assets** that the team cannot list directly
-  * **Niche markets** with specific demand
-  * **Financial innovation**: new types of perpetual contracts
+* **Specialized frontends** for HIP-3 markets
+* **HYPE pooling protocols** for collaborative deployments
+* **Multisig deployment** for shared market operation
+* **Builder codes** for additional fee monetization
 
 ***
 
-### Resources
+**Resources**: [Official Docs](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals?q=stablecoin+issuer) | [API Documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/hip-3-deployer-actions) | Companies working on HIP3 ([Dashboard](https://app.lit.trade/hip3) | [Chris Breakdown](https://x.com/chrisling_dev/status/1967614817436565946))
 
-* **Official documentation:** [Hyperliquid Docs](https://hyperliquid.gitbook.io/hyperliquid-docs/hyperliquid-improvement-proposals-hips/hip-3-builder-deployed-perpetuals)
-* **Feedback:** [Hyperliquid Discord](https://discord.com/invite/hyperliquid)
-* **API documentation** and **Python SDK**: Coming soon
-
-***
-
-_HIP-3 marks Hyperliquid's evolution from a perp DEX to neutral, decentralized financial infrastructure, enabling anyone to become an institutional market maker._
