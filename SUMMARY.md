@@ -12,6 +12,19 @@
     * [2025-26-03](introduction/roadmap/incident/2025-26-03.md)
   * [On-Chain](introduction/roadmap/on-chain.md)
 
+## Ecosystem
+
+* [Projects](ecosystem/projects/README.md)
+  * [Tools](ecosystem/projects/tools.md)
+  * [HyperEVM](ecosystem/projects/hyperevm/README.md)
+    * [Felix](ecosystem/projects/hyperevm/felix.md)
+    * [Harmonix](ecosystem/projects/hyperevm/harmonix.md)
+    * [Kinetiq](ecosystem/projects/hyperevm/kinetiq.md)
+  * [HyperCore](ecosystem/projects/hypercore.md)
+  * [MemeCoin](ecosystem/projects/memecoin.md)
+* [Community](ecosystem/community/README.md)
+  * [Map](ecosystem/community/map.md)
+
 ## Architecture
 
 * [Overview](architecture/overview.md)
@@ -34,8 +47,8 @@
     * [Perp Deployments (HIP-3)](architecture/hypercore/hips/perp-deployments-hip-3.md)
   * [Bridge](architecture/hypercore/bridge.md)
 * [HyperEVM](architecture/hyperevm.md)
-* [Hyperliquid.](architecture/hyperliquid./README.md)
-  * [Unit](architecture/hyperliquid./unit.md)
+* [Hyperliquid](architecture/hyperliquid/README.md)
+  * [Unit](architecture/hyperliquid/unit.md)
 
 ## Guide
 
@@ -62,16 +75,3 @@
     * [Specificities](guide/builder-guide/hyperevm/specificities.md)
   * [Node Operators](guide/builder-guide/node-operators.md)
   * [Historical Data](guide/builder-guide/historical-data.md)
-
-## Ecosystem
-
-* [Hyperliquidated](ecosystem/hyperliquidated/README.md)
-  * [Map](ecosystem/hyperliquidated/map.md)
-* [Projects](ecosystem/projects/README.md)
-  * [Tools](ecosystem/projects/tools.md)
-  * [HyperEVM](ecosystem/projects/hyperevm/README.md)
-    * [Felix](ecosystem/projects/hyperevm/felix.md)
-    * [Harmonix](ecosystem/projects/hyperevm/harmonix.md)
-    * [Kinetiq](ecosystem/projects/hyperevm/kinetiq.md)
-  * [HyperCore](ecosystem/projects/hypercore.md)
-  * [MemeCoin](ecosystem/projects/memecoin.md)

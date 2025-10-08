@@ -105,4 +105,4 @@ User-created vaults allow individuals to run personalized trading strategies and
 * **Analysis:** [Vault Performance Breakdown](https://medium.com/@growi.fi/breaking-down-the-financial-performance-of-hyperliquid-vaults-6c9b86ac466f) | [HLP Analysis](https://x.com/RyskyGeronimo/status/1893347632958832728)
 * **HLP:** [Medium: HLP Overview](https://medium.com/@hyperliquid/hyperliquidity-provider-hlp-democratizing-market-making-bb114b1dff0f) | [Medium: 3-Month Update](https://medium.com/@hyperliquid/hlp-update-3-months-in-42327abe3e57)
 * **Vaults:** [Docs: Vaults Overview](https://hyperliquid.gitbook.io/hyperliquid-docs/vaults) | [Vault Page](https://app.hyperliquid.xyz/vaults)
-* **Diagram:** [Community-First Vision](../../ecosystem/hyperliquidated/)
+* **Diagram:** [Community-First Vision](../../ecosystem/community/)

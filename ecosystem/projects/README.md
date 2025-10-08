@@ -4,7 +4,13 @@ icon: telescope
 
 # Projects
 
-Discover the key tools, resources and projects created by the community and beyond. Whether you're looking for **explorers**, **dashboards**, **dApps** or **API-powered tools**, this section is your guide to navigate the HyperLiquid ecosystem.
+Discover key community-built tools and projects within the HyperLiquid ecosystem. From **explorers** and **dashboards** to **dApps** and **API integrations** — this section is your entry point.
+
+* [Tools](tools.md) - Access **blockchain explorers**, analytics **dashboards**, and performance **trackers** — ideal for users seeking detailed network and token insights.
+* [HyperEVM](hyperevm/) - Explore projects built on **HyperEVM**, the EVM-compatible chain with **native access to HyperLiquid’s core components** (e.g., order book). 👉 [Learn more about HyperEVM](../../architecture/hyperevm.md)
+* [HyperCore](hypercore.md) - Browse projects powered by **HyperLiquid APIs** and [Builder Codes](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-codes), showcasing how developers create trading tools and integrations within the ecosystem.
+
+<figure><img src="../../.gitbook/assets/GinrGtyawAAawhn.jfif" alt=""><figcaption><p>From <a href="https://x.com/SKYGG_Official/status/1885297011324575822">Skygg</a></p></figcaption></figure>
 
 For an even broader overview of the ecosystem, check out these community-driven platforms:
 
@@ -15,42 +21,12 @@ For an even broader overview of the ecosystem, check out these community-driven 
   * [ASXN Data Dashboard](https://data.asxn.xyz/dashboard/hyperliquid-ecosystem) – built by [@asxn\_r](https://x.com/asxn_r).
   * [HL Projects Dashboard](https://hlprojects.xyz/) – built by [@shinji2048](https://x.com/shinji2048).
 
-<figure><img src="../../.gitbook/assets/GinrGtyawAAawhn.jfif" alt=""><figcaption><p>From <a href="https://x.com/SKYGG_Official/status/1885297011324575822">Skygg</a></p></figcaption></figure>
-
 ***
 
-### **What’s Inside**
+{% hint style="success" %}
+Want to understand **why** you should **develop on Hyperliquid** or **how** to do it? Check out the [builder guide](../../guide/builder-guide/).
+{% endhint %}
 
 {% hint style="danger" %}
 Projects listed here are **community-driven** and **not maintained** by HyperLiquid Labs (unless stated). Always conduct **your own research** and exercise **caution** when connecting wallets or sharing sensitive information.
 {% endhint %}
-
-1. **Tools**
-   * Discover **blockchain explorers**, analytics **dashboards**, and **tools** to track network performance, token metrics, and more.
-   * Perfect for users who need in-depth insights into the blockchain's operations.
-2. **HyperEVM**
-   * Explore projects built on **HyperEVM**, an EVM-compatible blockchain with access to **native HyperLiquid components** (e.g., order book). 👉 [Learn more about HyperEVM](../../architecture/hyperevm.md)
-3. **HyperCore**
-   * Dive into a collection of projects leveraging **HyperLiquid APIs** and [Builder Codes](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-codes) to build trading tools, apps, and more.
-   * Ideal for those looking to understand how to build similar tools or integrate with the ecosystem.
-
-***
-
-### **Why Build on HyperLiquid?**
-
-HyperLiquid offers a unique opportunity for developers by combining two execution environments under the same consensus algorithm:
-
-1. **HyperLiquid's Rust VM** – This onchain exchange powers **Perps, Spot, and Vaults**, providing unmatched liquidity and performance.
-2. **HyperEVM** – Designed for building **all types** of decentralized applications (Dapps). It **benefits** from HyperLiquid's existing **liquidity**, **user base**, and **distribution**, making it an ideal environment for teams to launch their projects.
-
-**Top Opportunities for Builders**
-
-HyperLiquid’s community and ecosystem create specific advantages for various DeFi and governance applications:
-
-* **Liquid Staking** – HyperLiquid's PoS chain needs a token for validation. A liquid staking service for its loyal user base could become the fastest-growing protocol.
-* **Perps Traders and Market Makers** – Leverage HyperLiquid’s liquidity for options AMMs, prediction markets, and cross-collateral margin solutions.
-* **HLP Holders** – The TVL in HLP vaults offers opportunities for tokenization, secondary liquidity, and yield trading. Build leverage vaults or complex DeFi strategies tailored to HLP users.
-* **Spot Traders** – With the spot ecosystem growing, new tools such as spot leverage and governance/vesting solutions will enhance user experience and market efficiency.
-* [Explore Builder Codes opportunities →](../../architecture/hypercore/dex/clearinghouse/fees-builder-codes.md#builder-opportunities)
-
-For a detailed breakdown of opportunities and ecosystem insights, check out the [original thread by @0xKrishb](https://x.com/0xkrishb/status/1839441024919417077).

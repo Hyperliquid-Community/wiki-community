@@ -32,7 +32,7 @@ Want to understand how HyperLiquid works? Start here:
 
 Looking for the latest updates, community insights, and projects? Explore these:
 
-* [Community: The Hyper Liquidated](ecosystem/hyperliquidated/) – Discover the key community groups and contributors.
+* [Community: The Hyper Liquidated](ecosystem/community/) – Discover the key community groups and contributors.
 * [Projects: Ecosystem Projects](ecosystem/projects/) – Explore the tools, resources, and initiatives in the ecosystem.
 
 ***
