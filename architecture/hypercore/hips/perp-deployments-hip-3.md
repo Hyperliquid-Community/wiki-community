@@ -8,7 +8,7 @@ icon: chart-candlestick
 
 HIP-3 enables **permissionless deployment** of perpetual contract markets on Hyperliquid, marking a major step toward fully decentralizing the perp listing process. Any qualified user can manage their own perpetual DEX.
 
-<figure><img src="../../../.gitbook/assets/HIP3_v2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/HIP3_v2 (4).png" alt=""><figcaption></figcaption></figure>
 
 #### How it works
 
