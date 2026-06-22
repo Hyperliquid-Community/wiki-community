@@ -1,5 +1,23 @@
 ---
 icon: users-gear
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Hyperliquid Labs
@@ -31,7 +49,7 @@ icon: users-gear
 * **Kangaroo**\
   🕹️ **kangaroo2245**
 
-The team also includes 3 additional members. The [11-person](https://www.youtube.com/watch?v=xQK9TFbGyN0\&t=117s) team is mostly tech-focused and primarily based in Singapore.
+The team also includes [3 additional members](https://www.youtube.com/watch?v=xQK9TFbGyN0\&t=117s).
 
 #### Team Spotlight
 
