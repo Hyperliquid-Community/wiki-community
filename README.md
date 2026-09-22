@@ -1,5 +1,25 @@
 ---
 description: Welcome to the Hyperliquid Community Wiki ✨
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # 🏠 Home
@@ -36,7 +56,7 @@ For **official inquiries, technical issues, or more detailed guidance**, please 
 
 ***
 
-**Test Your Knowledge 🎯** Ready to put your learning into practice? Take the HyperScore quiz to see where you stand! → [hlquiz.xyz](https://hlquiz.xyz) - Compete, learn, and earn your place on the leaderboard _(code:Hyperliquid, Weekly1)_
+**Test Your Knowledge 🎯** Ready to put your learning into practice? Take the HyperScore quiz to see where you stand! → [hlquiz.xyz](https://hlquiz.xyz) - Compete, learn, and earn your place on the leaderboard _(code: Hyperliquid, Weekly1)_
 
 ***
 
@@ -51,7 +71,7 @@ If this wiki has been helpful, consider making a donation:\
 `0xa46a4b72F8e64044f5E56aC1Ca453203Da299f46`
 
 **Together, we can make this a valuable resource for everyone.** _🚀_\
-If you would like to contribute to this community Wiki or discuss ideas, feel free to drop us a message on [Telegram](https://t.me/+X80Ypqqg3_A3NDBk)! You can also reach out on [X](https://x.com/0xSolynor) or check out our [GitHub](https://github.com/Hyperliquid-Community/wiki-community) to collaborate directly.
+If you would like to contribute to this community Wiki or discuss ideas, feel free to drop us a message on [Telegram](https://t.me/xSolynor)! You can also reach out on [X](https://x.com/0xSolynor) or check out our [GitHub](https://github.com/Hyperliquid-Community/wiki-community) to collaborate directly.
 {% endhint %}
 
 **Disclaimer:** _This wiki is **community-driven** and **not affiliated** with Hyperliquid Labs. It is **not official documentation**. While we do our best to ensure accuracy, there may be occasional errors or outdated information. For the most reliable and current details, always refer to Hyperliquid’s **official channels**._
