@@ -38,6 +38,7 @@ For an even broader overview of the ecosystem, check out these community-driven 
 * [**HyperEVM Projects Collection**](https://airtable.com/appIJWoixQuCkCQT9/shrRzVs5YaS5EVDUW/tblqXBn4EjsjR3hac/viweUPuLzzFmJRY7d) – A comprehensive list of HyperEVM projects by [@kirbyongeo](https://x.com/kirbyongeo/status/1915752654950596795)
 * [**Liquid Terminal**](https://liquidterminal.xyz/) – A complete terminal with dashboards, explorer, wiki, and more. [@Yaugourt](https://x.com/Yaugourt)
 * [**Flowscan**](https://www.flowscan.xyz/) – HyperCore explorer with data dashboards on Builders Codes, HIP-3, HIP-4, and more. Built by [Hydromancer](https://x.com/hydromancerxyz), also offering [Reservoir](https://x.com/hydromancerxyz/status/2036447855024488523), a free historical Hyperliquid data API.
+* [Hyperliquid Research Collective (HRC)](https://hyperliquidresearch.xyz/) – The research hub for Hyperliquid, co-founded by Four Pillars and GLC Research. Institutional-grade reports, deep dives and market notes on Hyperliquid's financials and ecosystem. [@HyperliquidR](https://x.com/HyperliquidR)
 
 ***
 
