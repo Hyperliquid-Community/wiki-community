@@ -1,5 +1,25 @@
 ---
 icon: map-location-dot
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Map
@@ -17,8 +37,8 @@ Stay connected and collaborate with the HyperLiquid ecosystem through these key 
   * [LinkedIn](https://www.linkedin.com/company/hypurrcollective/) – Professional insights and Hyperliquid updates
   * [Local Communities](https://x.com/hypurr_co/status/1921785184871178658) – Regional groups across different countries and languages
   * Validator – Runs the largest mainnet validator outside foundation nodes with secured airdrops for stakers
+* [HL Global](https://x.com/HLglobal_) – Where HyperLiquid connects. Home of HL Radio, research, and events.
 * [The Chain Podcast](https://x.com/TheHyperPodcast) – Dedicated Hyperliquid ecosystem podcast for in-depth discussions and insights
-* [HL Fund ](https://hl.fund/)– An educational tweet aggregator that lets you access the best information on Hyperliquid in seconds.
 
 ### **Community Chats** 💬
 
