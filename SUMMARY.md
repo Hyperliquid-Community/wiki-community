@@ -46,6 +46,7 @@
   * [HIPs](architecture/hypercore/hips/README.md)
     * [Spot Deployments (HIP-1/HIP-2)](architecture/hypercore/hips/spot-deployments-hip-1-hip-2.md)
     * [Perp Deployments (HIP-3)](architecture/hypercore/hips/perp-deployments-hip-3.md)
+    * [Outcome Markets (HIP-4)](architecture/hypercore/hips/outcome-markets-hip-4.md)
   * [Bridge](architecture/hypercore/bridge.md)
 * [HyperEVM](architecture/hyperevm.md)
 * [Hyperliquid](architecture/hyperliquid/README.md)
