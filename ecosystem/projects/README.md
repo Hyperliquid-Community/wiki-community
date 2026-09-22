@@ -1,5 +1,25 @@
 ---
 icon: telescope
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Projects
@@ -16,8 +36,8 @@ For an even broader overview of the ecosystem, check out these community-driven 
 
 * [**Hypurr.co Ecosystem Projects**](https://www.hypurr.co/ecosystem-projects) – A searchable database of ecosystem projects, sorted by category. If you're a creator, submit your project using their form! You can also explore their [interactive ecosystem map](https://www.hypurr.co/ecosystem-map).
 * [**HyperEVM Projects Collection**](https://airtable.com/appIJWoixQuCkCQT9/shrRzVs5YaS5EVDUW/tblqXBn4EjsjR3hac/viweUPuLzzFmJRY7d) – A comprehensive list of HyperEVM projects by [@kirbyongeo](https://x.com/kirbyongeo/status/1915752654950596795)
+* [**Flowscan**](https://www.flowscan.xyz/) – HyperCore explorer with data dashboards on Builders Codes, HIP-3, HIP-4, and more. Built by [Hydromancer](https://x.com/hydromancerxyz), also offering [Reservoir](https://x.com/hydromancerxyz/status/2036447855024488523), a free historical Hyperliquid data API.
 * Other dashboard:
-  * [HyperLiquid Dashboard](https://degen.start.me/p/gGnQQY/hyperliquid) – built [@defipolice\_](https://x.com/defipolice_).
   * [ASXN Data Dashboard](https://data.asxn.xyz/dashboard/hyperliquid-ecosystem) – built by [@asxn\_r](https://x.com/asxn_r).
   * [HL Projects Dashboard](https://hlprojects.xyz/) – built by [@shinji2048](https://x.com/shinji2048).
 

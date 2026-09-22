@@ -1,10 +1,32 @@
 ---
 icon: timeline-arrow
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Historical Data
 
 This page provides access to Hyperliquid's historical data, available via S3 buckets and specific API endpoints. It covers market, node, and HyperEVM data.
+
+[**Reservoir**](https://x.com/hydromancerxyz/status/2036447855024488523) – Complete historical Hyperliquid data, available for free. A convenient alternative to querying and downloading the raw S3 datasets.
 
 **Downloading via S3**:
 
