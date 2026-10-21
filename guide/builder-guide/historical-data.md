@@ -28,6 +28,8 @@ This page provides access to Hyperliquid's historical data, available via S3 buc
 
 [**Reservoir**](https://x.com/hydromancerxyz/status/2036447855024488523) – Complete historical Hyperliquid data, available for free. A convenient alternative to querying and downloading the raw S3 datasets.
 
+[**Femtos**](https://femtos.xyz) – Indexed history over an API instead of files: HyperCore trades, candles, liquidations and positions; HyperEVM and Elysium transfers, holders, DEX swaps and launches; HyperCore ↔ HyperEVM ↔ Elysium bridge transfers with both legs matched. REST and WebSocket, plus a Hyperliquid-compatible `/info` (`candleSnapshot`, `fundingHistory`, `userFills`). Free tier. Docs: [agents.md](https://femtos.xyz/agents.md).
+
 **Downloading via S3**:
 
 * Data is stored in S3 buckets and requires the AWS CLI.
