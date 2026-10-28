@@ -26,7 +26,7 @@ layout:
 
 This page provides access to Hyperliquid's historical data, available via S3 buckets and specific API endpoints. It covers market, node, and HyperEVM data.
 
-[**Reservoir**](https://x.com/hydromancerxyz/status/2036447855024488523) – Complete historical Hyperliquid data, available for free. A convenient alternative to querying and downloading the raw S3 datasets.
+[**Reservoir**](https://docs.hydromancer.xyz/reservoir) – Free historical Hyperliquid data on requester-pays AWS S3 (no API key needed). A convenient alternative to querying and downloading the raw S3 datasets.
 
 **Downloading via S3**:
 
