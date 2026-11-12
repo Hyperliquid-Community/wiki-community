@@ -1,5 +1,25 @@
 ---
 icon: layer-group
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Staking
@@ -56,7 +76,7 @@ HYPE staking on Hyperliquid happens within HyperCore. Users can stake their HYPE
 * **Team Allocation (Core Contributors):** 238M tokens with cliff ending November 28, 2025, followed by [2-4 year vesting](https://tokenomist.ai/hyperliquid). Track the core contributors' address on [Hypurrscan](https://hypurrscan.io/address/0x43e9abea1910387c4292bca4b94de81462f8a251).
 * **Future Community Rewards:** \~430M tokens reserved for ongoing distributions and ecosystem growth
   * Distribution methods beyond the 2.2% staking rewards remain unannounced
-* [HYPE Genesis medium](https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f) | [Current distribution](https://www.hypeburn.fun/)
+* [HYPE Genesis medium](https://hyperfnd.medium.com/hype-genesis-1830a4dc2e3f) | [Current distribution](https://www.hypeburn.fun/) | [Supply Changes](https://mrnasdog.com/research/hype)
 
 #### Current Utilities
 
