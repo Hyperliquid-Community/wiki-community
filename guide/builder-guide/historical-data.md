@@ -28,6 +28,8 @@ This page provides access to Hyperliquid's historical data, available via S3 buc
 
 [**Reservoir**](https://hydromancer.xyz/hyperliquid-historical-data) - Complete historical Hyperliquid data, available for free. A convenient alternative to querying and downloading the raw S3 datasets.
 
+[**HyperNatt L2 archive**](https://hypernatt.com/datasets) – 65 days of the public market-data streams for BTC and ETH perps (2026-09-06 to 2026-11-10 UTC), one file per stream and per UTC hour, sealed with SHA-256: the order book in 4 simultaneous 20-level views (native tick and three price aggregations), the 5-level fast book, BBO, trades, candles and funding. Bought once in USDC on Base (BTC 99, BTC + ETH 149), by a person or by an agent (x402). Free 24-hour BTC sample under CC BY 4.0, with a public [notebook](https://github.com/hypernatt/hyperliquid-l2-notebooks) that checks the four views against each other.
+
 **Downloading via S3**:
 
 * Data is stored in S3 buckets and requires the AWS CLI.
