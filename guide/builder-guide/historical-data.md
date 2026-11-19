@@ -28,6 +28,8 @@ This page provides access to Hyperliquid's historical data, available via S3 buc
 
 [**Reservoir**](https://hydromancer.xyz/hyperliquid-historical-data) - Complete historical Hyperliquid data, available for free. A convenient alternative to querying and downloading the raw S3 datasets.
 
+[**Ironflow**](https://ironflow.sh/guides/hyperliquid-historical-data) - every fill, liquidation, candle and funding rate since 25 May 2025 over REST and SQL, plus free Parquet files on Hugging Face.
+
 **Downloading via S3**:
 
 * Data is stored in S3 buckets and requires the AWS CLI.
