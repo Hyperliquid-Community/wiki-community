@@ -26,9 +26,13 @@ layout:
 
 This page provides access to Hyperliquid's historical data, available via S3 buckets and specific API endpoints. It covers market, node, and HyperEVM data.
 
-[**Reservoir**](https://hydromancer.xyz/hyperliquid-historical-data) - Complete historical Hyperliquid data, available for free. A convenient alternative to querying and downloading the raw S3 datasets.
+[**Reservoir**](https://hydromancer.xyz/hyperliquid-historical-data) - Free historical Hyperliquid data on requester-pays AWS S3 (no API key needed). A convenient alternative to querying and downloading the raw S3 datasets.
 
 [**Ironflow**](https://ironflow.sh/guides/hyperliquid-historical-data) - every fill, liquidation, candle and funding rate since 25 May 2025 over REST and SQL, plus free Parquet files on Hugging Face.
+
+[**HyperNatt L2 archive**](https://hypernatt.com/datasets) - 65 days of historical Hyperliquid market data for BTC and ETH perps, including L2 order books, trades, candles and funding rates. Includes a free 24-hour BTC sample and a public [validation notebook](https://github.com/hypernatt/hyperliquid-l2-notebooks).
+
+[**Femtos**](https://femtos.xyz) - Indexed Hyperliquid, HyperEVM and Elysium data via REST and WebSocket, including trades, candles, liquidations, positions, transfers and DEX activity. Free tier available. [Docs](https://femtos.xyz/agents.md?utm_source=chatgpt.com).
 
 **Downloading via S3**:
 
